@@ -4,10 +4,10 @@
 
 ## 传输与链路
 
-- **没有**与真实以太网 NIC 交互的驱动实验；链路层为内存信道 `KexinLianlu` 或合成故障参数。
-- **没有** ARP 报文级别的 on-wire 实现；L3 转发使用仿真转发表 `MoNiZhuanfa`。
-- 模块 02 实现成帧与接收窗口内乱序缓存，**没有**双向 ACK 信道上的完整滑动窗口发送端（发送侧窗口在模块 05 `ChuanShuJiaoxue` 中单独直觉演示）。
-- 滑动窗口栈（模块 02/05）与期末大作业（模块 12）共享设计理念，但各模块侧重点不同。
+- **没有**与真实以太网 NIC 交互的驱动实验；链路层为内存信道 `KexinLianlu` / `ShuangxiangLianlu` 或合成故障参数。
+- **没有** ARP 报文级别的 on-wire 实现；L3 转发使用仿真转发表 `MoNiZhuanfa`（若需 ARP 直觉，仅在内存表中仿真邻居解析，不经真实接口）。
+- 模块 02 在单向 `HuachuangTongdao` 之外提供 **`HuachuangKexinTongdao`**：双向 ACK 信道上的滑动窗口、超时重传、重复 ACK 快重传标志——仍为**教学仿真**，非内核 TCP 或 RFC 9293 全状态机。
+- 模块 05 `ChuanShuJiaoxue` 与 `BaoJiKexinYanlian` 将窗口直觉与 02 的包级仿真联动，**不**声称与 `tcpdump` 逐字段一致。
 
 ## 网络层与路由
 
@@ -16,9 +16,9 @@
 
 ## 传输层（TCP）
 
-- `YongjinMoxing` 与 `ChuanShuJiaoxue` 均为**教学模型**，非 RFC 9293 全状态覆盖；未实现 SACK、FACK、BBR、完整重传报文仿真。
+- `YongjinMoxing`、`ChuanShuJiaoxue`、`HuachuangKexinTongdao` 均为**教学模型**，非 RFC 9293 全状态覆盖；未实现 SACK、FACK、BBR、真实 SYN 握手、拥塞控制与重传的完整耦合。
 - **无** 与 `tcpdump` 抓到的真实握手逐字段对比的硬性 autograder。
-- RTO 更新为 `RTO ≈ 2×RTT` 简化，**无** Karn/Jacobson 完整细节。
+- RTO 更新为固定步长或 `RTO ≈ 2×RTT` 简化，**无** Karn/Jacobson 完整细节。
 
 ## 应用层
 

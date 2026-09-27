@@ -45,3 +45,12 @@ def test_rto_from_rtt():
     assert t.rto == 0.2
     assert t.chaoshi(0.19) is False
     assert t.chaoshi(0.21) is True
+
+
+def test_packet_level_kexin_with_loss():
+    mod = _load()
+    yan = mod.BaoJiKexinYanlian(chuangkou=2, duan_max=5)
+    rep = yan.chuanshu_bing_jiankong(b"bao-ji-yan-lian-" * 4, diubao_gailv=0.4, seed=99)
+    assert rep["shuju_wanzheng"]
+    assert rep["chongchuan_cishu"] >= 1
+    assert rep["zuihou_zaiwang"] == 0

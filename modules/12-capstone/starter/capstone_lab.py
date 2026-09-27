@@ -3,12 +3,14 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
 
-from wangluo_xuejing.kexin_lianlu import KexinLianlu
+from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
 
 
 @dataclass
 class XinyunTongdao:
-    lianlu: KexinLianlu
+    lianlu: ShuangxiangLianlu
+    chuangkou: int = 4
+    duan_max: int = 32
 
     def fasong(self, shuju: bytes) -> None:
         raise NotImplementedError

@@ -13,7 +13,7 @@
 
 | 阶段 | 模块 | 核心能力 |
 |------|------|----------|
-| 第 1–2 周 | 01–02 | 分层思维、端到端论证、滑动窗口 |
+| 第 1–2 周 | 01–02 | 分层思维、端到端论证、成帧与双向 ACK 可靠发送 |
 | 第 3–4 周 | 03–04 | 寻址、转发、DV/LS 直觉 |
 | 第 5–6 周 | 05–06 | 拥塞教学模型、DNS/HTTP 路径 |
 | 第 7 周 | 07–08 | 套接字 API、NAT 表项 |
@@ -26,7 +26,7 @@
 ```
 modules/
   01-cengdie/          # 分层与端到端
-  02-huachuang/        # 成帧与可靠交付
+  02-huachuang/        # 成帧 + HuachuangKexinTongdao（ACK/重传）
   03-ip-zhuanfa/       # IP 转发仿真
   04-luyou/            # 路由迷你仿真
   05-yongjin/          # TCP 拥塞教学模型
@@ -41,7 +41,7 @@ modules/
 
 ## 大作业（模块 12）目标
 
-在原创 API `XinyunTongdao` 上实现**可配置窗口的可靠字节流**，并承载极简「类 HTTP」请求 `GET /xinxi` 返回 JSON 状态。须在 `make verify` 中端到端通过。
+在 `ShuangxiangLianlu` 与模块 02 可靠层之上实现 `XinyunTongdao`，承载极简「类 HTTP」请求 `GET /xinxi` 返回 JSON 状态；须在 `make verify` 中端到端通过（含适度丢包场景）。
 
 ## 学术诚信
 

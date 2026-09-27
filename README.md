@@ -1,6 +1,6 @@
 # 计算机网络学习路径（wangluo-xuejing）
 
-中文、原创作业 API 的本科计算机网络学习路径，与同家族的 OS / 算法仓库同级：**12 个模块 + starter/solution + `make verify`**。
+中文、原创作业 API 的本科计算机网络学习路径，与同家族的 OS / 算法仓库同级：**12 个模块 + starter/solution + `make verify`**。传输层在内存信道上提供双向 ACK、滑动窗口与重传的教学仿真（见 `docs/TEACHING_GAPS.md` 诚实边界）。
 
 > 主题对齐常见「计算机网络」课程主线，但**不是**任何校园实验（含 CS144）的镜像；实验接口与代码均为独立设计。
 

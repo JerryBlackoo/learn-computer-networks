@@ -1,39 +1,37 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-from wangluo_xuejing.kexin_lianlu import KexinLianlu
 from wangluo_xuejing.lab_loader import load_lab
+from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
 
 
-def _huachuang_cls():
+def _kexin_cls():
     mod = load_lab(
         Path(__file__).resolve().parents[2] / "02-huachuang",
         "huachuang_lab.py",
     )
-    return mod.HuachuangTongdao
-
-
-def _chuanshu(lianlu: KexinLianlu, shuju: bytes) -> None:
-    _huachuang_cls()(lianlu).chuanshu(shuju)
-
-
-def _jieshou(lianlu: KexinLianlu) -> Optional[bytes]:
-    return _huachuang_cls()(lianlu).jieshou_wanzheng()
+    return mod.HuachuangKexinTongdao
 
 
 @dataclass
 class XinyunTongdao:
-    lianlu: KexinLianlu
+    lianlu: ShuangxiangLianlu
+    chuangkou: int = 4
+    duan_max: int = 32
+    _kexin: object = field(default=None, init=False, repr=False)
 
     def fasong(self, shuju: bytes) -> None:
-        _chuanshu(self.lianlu, shuju)
+        self._kexin = _kexin_cls()(self.lianlu, self.chuangkou, self.duan_max)
+        self._kexin.chuanshu_kexin(shuju)
 
     def jieshou(self) -> Optional[bytes]:
-        return _jieshou(self.lianlu)
+        if self._kexin is None:
+            return None
+        return self._kexin.jieshou_wanzheng_kexin()
 
 
 @dataclass
@@ -53,6 +51,7 @@ class XinxiYingyong:
         if raw is None:
             raise RuntimeError("未收到请求")
         resp = self.chuli_qingqiu(raw)
+        self.tongdao.lianlu.qingkong()
         self.tongdao.fasong(resp)
         out = self.tongdao.jieshou()
         return out or b""
