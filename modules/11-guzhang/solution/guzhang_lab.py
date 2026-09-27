@@ -25,10 +25,27 @@ class GuzhangBowuguan:
             return "chongpai"
         return "zhengxu"
 
+    def fenlei_chongfu(self, seed: int = 3) -> str:
+        link = KexinLianlu(LianluCanshu(chongfu_gailv=1.0, seed=seed))
+        link.fasong(b"x")
+        a = link.jieshou()
+        b = link.jieshou()
+        if a == b"x" and b == b"x":
+            return "chongfu"
+        return "qita"
+
     def fenlei_fenqu(self) -> str:
         link = KexinLianlu(LianluCanshu(fenqu=True))
         link.fasong(b"x")
         return "fenqu" if link.jieshou() is None else "lianjie"
+
+    def zhengti_baogao(self) -> dict[str, str]:
+        return {
+            "diubao": self.fenlei_diubao(),
+            "chongpai": self.fenlei_chongpai(),
+            "chongfu": self.fenlei_chongfu(),
+            "fenqu": self.fenlei_fenqu(),
+        }
 
     def liebiao_anli(self) -> List[str]:
         return ["diubao", "chongpai", "chongfu", "fenqu"]

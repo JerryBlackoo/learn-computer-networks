@@ -14,3 +14,5 @@ def test_trace_metrics():
     )
     assert abs(trace.rtt_guji() - 0.01) < 1e-6
     assert trace.shuju_bao_shu() == 2
+    assert trace.chongchuan_bao_shu() == 1
+    assert trace.pingjun_shuju_daxiao() == 100.0

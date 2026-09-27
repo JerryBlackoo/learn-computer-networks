@@ -19,3 +19,12 @@ def test_xinxi_roundtrip():
     body = resp.split(b"\r\n\r\n", 1)[1]
     data = json.loads(body.decode())
     assert data["zhuangtai"] == "ok"
+
+
+def test_unknown_path_404():
+    mod = _load()
+    link = KexinLianlu()
+    app = mod.XinxiYingyong(mod.XinyunTongdao(link))
+    req = b"GET /weizhi HTTP/1.1\r\nHost: local\r\n\r\n"
+    resp = app.yici_jiaohu(req)
+    assert b"404" in resp

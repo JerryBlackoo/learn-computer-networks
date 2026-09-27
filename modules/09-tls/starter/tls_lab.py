@@ -28,3 +28,15 @@ class TlsZhuangtaiJi:
 
     def wancheng(self) -> None:
         raise NotImplementedError
+
+
+def jiazai_zhengshu_lujing():
+    raise NotImplementedError
+
+
+def chuangjian_shangxiawen():
+    raise NotImplementedError
+
+
+def zhengshu_fixture_cunzai() -> bool:
+    raise NotImplementedError
