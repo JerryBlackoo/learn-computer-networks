@@ -44,3 +44,12 @@ class ChuanShuJiaoxue:
 
     def chaoshi(self, jingguo: float) -> bool:
         raise NotImplementedError
+
+
+@dataclass
+class BaoJiKexinYanlian:
+    chuangkou: int = 3
+    duan_max: int = 8
+
+    def chuanshu_bing_jiankong(self, shuju: bytes, diubao_gailv: float = 0.0, seed: int = 0) -> dict:
+        raise NotImplementedError
