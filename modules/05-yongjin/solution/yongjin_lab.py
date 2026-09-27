@@ -32,3 +32,48 @@ class YongjinMoxing:
         else:
             self.cwnd += 1.0 / max(int(self.cwnd), 1)
         self.cwnd += 0.01 * ack_count
+
+
+@dataclass
+class ChuanShuJiaoxue:
+    """教学用发送端直觉：滑动窗口、RTO、重复 ACK 触发快重传（非 RFC 完整 TCP）。"""
+
+    chuangkou: int = 4
+    rtt_guji: float = 0.1
+    rto: float = 1.0
+    zaiwang: int = 0
+    xia_yi_xuhao: int = 0
+    yiqueren: int = -1
+    dup_ack_lianxu: int = 0
+    kuai_chongchuan: bool = False
+
+    def keyi_fasong(self) -> bool:
+        return self.zaiwang < self.chuangkou
+
+    def fasong_bao(self) -> int:
+        if not self.keyi_fasong():
+            raise RuntimeError("窗口已满")
+        seq = self.xia_yi_xuhao
+        self.xia_yi_xuhao += 1
+        self.zaiwang += 1
+        return seq
+
+    def jieshou_ack(self, ack_num: int) -> None:
+        if ack_num <= self.yiqueren:
+            self.dup_ack_lianxu += 1
+            if self.dup_ack_lianxu >= 3:
+                self.kuai_chongchuan = True
+            return
+        self.dup_ack_lianxu = 0
+        self.kuai_chongchuan = False
+        released = max(0, ack_num - self.yiqueren)
+        self.yiqueren = ack_num
+        self.zaiwang = max(0, self.zaiwang - released)
+
+    def gengxin_rtt(self, yangben: float) -> None:
+        """极简 RTO：RTO ≈ 2×RTT 估计（不实现 Karn/ Jacobson 全细节）。"""
+        self.rtt_guji = max(0.001, yangben)
+        self.rto = max(0.2, 2.0 * self.rtt_guji)
+
+    def chaoshi(self, jingguo: float) -> bool:
+        return jingguo >= self.rto

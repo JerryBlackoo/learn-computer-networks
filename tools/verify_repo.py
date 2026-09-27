@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MODULES = ROOT / "modules"
 DOCS = ROOT / "docs"
 CATALOG = ROOT / "sources" / "catalog.toml"
+MIN_README_BYTES = 600
 
 URL_RE = re.compile(r"https?://[^\s\)>\"]+")
 
@@ -23,8 +24,11 @@ def main() -> int:
             errors.append(f"docs 中含 URL（应仅 catalog.toml）: {doc.name}")
 
     for readme in MODULES.glob("*/README.md"):
-        if URL_RE.search(readme.read_text(encoding="utf-8")):
+        text = readme.read_text(encoding="utf-8")
+        if URL_RE.search(text):
             errors.append(f"模块 README 中含 URL: {readme}")
+        if len(text.encode("utf-8")) < MIN_README_BYTES:
+            errors.append(f"模块 README 过短（<{MIN_README_BYTES} 字节）: {readme}")
 
     for meta in MODULES.glob("*/module.meta.toml"):
         text = meta.read_text(encoding="utf-8")

@@ -1,7 +1,9 @@
 [
-  {"t": 0.0, "dir": "c2s", "len": 64, "flags": ["SYN"]},
-  {"t": 0.01, "dir": "s2c", "len": 64, "flags": ["SYN", "ACK"]},
-  {"t": 0.02, "dir": "c2s", "len": 0, "flags": ["ACK"]},
-  {"t": 0.05, "dir": "c2s", "len": 120, "flags": ["PSH", "ACK"]},
-  {"t": 0.08, "dir": "s2c", "len": 0, "flags": ["ACK"]}
+  {"t": 0.0, "dir": "c2s", "len": 64, "flags": ["SYN"], "seq": 0},
+  {"t": 0.01, "dir": "s2c", "len": 64, "flags": ["SYN", "ACK"], "seq": 0},
+  {"t": 0.02, "dir": "c2s", "len": 0, "flags": ["ACK"], "seq": 1},
+  {"t": 0.05, "dir": "c2s", "len": 120, "flags": ["PSH", "ACK"], "seq": 1},
+  {"t": 0.07, "dir": "c2s", "len": 120, "flags": ["PSH", "ACK"], "seq": 1, "retrans": true},
+  {"t": 0.08, "dir": "s2c", "len": 0, "flags": ["ACK"], "seq": 1},
+  {"t": 0.09, "dir": "c2s", "len": 80, "flags": ["PSH", "ACK"], "seq": 2}
 ]

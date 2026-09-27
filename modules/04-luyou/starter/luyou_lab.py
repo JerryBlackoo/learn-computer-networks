@@ -24,3 +24,7 @@ class LianluZhuangtai:
         yuan: str, tuopu: Dict[str, List[Tuple[str, int]]]
     ) -> Dict[str, int]:
         raise NotImplementedError
+
+
+def juli_shouling(jiedian_lie: List[JuliShiliang], max_lun: int = 32) -> int:
+    raise NotImplementedError

@@ -46,3 +46,9 @@ def chuangjian_shangxiawen() -> ssl.SSLContext:
     pem = jiazai_zhengshu_lujing()
     ctx.load_cert_chain(certfile=str(pem))
     return ctx
+
+
+def zhengshu_fixture_cunzai() -> bool:
+    """确认教学用自签 fixture 在本地可读（非生产 PKI 验证）。"""
+    pem = jiazai_zhengshu_lujing()
+    return pem.is_file() and pem.stat().st_size > 0

@@ -48,3 +48,15 @@ class LianluZhuangtai:
                     dist[v] = nd
                     pq.append((nd, v))
         return dist
+
+
+def juli_shouling(jiedian_lie: List[JuliShiliang], max_lun: int = 32) -> int:
+    """多轮邻居表交换，直到全网距离向量不再变化（小图教学用）。"""
+    for lun in range(1, max_lun + 1):
+        kuai_zhao = {j.jiedian: dict(j.juli_biao) for j in jiedian_lie}
+        for j in jiedian_lie:
+            j.jiaohuan_yilun(kuai_zhao)
+        xin_zhao = {j.jiedian: dict(j.juli_biao) for j in jiedian_lie}
+        if xin_zhao == kuai_zhao:
+            return lun
+    return max_lun
