@@ -1,0 +1,7 @@
+[
+  {"t": 0.0, "dir": "c2s", "len": 64, "flags": ["SYN"]},
+  {"t": 0.01, "dir": "s2c", "len": 64, "flags": ["SYN", "ACK"]},
+  {"t": 0.02, "dir": "c2s", "len": 0, "flags": ["ACK"]},
+  {"t": 0.05, "dir": "c2s", "len": 120, "flags": ["PSH", "ACK"]},
+  {"t": 0.08, "dir": "s2c", "len": 0, "flags": ["ACK"]}
+]
