@@ -5,7 +5,7 @@
 ## 如何使用
 
 1. 阅读本文件与 `docs/COVERAGE.md`，确认目标与缺口。
-2. 按 `modules/01` → `12` 顺序学习；每模块先读中文 `README.md`，再在 `starter/` 完成作业，对照 `solution/` 自检。
+2. 按 `modules/01` → `13` 顺序学习；每模块先读中文 `README.md`，再在 `starter/` 完成作业，对照 `solution/` 自检。模块 13 为**真实协议诊断**（计划第 11 节），详见 `docs/ZHENSHI_XIEYI_ZHENDUAN.md`。
 3. 在仓库根目录运行 `make verify`（或 `make install-dev && make verify`）确认主机验证通过。
 4. 外链与 RFC 入口仅查 `sources/catalog.toml`。
 
@@ -20,6 +20,7 @@
 | 第 8 周 | 09–10 | TLS 状态机阅读、合成 trace 分析 |
 | 第 9 周 | 11 | 故障注入与现象归类 |
 | 第 10–11 周 | 12 | 大作业：可靠通道 + 简易应用 |
+| 第 12–13 周 | 13 | 真实协议诊断：合成三案例 + not-run 抓包毕业报告 |
 
 ## 模块目录
 
@@ -37,6 +38,7 @@ modules/
   10-celiang/          # 测量与调试
   11-guzhang/          # 故障案例馆
   12-capstone/         # 期末大作业
+  13-zhenduan/         # 真实协议诊断（计划第 11 节）
 ```
 
 ## 大作业（模块 12）目标

@@ -1,0 +1,19 @@
+{
+  "anli_id": "shangchuan_bianman",
+  "biaoti": "上传变慢",
+  "zhengzai": "shangchuan_bianman",
+  "zhengju": {
+    "baowen": "客户端方向大量 TCP 重传；窗口未归零但有效吞吐下降",
+    "taojie": "send 缓冲区积压；非阻塞写多次返回 EAGAIN 后恢复",
+    "jincheng": "上传线程阻塞在 read→send 循环；CPU 不高",
+    "qingqiu": "HTTP PUT 分块上传；服务端日志显示块间隔拉长"
+  },
+  "trace_tezheng": {
+    "rtt_guji_s": 0.08,
+    "chongchuan_shu": 6,
+    "shuju_bao_shu": 40,
+    "tls_shouci": 0.12
+  },
+  "yixuan_pingju_ceng": "chuanshu",
+  "weizhi_neirong": ["应用层分块大小是否最优", "对端磁盘是否成为瓶颈"]
+}

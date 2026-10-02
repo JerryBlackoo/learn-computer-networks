@@ -1,0 +1,19 @@
+{
+  "anli_id": "lianjie_chongzhi",
+  "biaoti": "连接重置",
+  "zhengzai": "lianjie_chongzhi",
+  "zhengju": {
+    "baowen": "出现 RST 或握手未完成即关闭；无应用数据",
+    "taojie": "connect 或 read 返回 ECONNRESET",
+    "jincheng": "客户端在 TLS 握手前失败；服务端 accept 队列未满",
+    "qingqiu": "HTTPS 请求未发出完整首包"
+  },
+  "trace_tezheng": {
+    "rtt_guji_s": 0.02,
+    "chongchuan_shu": 0,
+    "shuju_bao_shu": 0,
+    "tls_shouci": null
+  },
+  "yixuan_pingju_ceng": "lianjie",
+  "weizhi_neirong": ["对端主动策略性丢弃", "NAT 表项超时与本次失败是否同一五元组"]
+}
