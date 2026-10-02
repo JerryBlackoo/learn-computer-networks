@@ -17,6 +17,7 @@ docs-check:
 	@test -f docs/COVERAGE.md
 	@test -f docs/RESOURCE_POLICY.md
 	@test -f docs/LEARNING_PATH.md
+	@test -f docs/ZHENSHI_XIEYI_ZHENDUAN.md
 	@test -f sources/catalog.toml
 	@test -f LICENSE
 

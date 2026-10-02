@@ -1,6 +1,6 @@
 # 主题覆盖说明
 
-本学习路径按 **12 个模块**组织，对齐本科「计算机网络」常见主线，但**不声称**与任何单一课程实验一一对应，也**不模拟**完整多 AS 互联网或生产级协议栈。
+本学习路径按 **13 个模块**组织，对齐本科「计算机网络」常见主线，但**不声称**与任何单一课程实验一一对应，也**不模拟**完整多 AS 互联网或生产级协议栈。模块 13 仅补**诊断工作流**（见 `docs/ZHENSHI_XIEYI_ZHENDUAN.md`），不将缺口声明整体撤销。
 
 ## 模块与主题映射
 
@@ -18,6 +18,7 @@
 | 10 | 测量与调试 | 合成 trace `CeLiangJiao`（含 retrans 字段） | host-verified |
 | 11 | 故障案例馆 | 丢包/乱序/重复/分区 `GuzhangBowuguan` | host-verified |
 | 12 | 大作业 | `XinyunTongdao`（`ShuangxiangLianlu` + 02 可靠层）+ `XinxiYingyong` | host-verified |
+| 13 | 真实协议诊断 | `ZhenDuanGongju` + 三案例 JSON + 毕业报告模板 | host-verified + not-run（抓包/netem） |
 
 ## 共享库（`wangluo_xuejing/`）
 

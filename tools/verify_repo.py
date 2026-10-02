@@ -58,7 +58,7 @@ def main() -> int:
             print(f"ERROR: {e}", file=sys.stderr)
         return 1
 
-    print("verify_repo: OK — 12 模块结构、文档与外链政策检查通过")
+    print("verify_repo: OK — 13 模块结构、文档与外链政策检查通过")
     return 0
 
 
