@@ -32,3 +32,20 @@ class WireProbe(unittest.TestCase):
     def test_reject_bad_target(self):
         with self.assertRaises(ValueError):probe('http://user:secret@localhost/')
 if __name__=='__main__':unittest.main()
+
+class BoundaryProbe(unittest.TestCase):
+    def test_disconnect_reports_incomplete_body(self):
+        class Short(Handler):
+            def do_GET(self):
+                self.send_response(200);self.send_header('Content-Length','100');self.end_headers();self.wfile.write(b'short')
+        server=http.server.ThreadingHTTPServer(('127.0.0.1',0),Short)
+        worker=threading.Thread(target=server.serve_forever,daemon=True);worker.start()
+        try:
+            report=probe(f'http://127.0.0.1:{server.server_port}/')
+            self.assertFalse(report['body_complete']);self.assertFalse(report['truncated'])
+        finally:server.shutdown();server.server_close();worker.join()
+
+    def test_invalid_budget_is_rejected_before_resolution(self):
+        for timeout in (float('nan'),float('inf'),True):
+            with self.assertRaises(ValueError):probe('http://localhost/',timeout=timeout)
+        with self.assertRaises(ValueError):probe('http://localhost/',max_bytes=1024.5)
