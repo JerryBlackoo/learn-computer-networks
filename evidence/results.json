@@ -53,7 +53,12 @@
     {"file": "https_example_http11.pcap", "bytes": 7527},
     {"file": "http11_example_cleartext.pcap", "bytes": 2199},
     {"file": "http2_example.pcap", "bytes": 7875},
-    {"file": "symptom_tcp_reset.pcap", "bytes": 1174}
+    {"file": "symptom_tcp_reset.pcap", "bytes": 1484}
   ],
-  "make_verify": "OK (2026-10-03, rebased onto origin/main)"
+  "reaudit": {
+    "at": "2026-10-03T09:03:00Z",
+    "log": "evidence/raw/reaudit_20261003_tshark.log",
+    "symptom_tcp_reset_recaptured": true
+  },
+  "make_verify": "OK (2026-10-03 re-audit)"
 }

@@ -1,19 +1,22 @@
 {
   "schema_version": 1,
-  "status": "captured",
+  "status": "re-audited",
   "captured_at": "2026-10-03T08:05:00Z",
-  "commit_sha": "5e92274369575e414863b9b0e13c8f40460591ad",
+  "reaudited_at": "2026-10-03T09:03:00Z",
+  "commit_sha": "6510ad67466ba446e91dca0b7a80cce81589cf66",
   "os": "Linux 6.12.94+ x86_64",
   "runtime": {
     "hostname": "cursor",
     "primary_egress_iface": "enp0s3"
   },
   "toolchain": {
-    "tcpdump": "4.99.4-3ubuntu5",
+    "tcpdump": "4.99.4-3ubuntu4.24.04.1",
     "tshark": "4.2.2-1.1build3",
     "curl": "8.5.0-2ubuntu10.9",
     "dig": "9.18.39-0ubuntu0.24.04.3-Ubuntu",
-    "ip": "6.1.0-1ubuntu6.24.04.1"
+    "ip": "6.1.0-1ubuntu6.4",
+    "iptables": "1.8.10-3ubuntu2",
+    "kmod": "31+20240202-2ubuntu7.2"
   },
   "target_environment": "cursor-cloud-agent-vm",
   "capabilities": {
@@ -21,13 +24,15 @@
     "network_namespace": true,
     "veth_pairs": true,
     "tc_netem": false,
-    "tc_netem_reason": "tc reports 'Specified qdisc kind is unknown'; sch_netem module not loadable (no modprobe in image)",
+    "tc_netem_reason": "tc: 'Specified qdisc kind is unknown'; modprobe sch_netem: module not in /lib/modules/6.12.94+",
     "iptables_in_netns": true,
     "curl_http2": true,
-    "curl_http3_quic": false
+    "curl_http3_quic": false,
+    "curl_http3_quic_reason": "curl --http3-only: installed libcurl does not support HTTP/3"
   },
   "notes": [
     "Baseline captures: own traffic to example.com and dig @8.8.8.8.",
-    "Fault reset: isolated 10.255.200.0/24 veth + grad-fault-ns only."
+    "Fault reset: isolated 10.255.200.0/24 veth + grad-fault-ns only.",
+    "Re-audit refreshed symptom_tcp_reset.pcap; netem and QUIC remain not-run."
   ]
 }
