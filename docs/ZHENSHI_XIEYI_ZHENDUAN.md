@@ -24,6 +24,8 @@
 
 ### D01 实际请求链
 
+新增可运行单元：`projects/wire_probe`，通过真实 socket 测量 HTTP/TLS 请求；`make verify` 自动启动服务并验证响应与证书。原始报文、重传和拥塞仍需抓包，不能从 recv 次数推断。
+
 在自有两个服务之间观察 DNS、TCP、TLS、HTTP。记录各阶段时间与报文身份（五元组、TLS 会话、HTTP 流 ID 若适用）。讲义不写外链；规范入口见 `sources/catalog.toml` 中 `rfc.dns`、`rfc.tcp`、`rfc.tls13`、`rfc.http_semantics`。
 
 ### D02 TCP 深化

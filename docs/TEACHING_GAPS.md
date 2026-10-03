@@ -22,6 +22,8 @@
 
 ## 应用层
 
+- `projects/wire_probe` 已连真实本机 HTTP/TLS 服务并验证证书；原有课内解析器仍是教学子集。它不实现完整 HTTP framing，也不替代抓包或 QUIC 实验。
+
 - DNS 为**内存区文件 + 极简解析**，非 BIND/递归解析器。
 - HTTP 为**单行请求/响应子集**，非完整 Apache/nginx 行为。
 

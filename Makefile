@@ -11,6 +11,7 @@ verify: docs-check test
 
 test:
 	PYTHONPATH=. $(PYTHON) -m pytest modules tests -q
+	$(PYTHON) -m unittest discover -s projects/wire_probe -p 'test_*.py'
 
 docs-check:
 	@test -f docs/TEACHING_GAPS.md
