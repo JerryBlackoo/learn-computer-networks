@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "captured",
   "captured_at": "2026-10-03T08:05:00Z",
-  "commit_sha": null,
+  "commit_sha": "5e92274369575e414863b9b0e13c8f40460591ad",
   "os": "Linux 6.12.94+ x86_64",
   "runtime": {
     "hostname": "cursor",
