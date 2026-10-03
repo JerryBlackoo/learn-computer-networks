@@ -54,9 +54,14 @@ def probe(url,ca_file=None,timeout=3,max_bytes=65536):
         if not 100<=status<=599:raise ValueError('invalid response status')
         lengths=[line.split(':',1)[1].strip() for line in headers.split('\r\n')[1:] if line.lower().startswith('content-length:')]
         if lengths and (any(not x.isdigit() for x in lengths) or len(set(lengths))!=1):raise ValueError('invalid content-length')
-        chunked='transfer-encoding: chunked' in headers.lower()
-        body_complete=None if chunked else len(body)==int(lengths[0]) if lengths else not truncated
-        return {'evidence':'actual-host-network','scheme':parsed.scheme,'status':status,'resolution_ms':1000*(dns_end-start),'tcp_connect_ms':1000*(tcp_end-dns_end),'tls_handshake_ms':tls_ms,'first_response_byte_ms':None if first is None else 1000*(first-sent),'recv_events':events,'body_wire_bytes':len(body),'body_sha256':hashlib.sha256(body).hexdigest(),'truncated':truncated,'body_complete':body_complete,'chunked':'transfer-encoding: chunked' in headers.lower(),'scope':'recv calls may coalesce packets; timing alone cannot attribute root cause. DNS timing may be resolver-cache work and the blocking resolver is outside the post-DNS network deadline. Chunked body completeness is not decoded by this wire probe.'}
+        transfers=[line.split(':',1)[1].strip().lower() for line in headers.split('\r\n')[1:] if line.lower().startswith('transfer-encoding:')]
+        if transfers and lengths:raise ValueError('ambiguous transfer-encoding and content-length')
+        codings=[coding.strip() for value in transfers for coding in value.split(',')]
+        if codings and (any(not coding for coding in codings) or ('chunked' in codings and (codings[-1]!='chunked' or codings.count('chunked')!=1))):
+            raise ValueError('invalid transfer-encoding order')
+        chunked=bool(codings and codings[-1]=='chunked')
+        body_complete=None if codings else len(body)==int(lengths[0]) if lengths else not truncated
+        return {'evidence':'actual-host-network','scheme':parsed.scheme,'status':status,'resolution_ms':1000*(dns_end-start),'tcp_connect_ms':1000*(tcp_end-dns_end),'tls_handshake_ms':tls_ms,'first_response_byte_ms':None if first is None else 1000*(first-sent),'recv_events':events,'body_wire_bytes':len(body),'body_sha256':hashlib.sha256(body).hexdigest(),'truncated':truncated,'body_complete':body_complete,'chunked':chunked,'scope':'recv calls may coalesce packets; timing alone cannot attribute root cause. DNS timing may be resolver-cache work and the blocking resolver is outside the post-DNS network deadline. Chunked body completeness is not decoded by this wire probe.'}
     finally:sock.close()
 
 if __name__=='__main__':
