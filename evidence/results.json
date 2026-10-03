@@ -1,1 +1,59 @@
-{"schema_version":1,"graduation_status":"NOT_CLOSED","gates":{"G0":{"status":"pass","evidence":["GRADUATION.md"]},"G1":{"status":"not-run","evidence":[]},"G2":{"status":"not-run","evidence":[]},"G3":{"status":"not-run","evidence":[]},"G4":{"status":"not-run","evidence":[]},"G5":{"status":"not-run","evidence":[]},"G6":{"status":"not-run","evidence":[]},"G7":{"status":"not-run","evidence":[]}},"limitations":[]}
+{
+  "schema_version": 1,
+  "graduation_status": "NOT_PASS",
+  "status_reason": "G5 QUIC/HTTP3 not-run；G6 netem（delay/loss/reorder/带宽）not-run；G7 慢上传与流式卡顿 not-run、连接重置仅 partial。禁止 PASS。",
+  "gates": {
+    "G0": {
+      "status": "pass",
+      "evidence": ["GRADUATION.md", "evidence/environment.json"]
+    },
+    "G1": {
+      "status": "pass",
+      "evidence": ["evidence/raw/dns_query_example_com.pcap"]
+    },
+    "G2": {
+      "status": "pass",
+      "evidence": ["evidence/raw/https_example_http11.pcap"]
+    },
+    "G3": {
+      "status": "pass",
+      "evidence": ["evidence/raw/https_example_http11.pcap"]
+    },
+    "G4": {
+      "status": "pass",
+      "evidence": [
+        "evidence/raw/http11_example_cleartext.pcap",
+        "evidence/raw/https_example_http11.pcap"
+      ]
+    },
+    "G5": {
+      "status": "not-run",
+      "evidence": ["evidence/raw/http2_example.pcap"],
+      "notes": "HTTP/2 已抓包（ALPN h2）；QUIC/HTTP3 not-run（libcurl 无 --http3-only）"
+    },
+    "G6": {
+      "status": "not-run",
+      "evidence": ["evidence/raw/symptom_tcp_reset.pcap"],
+      "notes": "netns + iptables TCP reset 已抓包；netem delay/loss/reorder/带宽 not-run（无 sch_netem）"
+    },
+    "G7": {
+      "status": "not-run",
+      "evidence": ["evidence/raw/symptom_tcp_reset.pcap"],
+      "notes": "连接重置 partial（传输层 RST）；慢上传、流式卡顿 not-run"
+    }
+  },
+  "limitations": [
+    "QUIC/HTTP3 not-run",
+    "tc netem and bandwidth shaping not-run",
+    "G7 slow upload and streaming stall not-run",
+    "no fabricated latency or synthetic pcaps"
+  ],
+  "pcap_inventory": [
+    {"file": "dns_query_example_com.pcap", "bytes": 264},
+    {"file": "https_example_http11.pcap", "bytes": 7527},
+    {"file": "http11_example_cleartext.pcap", "bytes": 2199},
+    {"file": "http2_example.pcap", "bytes": 7875},
+    {"file": "symptom_tcp_reset.pcap", "bytes": 1174}
+  ],
+  "make_verify": "OK (2026-10-03, rebased onto origin/main)"
+}
