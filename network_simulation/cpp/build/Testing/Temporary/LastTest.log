@@ -1,0 +1,36 @@
+Start testing: Oct 18 11:25 CST
+----------------------------------------------------------
+1/2 Testing: netsim_tests
+1/2 Test: netsim_tests
+Command: "/home/jerry/Projects/Computer-Networks-Learning-Path/network_simulation/cpp/build/netsim_tests"
+Directory: /home/jerry/Projects/Computer-Networks-Learning-Path/network_simulation/cpp/build
+"netsim_tests" start time: Oct 18 11:25 CST
+Output:
+----------------------------------------------------------
+all unit checks passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"netsim_tests" end time: Oct 18 11:25 CST
+"netsim_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: netsim_e2e
+2/2 Test: netsim_e2e
+Command: "/home/jerry/Projects/Computer-Networks-Learning-Path/network_simulation/cpp/build/netsim_e2e"
+Directory: /home/jerry/Projects/Computer-Networks-Learning-Path/network_simulation/cpp/build
+"netsim_e2e" start time: Oct 18 11:25 CST
+Output:
+----------------------------------------------------------
+e2e OK: ARP + DNS query path + TCP handshake + HTTP GET /xinxi
+body={"path":"/xinxi","ok":true}
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"netsim_e2e" end time: Oct 18 11:25 CST
+"netsim_e2e" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 11:25 CST

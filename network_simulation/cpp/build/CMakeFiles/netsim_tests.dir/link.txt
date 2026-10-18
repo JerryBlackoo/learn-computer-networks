@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/netsim_tests.dir/tests/test_all.cpp.o -o netsim_tests  libnetsim.a 
