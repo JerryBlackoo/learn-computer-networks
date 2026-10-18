@@ -5,6 +5,8 @@
 #include "netsim/crc.hpp"
 #include "netsim/csma_cd.hpp"
 #include "netsim/csma_ca.hpp"
+#include "netsim/dhcp.hpp"
+#include "netsim/icmp.hpp"
 #include "netsim/token_ring.hpp"
 #include "netsim/dns.hpp"
 #include "netsim/email.hpp"
@@ -377,6 +379,90 @@ void test_smtp_and_pop3() {
   CHECK(pop3.remaining_mail_count() == 0);
 }
 
+void test_icmp() {
+  // 1. Echo Request / Reply
+  Buffer payload = {'P', 'I', 'N', 'G'};
+  auto req = IcmpMessage::make_echo_request(0x1234, 1, payload);
+  CHECK(req.type == ICMP_TYPE_ECHO_REQUEST);
+  CHECK(req.code == 0);
+
+  Buffer raw = req.serialize();
+  CHECK(raw.size() == 8 + payload.size());
+
+  IcmpMessage parsed_req;
+  CHECK(IcmpMessage::parse(raw, parsed_req));
+  CHECK(parsed_req.type == ICMP_TYPE_ECHO_REQUEST);
+  CHECK(parsed_req.id == 0x1234);
+  CHECK(parsed_req.sequence == 1);
+  CHECK(parsed_req.payload == payload);
+
+  // Corrupt a byte and verify checksum catches it
+  raw[4] ^= 0xFF;
+  IcmpMessage bad_req;
+  CHECK(!IcmpMessage::parse(raw, bad_req));
+
+  // 2. Error reporting messages: Time Exceeded & Dest Unreachable
+  Buffer orig_ip = {'I', 'P', '_', 'H', 'E', 'A', 'D', 'E', 'R'};
+  auto te = IcmpMessage::make_time_exceeded(orig_ip);
+  CHECK(te.type == ICMP_TYPE_TIME_EXCEEDED);
+  CHECK(te.code == 0);
+  Buffer te_raw = te.serialize();
+  IcmpMessage parsed_te;
+  CHECK(IcmpMessage::parse(te_raw, parsed_te));
+  CHECK(parsed_te.type == ICMP_TYPE_TIME_EXCEEDED);
+  CHECK(parsed_te.payload == orig_ip);
+}
+
+void test_dhcp_handshake() {
+  // Server on 192.168.1.1, pool 192.168.1.100 - 192.168.1.200
+  Ipv4Address srv_ip = Ipv4Address::from_string("192.168.1.1");
+  Ipv4Address pool_start = Ipv4Address::from_string("192.168.1.100");
+  Ipv4Address mask = Ipv4Address::from_string("255.255.255.0");
+  Ipv4Address gw = Ipv4Address::from_string("192.168.1.1");
+  Ipv4Address dns = Ipv4Address::from_string("8.8.8.8");
+
+  DhcpServer server(srv_ip, pool_start, 50, mask, gw, dns);
+
+  MacAddress client_mac = MacAddress::from_string("00:11:22:33:44:55");
+  DhcpClient client(client_mac);
+  CHECK(client.state() == DhcpClient::State::INIT);
+
+  // 1. Client creates DHCPDISCOVER (broadcast)
+  DhcpPacket discover = client.create_discover(0xDEADBEEF);
+  CHECK(client.state() == DhcpClient::State::SELECTING);
+  Buffer disc_raw = discover.serialize();
+  DhcpPacket disc_parsed;
+  CHECK(DhcpPacket::parse(disc_raw, disc_parsed));
+  CHECK(disc_parsed.type == DhcpMessageType::DISCOVER);
+
+  // 2. Server receives DISCOVER and creates DHCPOFFER
+  auto offer_opt = server.handle_packet(disc_parsed);
+  CHECK(offer_opt.has_value());
+  CHECK(offer_opt->type == DhcpMessageType::OFFER);
+  CHECK(offer_opt->yiaddr == pool_start); // Allocated 192.168.1.100
+
+  // 3. Client receives OFFER and creates DHCPREQUEST
+  auto req_opt = client.handle_offer(*offer_opt);
+  CHECK(req_opt.has_value());
+  CHECK(client.state() == DhcpClient::State::REQUESTING);
+  CHECK(req_opt->type == DhcpMessageType::REQUEST);
+  CHECK(req_opt->yiaddr == pool_start);
+
+  // 4. Server receives REQUEST and creates DHCPACK
+  auto ack_opt = server.handle_packet(*req_opt);
+  CHECK(ack_opt.has_value());
+  CHECK(ack_opt->type == DhcpMessageType::ACK);
+
+  // 5. Client receives ACK -> State becomes BOUND
+  CHECK(client.handle_ack(*ack_opt));
+  CHECK(client.state() == DhcpClient::State::BOUND);
+  CHECK(client.ip() == pool_start);
+  CHECK(client.mask() == mask);
+  CHECK(client.gateway() == gw);
+  CHECK(client.dns() == dns);
+  CHECK(server.active_lease_count() == 1);
+}
+
 int main() {
   test_capacity();
   test_phy();
@@ -385,6 +471,8 @@ int main() {
   test_csma_ca();
   test_token_ring();
   test_smtp_and_pop3();
+  test_icmp();
+  test_dhcp_handshake();
   test_checksum_ip_udp();
   test_arp_poisoning_model();
   test_lpm();
