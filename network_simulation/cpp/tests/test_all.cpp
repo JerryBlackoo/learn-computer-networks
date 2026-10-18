@@ -1,4 +1,5 @@
 #include "netsim/arp.hpp"
+#include "netsim/bgp.hpp"
 #include "netsim/capacity.hpp"
 #include "netsim/channel_util.hpp"
 #include "netsim/checksum.hpp"
@@ -524,6 +525,76 @@ void test_mobile_ip() {
   CHECK(!ha.is_registered(hoa));
 }
 
+void test_bgp() {
+  // AS 100 Speaker (Router ID: 1.1.1.1)
+  Ipv4Address r1_ip = Ipv4Address::from_string("192.168.1.1");
+  BgpSpeaker as100(100, 0x01010101, r1_ip);
+
+  Ipv4Address r2_ip = Ipv4Address::from_string("192.168.1.2");
+  Ipv4Address r3_ip = Ipv4Address::from_string("192.168.1.3");
+
+  // 1. Peer configuration (eBGP vs iBGP)
+  as100.add_peer(r2_ip, 200); // eBGP peer (AS 200 != AS 100)
+  as100.add_peer(r3_ip, 100); // iBGP peer (AS 100 == AS 100)
+  CHECK(as100.is_ebgp_peer(r2_ip));
+  CHECK(!as100.is_ebgp_peer(r3_ip));
+
+  // 2. OPEN Handshake
+  BgpOpenMessage open_r2;
+  open_r2.version = 4;
+  open_r2.my_as = 200;
+  open_r2.hold_time = 180;
+  open_r2.bgp_identifier = 0x02020202;
+  CHECK(as100.handle_open(r2_ip, open_r2));
+  CHECK(as100.is_peer_established(r2_ip));
+
+  // 3. Prefix origination
+  as100.originate_prefix("10.100.0.0/16", 16, 100);
+  CHECK(as100.rib_size() == 1);
+
+  // 4. eBGP Advertisement: AS 100 advertises to AS 200 -> prepends AS 100 to AS-PATH
+  auto update_for_r2 = as100.create_update_for_peer(r2_ip, "10.100.0.0/16");
+  CHECK(update_for_r2.has_value());
+  CHECK(update_for_r2->announced_routes.size() == 1);
+  CHECK(update_for_r2->announced_routes[0].as_path.size() == 1);
+  CHECK(update_for_r2->announced_routes[0].as_path[0] == 100);
+  CHECK(update_for_r2->announced_routes[0].next_hop == r1_ip);
+
+  // 5. AS-PATH Loop Prevention:
+  // AS 200 sends an UPDATE containing AS 100 in AS-PATH: [200, 100, 300]
+  BgpUpdateMessage loop_update;
+  BgpRoute loop_route;
+  loop_route.prefix = "10.300.0.0/16";
+  loop_route.as_path = {200, 100, 300}; // Contains 100!
+  loop_update.announced_routes.push_back(loop_route);
+
+  as100.handle_update(r2_ip, loop_update);
+  // Route must be discarded due to loop detection!
+  CHECK(!as100.lookup_best_route("10.300.0.0/16").has_value());
+
+  // 6. BGP 4-Step Decision Process (LOCAL-PREF vs AS-PATH length)
+  // Route A: through AS 200, 300 (AS-PATH len 2), LOCAL-PREF = 100
+  // Route B: through AS 400 (AS-PATH len 1), LOCAL-PREF = 50
+  // Policy: Route A has higher LOCAL-PREF (100 > 50), so Route A must win over shorter AS-PATH!
+  BgpRoute route_a;
+  route_a.prefix = "10.50.0.0/16";
+  route_a.as_path = {200, 300};
+  route_a.local_pref = 100;
+  route_a.router_id = 0x02020202;
+
+  BgpRoute route_b;
+  route_b.prefix = "10.50.0.0/16";
+  route_b.as_path = {400};
+  route_b.local_pref = 50;
+  route_b.router_id = 0x04040404;
+
+  CHECK(BgpSpeaker::is_route_better(route_a, route_b)); // Higher LOCAL-PREF wins!
+
+  // If LOCAL-PREF is equal, shorter AS-PATH length wins:
+  route_b.local_pref = 100;
+  CHECK(BgpSpeaker::is_route_better(route_b, route_a)); // Shorter AS-PATH (1 < 2) wins!
+}
+
 int main() {
   test_capacity();
   test_phy();
@@ -535,6 +606,7 @@ int main() {
   test_icmp();
   test_dhcp_handshake();
   test_mobile_ip();
+  test_bgp();
   test_checksum_ip_udp();
   test_arp_poisoning_model();
   test_lpm();

@@ -25,6 +25,7 @@ add_library(netsim
   src/mobile_ip.cpp
   src/route.cpp
   src/routing_algo.cpp
+  src/bgp.cpp
   src/ipv4.cpp
   src/udp.cpp
   src/tcp.cpp
