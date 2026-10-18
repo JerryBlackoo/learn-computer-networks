@@ -11,6 +11,8 @@ add_library(netsim
   src/crc.cpp
   src/phy.cpp
   src/csma_cd.cpp
+  src/csma_ca.cpp
+  src/token_ring.cpp
   src/ethernet.cpp
   src/mac_switch.cpp
   src/flow_table.cpp

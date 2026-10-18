@@ -4,6 +4,8 @@
 #include "netsim/checksum.hpp"
 #include "netsim/crc.hpp"
 #include "netsim/csma_cd.hpp"
+#include "netsim/csma_ca.hpp"
+#include "netsim/token_ring.hpp"
 #include "netsim/dns.hpp"
 #include "netsim/ethernet.hpp"
 #include "netsim/http.hpp"
@@ -277,11 +279,63 @@ void test_tcp_data_and_close() {
   CHECK(client.state == TcpState::TimeWait || client.state == TcpState::FinWait2);
 }
 
+void test_csma_ca() {
+  CsmaCaMac mac;
+  CHECK(mac.current_cw() == 15);
+
+  // Basic transmission (DATA -> SIFS -> ACK)
+  auto res1 = mac.transmit(5, false, false);
+  CHECK(res1.success);
+  CHECK(res1.ack_received);
+  CHECK(res1.attempts == 1);
+  CHECK(res1.collisions == 0);
+  CHECK(mac.current_cw() == 15);
+
+  // Transmission with RTS/CTS 4-way handshake
+  auto res_rts = mac.transmit(10, true, false);
+  CHECK(res_rts.success);
+  CHECK(res_rts.rts_cts_used);
+  CHECK(res_rts.ack_received);
+
+  // Transmission with collision on first attempt (CW doubles to 31, then resets on success)
+  auto res_coll = mac.transmit(5, false, true);
+  CHECK(res_coll.success);
+  CHECK(res_coll.collisions == 1);
+  CHECK(res_coll.attempts == 2);
+  CHECK(mac.current_cw() == 15);
+}
+
+void test_token_ring() {
+  TokenRing ring(4);
+  CHECK(ring.station_count() == 4);
+  CHECK(ring.total_frames_delivered() == 0);
+
+  // Enqueue a frame from station 1 to station 3
+  Buffer msg = {'T', 'O', 'K', 'E', 'N', '_', 'O', 'K'};
+  ring.enqueue(1, 3, msg);
+
+  int steps = ring.run_until_idle(50);
+  CHECK(steps > 0);
+  CHECK(ring.total_frames_delivered() == 1);
+
+  // Verify station 3 received the exact message
+  const auto& rx3 = ring.get_received(3);
+  CHECK(rx3.size() == 1);
+  CHECK(rx3[0] == msg);
+
+  // Other stations received nothing
+  CHECK(ring.get_received(0).empty());
+  CHECK(ring.get_received(1).empty());
+  CHECK(ring.get_received(2).empty());
+}
+
 int main() {
   test_capacity();
   test_phy();
   test_crc_and_ethernet();
   test_csma_cd();
+  test_csma_ca();
+  test_token_ring();
   test_checksum_ip_udp();
   test_arp_poisoning_model();
   test_lpm();
