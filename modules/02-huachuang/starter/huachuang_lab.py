@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from wangluo_xuejing.kexin_lianlu import KexinLianlu
-from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
+from network_simulation.kexin_lianlu import KexinLianlu
+from network_simulation.shuangxiang_lianlu import ShuangxiangLianlu
 
 
 @dataclass

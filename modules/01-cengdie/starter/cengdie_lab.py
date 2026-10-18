@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import List
 
-from wangluo_xuejing.xinxi import FengzhuangKuai
+from network_simulation.xinxi import FengzhuangKuai
 
 
 @dataclass

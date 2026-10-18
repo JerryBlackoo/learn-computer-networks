@@ -5,8 +5,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-from wangluo_xuejing.lab_loader import load_lab
-from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
+from network_simulation.lab_loader import load_lab
+from network_simulation.shuangxiang_lianlu import ShuangxiangLianlu
 
 
 def _kexin_cls():

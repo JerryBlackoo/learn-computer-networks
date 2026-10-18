@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Literal, Optional, Tuple, Union
 
-from wangluo_xuejing.xinxi import xor_checksum
+from network_simulation.xinxi import xor_checksum
 
 AckBao = Tuple[Literal["ack"], int]
 ShujuBao = Tuple[Literal["data"], int, bool, bytes]

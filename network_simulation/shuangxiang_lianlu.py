@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from wangluo_xuejing.kexin_lianlu import KexinLianlu, LianluCanshu
+from network_simulation.kexin_lianlu import KexinLianlu, LianluCanshu
 
 
 @dataclass

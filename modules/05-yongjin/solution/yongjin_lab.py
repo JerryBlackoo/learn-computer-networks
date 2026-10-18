@@ -82,7 +82,7 @@ class ChuanShuJiaoxue:
 def _kexin_tongdao_cls():
     from pathlib import Path
 
-    from wangluo_xuejing.lab_loader import load_lab
+    from network_simulation.lab_loader import load_lab
 
     mod = load_lab(
         Path(__file__).resolve().parents[2] / "02-huachuang",
@@ -99,8 +99,8 @@ class BaoJiKexinYanlian:
     duan_max: int = 8
 
     def chuanshu_bing_jiankong(self, shuju: bytes, diubao_gailv: float = 0.0, seed: int = 0) -> dict:
-        from wangluo_xuejing.kexin_lianlu import LianluCanshu
-        from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
+        from network_simulation.kexin_lianlu import LianluCanshu
+        from network_simulation.shuangxiang_lianlu import ShuangxiangLianlu
 
         link = ShuangxiangLianlu.fenli_guzhang(LianluCanshu(diubao_gailv=diubao_gailv, seed=seed))
         kx = _kexin_tongdao_cls()(link, chuangkou=self.chuangkou, duan_max=self.duan_max, rto=0.15)

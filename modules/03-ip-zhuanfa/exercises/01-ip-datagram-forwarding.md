@@ -175,7 +175,7 @@ TTL 耗尽时丢弃，并在适用条件下返回 ICMP 超时；无匹配路由�
 ```bash
 python3 - <<'PY'
 from pathlib import Path
-from wangluo_xuejing.lab_loader import load_lab
+from network_simulation.lab_loader import load_lab
 
 lab = load_lab(Path('modules/03-ip-zhuanfa'), 'zhuanfa_lab.py')
 school = lab.MoNiZhuanfa([

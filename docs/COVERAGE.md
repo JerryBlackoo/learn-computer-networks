@@ -20,7 +20,7 @@
 | 12 | 大作业 | `XinyunTongdao`（`ShuangxiangLianlu` + 02 可靠层）+ `XinxiYingyong` | host-verified |
 | 13 | 真实协议诊断 | `ZhenDuanGongju` + 三案例 JSON + 毕业报告模板 | host-verified + not-run（抓包/netem） |
 
-## 共享库（`wangluo_xuejing/`）
+## 共享库（`network_simulation/`）
 
 | 组件 | 作用 |
 |------|------|

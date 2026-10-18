@@ -29,4 +29,4 @@ Do not delete failed attempts. Record task, input/seed, observed behavior, viola
 ### 边界
 
 - 模块 02/05/12 仿真 TCP **不得**作毕业协议证据。
-- `projects/wire_probe` 计时不替代抓包。
+- `real_network_practice/wire_probe` 计时不替代抓包。

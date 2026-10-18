@@ -5,9 +5,9 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
 
-from wangluo_xuejing.huachuang_zhen import bianma_ack, bianma_shuju, jiexi_bao
-from wangluo_xuejing.kexin_lianlu import KexinLianlu
-from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
+from network_simulation.huachuang_zhen import bianma_ack, bianma_shuju, jiexi_bao
+from network_simulation.kexin_lianlu import KexinLianlu
+from network_simulation.shuangxiang_lianlu import ShuangxiangLianlu
 
 
 def _frame(seq: int, chunk: bytes, fin: bool) -> bytes:

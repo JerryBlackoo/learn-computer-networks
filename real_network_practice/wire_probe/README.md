@@ -1,6 +1,6 @@
 # 从仿真到真实 socket
 
-运行 `python3 projects/wire_probe/probe.py http://127.0.0.1:8000/`。另一个终端在临时目录运行 `python3 -m http.server 8000 --bind 127.0.0.1`。HTTPS 实验使用 `--ca-file` 指定自己的 CA，客户端始终校验证书与 hostname；不要用关闭校验代替配置 CA。
+运行 `python3 real_network_practice/wire_probe/probe.py http://127.0.0.1:8000/`。另一个终端在临时目录运行 `python3 -m http.server 8000 --bind 127.0.0.1`。HTTPS 实验使用 `--ca-file` 指定自己的 CA，客户端始终校验证书与 hostname；不要用关闭校验代替配置 CA。
 
 `make verify` 启动真实 HTTP 服务和带临时证书的 TLS 服务，断言状态、实际 body 长度和握手结果。证书每次生成，测试结束服务关闭。报告记录解析、连接、TLS、首字节和每次 recv 的时间。DNS 项可能命中缓存；recv 可以合并多个报文；chunked body 是线上编码字节，尚未解码。默认上限 64 KiB，达到上限标记 truncated，不能把截断数据当完整响应。连接失败、证书失败、读超时会显式报错。
 

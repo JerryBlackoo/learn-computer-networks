@@ -1,8 +1,8 @@
 from pathlib import Path
 
 from tests.solution_loader import load_solution
-from wangluo_xuejing.kexin_lianlu import KexinLianlu, LianluCanshu
-from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
+from network_simulation.kexin_lianlu import KexinLianlu, LianluCanshu
+from network_simulation.shuangxiang_lianlu import ShuangxiangLianlu
 
 
 def _load():

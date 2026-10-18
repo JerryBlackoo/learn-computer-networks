@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
 
-from wangluo_xuejing.shuangxiang_lianlu import ShuangxiangLianlu
+from network_simulation.shuangxiang_lianlu import ShuangxiangLianlu
 
 
 @dataclass
