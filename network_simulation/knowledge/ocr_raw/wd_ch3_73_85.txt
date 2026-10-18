@@ -1,0 +1,708 @@
+===== wd_ch3_73_85-073.png =====
+oe mie                            ot
+
+项民来验证数据的正确性。 ARO A 媚正确结论，了解即可无须和所证明过各
+
+oc
+
+HLL “POUE on SHE Bs Ge). UAL SETC ABSA PF
+
+© mo, BR Gener CeO ORIN: + 0.
+
+@ 模 2 除，利用入 2 除法，用 CLRNTANALIR EARN TUNA, AUN EO
+
+oA CS ee FTA O BEF ERB) -
+
+RRND MGM. UML 2 NEA, TREY, TR. ERR
+oD ARORA, aber pia 2 eA
+
+os. D
+
+SMC eR 4 们外，前 $ (OME 0111。可知发关方发送的数所部分为 0111，列起
+得余数各分为 100，因此发送方发送的凡理为 IO L006
+
+oo
+
+to
+
+wc
+
+首先计算该扩友信的到号，对四个码字丙两比较。任塌两个码字的加下至少为4，故该各三
+SRE dyn = 4。根据基针控机理论，荐绽友全的页中为4，则可检测不超这了- 1 ABR,
+SETAE (dD JOUR. BURRELL EM 位错误、纠正 1 CN.
+
+=. ean
+
+on CWSI
+
+URAL, “eek 28 Gey aH LTT HCO. HEAT FARA 2 RE WRI
+10110011010, 除数为Oo
+
+志和余数 0, 因此比特序列在传给过各中未出到差错。 发送数所的比特序列是 1011001, CRC
+检验三的比特序列是 1010。注，CRC RIDES Fee Gl MAI
+
+3.4 流量控制与可靠传输机制
+
+在数据中导中，沪量控制机和可各位机机是时密交织的、
+3.4.1 流量控制与滑动窗口机制
+AAALAC SURE RRR, ARIUS RIMES AEA
+===== wd_ch3_73_85-074.png =====
+2                             2007 itm LI
+
+8 RSL ERLIONL ATTA — HUNAN OTB. IRON RE AI
+流量控制的功能，且都采用了滑动窗口的思想，但二者存在明显区别，主要体现在以下两方面-
+
+1 Sees AMET HAL MONTEL, eA eMC
+
+2) 数据链中的控机手段是，当接下方无法接枚时，不返回确认帧，而传输导的控制手生
+
+ere ee es
+
+1 Pea
+
+LPARAM ARI RTE ATIEMI ITAL. MUO EU ILICHE RIB, IIT
+ARORA, MRE —AAML, AROTOLRRC EO A ATUCSUMEANL, AEE
+SHEL, ZAMSIMEAM, IONE FHI ENROLL,
+Seta AUR, (eR
+
+2. RawoR ERR Ke
+
+woo AAR IRIRERL IE. (ECE, REMADE
+RANE, BPO, KOI READERS, SCIPIREIOURY, HRS,
+REMC ARE T RADA MOLAR. RA EEA Eb MULTEMBAEBL. A
+SELMA FNC oO LAREN, A TRH LE
+
+图39 展示了改天窗口的工作原理，图 310 展示了接收窗口Hi-1) 的工人原理，
+
+ga
+» Geese eet
+“enn       ‘Rane
+于，
+—_
+ale aurea      ‘eve
+or
+        peers
+« @ee ee ee et
+en   ce Rema   “rare
+wees,       The
+
+图39 RAMI IRE, (ase RRO 号共5 FO, (EAE RIE
+NHL: (@PRILIFRILEHM (QSCPHRIE S~7 510
+
+RA HUESI—P RE SLLNEIRULN, ALA ETNA. AL RE
+AOD. SW AREATOUY CREREIOG ANCA IAN. 发送方斩信发送-
+
+RATS“ FETTER ALT HO, GENER EEOL, BLG HR ML PAM te
+于，并到加确认。若履到的由号落在接收窗口之外，则一人天冯。
+
+‘ISU AL FER
+
+1 RRR, (LRM ROMAN. KURT He
+
+HE, TERRIER ROOM, AREA ICRA,
+
++33
+
+===== wd_ch3_73_85-075.png =====
+oe mie                            63
+
+« Feet
+so   rer
+o Coe ses et etal
+eter   cry
+oe   Mi
+© (oT Ts aes Te Tt Te Tt T
+Dt eee PEM
+
+3.0 stem ONLI
+
+EET > samowixeRcAN core, 225)
+2) 从动闪品的全度看停止-等入与后面将要介细的后退N DLA FEARED
+CEP RAR RTARTA Ae
+Pik APRs PERT Wy = 1，接收窗口 有
+WN OUP: RAB > ABEL Wg
+选择重人协议，发送窗口 fr>1，按收罕口 He> 1
+BERL n (o> 2) LOREAL, USAC RIERA Wy 4 Wa 2°
+3) MAREK 1. SURWCSRBAL A SFR FPL, Co RGEOLATATPEARUC,
+4 在数据路导的清动窗口协议中，窗口大小在传输过程中是国定的《与给层不同)
+
+342 ， 可靠传输机制
+
+可埋传输是指送方和的数据能名被接收方正确有完整地接收，为实现这一目标， AL
+FAY (ACK) 和起时重人两各机。
+1) Aik ARCANE — ALI, SRE I AM LL
+a
+2) AL Ae, sR — PRU NF EP ed
+BULL, IAS RIOT RE Seo. SLT ERDARAE RR. ALMOND Ha.
+ALLO EAHA 8 3) HAET A. CAuomatc Repeat Quest. ARQ) »
+Ob AAEM REOTELEM, RAMU ATIRAREE, {6 ARQ ILE. MEROLAUARLOT
+EAN. ULB NC ART AHI ARM OL
+RUM. AMIEL AMINE. ARQ PML EREIES APR, Mt JFHy (Slopand-Waid
+RR. 38. BL Go-Back-N) 协议和选择重传 《Selective Repeat) Hi. E= AHL
+ORGS AURRABI, THAT EG AH OT MEA.
+‘eT. AL CERCA AU OCT CAAA, ARN
+Ge REACT, RCE ERACIR SER RAO SHER NRAes AUR MLAP AER, WE
+(e002) GADRADRNLULALSE. SCALMIEA NOREEN STN. RUSE. ALAR MAR IB
+A LST ARNT, CR RAMON EE, AU REE
+
+===== wd_ch3_73_85-076.png =====
+oe                             2007 itm LI
+
+1 ERA O ORF AOR CW)
+
+(EAR AGL, HEE SAREE, 5 EI AT
+AWE FN, IAM, RH REE AARC ASN 1
+
+在实际人办过程中，可能出现以下两类莽链:
+
+1 数报巅出名于闪，护收广检测到数据入存在共计时，直村于弃沪由，数据由在代入中
+丢央时，禄收方不会收到任条信息。为应对站两种情况， BE MER ATS 得
+aR — MAEM. LA NR A, GA OS HOTA KN.
+FMRC Sesto, FRAME, SAL POMR LAR. ACETATES
+加确认由为止。
+
+2) 确认时出错或对失。印使拉收方已成功收到正而的数据帧，若其返四的页认央在传条中
+出业或玫失，风发送广角将国政到博认而名发起时重传。这时，接收方会再次和到
+个重复的才据帧。为下多重复外理，秦收广会和该重复鸯，并重新发送对应的确认四，
+
+入上-等协议每次仅发送一村并等竺确认，因此只震确保相各发送的村具有不同的序号
+可区分类和与重估什。因此，仅需 上比特号空间训已足够，娄大由交使用内号 0 和1。对应
+(IR DAUIE ACY ACKO 和ACRI。英接收方连续收到相同译呈数据央，则说胃发送方进行了
+RIDE: ARATE SAGIRUL, MIR BEIRECMH TR SLOLEL RIL BL.
+
+Hh, AGA ARE ORLA, RT ROAR ALA RG RR
+ML, SUMNER TE EAT OLENA, LOCA INNA, (LERCH ORT HTH
+ie, RUC RIE TNR A. LIU TIANLIAN
+
+PcG AACN. ALAM, ERNE TAR ARQ 协议(后退
+本协议和过择优协议) ，公洗发关广转发送多个数据六，而无须还凡等竺确认-
+
+2. SAK O 4 SIENA (BN)
+
+aa)» con ar (200)
+
+fesGi8 NUM, PTTL RSM AMON HEIR A ERT
+的数据由,后还 由的信义是: ACN RE AAA HOA
+RE a BL, SEAMS AAT AAA, KALI a
+WORRIED. (CRI SROMRTN RE A.
+
+EEE!» con wucommaunn co)
+
+‘0 3.1 Beak, RAUCH MRT, HOM, TRAE 2
+SURNAME Mee bts, SKeMRMUIG. TNR F
+TRA PERRET EAL, MARL TST TITAN RUE. ABEIGTA, GBN
+LEMUR SPU ARGC ATA PEM RLM, SWE RRNRLE NE
+HRPUG. (LIOR AAR MIL. RIGTTE. ACK LHRH ETE HBNE m 号由|
+FZ ROAFAEM, FURIE nL SM CHIE SEIM. STIL O GRD «
+
+PRM RETRO, ROL Fea, IUGR EMLLAIONRTEAR, eed
+秋痉。鲍如，在图31 中，尽管在出错的 2 BML RUST 6 ERM ICH
+将它们全部下,化外,为了防止确认全失,接收方可以重复发关最近一次的确信 旭 ACKI)，
+eA tA SHURA. 2 MT RAD FAA IAOL TEL
+PALM MATA 2 RZ ND 5
+===== wd_ch3_73_85-077.png =====
+oe mie                            5
+
+EEE» con aaaatathnal cow?
+
+WES GON RUHR. autem
+
+ CON nian cor, 20, 2017)
+
+‘SAA AERIALS. WE BERRIEN Wy SP. E> PN OTH
+SARC REL AME SPIRE ALOU ANTM CE ILCRIOROARA 1)
+
+CGBN Hi ICANT W= 1 RET BUA PMS RFE
+
+AT, GUN 协议一方面地过过引发送多个村显著提高了信道和用事，另 一方面，在发
+生差儿时委任须重传大量已正确到达的村 CRORLML TTA OWNER) « ABRAM
+因此，当信道误三素较高时，GBN 协议的性能可能反而不如停止-等特名议。
+
+3. Seibshwo 5A IRMA (SR)
+
+为了进一步提高信道的利用率，可以设法仅重传出加超时的数据帧而不有其地已正确
+ROL. Mae. HRC ORIEN AERA MLIEWMIS. ELIE DS CEIRAC ACTOR,
+喜失序号的央收齐后，再接序灾付给 kt. JARULMIED AE A
+
+EET > waernime con. 200
+
+SIR SHOE RAISE OR
+RMU. SEES, ESERIES N MCA
+
+2 ROOM AAMC OLR FILES AEP EIERA FEB
+
+Te a ee
+
+2 BOGE CRRMUMEIO . METER. JHALICH ATUL.
+
+sh, RIERA ARUIEST AT ICG RAED, — IIT ANAL
+SPSL TEER LAL CNAK «GRACE NAK AREAL. AS ADE
+
+在图3.12 9,2 SPACERS ROO OSE TEAR SR ARI RH C1 3~9 SBD
+RAN RM 2 AIEEE, RACCADEL FUSE. LEMAR, ARH
+19 BAUER, MISS ICEN RAAT NAK IO; AE0GMAM. ARIAS TARR HAR TERERAS
+HUPEGHINAKIO J, SCRUARE 10 GL, EAGER.
+
+而二对每个正确接收的数据由乏
+
+[AR
+3.2 sm CARN. tad MASUR
+===== wd_ch3_73_85-078.png =====
+上                             2007 itm LI
+
+ET)» se naan (025)
+
+选择重传协议的接收窗口 Wi RIVA wey ACT 1， See Ye ARR EPMO. 2
+RA nA. LEME MD Wet Wes Tt 《不满足此条件时接收窗口向滑动
+后，部分硬认术于夫，发送方可能重传日取号的由，由于序号空间不足，这些重传央的序号可能
+SHARE, FAUT OUINMD . D Niu fr CHAM TRE, WE
+SC PR RI wR. RAEN. DOTA
+Mg S2, ESIRGEN, ALW= eZ, CAMA
+
+ARNEHM, ARASH ARO HOTA OAS LELORERREH, AIEAE EOE
+SUN Ha. PROLERS, BeUbte Rea.
+
+4信和用村的分析|
+
+ALAA ALREADY. (RARE RT FA
+RIE RAAM OREN TERE TAL, SILTY A ALAS MAT)
+PAODELRIOND SRAM Hc. 本节使用分旨而二时天为增强表述的通用性
+
+CD Fe hie Eat Am
+
+EET ttt 201, 20)
+
+Pik TLAGOR ALTMAN, 1 AAA V3 13 SRT APL
+REALLLY REN LIOR. IERIE RUBIO Z AF — MEA.
+
+ToT
+
+图3.13 Pub~SIeR UMAR MOT OR
+
+REY RM A AARON IEN Toe BM, Ty 等于分组长度除以数据人办过素。候定分
+弓正到过接下方后，其外理时间可忽略不计，接收方立即反回确认。接收方发送确认分组的
+送时到 Ty CCHS) 。再彼设发送方处理确认分组的时间也可忽略不计。则发关方经
+过时则 Ty + RTT + 下后就可朋发迁下一个分组，其中 RTT HARE. POA TE
+有效发送娄据，因此个目等待议的信道利用市 为
+一
+
+jeRIT Ty
+
+-FORSRIRI RTT = 20ms. 分组长度为120 HAP, AREAS IMIS. ERR
+AE Ty, WUSISLAN Si APOE U~ 5.66%. ZAG RAEFEMARAEIRAG IONS, J) = 0.596%. 由
+此可见，当RTT AE 时，停止-等竺协议的信道和用率会非常低-
+
+2) 连续 ARQ HH EEA
+
+ fen. Con smmmenminemeneces (xz)
+
+连续 ARQ UNURALARAUEH CUM 3.4) ，允许发送方连续发送多个分组，从而在信道
+上维持革续的据流动。只到发送窗口足够大，即可显著提开们道利用素，
+
+===== wd_ch3_73_85-079.png =====
+oe mie                            or
+
+eH      ia                        ，
+
+ee                        fi
+3.14 A ARO eRe THE AUT,
+EET!» con winensavmrene nz 208, 2017)
+‘RIE ARO 协议的发送窗口大小为 (最多可连续 N ASHE) « SPIRIT
+1D 着NTp<Tp+ RTT + 开，即在一个发送周期内可发送完N M49. a. ERATE
+Zech, CRIN
+
+vA
+RITE,
+2) 着ATb> Tot RTT + Ty OEP EMMIA RIE 【或刚好发完) Y 个分组，只无
+JRE, THAR, (ama AM. MSAK = 1
+在相同由序号比特数下，GBN OREO ACP AL-erPIONR, ULAR AE Rt A
+rm UR, SSRN SCRE A MOT FALL.
+ 人村 (m0, 2010, 210
+i. EADESY CRED LURING = (SALLE CIA URIONTERD * .
+(iF CFR UH eae ~ JRE PEO AEA PEON”
+AUATLSAMAT EMME SeHMEROATR, BLUES GATE
+343 本节习题精选
+ores
+OL FATALE LHI, BAHL).
+ALAR O RRR OLA LB ASEM AA TALES 100
+C. OF RMAF MLR RH EE     D, HRT HRA
+02, FAIRLY, SREP ARR RAI ().
+A. Bm Ligon #2 ho NE RM LARUE Ok OL
+B ARRON LRA MER MM Meee ER RHE
+C, SHE RA Se MNT Mem NARA BARI
+D, SH SHH Hehe RRR LAURE MR AIRS
+8. AMANDLA TRHY, SALE, RUFRAREA TE, MOREA
+
+v
+
+AR MER OD
+A kite BA    C.NAK SUH DL 超时机抽
+
+OL EMAAR, AT ARRON AT ASHA IEMA, A () Ahe,
+A IR    B. desta    CC RS DL NAKA
+
+05, RRA ks, RMatb be SE 3s, ARNEL P SCO
+HANMAES 0%, MERMRBRKESA ()
+A. lpieth Ba20此特 CC 36比特。 mE
+
+6 ERAN ERE, AIEEE ER alls, Ri MbIm OEE,
+===== wd_ch3_73_85-080.png =====
+2007 itm LI
+
+0
+
+1.
+
+n
+
+a
+
+mw
+
+1s,
+
+16.
+
+ra
+
+looms, BAUR kote. (BEA LAD some, INH HC).
+A 20比特 有 320此特 CC o0sEAH 00 tah
+ARLE, BLADE EER, ATAU).
+AL ARI ILS NAK i SUSIE
+
+D. AAF AMIEL ERS ACK RL Ast EAE
+CRIED, MRA RULACK HR, EEE
+
+D. RFRA M, MAU TEAEOT OTE AULT ACK BR, EE,
+FARIA ARQ HAY, MRA)
+
+A AFTER AT RUE, LICE RIERA REAR
+
+BAA FIST RIT AG ARM, STARE AEM
+
+CARMEL ApsbGL, EE ARQ 加为减少了等待时间，所以提高了信道利用第
+
+D. RUC TARR AAR H
+
+AMERAAN SEN ALTARS, REFERLRGHO~O HEL, TEM
+HS HURG ML, LEFORAR OM GHG, LTT RCM IRE 6
+Ae AUREL AML MRC) AIRE.
+
+AS      Bs       cs       D6
+
+HNMR AMSGE VAL, RAF CRATE OS 6的柜、当计时器直时的
+BR, RAST 1，2，呈生生的确认，改志方需要重人的由的数量是( ) .
+
+Al       Ba       cs       D6
+
+AUR AMT IE NOME (GEN), BLUR TGALLI, METRE)
+位的者列号才能保证协议不出氏-
+
+Aa      BS       CC      D7
+
+着采用后还可的 ARQ HILLEL, REFER OAR
+RAC).
+
+a)      Be       © a7      Dt
+Pe ARMik eR Meni RICHER, BAM SAAT, MTOR MeL A Rae
+won).
+
+AMS     Be      ca      bx
+
+对于窗口世大小为的测动窗口，最多可以有 () Mem,
+
+人      Bn     Ga      D. wid
+
+HURL RAMI AHA (SR) 传给数据，若个呈采用比特编导，接收窗口大
+TAT, MRARORAL(),
+
+au      Bs       cs       bo
+SRR ORO, SAE MURR AC)
+AD      Bn      ©. n=     D2
+
+ANA STGAT AH BIBER AO. A fe BAIN
+HUGE 2Okbis, HALA MTLHRH ILA 20008, AERO EA 1400ms,， K
+AS HAMIEMIS. MIA AH BME ELAIMAAT 8M, NC)
+CE: ASR IOP, RIALRTALET AREAL, )
+
+A TRA. BEMAREM BES AIL
+
+BOPAA, BAMA AM GBN IE
+
+===== wd_ch3_73_85-081.png =====
+oe mie                            上
+
+2.
+
+了
+
+CC FAA. BEI AI SR 协议
+D. FRA, BLMTHAM GBN HCA SR 协议
+
+HERA RIA blRd FAR ANH, SLCHI RHIC).
+博大接收方楼人过度             Baa tA
+
+CRIA       Di. Miter hee
+MLM SL HLMAM EN AUALIE NRE, RIERA Lek, Melb AL
+5 250s, RIEHL AE KB, RILM EAL LD, PRIA RAS,
+HR FepeR ETH CO).
+
+AD      BS      ct      bs
+
+ACPO ARO ROLE, ab LTS MEE MAME (Cd,
+
+LP PAO GL AUR, AIRE MEHL
+
+AL      Bm      com      D net
+
+AUN RA MAIC REHEL, LF AIS] 0- 3 SHALE, LHe
+HT SSMGMA, ROR OMEARMMARL, DALAM, RIFE ( )
+A RAF          B.S EH
+CRNA RAAL FOAL DL ALARA A tet
+
+12009 RF AAD HIE AM THEE NA (GBN) HOR, RLF OST
+
+季为0- 了 的帧，当计时芭直时的时候，若发送方只履到 0、2、3 FRA. WL
+这方才要本发的由是 ( )
+
+AD      BS       G4       bs
+
+201 BAF RAED RSE ARIE EAE HR (SR) AR, LIEK ORL O~3
+SIEM, LEMS FRAIL, 0. 2S ORAL, Raa anHRALL ) -
+Al      2      cs      ba
+
+(ron RA AAD HG EAA eh esese AMIE N MUIR (GEN) fBU RE, a
+MUGGLEA L6kbs, RAEI A 270ms, LICHLEEL 28-SI2B, RLF SA
+PURPORT. RIBHLAD EARL, AURA EAC).
+AS      Bt      cs      pb
+
+Toons 8 AME) HCP 4 Sic RE W HORSE (GBN ) HERE, BA
+LH EH 1000, IEA 10008, HFA LOOMIS, AL Capa
+AEA, CAMARA (REGO) TAK, SEAPRERCLAM
+PONE ATIEK sims, MEAP TRS AP EBD ( )
+
+AL 1OMbis    B. 20M    CaoMbt    Do0Mbs
+2015 ea ASD 主机于过 ms BA, Ret HRT HNEH LL Re,
+HAIG MBH L3EA 280m, HEH 10008, RAAT EMR, RHEE UM ER
+AF B06, BUF AEM MET L ()
+
+AS       Bt       7       bs
+
+12018 AID EH MH EAA EL AAR, ACEO
+AUER 200m, LATO RHEE, TEALAIM- AE et HE
+BRAC).
+
+ee ee LD
+===== wd_ch3_73_85-082.png =====
+mm                             2007 itm LI
+
+28 DOB ALISTAIR, BAMATAM 3H. Rare IAS,
+aI AEC).
+
+AD      Ba       cs      Ds
+
+29. 2000 SF IE MP RMP PARE EAA, AN
+ARAMA 10008, sRAEHEUESE RR LORS. EANMEHBOE IER 200m. MEAP,
+AANA CO).
+
+A. 80%      2, 67%     ©. aba     D. 40%
+
+30. 【2023 RAD PRE — HE, ARH ANS ABIL. GON 协
+议和 SR BRE ULL fable He) AbiesEOE, 2 PURER He,
+RIABR, PUPP IEP. abe 2 MLE Ce ALB AMA BLL UY,
+UsFe Us. RIG Ur UAB RAL).
+
+A USUSU, BUSUSU CUSUSU, D USUSU,
+
+31 120 BEARD SRPELAMEM (SR) APBOAUAEMERAMA HL
+Bao FAME, Fe ARIEM, ACK HMB, x 是位为 此畦的序号，主机己只时
+EAR RERE GRAD, RAFU HAIR ROMA AP
+1 BAL RLM MALE CO)
+
+AFL, BS    BFL Ft    cB FI    D. FA FL
+Roane
+LIES, SURE Ah, RTO 6, RITE a3, RI
+Se, MAAR eth PIMC RAE HE
+02 AUR ELAR HEMEL A, JR AOL 30m, HCA AE
+PHAM TEAM OLEAN EE IH S087 BAMTM A LMLOH AE, )
+03, RATA RINE LOOKS, BARIE ATL 250ms, HME HK ILI
+2000 4, LIE RRR, SIMOALINOTAE AM, 3b TASH ERIC, KEL
+RATA IE? LTRS SY
+04, AARHESR AL #7 SOkbis OES EASE ALA INbi SHHR, BAAMMUNAE MIA, RIP
+AA Sit, HAL 20m, YT FH AHL, UL AMM ELS IT
+1) abi.
+2) BAN HUME,
+3 RE CLE fio).
+
+===== wd_ch3_73_85-083.png =====
+oe mie                            1
+
+05 NT FAR A, REBEL PIMC RAMETERS
+
+RABE (16Mbs)
+
+SS信号传扬过幸 (200myihs)
+
+Da BAKE AGL EAL IBF, (200m)
+T=e)abhe i (2ys)
+
+AeA (S006)
+
+NaH SEAL (450bi0)
+ASABE ACK #481 (806i)
+
+6, PAUNIEN RE GH HREM, PRK SIIB MAM, CUA
+SLUG EG ARERR). ALA RAE HBOE SL 270m, PFA
+AGH eT. 7A 117 MRL, PH IERIE RL $7
+
+67. (2017 BLY Peak RMR NV HNBRK (GOBN ) 进行续的双向开拓从，
+IEA ANAK MIL, MHA 10008, Saye Ry PREP HEF REE
+RP LRAT, y LMS AGED RIOT BAS), RIN
+RUPP ORI FRR A 3 th. (BSEAEUEL FI) 100MM, RIT =096ns,. FHS
+SUT PF RLU RIERA. FE Asbo a, SOE PH RL
+HADITHA 0, 1 EUR TAAD S HARIE AA,
+
+HOSA,
+
+USTE May, AALS) AAI, WTA Coy Ca MARU RL BT
+EAR RTAR CIRM 5, BA) 了
+
+DATE) Ay MO, PARED LAMCOM MME, RE
+SEARS EIEN NER — OBOE A AUPRLAMES GM 8, 形式
+wey
+
+3) AEPANO), AL abRIAG, Po A ak aLA AEN RAR] aM,
+SARS RINT ERAGE GIS, BRIBE) 了
+
+ 4)四方可以于到的服大信道利用于是多少?
+
+===== wd_ch3_73_85-084.png =====
+2                             2007 itm LI
+
+3.4.4 BRAT
+
+=. nat
+
+oa
+
+ik EOLOR A HCN MARR. ARTETA ETRY Ws LA 正确-
+ARCOLA NORIO. COTA REPU AB A. ese RRP. 何止-等
+ILENE IER = PREBLE RHA — PERM PE AE + RTT + — PALO
+MENA, SNP — RRA FA, BILLS 100%, RIT ECAH, PF
+低信进和用率，国此休止-等和二议适合RIT He.
+
+02.8
+
+AVEC IDIRE THA. SHORE. REMOTES, IH
+目的主机的王亢很远时，往到时下很大，此时的信道和用玫很儿、
+
+©. D
+
+在何止-等竺协议中，发送方设置了计时器，在发送一个人后，发送方等待确认，若在计时
+可计请时仍未下到确认，则再次发送相同的帐，以旬队入永久的等入-
+
+rar
+
+eth. (RN RRR SEATOT. SRL AAR, MIRERT IR
+ARE TAIN IE, PRAM HL, MARIN FAL
+
+05.
+
+RCP RAR ORAL LPL ALERT fA UTR CLIN
+(UC+ 28) = LL + 20)
+
+06. D
+
+ELMAN LIEN AE, AFDLRICAUNL = MAROC OLR AE +
+SKE) = 0.4, HARIBO RANE HEIs 480s, LARA KAD eit 305 = 300bit-
+
+0B
+
+Pik FOOINOMIRA RURAL, REAR, REA RAEN HRACH IR
+ae, MM AMA REO, SETH IE ALL ACK MOET AAR
+
+0. D
+
+G2 ARQ SILI GBN 协议和 SR BIL. SR MRELNTELICT 1, RRECUTDIG RRIF
+FRSA CARECR TIAA DASRAROT. GBN 的接收窗口等于 1, RICH SRT RIGO.
+
+04
+
+RETO S SMOMRILE. a 5 SOU Z MIATA OL IEMRRRNC IEOmIRSL, st
+FG RCIA‘ SOL, LUPO RM AREAL 6, MCI
+的总大小为9，在 GBN UNL, BRM n CANNY, MIRAI D1 Bi a=
+
+0. 8
+
+LN ALATA. RULERS NE 4 GO. He MU 4 号估之前的数据
+RCL ARIEORAR. BFDLILIBARAG 5 ALG BADEN,
+
+nc
+
+APART, FAIS ERG POT ORES + 接收窗口大小) ，
+所以在后退 RES. PERE PRC AE “发送窗口大小+ 1” ，古中发送窗口大小是32，
+
+===== wd_ch3_73_85-085.png =====
+oe mie                            a
+
+BAIS PHASE 33 个。所以最少需要6 MUNI AREER.
+
+nc
+
+RICO IRONS, IRF IRCA, NRE
+SORA ARRAHM MENIAL. BELEN A ARO 协议中， 发送窗口 NT-
+AMG n=7, UEP BCU EE 127,
+
+BB
+
+eibAPOUE NLA, 2 nee ORAS, LET ICR I ARIST fs 5，
+RULE Wy ry <2", MIRO SLE ATG, ED SI
+
+MB
+
+在连续 ARQ 协议中发送窗口大小二窗口总数~ 1。例如，窗口总数为8 GIO~7, 和
+设这 AME AES. “FALLIN O~7 的 8 个帧，接收方将无法罚听第二办发的8 NL
+到了虹是重传央还是新幅，因为它们的汉号交全相同。另一方面，对于后退 四押议，改送窗口大
+小本以等于窗口站数~ 1，因为它的接收窗口大小为 1，所有的由保证扩按收。因此对于窗口大
+水为前滑动窗口，其送窗口大小最大为9- 1，即最多可以有-四已发送但没有确认-
+
+4
+
+在造友重村傣设中,车用比特对全编号,则发送窗口和接收窗口的大小关系为1< 本。
+由，还要满足 Ha+ WS", ERR MEARS 9 2'-7= 16-729.
+
+16D
+
+ASMA TLR COE LALLA MCAD, SEMIN AM, ME REC
+窗口协议，表示接窗口大于 1，所以使用的是选择重伟协议，按收应口最大尺二为21.
+
+mb
+
+AAORNG HSIN OURS UCARLSROE EER, RAE ARCO I
+时下(一个数所名的发送时秆 +RTT+ NARRATE). SL P= 一个数据由的发
+RIE + RIT + 一个确认由的发送时延，其中数据由或确认二的发送时延 = 2000B20khw) =
+Doms，RTT- [400m 5) 7= 8D0+ 300+ 1400 ~ 3000ms。候设和着窗口大小为w 则 3003000>
+98，即发送窗口大小x要大于3，GBN 协议的发送窗口为2:- 1 = 7，满足要求，SR 协议的发送
+Wy 2 =4, QAR. Wile, AM ZMH LA GBN 协议或SR 协议-
+
+18. c
+
+RA AOE ETAL TT ADA. ERLIRNTLAARA AN E
+Wie ONE RIEM A, NR ATR RL ARO A ERR
+
+wc
+
+a(R EAUALERGS (100%). SARI EAA AION, SH
+NMR CMM HANGAR. RIMM = Rk ARONA + 往到
+aE + 发过一个确认本的时间，发送一个数据由确认由的时间均为 28B-1Gthls= ams, 发送
+周期 =64ms + 250mrs2 + Gdms = 628ms。 为保证发送方持续发送由，在一个发半期内至少要发
+ARAVOLAOY OSmsisime > 10, IEW A A I9 10, ALTE SAE LEH
+
+20. D
+
+信道和用率 = RAID SRR ARR, SRA = 5A
+(oie) + 入时迁 + 发送一个确认轴的时间。 停止-等名议的发送窗口 1, SOBEL 1
+SRP, SUDANESE WALNUT ATH roma IEA
+
+ac
+

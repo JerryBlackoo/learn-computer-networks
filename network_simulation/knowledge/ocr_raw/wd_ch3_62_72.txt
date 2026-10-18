@@ -1,0 +1,600 @@
+===== wd_ch3_62_72-062.png =====
+son
+
+数据链路层
+
+【考纲内容]
+《一) 数据和路层的功能
+= at
+(=) amr
+etna, vena
+《四) cla saree ILL
+ica are Sin WU Aue Me
+后由协议 《GBN) ; APR ALU (SRD
+(五) 介大访问控制
+1信道划分，频分复用、时分复用、让分复用、码分复用
+2. RIVLU)FL: ALOHA thks COMA 协议，CSMAICD 协议 CSMAICA 协议
+3. Heiethia eae thie
+0 局城网
+MRAM BES RAN, DOA
+
+IEEE 802.11 无线局咸网，VLAN (ISAAK
+Ce) a
+
+广大网的基本概念，点对点协议《B
+
+CA 数据链路层设备
+
+以太网交换机及其工作原理
+
+【旬习提示】
+
+本章是历年考试中考查的重点。 要求在了解数据链路基本概念和功能的基础上，醒点人所
+清动窗口机制、三种可靠传给协议、各种 MAC 协议，特别是 CSMAICD 协议、CSMAICA 协议
+和以太网站格式，以及局柜网的争用期和最小由长的概爷、二进抽指数避算法。此外，中器、
+A, AAR AB ee A
+
+py
+
+»
+
+3.1 数据链路层的功能
+
+数据链路层的主要任务是让杆在一段链路成一个网络中传输。尽管数据链路层协议种类繁
+SEALANT: ARH. AGAR Abe.
+‘oA A.
+ee eC ee ee
+===== wd_ch3_62_72-063.png =====
+第3章 mas                      st
+
+2) ibis —ALBIB(E, AH ARMOR TMA LAN REAT A
+3.11 数据链路层所处的地位
+以两台主机通过百联网通信为例《见图 31) ，局城网1 中的主机 SER RI
+及路由器 R2，和连接到局域网 2中的主机 H2.
+主机 HI 和 HD 均具各完整的五层雇议模，路由器在转人分组时仅使用协议机的下
+
+HL 向HP 发适数据时，数据在各节点的协议栈中多次上下流动《见图 32) = EA Rh
+在拷发表中确定下一孙地址，再下至物理屋转发出去
+
+人
+
+图31 主机 ore ee
+
+tite.
+
+当
+
+铸而，在学习数据链路层时，我们通常到信于水平方向的数据链路层交互。此时可将通信
+过各简化为，HI 的链路层一R1 的链路层一R2 的链路层一H2 的链路层《见图 33) 。 这三段链路
+可能采用不同的数据链路展协议，但每一段都独立完成由的传答任务，
+
+图33 只考卡娄所在数据和路导的让动
+
+下面介绍点对直信让的毕本概念，其中训分也适用于广播信逢。
+
+1D 外路。指从一个节直到相信点的一段物理线路，是通信路往的组上部分-
+
+2) 数据然政。在物理链路上添加实现通信协议的软配件后所形成的到辑通信通道.
+
+3) 帧。数据链路导对等实体问通信的协议数据单元。发送方将网络层交下的数据寺装为人
+hike HCH APR RI CAT
+
+312 链路管理
+
+伏丰管理是指数据洒咯层连接的建立、维持和释放过程，主要用于面向过接的服务。
+通信双方必须首先确认对方处于就绪软态，并交换必要信息《如初始化由序号) ，才能建立
+
+===== wd_ch3_62_72-064.png =====
+2                               2027 年计算机网络考研修习指导
+
+连接，传答过程中需维持连接状态，通|
+
+313 封装成帆与透明传输
+
+封某成相是指在数据前后分别添加首邦和尾天构成一个完整的帧。赴长等于十的数据部分
+长座加上首邦和尾部的长度，首邦和尾部包含控制信息，其核心作用是机定界一一帮助接收方从
+比特流中准确识别由的起始与结束。例如，在 HDLC 协议中，使用标识字段 F_(DIHH1110 标识
+本的开始和结束。术收方将第一个王视为术的开始，下一个王标志访帧的结束，如图 34 Ho.
+为提商传欠效率，应恒数据部分尽可能长，但领过长全增加关错入率和葬传开销因此，各类链
+路层协议均规定了最大传送单元(MTU) ，即由据外分的长度上腿-
+
+MRE.
+
+a a ee es 和
+cum | sw | ew [wore | tow | omine
+图34 HDLC Ht,
+
+党明是计算机领域的一个重要梳念，意指革事物虽存在，但对上层不可见-
+
+迁明传人是数汤链路层的重要特性。“进明 ”在此塌为，即使数妆中恰好出现与由定界特相
+同的比特组合，也不会被误判为本边界。着不处理此问题，按收方可能提前结束由解折，导至后
+续数据于失。实现过明传后，接收方能将由完整恢复为原始SDU (服务数据单元) ，合网络导
+BAAS” ALON} ROARS ERE RA
+
+3.1.4 流量控制
+
+由于链路丙并节点的处理速率或衣存能力存在差异，若发送方束率过高,接收方可能因来不
+及处理而导致央寺失。国此，流量拉制肖在限册发送方的发送速率，使其不超过接收方的接收能
+A, LAAN, RURAL, ELI
+
+在 OSI MALE, HULA AT RAIBEIAL, ALE UNOAIAE TOMER HEME TCPIP HL
+Abb. Bonn RUG Cin TOP) FRG, SHAR RAH TRIN.
+
+31S ”差错检测与可靠传输
+
+由于信首只声等因素，帧在传输过程中可能册现两关错误
+
+1D 仁独: 慎中某此比特发生秋转，通党过循环吕余检验检测，
+
+2) Heh, BME. GAIT, PAR CNR
+
+早期 OSI MUR, HURSEEBZUm KILOS AORTA. Blac, 7 CRC HAIER.
+SIA T AR. TTA SARMEUL DL: ARACEAE IRMA RET ALE EY RR
+HOA, UU HAR IEA HE, ACMA
+
+ing, JE CAITT AR YeAUL BURL TSK: CORUNA ARN, MAE RE 2
+RAMS MEHL, CLARO I, ERRATA, AERIS CREAT CRC
+He, HUSANRIELHRE I, SUA. LOY, AEE Se AHL Cee TCP Sen.
+Cee et ee
+
+3.16 AME
+
+ae
+OL, 下列这项中，不属于拭据全路导功能的是( ) -
+
+===== wd_ch3_62_72-065.png =====
+第3章 mas                      53
+
+A BR    Ce ee co
+02, FHP, RRP AUOHE SE ARH CY.
+
+A amie BSH OC. TRAM. Waki]
+3。下列志项中，不属于旧据链路车协议功能的是 ( )
+
+A。 RAAB          BATALI He
+
+控制对物理传输介质的访同    ad
+OL ATRL EAE HER, AIIM TIL).
+
+AL BUR UL            本环完全检验码
+
+Ca                 D. Hohe aaah
+OS. abt Eat LAL OLR Heim, AIIEOR AM ( ) 比较合适，
+
+AL 无确认的无连接服务      BARI RSE
+
+无确认的面向连接服务      D，有了确认的面向连接股务
+06, SEARO La ( ) 的控制，
+
+A Ay ALE         Bakes
+
+Ck, Hei Ste       D，甸史上任意两节点间的才所流量
+317 答案与解析
+ee
+O18
+
+SORE HARTA ELAS. 1p UR MERL ARREARS HGR, tn OTIS
+ORIEL Lan eH, RINT M EAR EAR: APART SIB- MILE RAO EAP
+FFE, PERSE OLED, WLM FAL EAE HARA POL. SHH RL
+本定界、差错检测、链路管理和流量控制。电路管理功能由物理导提供.
+
+2D
+
+EH ARI det a, ALP NE
+
+03.0
+
+SOREN HARELSENML, ATMOS LAUR HN, eo A 正确。数据链路层在物理层
+提供的不可午的物理连访上实现节点到节点的可靠性传给选项号正确。 控制对物理心答介质的
+访问由数据链路层的介质访问控制(MAC) 子层完成，选项 C 正确。 为终欠节点隐蔽物理传答的
+细节是物理层的功能，数据链路层不必考虑如何实现无关别的比特传答，选项 钳误。，
+
+oD
+
+SYBIAN EAM, EMT ROATREISEL IRE, STS WRN ARONA
+
+MERE. SiN BEMT MUM SHAM, AIARIRIAM, MARIE EE
+ARABS, REL RM ML eM ALERT PSAP PEN
+
+05.4.
+
+KARO KALA IAT RA RAR NH, FL HSN A
+RE. TONE LATTA EK, WARM E ROR, WA
+BA. SAIL, RMR AC id. any wee pos La a. RM
+SRA UAE, La RE RACE,
+
+06.8
+
+i 0 yA A
+===== wd_ch3_62_72-066.png =====
+54                               2027 年计算机网络考研修习指导
+
+各技术。流量控制功能并不是数据链路层独有的，其他层上也有相应的榨抽策略，只是各层的流
+量控制对象是在相应层的实体之癌进行的-
+
+3.2 组帧
+
+发送方依据特定规则，和将网络层旭交的分组寺装成癫《也称组村) 。数据甸路层以由为单位
+传给数据，主要目的是， 一旦出错，只需重发出铺的帧，而不必重传全部数据，从而提训传答效
+素，组由需解决横定界、由同步和和明传条等问题，沉见的组由方法主要有以下四种
+
+ANGER SIMS, BRIS, RL. MBPT L MAR MER, Ra
+
+ee ee
+
+3.2.1 字符计数法
+
+字首计数法在及首部设置一个计数学自用于记录该央包入的总字节数 (包括计数字肌自身
+右用的 1B》，如图 3 Ria. HECTARE AES. opie MH Ke Ae
+结束位置，册于本是连续传欠的，下一由的起始位置也随之确定-
+
+一一ra             eal
+DOO0BB
+          ao             at
+es           ee
+
+图35 Foi
+
+字符计数法的主要缺陷必，当计数字段在传输过程中由异时，接收方将无法正确识别由的边
+异，导至收发双方类去同步，可能引发灾难性后时-
+
+32.2 字节填充法
+
+字节二才法通过特定控制字符实现颌定界。在图36中，控制字符 SOH 表示傅的起始，EOT
+表示由的结束。为避免数据中出现的 SOH 或 EOT 被误庆为由的定界符，发关方会在这些特殊字
+符前搬入一个 PSC “PAF Gib. ESC ASCIL 到中的一个单字节入制字符) ，以实现进明传输-
+若数据中原本就包含 ESC，则同样在其前再插入一个 ESC。捷收方收到 ESC 后，会特其丢弃，
+并将紧陆其后的字符视为普通数据《而非控制字符) ，从而还原出原始数据,
+
+ommannesi SO
+meena
+后
+oRterticemia
+Tamia
+
+图36 字节病友的过各全
+
+当站的数据部分中出现 ESC、EOT 或 SOH 时 [见图36(a)] ，发送方在他个ESC、EOT 或
+SOW 之前插入一个 ESC 字符【见图3Gtby] «HCE LESH [见图36(o)] «
+===== wd_ch3_62_72-067.png =====
+第3章 mas                      55
+
+3.2.3 BATE
+
+ETE! > vows mesa ors)
+
+过比特寺法多将数据帧但含任间数重的比特，并用固定比特囊 01111110 作为由的起内
+和结束标志，如图 37 所示。为防止数据池让中出现与标志相同的比特序列，发送方在扫描数
+据时，每过到 $ 个连续的“1”，趟在其后自动插入一个“0” ，确保数据字段中不会由现 6
+个连续的“1”，有避免与由标志混活，接收方执行志拘作。爷收到 s ee “I”. AREA
+出队其后的“0”，以恢复原姑数据，时期的 HDLC 协议正是采用这种方法来实现过时居输-
+
+IT oo
+Royiooo
+人和oo TE Foote
+ance
+
+图3.7 比特填充过程示例
+检比竺填充法易于硬件实现，性能优于字节填充法
+
+3.2.4 违规编码法
+
+款规六码法利用物理层贸码的宦作特性实现由定界。钢如，在曼彻斯特编码中，比竺“1
+eS “HR” 电平对，比特“0” 编码为“低-高” 电平对。而“高-商” A
+SECULAR CRUE. BULA DLAC Re AAR
+网TEEE 802 标准采用了这种方法《更多介绍见362 15) . RENDER AEE ALRIGHT AT
+
+现适明传输，但仅适用于采用宛余编码的特殊编到环境
+由于字符计数法对计数字段错误极为敏感，而字节填充法在实现上较为复杂且存在交春性间
+
+题，因此目前更六用的组由方法是夫比竺填充法和违规缚码法,，
+
+325 ”本节习题精先
+
+RE
+[2013 RAET BLE 协议对 OLLI HHOOOILITTIO 组由后，对应的比特事为( )
+GR: HDLC HR CARA AP BIR.)
+
+A. ONTO 00111110 10,        B. O111TI00 O11 101 OLLLIAIO
+. ooo 011111010       D. onnnoootnnootmiot
+Seana
+
+OL, Aaa a ARN FL AE
+ADIOOOLII; —BITIOOOII; ESC 11100000; FLAG 01111110
+
+在使用下列组村方法的情况下，说明为传送4个字符 A、B，ESC，FLAG 所组织的慎而
+SRILA = AATF] (使用 FLAG 作为首尾标志，ESC 作为转义字符) «
+1) 使用字符计数法，
+2) mE PARR.
+3) ARMA
+326 答案与解析
+
+eat
+oa
+===== wd_ch3_62_72-068.png =====
+56                               2027 年计算机网络考研修习指导
+
+HDLC 协议对比特时组由时,日DLC SURE RELIES Bt O11 1110 标识每个由的起始和结束,，
+因此在由数据中只要出现 $ 个连续的位 “1”，就在蛤出的位流中填充一个“0”。 因此，组由后
+的比特申为DTTMQ0 OOH ID (下划线部分为新增的0) 。
+=, Roane
+o1 (81
+1D 第一字节为所传输的字符计数5，转换为二进制为00000101，后面依次为A、B、ESC、
+FLAG 的二进制编码:
+‘99000101 1000111 11100011 11100000. oil0
+2) 首尾标志位 FLAG COULLILTOD ，在所传输的数据中，若出现控制字符，则在该字和|
+入转义字符ESC (11100000) ，
+‘O1111110 0100011 11100011 11100000 11100000 11100000 01111110 011110
+3) 首尾标志位 FLAG (OLIIINIO) ，在所传条的数据中，若过续出现 5 个
+MAO"
+on O1000111 110100011 111000000 Oiloi0 oO
+
+则在共后
+
+3.3 ”差错控制
+
+实际的通信链路并非理想，比特在传输这程中可能产生关情，1 可能变为0，0 也可能变
+成 1，这种现象多为比特盖错。比特差错是传输差错的一种，木节仅讨论此类差错。
+
+RRR, EE. ARTE RIANA. RIERA
+PROTEIN. SRAM LE. ACRE MAO AR Maas RAL RAN,
+HOTAOWRTE HN. BEART BIE MELA TE. AER UGE Z HL SEAT
+BE (iu Akah 156.8) (IRs —e Em ARABIA ANA MA
+
+ER， BRASH aoa)
+
+SIH POF EME CARON Re. iT SCENES — AER
+FR Gop 325, A HT RNARE, HI, OLIQSONIL=O10L, RAAT 1 He
+这两个玛字有 2 位不同，因此其码中为2。在一个各加集中，任意两个有效码字之间码距的最小
+信称为该编码条的到下。例如，对于编码集11001L.DI01L, 11110, cO001}. LAK 11110 与00001 的
+‘ROE 5, (2 10011 与 01011 的到下仅为 2，取各码乒中的最小也，求得该六吧集的码下为2-
+
+根据差错控制理论，编码方案的检漠能力和纠讲能力与码呈/的关系如下
+
+Indtetl, Hd
+
+PSE Jc, SCHRAMM RAR, SHALE HLA. LANA EAN Ci
+‘SIRARIE HARD. Ott, ARES 7= 3 md, RARER uT a2 CURR, RATE 1 位错误。此外，
+进一步    aR d= ec 的两种边界情况，还可得出以下两个重要结
+1D 为检测 a 位错误编码方案的码中至少应为4+ 1。 任何发生 df位错误的有效码字不可
+
+能变成另一个有效码字，以确保差错可被发现。例如，三中为 1 的编码无法检测任何
+
+cr
+
+2D IsHE eALAMR, PST MEIER TE 2+ 1. WOKEN
+CRRA, CAME —wnse RARE, NEN,
+
+He (UH FE
+===== wd_ch3_62_72-069.png =====
+第3章 mas                              87
+
+33.1 检错编码
+
+检氏兵权均采用宛余编码技术，其核心思想是， 在有效数据(信息位) 发送前，按照特定
+出了加者二实人位 《检验位》，构成一个符合预设编到规则的码字后再发送。当信息位发生变化
+My TARA ee IRENE, CLARE PTI. BCR
+TOV RIMM. AUNTIE TIE. IRAE ee ant A
+规则，进而使央错被有效检测出来。常见的检错到包括寺公检验码和傅下完全码，
+
+1 ree
+
+奇久检验码是坷检验网和全检验码的统称, 是最基本的检卉码。 它由位数据和 1 位检验己组
+成，术验位的取值 (0 或 1) 使得整个码字中“1” 的个数为奇数《奇校验) 或俩区 〔贷术验) ，
+
+1D 寺术验吗;由加检验位后，码字中“1 McC.
+
+2) Se INARI. Bp “1” 的总数为偶数.
+
+例如，7 位数据 1001101 中有4 个“1”《俩数) ，因此，允应的奇检验码为100
+HEAT" 的总数为奇数) ，对应的偶检骆玛为 10011018 (加0 使“1” 的总数保持为代数)
+
+奇偶检验码只能检测奇数位典误无法发现代数位铺误，也无法定位错误位置。由于任意两个
+合法冶字之间至少有2 位不同，其码曝为 2。根据加中理论，此类编玛最多可检测| 位镜误。而实
+际上，只要发生奇数位错误，“1”的问数亩偶性性改变，因此能检测所有奇数位错误，
+
+2, aR
+
+芋环宛全到 (Celie Redundaney Code, CRC) 是数据各路层广泛采用的一种高效检钳技术，导
+HORNE AR. SUNT TEPC IRS, KAKU.
+
+CRC 的核心如:将竺发送的数村视为一个二进利多项式,通过与一个预定义的生成多项式 Go
+进行特定运算，生成一段元余校内信息 〔称为内验闯列，FCS) ，并将其附加在原始数据之后。接
+YOKE IPE Go)对称个接收到的由进行星还，从而庆断传欠过程中是否出现益生-
+
+CRC Beith Let ITF.
+
+8 约定生成多项式 Ga
+
+收发开方事先约定一个r+ 1 阶的生成多项式 Gtx), 其对应的二进抽系数申长度为r+ | FM
+
+高位和最低位必须为例如，位冲 OL MINK oP +1，其阶数r=3.
+
+发送方生斌FCS
+
+ARAYA mf, TEAL Me 在 好后泊加r 个4，得到长度为四+的扩展品《相
+
+SCPE M AEE rH, BOAR 2 ;用 Go对应的位对该扩展囊进行模 除法 (不进位的一进
+
+Ris AGRA IEETERIRD + RADAR kerf, ERAN OD BD FCS: 将原扩展
+FEI 0 PH RCS. ARIE CM + FCS) EAR m+ He
+© lore
+接收方收到用个义 《可能出错) 后,用相同的 Gaj对其进行模 Ries FOO, WU Aste
+FER, AEM, TRACTED, UA ARAERNN, EEK.
+
+EET» crc ERM MAN coz
+
+以数据 M = 101001 (mr= 6) ARE Ge) = MOL (对应r= 3 为例-
+
+CRC RARE PRR
+
+1) AIM: 在M/后加3个0，即 101001000,
+
+2) AM 2 除法，用 1101 去除 101001000，如图 38 所示。模 2 除法规则。， 减法不代位，等从
+
+ont
+
+===== wd_ch3_62_72-070.png =====
+58                               2027 年计算机网络考研修习指导
+
+于按位异或，从最商位开始，每次对齐除数进行异或，直到处理完所有位
+3 取余数，最终余数为001 CORT 3 1 。
+4 构造发送站，将余数作为 FCS 附加到原交数据后，即 101001001 (共9位》 。
+
+Hora oom
+ay 1101 ToTor TOP
+
+te, CS
+图38 MORCAMIEMEE
+
+CRC ess Rese AH NORA, EMER, SLPS ARMA. BH
+过程中无关铺，则 CRC SAHA RRL 0; ULI, ALO 0 MOPAR. IL, Ze
+Rap "RARER HE A, LSP Tae cee Beh AA EA
+MIS SOOM, REALE. BT CRC HA RNIN LE
+
+3.3.2 纠错编码
+
+最藻见的纠错信友是海明码。基基本原理是在诛妈信息位中插入若干检验位，构成具有术错
+与绅钳能力的海明玛。每个检验位对应一个核欢组《通常采用偶术玫) Ea TH
+于信息位。通过将每个信息位分本到多个检验组中，当某一位出错时，会引发其所属的多个检验
+组同时册现校验错误，从而不仅能检测出错误还生确定情误位置，实现单比特纪铺，
+
+下面以信息位 1010 为例，详细介绍海明码的构造与纪铝过程，
+
+Cy 确定尖明码的总位到
+
+设信已位有羊位，检蚂位有到位。大个检验位可表示共和要态，信息伺和检双位共有+ 大
+种间比特出钳的位置，此外还消 1 种表示无错故态。因此， SE
+
+和1
+
+AOC n= 4, R= 34 Pp 423+ ARE. MOR 3，海明码共4+和=了位。记信息位
+为DypyD= 1010，检欢位为 PPaPi，海明码位号从右至在依次为 MAINE.
+
+(2) 确定检验位的分布
+
+规定;检验位如放在海明似号为 2- 的位置 上，其余各位放置信息位，因此:
+
+PEAS      1, HP.
+Po AMMONIA 2"=2'=2, AD HH Pe
+PAM By = 24, AO HH Pye
+
+ILTMOTRRAE RL RIL SION AR
+Hy Hy He He Hy Hy Hy
+Di Dy Ds PD P,P
+
+(3) 分组以形成检验关系
+
+每个信息位由多个检验位共同校星，王江中条件，信息位所在位号 = 其所参与的所有检验
+
+===== wd_ch3_62_72-071.png =====
+第3章 mas                      59
+
+AHS 2A0. 51S. SROKA. SHALE MRA HRS
+
+Tare] rar] ae
+DOF Me Simmer, Bs 30m =          for          1
+人于机 simanpnet: —sbasuone | 4            oft
+Deter. suman, — asain | 4     a |e
+aor 由UP some | f+] > [elo
+a we mA
+
+(4) 检验位取信
+检验位如的信为其对应校验组中所有位《售信息位) ARR CRRA -
+根据 (3 中的分组有
+
+月核验Di Ds, Dy     -DemeDp=0a1B1=0
+PED, Ds Dy      D9D8D,=08001
+PSHE Ds,Ds,Dy + Py=Ds@Ds@D,=1808 1
+因此，1010 对应的海明码为 1018018 (下划线为检验位，其作为信息位) 。，
+(3) sea tea
+‘DS PFT MRNA OT eNO. PUR MBE le
+
+Si=Ps@ Ds D4 Dy
+BSS, OHBUN" 000" RATERIR: 否则表示出千, LRA ARAL ONE S,5,5,= 001,
+表示第1位出错，即 1 NR, PSUR ZEPHANIAH
+霉明码的优势在于，通过少量宛祭检验位，可实现单比特错误的自动定位与纠正.
+
+3.3.3 本节习题精选
+aki
+OL, Fea RASHhIe mR LARA ALNOLE PHBH ) -
+AL AROSE REAR A At, RAR OR
+日言情检验玛有能检测出铺谍丙无法对其进行修正，也天法检测出双位鲁训
+CCRC 检验码可以检测出所有的单比特铺训
+D，海明码可以纪正一位关鲁
+02, FART GMM HED, LALO).
+A Ritibdiksbae cehihibik 。 日，能检查出任意比特的错认
+CCRC RT        DL SARA ak esha
+03. FAS 的 ASCII RAMA SH RAK NOOIOL, RMI, AFAR SIA Ea
+oh HRC) 不能检测-
+
+A. nomoll 。 B noooo cnoono D nooon
+4为正比特错误，二码的码焉至少应为( )
+        SS
+上对于 1 位要传人的吉播，若采用海明友检验，天需要增加的完作信息位娄是( )
+AB      Ba      cs      D6
+
+06. FAAP EHM TLE, RA).
+===== wd_ch3_62_72-072.png =====
+60                               2027 年计算机网络考研修习指导
+
+A Gr 个检验伍的多项或编码可以检测到所有长度小于或等于的突发性错训
+BME TAIN RAL SAA
+CCRC RETR RHE ER,
+D. AAA RS SAR, LSAT ATMA, AT RAE
+
+07, RAHI 1101 O10, AM CREF, LA FAAR WOU, MARAE
+ORO).
+‘A. Hot o1to 1110 10         B 1101 0110 1101 10
+© Mor o110 111 10       D. HINT 00110111 00,
+
+08, (2023 RAMEY BPH CRATE AM CRC HEE, AK SMA GYR NALS
+1G 10011) «R12 RRa SH C) 时，可以断定其在从过程中未发生铺该.
+
+Aionioom Boltoo C1011 1000. 10111 1100
+(09, [2025 HAD A 8854446669} (1001 1010, 101 1100, 111 0090, 000 IEE}.
+本编码的检错和色情能力是【。 )
+
+A。不超过2位钳的 100%检钳、不越过上位错的纪儿
+日不超过2 Aha) 100%检错、不超过2 CAH
+CC不超过3 位傅的 00%检错、不超过1位错的纪铺
+D，不超过3 位备的 100%6检者，不超过2位钳的纪铬
+
+Sone
+OL FARBER, BARN ACH AH ALALAEDI 4 10110011010，必发双方采用的生戌多
+RH Gajax t+ 1，则请比特库到在传输中是否出鱼? 车未出铺，则改进数所的比
+AEFI CRC 检验码的比转序到分别是什么?
+
+3.3.4 答案与解析
+
+=. en
+
+ow
+
+REEMA TCR. ARRAS IMSNITERTS. RILALCURMOR ATION. or
+PLANE WAM. CRC HESS AT ELINA AEAG MLLER RE GBC ERT
+
+OA
+
+(BT ACN" a MR
+它只能检查出奇数个比畦的错误。，
+
+03. D
+
+有拓采用奇检验，那么办的数据中 1 的个数着是偶数则可检测出漠误，若 1 的个数是坷数
+则检测不出错误-
+
+4 D
+
+要纠正了位错误。编码的码中央满足 24*+ 1. d= 2 时，所交友中为2x2+ 1= 3
+
+05.8
+
+EATERY EAM r ERSTE, MIRA RHA, DARL I RL a
+AORN TREE MAKES Wrad,
+
+06.8
+
+EAMONN ARCA IEE — eRe. TART 2 阶法,
+POSIRSQPS, Ce RUERLINMN eNO INT Sm. HCH ACRES. Ue BERL
+

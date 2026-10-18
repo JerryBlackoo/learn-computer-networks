@@ -1,0 +1,749 @@
+===== wd_ch5_247_260-247.png =====
+st ee      235
+
+FPR OLED. RMSE. ORE aR. AERIAL Ae Kee RNA
+FRASHREDL,
+
+wc
+
+UDP 检验和的计算方法是二进制反玛求和再到芭， AHR UMEIEINN AAR
+到疝位这列进行如法运算，0 和0相机得9， 0和 相加得1，1 和 1 AMINA O 并产生进位 Le 若
+报商位要加后产生进位，则将该进位如开果的最低位，访过程也称回郑。计算过程如下
+
+a merece. anon
+
+一ao
+
+m8
+
+NAT 在转发内同主机是的 UDP fic 23 1 HARARE A AD UDP AEE
+号 CMD « 。而目的于口号 GD RAK. UDP 首部中的总长度 CH) 仅由 UDP 数据自身
+次定，未发生变化。但由于 UDP 检又和 CIV) 的计算包信全首部《全于中 地址) UP AE
+NAT 尊的后，总天重新计算检验和，因此IV 被修改，纺上，仅1和 IY 被做改。
+
+Roane
+
+时
+
+仅仅使用 下分组还不外.二分组包坷地址。访地址指定一人目的机其。一这样的分和
+到让目的机器，网络控制各凤如柯姑半把它实给哪个进程错? UDP 分组包公一个目的硬口，这一
+信息是必雷的，因为有了它，分组才能投间给正确的进程此外，UDP OTL aE HO OA
+pCO EU SLUICE an
+
+a. bie)
+
+TCP EER AOARIP A, HORT. MAR. SELON PELE, SRURARGE T YeNRHIET
+2th, CILANTRO AFM EE EUR. RMA. Ne
+Ce ee ee
+许有太大的时延，因此泛合使用 UDP. UDP RAMA, ERA AEM, RARER,
+因此不适合可靠性要求商的应用，在传送数针对可能会和失数据，对于可竹要求高但实时
+性要求人的应用。如文件传输、电子和人等，适合使用 TCP.
+
+03. (086)
+
+RIG. UGH, TP BRRARUOI ERATE. OLA LHD UP RE A
+fem tam — > 1 UR. Th A ARIAS Ge RAR HRA,
+iets" ARH
+
+os tie)
+
+1) S81 2 FADED, RD 21, MARU RLY 6265. 583. 4 NAL OD
+
+1, 0045, HARIRI 69. 第6 个字世为 UDP 长度(包何首部和数据部分)，
+00 20. SHRM HIRES 44, MULLIN 448, RURAL IN 44-8368.
+2) 由 D OP, HK UDP SR RRINISE Ys 63268, ARTI Ds 69. Ae PB
+用的六口号，后一个为的 TFTP OTSA A
+os. C0
+
+===== wd_ch5_247_260-248.png =====
+236                            2007 itm LI
+
+DLAI EIR RIOR ERIE 15008, UDP FRIBERG UP RTE
+i ARICILAG 208. 于数据报的上自修指一个上自在原 SAHA. OA
+是8B。UDP 用户数据报的数据字和为8192B。加上 38 的首部，总长度是8200B，应当划分6
+PUP ARIE # PALE CIE, ACOA RE FRE
+
+wm [s >=? ]>]~+]=:].«
+xa | om | om | ron | ive [mom | aa
+WE | oa | om | ram | lose | rom | ao
+ee |e] ws | mss | ef os
+53 TCP
+S31 TCP 的特点
+
+“TC 是在不可各的 IP LOA ARRAN RYE AL HIRE
+PIER, FAR, MATAMEANG AE. SERRE LAT
+TD TCP ALGAE IDOL. BEES] AT Ab ES HOE.
+2) 每一条 TCP 过楼内能有两个点，且仅圭一对一通信
+3) TCP 提供可千交人服务，保证所传雪据无关铺、不丢失、不重复且按检到达.
+2) TCP 支持全驱工通信允许过信双方的应用进程在任何时候发送数据。为丝，TCP HR
+的两涌均没有冯送组丰和接收肖存，用来临时存放双向邓信的数据.
+5) TCP 是面向字节六的。 尽管应用程序与 TCP 的交巨是以一个个数据《大小不等) 进生
+的，但 TCP AME MARBLING LEAH A. AS EIR A GL
+TCR 与 UDP ZRII LER AACA. TCP JAS K AD IOS AP
+SHOR, TORMRAE AL AOI, ee — ACRE
+多少字节《面 UDP ALCOR ALARA. BRATHAN TCP AO ALAR
+长，TCP 会将其划分为较短的数据沁伟过，着数据块过得，TCP TREN, OCR
+长度后更寺吉并发送。关于 TCP 报文长度的控制机制，将在后续齐节详细讨论*
+
+532 TCP HCE
+‘TP ERE IERIE. A TCP ALE 9 AO OMLIRTAN IF BES TCP 报
+SCARIER AAPA, MLSS 所示。TCP LEATHER IC
+ERR, UES ATI MER IPA. A HRA TOP MLE. TCP 首部的前 20 个字
+他是国定的后面有 ANP RES ETM MI, kL. TCP RABI AIS 208,
+PER. LBs
+Gay» 1 RNA THAL OD
+Daemon oh 2 dh 28. SAAR RR MARC ARIEL.
+ TS
+2 库革。右4，范围为0一28- 1，共2个庆生。当序号达到28-1 后，下一个序号特加
+S10. MARIN 2 SEN. TOD 连捷中传类的字节访中的每个字他帮按本号，序呈
+PROUD TANKER RRR IE PNAS.
+
+===== wd_ch5_247_260-249.png =====
+st ee      237
+
+olin, SRAM 301. IRAP LOO, RA PEO Ia — RR
+字节的凤导为400，国此下一个报六的数所应从序号 401 FPL.
+
+7            AL
+ges = ARAM = =
+
+Biss Tepmem,
+
+3) RE. 8 4B, Ze FHLB RE EES. BME
+
+DUN, SUESISIPESS N- 1 为目的所有数据均已正确接收-
+例如,有 正确到了 TRL), 其序号为 501数据长度为200B( 对应序号01一
+700) ,说明 B 已完整接收到了到序号700 为目的才据因此，B MRE FN
+世间几呈为701，于是在从的确认报文科中和确认号置为7D1
+
+aa» Tr BREA con
+
+DARE CHIBI. 2542, APPAR TCH HREM. MF EE KIT
+变的选项字舟，该字良用于指示 TCP RK Me A ORES SCRE
+RIE. FREER a, IER FRILL LT BER
+‘TCP HSE 9 208, ALLER EF FLOUR 54 HEM IC 1S,
+因此 TCP 首部的最大长度为GOB 《选项长度最多 40B)
+
+5) RB. HOE SDSS HEH, AMATI OS
+
+RU 6 Hebe, AEs 1. APROLASHR EEA,
+
+©) $BGURG. SURG=1F), RIRARAF RM. GURARLRI EARL
+8, CHLIIOM. RAEI ARA ER RRR OT, ER OEM. A
+deme ROMA Fee.
+
+确认位 ACK。仅当ACK = 1 对，确认序号字区才有效，当ACK=0 时，确认订号天.
+“TCP Sic. {ORIOLE BABE ACK IH 1
+
+8) AEG PSH (Push) . ERIM. KIEL AG > RELIOEHUIKE. Bt
+时发送方将 PSH 置为 1，接收方收到 PSH= 1 YARRA. UHH RR He
+程，而不人等到区个级丰填清后才向上交付.
+
+9) 复位位RST (Reset) 。当RST-1 时，类示 TCP ARAMA MALI) ，必
+De ee ee
+
+10) IPEE SYN. SSVN=1)._ RAPER RIERA
+
+SPSYN=I. ACK=081, 225K HERWPRIL, APY AGARTHEAR, NMEA
+
+===== wd_ch5_247_260-250.png =====
+238                            2007 itm LI
+
+文中设置SYN-1 FLACK =I. 3 Fabtei aL AUER. #44E FTIR
+
+11) SEE FIN Cinih) « FIER. FINN, RUGHREROIOET ee m
+RHE, rR EE,
+
+12) #2. 2B, MBN O~2"— 1, DENA, RRMA RAN, Ao
+SUPERCAR IRIN DCMI. 它告诉对方《作为发送方) “从本报文良
+的确认订号所朱示的字节译号开始，你最多可以连续改进这么多字节的数据”
+例如车克认序和为 701，窗口字段估为400，这表示发送方可以从序苇 01 开始， 连
+RANE 10008 的数插《字节译号为701一700) 。
+
+15) 检验和。占 2B。检验光国包括首作和数据部分。计算时华在 TOP 报文肌前深加一个 12B
+的信首部“与 De AL, REAR 17 改成 6，长度字良改成TCP 长度) -
+1) SAI. 2B. LE URG= TNFR Hl AAAI OUR Te COR HE
+
+(CERES » MRM, (OPERA,
+
+15) AR. KSPR, ARKO OB. AMRF, TCP 首部长度妈为20B。TCP 最初只定义
+Heb, EDLANLILAAL (Maxima Sepment Siz, MSS). EAR TCP ALLL
+地字委的最大发度。后续双增加了窗口扩大、时间大等项，具体内容请参见孝村-
+
+广意，与MSS 类外，数据外导的 MTU TALEO LIRA
+16) AR, AFFAIRS EAC $B 的整数秸。这是由于选项字段的长度是可变的，
+
+533 TCP 连接管理
+
+‘Tce APaieleA SRR. utes TCR MARI ree MSL AR RAT
+Teak, TP HE TPE FLARED PTAGRAE TER TRIGA
+
+PE TCPHRIRIE MEM, MALLE = HB
+
+1 team gacsriRINS OF
+
+2 AIPSUIMONRE SE MAM. ARMA le, aR
+
+3 为人办实体分配包要的新 CNRAe2I. HIRATA.
+
+TCP 将入作为最基本的抽象。每条 TCP MATA, RAB MAILE ML A,
+也不是应用进程或从尼绸口，而是大扩字 (Socket 。一条 TCR AEH ISN NRE
+唯一定。涯要注意的是，同一个地址可以参与多个不同的 TCP HR, RE ATUL
+现在多个不同的 TCP HERR.
+
+‘TCR 连接的建立采用客户/服务加模式。主动发起连接建立的应用进程称为实产 ClenD ，
+被动等村连接圭示的多用进和称汶服务路 Seruer)
+
+1 TICP过拉的建立
+
+SEAL AEN) PIR, AHN RA, 如图56 所示。 LULL 和已分别运行TCP
+‘PRM AED, LRA TCP 进程均处于 CLOSED (fH) ARS. EXEC. MRI
+Fe —MORECLIPEAEA LISTEN (UID 状态，等竺客户的连接请求。
+
+第一步，客记向服务器发送边请求报文县。该文和的 SYN ~ 1, PRR Ur
+seq=x. TCP WE, SYN FLL (SYN=1 HLA “BIRRBIERR, CLOSANRE NARS, Mute
+PYF —UIDEMLCEUES coger 1。此时，客户进入SYN-SENT CPLERBD Res
+二步， 服务器到和连接请水后，若同意建立加楼。则由客户返回确认文身该报文有的
+SYN= 下 ACK = 1确认序号aekrx+ 1，同时选择自己的初始序号 weq -jw UGCA
+全数据，但也消耗一个序号，上时，服务器进入 SYNRCYD (ELPA) AR.
+
+===== wd_ch5_247_260-251.png =====
+st ee
+
+20
+a     =
+i i RS 上> ims,
+Tse SRR TORR
+EA» rep=agreraew oon 2012, ons 20,200)
+RED. MUSING, HOMBRE, UATE ACK = 1, IVES
+
+aek=y ets FSS sega 1. SIRCELRT CURA. AERA. SITET. Fh
+MASCARIFSHVIs e* 1。此时。客户进入 ESTABLISHED CERBIDEIE) Res
+当服务器收到该最终确认后，也进入ESTABLISHED ARE. HERRIERAL.
+
+DAUR REF ARLE, SYN= 1. TORILL: SYNILA NEE, (808
+F, BR FARZOMRAATAR SYNE SO |,
+
+2 UAR—RUFARLRY, ACK=0. MALO RAH,
+
+OH EANIORLATRERM: BEBE NALA.
+
+SAP SYN HEEL CO —UC BE HOMEARLEPRARCED SPAM. ARIES TRTT
+OREM, IL ARIE LSRTT A ERIM
+
+TCF kame
+
+“天下没有不的入* ，TCP SBME, HER PONCE — PHT RNA ALAEIE, TOP
+eR UCL RE AMEN I, 87 Be.
+
+wa] ume
+
+E57 ORR ie TCP ee
+===== wd_ch5_247_260-252.png =====
+240                            2007 itm LI
+
+EET)» Too x Fey ne. 225)
+
+BD RIEL ADEM, FA IMAC, FPA ea AD.
+
+i      , 其人等于此前已人送娄据的最后一个字节序号加1。TCP 规定，
+
+FIN HESCAL CFIN=1 BILAL) 即全不铺数据，志消村一个译号。此时，客户进入 FIN- WATE
+
+CIEE D 杖者。由于 TCP 是全双工的，可查为连接包含丙条和立的数所通路，发送 FIN 的
+霄关闭了其发送广向，但对方仍可维过发关数据-
+
+aD, MRSA LAL, CORUM. ACCA ACK = 1，确认
+FES acknue 1. FES seqay Cs 为服务咒此胡已发送娄据的最后一个字节译号加 1) - 随后。服|
+务器进入CLOSE-WAIT (关半等待》 关夫。此时，从容户到服务器方向的连接已秋放，但从服务
+可到客户方向的连接划未生放，TCP 连接处于于关闭状态。 客户收到确认后, 进入FIN-WAIT3(终|
+EAH 2 AR BRAEMAR LER.
+
+ TCD (207)
+= FWA BLE BLT MRI, SCREAM CER FIN
+FL ACK= 1 ES seqmw fw HEI nN P AINE RIG TRARY » SM
+AGERE MIE ack 1 Ube. HUBBALASTACK 《最后确认) 4A,
+
+EEE» Tom amass 018, 222. 0)
+
+SOI. ePID CALS. UIA, JBL TIME. WATT CBI)
+Se Se ee ee
+LEA CLOSED 《连接关闭) Ras. HEPE TIME-WAMT 并过下，还等时间午和计对号设置
+的时间2MSL (Maximum Segment Lifetime, REAR IRAG) 后，才进入CLOSED Kis.
+
+设置 2MSL 的主要目的是;确保客户发送的最后一个 ACK 报六和能够到达服务器 全
+本直接中所有可能汪的旧报文庙从网络中自然酒闪，胆多影响新连接
+
+BRB CECH EA CR ARIK RAR YAR FIN SCROTAL
+客户和放连接的最短时间为 TRTT+ IMSL. BUF RPGR ARE EL SRT.
+
+D MARKHAM EMERY GERLSLI|) FINI.
+DGEARSOMLI. ACK=1, HASCRH RH MSIL A,
+OAEMAAAPL NADP, README ARR EARNER
+
+iif BAF. TCR IT — sR, CABAL RAP HOE
+SY. UIE UCR, RAR, TN OS RMR. USAT 7S
+OREN, HIRE LOIS LM, WIR MCA, IAM,
+
+S34 TCP TRIE
+
+TC feof ay 四 AUR AAR EMIS AMEE RRL NRE
+ROE NAGE HL. TCP 通过检验、序号、确认和时优等机实现这一上的。其中，TCP的|
+检允机制与 UDP BL. TRH.
+
+Ts Conan， 21, 205)
+
+Las
+“TCH HFS RI FE AR EET. TCP 特数所村为一个无结构但有的
+===== wd_ch5_247_260-253.png =====
+st ee         241
+
+SEI SAREE PNPM FI ECAR
+
+TCP AE WIG PIE. FURR ASR IRIN
+5), tn 5.8 ea. MRE A 和 之问建立了一条 TCP REE. A 的发半组丰区中有 108 HR
+FED OFFERS. BANSAL 0~2 GREE, IK TCP 报文度的序号是 0，第二个
+报文和的序号是3，第三个报文生的序号是6，第四个拱六役的序号是 8.
+
+Ce ee ee eS
+
+Biss A ovmatene poner To
+
+2. mk
+
+TCP IRAE SRR MGA BAL RO — PLUTO.
+58H, TARO B LEIS MLLER, Sem B A LELSIAY B— MCRAE
+6 SEP FEMI. EB A RIRATF— NREL ONAL SF REET 6,
+
+‘AEF PRE OR SUA LATER, OL ORLE BEML, TCP RY,
+GUN RAL, FOMIRFEIREDE TH, UIE RAR RNID. ROOT
+‘eteiS AU IRARM UA, EWTN ARI RN AMA ATONE GNARL «BU.
+图58 中 EOE BUCH T AIRY RIR = NCAR, RAC a
+ee er ee sc ees
+
+3.8
+
+AMUN 28 TCP AHSCT (REPEATER ACK
+
+cy 超时
+
+‘TCP fy, de RR — NANO ST TO NOH,
+时，TCP foaeeeiaanceR,
+
+由于 TCP 下层是百联网环境，IP SRIRAM EHC. aE A gm RD
+we. WT SERN RRR, TCP EA AREAL. EERIE
+AN SUALOONRACSEN ML, WZ AANA A) Rouné-Teip Time, RTT) « TCP 维护
+了了一个加权平入下时间 RTTS，并根据新测量的 RTT AE ROU TTS. ALAR,
+吉设置的超时生传时间 (Retansmission Time.Out，RTD) GERACE RTTS, MURIEL, #
+ARSC IER). TCP 无法迅速重传，导致数据传铂还增大-
+
+(2) TEA ACK 【完全确认
+
+超时生发硬传的一个问引超时大期往往太长。幸运的是，发直方可以在超时发生之前,，
+通过注意所请的元作 ACK 来移寻地检测和包情况。兄人 ACK 是再次确认其个报文度的 ACK.
+RM CHL RAEI. 例如，发送方 A 发送了妨呈为 1、2、3、4、$ 的 TOD BI
+BR. SoD 号报区有在下中于失，示估到这扶和方日。因此，3、4、S 呈报六有对于日成为
+类取报文明。TCP 规定，每当比攻屿大的类译报六到这时，立发这一个守作 ACK，指明
+下一个时字节的序号，在本后中，3、4、5 号报文度到过 B。但它们不是日 期纪收到的下一个报
+SURE, PAE BUM 3 个对 | 呈报广度的邢剑 ACK，表示自己基组拉2 呈报文生。
+
+‘TOP 规定，当发六到对同一个报广度的3 个全 ACK 时，可以认为汉中在这个确认报
+RRLEMRAREER. AATF, A 收到对 | 呈报文身的3 Tic ACK EH
+
+===== wd_ch5_247_260-254.png =====
+242                            2007 itm LI
+
+判断2 呈报文和已经天类，并立即对 2 HSCF RG, RRR ORI. IR. TE
+ACK WARM FADON, HIXCHVRRISTE RICHIE.
+
+ALAM, FULD EEALRIR ATE ACK. RA MIESLRINI 3. 8 SHA
+1, RMB ADT HATE ACK, I, MURR, Ly AIRSTREAM,
+
+53.5 TCP 流量控制
+
+流量控相的功能是确保发适方的发适速不会过快，以便让接收广能名及时处理。因此,可
+说请量控制是一种于度配服务，它区本发关方的发送素与接收方的这取速事，
+
+TCP 利用少动窗口机抽来实现流量控制。 滑动窗口的基本原理已在第》 介绍过，这里重点
+讨论 TCP 如何使用窗口机制进行注生控制。TCP BORARUC AMAT /ARRLAT Crond) » RE
+FcR ADR RAR Asch SINR, FORT HEU SAYRE. ARCS EM ATC
+Wg WII" PR, CLI. a a RA Re re ARTS
+PPL R MRR HE,
+
+GIEET)> sl cone xm)
+
+图59 说明了如何利用涂口进行流量控- 倒数据多从人A 发住B 而下仅向和 发送击
+ARICA Nw ATM AAR VIELEN A 当前的 wd rwnd ROR
+收方多许连结核收的最大字节禾。发送方 A 总是要要最新收到的 wd OREM EY IRE
+大小，内再未确认的数据量控制在rwnd 大小之内，确保 不会全 sec
+
+AUREL, BOHRA: “我的接收窗口rwnd=400”。我们注间到，接收方及进生
+了三次量搜，这三个报文才设置了ACK = 1，只有当 ACK -1 时,确认译号字展才有意义-
+SKA ORE wad-300，第二次减至 ron = 00，最后减盏 ewad =O, EDR HERE ER,
+ER, 这全和发关方条修发半的状态将持引到恒打发册一个新的窗口们为止。
+
+人                        am
+pA stout __ par reso, seen
+a     eat resol, sexe
+
+awe     oa
+
+Rit ern, RENO 9
+一-wow -wasTFomnran ‘emma
+aa
+ana ONO
+ARICTPSOr an, ‘IRB
+ASANO sot MBN
+
+also HinaWoiRteRtM
+
+ALB ALA RTE MIURA. BMNRIRAECAT T AFORE OL. FB PLA 发
+AER G NN, MMC MELE EAT. SARMTCMARI, SUB 和人 BIA
+互等竺的死岛志，为此，TCP WAP MIL — TREO. SLR CHL EH
+===== wd_ch5_247_260-255.png =====
+st ee      243
+
+通知，就启动持续计时器。若计时器超时，风改进广发一个办窗口控油报广度，而对方会在只
+RUC TMT. MOA UA HN AC RR
+Seite, EMO ALT, setae ETT.
+
+传输民和数据莲路导的这量控制的区到是导入屋实现的是过到总是个进程之问的二
+拉和4，数据链路层实现的是相信芝点之问的汪控制。此外，孝所链下层的滑动各协议的窗口
+大小一航为国定住，而人答民的官口大小可以根据接收方的缓存情况动态变化-
+
+53.6 TCP 拥塞控制
+
+WER OLLIE COREA, LRU REO,
+A, MGR OR ORTON, SLAB CY PLEKG,
+
+‘POREEDL SWEAR OHMIC AURUNM FALLIN RAE ENOL RR, KLEE
+ADPR, RREGOP WH Ha
+AMEE), BPS, RN AOA ALBUM RR. LAE
+i OEM. FRAT AR, EAB TR AOR,
+
+全如，其下的传输吉事为 10Gbfs，当一台大型机以 IOs 的这向一合 PC LEARN.
+BRAEMAR. FERRE Cen F PC 的处理能力有限，可能来不及接收如此高速的
+雪据篇，因此区有进行沪量控制。反之，若有 100 万台 PC 同时以 IMhs ARSE EHS
+eA, WMLREARAE NH SR Hae T HCE, a ARTI
+
+Tey RIGHT TNs HAN, HARA. HITHER.
+
+‘A ENDER OKA. ESE AEAR ARRIETA
+SRAM. A. RT. AMMAR, TCP ESERIES ARIMA Cound) ，其大
+APSHA AUR. STUN. SCRE:
+
+6 SMAI, RUN cund, LIEN MIRAE, GAOT
+
+。 老术到网络棚宗，则适当碱少cwnd，以茂少注入网络的分组数量，夫角网络拥划，
+
+通带，只要发关方未时收到确认《发生了超时) «UMTS HH
+
+EEE» Top pgamna co 2742019, 229)
+
+ACLS OH ERMINE Cound) 和捐塞窗口rewnd) 中较小的一个，即
+
+So Em
+
+ARCOM Acs TCP HHH “HE” AER AMIRI. A. HIS
+SSP MUR ATCINE? LIEN Fs MOTTA APRA. ETN. SH
+和役，数所仅单禾答，接收方只发确认报六，接收方拥有是够大的绷存空间。因此人过窗口
+的大小公受儿赛窗口的限制，并且凡最大报并长度 MSS 作为棚寨窗口大小的单位，
+
+1要开始和本垮台
+
+ct ae
+
+AURA AMARB A TERME. RRS T MRNA ARN, RST RUINREA,
+SARA, STAB ULAR, UL, ACTORS AT RN, EATER, WORN
+ik, RUA ART
+
+ > wrRmaiRR (an, 2015, 205)
+
+“ONE owns AI IMSS (最新的RFC 多许设置更多 MSS). PSTN.
+SBI ALLOA GE cn 加 1这样 每经过一个传条多次(一个往角时证RTT)，
+
+===== wd_ch5_247_260-256.png =====
+244                            2007 itm LI
+
+cownd Ot in SUTTER ARON Ke. RR A HE" SEARO
+{HAST cond i 1) 开始，计忆斌探网络外考， AMAT ACR. UL. A SHR
+IM cand= 1，A 发送第1 个报文且，收到确认后，ewnd HE 2. RIB 2 MIRAE, SL
+2 个铺认后，cwnd 增吾4，下一四全可发送4 PACAL, RSL.
+
+为防止end RAR IME, FEHR — SIIB sates FRID «ew 增长于 thresh
+TY ASP, SRLS
+
+WEE
+
+CEE» Wanner coos, 2017. 202, m2. 2oz
+
+EL RI HRI coma ABI CAREC. TORABILS ARL— MENRIOIK CUc
+BUATEOTAS CEMA) » GU ewnd 加1，而不是如售。从而使ewd HEERHEIRERSEIBAR Ce
+SRA. BUILPASGAL LAT. ACSEARLE EIA
+
+两种算法的切搞规则如下
+
+© 当cwnd cshresh 时，使用但开始得法。
+
+“6 当cwnd > sthresh HY, GEATAEMEESUITE.
+
+‘© 当cwnd = ssthresh 时，肥可使用入开始算法，又可使用拥塞进免短法《常规信法)
+
+) Maske
+
+ies ANGEL aR, BR PA (如发生超时) ，就
+FDL FAs D 将慢开咎门限 sthresh HERAAHEewnd 的一半《自不得小于2); D 将 emad
+RADY 1s © 重新执行慢开始和法.这样人的有的是和过注入网络的分组数量，使得全提
+eo PAREN BUM MO
+
+ Ti
+
+才开始和加如外法的实现过程如图5 10 FER
+
+图$.10 志开始和扫守旬算计的现过
+
+POMEL, FUSER 1, 即 cwnd -= 1s 盐开始门限设为16，即 salesh=16.
+
+aay)» Tc sm care, a)
+
+在要开妈阶段，发送方每收到一个对新报文生的确认，就将 cwnd 加 1。当cwnd 增长到
+seesh Cownd=16) 8). ILRI, RIOR
+
+(© 当cwnd-24 Bf, MVR. WG sesh 调整为当前 ewnd 的一六(12) 。同时
+将wd 重置为1，间重新执行委开嫩全法，此后。当cewnd 再深增长到 12 时，改为执行
+ORE.
+
+===== wd_ch5_247_260-257.png =====
+st ee      245
+
+AQUEEN, town nate, AF NEUE EH cand BIE ate, 而下是cond。
+
+‘roe, B16 SHER cond. sabesh= 12. 8) 上个相辣 eund= 12, RE 16,
+
+ENR RENAL LRAT “Aska” ke SARIRMERI CRE OR A OTT
+WL OME) «STOTT steesh DRM ewnd (HIE, SEAR AMIFUGBRR, HOUR
+SRMERACSAME, satesh & FREAHR. IAT RDDE AERP HUME
+
+WRERATEREEEMR. WI |. (ESEMINAR BEATE
+Sa, AIR A A ARMS, AAU RSG
+
+2. tee tet
+
+“Av, PAROCRENORANIAES II, (UNGER ACHETER BERRA PYG AOR A A WU
+‘RADY RON IAEA, SBA FEE. Zadte TCP 引入了快重传和快全复制-
+
+a ee
+
+ > BRAM co)
+
+RE STEED ALLRED EZRA CER, TaN, RC RI NESN
+ARRAN A AAEM, UNECE SAD, HOURS ARPP HR. LAD AR
+SP HeESTRWO MICELLES, Ce ACK « RED HMMCH 3 IFLR ACK 时，
+可划定对应报广肌忆于闪，并立即重传。而无须等竺超时计时吕到期
+
+2) Hae
+
+FULLER, SRI 3 470% ACK 时， OLGA Meme
+1890}. BONAR RETR RELI. son). FRNIF IT SkaG AR. A saturesh
+‘0 cond fF, CLAD EIR. 与要开始算法的不同之处是，它不特 evad MIL
+1 MUSE cond 也调整为当前 ewnd 的一半 《等于 sahsh) » IEICE NEEL,
+coon HEARERS, UVEBRRET M cmnd = | 开始的慢开始过得，因此和为计恢复.
+
+‘TCP HAHEI SOR AD S11 所示, 其中明 20 MGT S.10 中的相同- 在第 21
+20K Cound = 16)» RAIERRGGE3 PICA ACK，此时不启动慢开始算法，而执行全复和
+Be RM sthresh=cwnd2= 8，cnnd = sahresh = 8，并开始执行家人算法，
+
+ed                    ao! eee)
+aia
+
+Te
+Wisi Ter RMN
+
+‘TCP AHAGAEACHI VAAN 5.12 所示的泊程图。四种算法的使用总结，当 TCP ha aR
+络册现超时现象时，采用慢开始和扣训多和法 Cagesh=ewndi2，cwnd= 1) ，当发关方收到 3
+Aik ACK 时，采用全重伟和快怖复算法 (shesh=cwnda，cwnd=sahreshy -
+===== wd_ch5_247_260-258.png =====
+246                            2007 itm LI
+
+ERUDITE GMLARSNTE rrwmd DE HEMMER
+RP ORR IRARA MEL RENE Cound) «ROY RAFI AFORE. 因此，发送
+FRMREWOK EMAAR. HOT PRIBY MUAH OC) 和
+‘IAC Coma) Of, EWC LALOR PO inode.
+
+Tera
+[一
+ae
+
+axwices! ops
+
+jaan Uae
+
+wage
+站
+ana
+7
+emt
+
+isi TCP 控制的这各国
+53.7 本节习题精选
+=. nt
+OL FART MRLAH A AM FHP. ORC)
+A ORME EI 3 NEU: ERIE. HEI GAR RA
+BSE ROLE, RAERM RETRIAL EAA
+CARR MM FR ea ot
+Dm ROM IER Thor eae
+02 TCPALE HTTP () 直租的站口号为0。
+Ag      BIE      cme     Dah
+03. FARE TCP 的关口的名过中，钳课的是 ( )
+A SPRAMROTLASNTY Bo MOFRRH 16
+C ROIMTAART NER DL HAMAR RRARAARROS
+
+04 FRULA BER, C1 不是 TCP MBH,
+AFWL phar     Caz     Dare
+Os. FeLAaeY, () 不是 TCP A.
+此UDP AaB         B. serie
+
+CC 在TCP RAPA AA LIIPI DAHMAN tee
+06. FHLAFLE, CA TCP REACH UDP 首部中的是 ().
+A iS          BORE
+cette              D. Ne) PM
+07. FARE TCPRA AMES, REC).
+A BUCK AH 20-608, EFM 208
+ ROFFARLATHRO THA MRO
+C MAREE ES ENE
+===== wd_ch5_247_260-259.png =====
+st ee         27
+
+Di. TCP Hse fob thee IP anak NCEA 7
+STORIE PILE (04 1h, RAEI, Ne RHUL.
+
+A. URG    BRST     ACK     DON
+09. TPARKH HONS FRUGMMSLAL ().
+A RIALHNRS OGY     。朱对方的交替口的尺寸
+CAME MRR HRT     D，招遇对方的押二窗口的尺寸
+
+BAM TCE RAR RIAL, RL LH A 1000 变为2000，册发送站
+ARDEA),
+A. 2000-4 TEP LA        1 20008
+©. 1008            D. 1000 个TCP RRA
+MAR BRAT TEPER, & AKSIMIRES WO MARE, Re)
+A, HOUR CASH
+B. REI 100 ees]
+CRF RG A 9 RECS
+DAES 100 RAZA
+1 STR AAO, Lok { ) MCRL LR, abe OLE
+ea.
+AL MSS     BF       CC     D Mru
+1在TCP 让，发送方的窗口大小取决于人 )
+A ONG
+BRI kitehare ists ita are
+CRETE eee!
+DGG iriie neo
+MCP ANAATORRMALRH, RAALT AST HRT OLY, aC)
+HN. SH RAN, REAR ORAL, RM RTE
+Att     Bie     Comme Dae
+IS. TCP 在 40Gbs ahah Lieskstis, TCP LérHIM T MaRMAETL, MIEEEL ( ) 后，
+TCP AHAAS RM (ANTLAMLGEBRS, C4 2"/Su10"= 0859) -
+A. 859s    B. §59m    C. 859m    D. 085m
+16 FRAT TCP RE MRA OlMe MBL. SRL).
+A, ROCHE Caw) 通过TCP aR OAR A
+B MEROATHABL: LAWS min ATO, WER]
+C RPTOLRANSRAARTO TOM
+DR Re At Arse relies URE
+17, 下列关于 TCP LHRH, HIRI ( )
+A TOP RRR ANAT RIL RMS" HER
+BTPEORRELS, EPHHMEBRH AMER GRMN EEE
+© TCP HEAR NGPA, RARE ST A ARLE
+D. TOR 过入的乔需要经这“四次插手”的过程
+TCP AM ZAMF NARI, HLA, BERANE GALA WHY,
+AXE (D) MLLER, BRITT ERA (Q) OLGA, MEARE PA
+
+===== wd_ch5_247_260-260.png =====
+2007 itm LI
+
+wo
+
+a
+
+了
+
+VILLAS B HEATER CRE, ACK A) FARPOAT) -
+RAKE ACK =I
+
+Oa. syn
+
+@A. SYNel
+C. SYN=1, B=, ACK =}
+
+TOP TERME EH, Bak MET oh, RAMEE (1 标志位村为
+
+AL SYN               BACK
+
+ACK # RST            D. SYN和ACK
+
+TOP AMHR IF IERIE, LOREM CD.
+
+ATCP 连接请来          对 TCP SARS Raa
+
+STC SERIA MIKA A    D. TCP betas
+
+HAA BAILS TA TCP AIR, A B AEN SYN IRA RPA
+
+eq) $$ 211, SCHERER ARRIETA BARR UEFA og
+
+FERS, HAKLAEEEP, AMBRARET () FH AIE
+
+ATH     a7      © 73     D7
+
+APBLARLT TCPER. AM BRAT“, REPS FIM seg=200,
+
+WEG ack=201, RAGA 2B. BAG BARAT H RULED ().
+
+‘AL seq~202, ack=200,        B, soq201, ack=201
+
+. seq=201, ack=202       D seq=202, ack=201
+
+TOP HAREM, AAA RCT PA FIN IS GOHAN. A).
+
+AL HESS TOPE
+
+BRAMALL, RAKE LAUR, femTvLRikol rae
+
+CRA, AURORE
+
+D. seieare
+
+REPHRFRRSTOPER, SARMH, EP RAMEBLA— NEL FIN
+
+HARRELL EAA sq fh x ack 84) y. “BUT MLE, EPMA TORE
+
+的一个标志FIN = LORD, NFILFRLLB HEY, EMMA CD.
+
+A BPH eq lB y      BB PH eg 值一和为了+ 1
+
+CBA ack EH x       D. BH ak A—ZH x41
+
+条应用程序每和产生一个 608 HEIR, HNEIERIHR AA TCPRL A, A
+
+BALLS RMD, NAGE RIMS 6H MAN SH IL
+
+(1 。 Cikit TORS IP RIAL ATER
+
+Am      Ba      © 60%      Da
+
+ASL UCP EP TCD 服务器的通信忆结来，雹到让的和过时间为 RTT，1时刘TCP窜
+
+PHRMA, RUA 8 lde TCP ASL RA RACAL ()
+
+AOOSRTT OB IRI     CSRTT    D 2RTT
+
+PRAMS LH TCP, TLHHMHAGA 200, BOE CRLARET RES
+
+BRAARFIE, ATPARLAG, FHCALERLROATS () ，
+
+A 03     B20      201      D. 200
+
+ASCH BA) TCP HEAR, ALLIANCE 1650, BRIBE ALATA,
+
+TCPARILA GAS BALLT 10008 名所,日 正确持入后改进给 A GRUAEEC 1.
+

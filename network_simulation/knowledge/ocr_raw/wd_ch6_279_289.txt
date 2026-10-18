@@ -1,0 +1,636 @@
+===== wd_ch6_279_289-279.png =====
+Ox
+
+应 用 层
+
+【考纲内容]
+aera
+客户服务器模型，P2P WL
+《一) 域名系统 CDNS)
+OR Bs Ca A                   [re
+(= 文件传办协议 ETP)
+FTP 的工作原理，控制连接与数据过接
+《四) 电子是件 Email)
+电子邮件系统的组成结构，电子邮件格式与MIME，SMTP POPS
+五》万维网 owww)
+WWW 的要与组成结购，HTIP
+【复习提示】
+本章内容既可按寺择鸭形式考查，又可结合其他章节的内容出综全四。因此，牢固各提本
+章的几个和型应用层协议是关键。我们生活中的很多网络应用部是建立在这些协议的基础上的，
+因此在学习时要注意联系实际，提高学习的兴起，才会得更好的学习效
+
+Rn
+
+6.1 网络应用模型
+
+网络应用楼要是计算机网络中用于措述应用程序之问通信方式和结构的框架，主要包括客户/
+服务器模型 (CS) 和对等模型 (P2P) 两种
+
+6.L1 客户服务器模型
+
+EEE > css a Pam ste (2010)
+
+GHP IMAPB (CliemServer, CIS) MIMI. te—-MEEEIS FIPRARESO AHL, OIA
+器，它负责响应来自多个称为客产的主机的服务请求，如图6 所示。其工作流程如下:
+
+1D 服务器持续处于接收清求的状态
+
+2) 客户主动发起服务请求，并等待接收处理结果。
+
+D 服务回收到请求后，角析间处理该请求，将结果返回给客户-
+
+服务器上运行着专门提供某种服务的香序能够同时处理多个来自运程或本地客户程序的请
+Re BPRS ANU RANE: TOW ELIF AG BORE AE a
+待并接收来自各地客户程凤的请求。因此，服务器程序无筑知客户程序的地址。
+
+===== wd_ch6_279_289-280.png =====
+268                              2027 年计算机网络考研修习指导
+
+客户服务器模型的主要特征。 客户是服务请求方，服务器是服务提供方，例如，在 Web 应用|
+中，始终运行的 Web 服务加员应运行在客户上的浏览所发出的请求。当 Web 服务器收到来自
+客户对某一对象的庄隶时,会将该对象发送回客户作为响应,采用 CS 模型的常见应用包括 Web,
+SUCHEN (FTP) 和电子肥件 《SMTPIPOP3IMAP) 等，
+
+客户/服务器模型的主要特点还包括;
+
+D 两培中备计罩机的地位不平等。服务器可通过用户权限控制来管理客户，整个网络的管
+
+理工作出少数服务器集中承担，因此管理更加集中和便塘。
+2 客户之间通和不直接通信。例如，在 Web 应用中，两个浏览器不会直接交换数据。
+3) 可扩展性不任，受服务器性能和网络带宣的制约，单个服务器支持的客户数量有限.
+
+6.12 P2P模型
+
+在 OS 模型中，。服务器的性能定了整个系统的和吐能力，当面临大量用户请求时，服务器柜
+SRARARMER, 315% 【Peerio-Peer，P2P) 模型的思想是，网络中的内容不再集中存储于中心服务
+黑，每个节点同时具备下载和上传的能力，其权利与义务大体是对等的，如图62 BER
+
+&—9-               &~
+7             471
+ahs Gee
+
+图61 cs tat                图62 mpm
+
+在PP 模型中，各计算机没有国定的客户和服务器角色划分- 任意两台计算机一称为时等
+方 (Peer) ，均可直接相互通信。从实现机制上看，P2P 模型本质上仍基于客户/服务器模式，每
+个节点访问共他节吉资源时扮沉客户角色，为其他节点提供资源时又充当服务器角色
+
+与CS 模型相比，P2P 模型的优上主要体现如下:
+
+1D BREET oH HE TA HEE GE TAA HR, TES
+
+多节直上，从而大本提升系统的整体效率和资源和用事。
+
+2) 多个节喜之同可直接通信，无须通过中心服务器中转-
+
+3 可扩展村好. (GSR ALP AOS J HORE, SLES RHR POP
+
+see CO RA
+
+4 网络健杜性强。单个节点的失效通常不会影响共他节点的正党运行。
+
+Pap 神权也存在缺点。节点在缆取服务的同时，还渍为共他节点提供服务，这会上用较多的
+系统资源 (如 CPU. PTFE VO) ，可能影响本机性能。例如，频繁进行 PIP 下载会对硬盘
+RE AS. EAE LH EAEALAE PP EL A TEE AR S0%%~90%,
+PRIN. ek, STIRRING ASP) 通常对 P2P 应用持限制或反对者度-
+
+613 APD
+
+pre
+OL REP MEME. PMR).
+
+===== wd_ch6_279_289-281.png =====
+fot 应 用 &     269
+
+AL hae     Be     CC，硬件      D. tk
+02, MASE AISA, MSIE PARAMS, MBIT PSR, DASA
+AEE RLM A, AR ARAMA CO).
+AL OS ABA            B. mp aeel
+C. CSMAICD 482          D. ¢setRAa
+8 FOREEP MA BIHAR, ( ) 存在铺训-
+L 客户站必须提前知道服务器的地址，而服务器则不二要提前知道客户站的地址
+U, 客产驹主要实现如何显示信息与收集用户的给入，而服务器主要实现才据的处理
+UL ALSEROAR ADRES
+IV, SP RAIA, REARS, MPR ETI ARIE
+AL    BMV    © av     D. full
+OL FHAFEP MPSA, KEM).
+A MAS EMPE ARIMA, RP NA HAA ARM
+日客户通常位于前网，服务器通党位于后站
+CC，客户和服务中通过网络实现协同计算任务
+D 客户是面向任务的，肛务器是面向用户的
+OS 以下关于 PP MAHAL, HRY (
+AL PRP 于网络节吉之问采取对竺方式直接交换信息的工作模型
+B. PIP ISA SAG PIP 同络中对等节点之则的直接通信能力
+© PP 网络是指与互联同并行建设的、由对等节点组成的物理网络
+D，P2P 实现技术是指为实现对等节点之间直接通信的动能所沉要设计的协议、软件等
+06, [2019 RAMEY FHKE MARMARA EE, MRI ( ] .
+A AMPH, PALMER R
+日。在客户服务器 (OS) RA. SAHOO TARR
+CC，在 CNS 模型申，主动发起通信的是客户，被动通信的是服务器
+D，在向多用户分发一个文件时，PP寞型通沼比 CIS HEAT a
+
+614 答案与解析
+
+cored
+
+oa
+
+SP RERALMEPE, LORILARC. FURIES NRF. MIR RL RE
+
+mA
+
+HPAI R, NEPA SUN BRR TPR, SRR
+作并将结果适回用户，这种工作模型称为客户/服务器模笃，即 CR HA.
+
+0c
+
+OS ESTNN. AUR RHE — TRO LAT. PRIA. eometI AN
+IR; RAG SASEA HEA HLSEER IPR TUR OLIN Po A A RT PIM.
+SLE REAEL, Ms RARE CORRE, RU Ae aN RR ee, APE te
+Mia, LAR RH GI. ADL ARIE IV 错误-
+
+oD
+
+客户的作用是根据用户需求向服务器发出服务请求，并将服务器反回的结果呈现给用户，因
+
+===== wd_ch6_279_289-282.png =====
+270                              2027 年计算机网络考研修习指导
+
+此客户是面向用户的，服务器是面向任务的-|
+
+05.¢
+
+POP af LSA — FRESH, ARENA, aN RAR Ea BP
+机、交换机等) AAAI CREAR SEMETTERRUGRNES, AAD LANAD AE. LRN AT
+(iL, RIESE, ABABA ACLS. POP 网络是一个构建在起 ELI
+是一种动态的多加网络。对等节点之同具有直接通信的能力是 PP 的显著特，
+
+06.28
+
+ERP BME, SE MLA, OULOrARwS. WaECIS BN. See
+RAT, NRVC EPR. PZ AAACN, n Web 应用中的两个济
+WAZ RAE. POP MURLLEESCAESN IRAE MCRL ANAM FREEPORT
+SHE ES, ATMA A, EMEA MCA, AEE OS MURATA ENON,
+
+62 域名系统
+
+TERT!» onstemeweemacrriie cove, 2020)
+域名系统《Demain Name System, DNS) 是互联网使用的命名系统，用于将便于人们记权、
+SUITES LAWL Cn wwweskaoyan com) 转拔为促于机器处理的 IP 地址。相比难记的数
+字形式，人们更朵向于使用具有特定信义的字符审来标识也懂网上的计算机。DNS 采用客户/服
+务器模型，其访议运行在 UDP之上，使用33 988
+AMES LE» DNS 可分为三部分，层次域名空间、志名服务器和解析可
+
+621 层次域名空间
+
+本联网采用层次树本结构的全名方法。按照这种全名方法，储何过接到互联网的主机或路由
+器帮搬有唯一的层次结构名称，凶域名(Domain Name) 。城Domain》是名字空间中一个可被
+SOUL, MOLD, FARMAN. ART, AUR,
+BKM, PME RATER, BITZI C4." Ae
+
+如图63 所示是王道论坛提供 WWW MRR SAR, EM = ITAR, SUPE com
+HAMMER, HE cakaoyan RMU, HH www 是三级域名-
+
+www.cskaoyancom
+\
+sa      Hane male
+
+Wes Meet
+关于域名中的标号，有以下几点需要注意:
+1D 标号中的英文字母不区分大小写-。
+2) 标号中除过字符《-) 外，不得使用其他标点符号-
+3) 每个标号不超过 63 MERE. RMR CATED 的总长度不得超过 255 个字符-
+4) 角别最低的域名写在最左边，级别最高的项级域名写在最右边。
+‘MALE Top Level Domain, TLD) 主要分为以下三大关，
+D 国家顶级总名 (eeTLD) 。代表国家的域名，如“en表示中国， “us” 表示美国-
+
+===== wd_ch6_279_289-283.png =====
+fot 应 用 &     271
+
+2 通用顶级碟各 (ETLD) 。常见的包括 “com” 《公司) 、“ net” 《网络服务机构) 、
+“arg”《非党和性组织) 、” edu” 《教育机构》 和 ”ov”《国家或政府机构) 等，
+
+3) AAMAS Coma) 。用于反向域名解析，即将 JP 地址转换为对应的域名。
+
+图64 展示了域名空间的树的结构
+
+al
+
+aa
+
+EMERGED, SIM MTEL — MOM ERP AEM, NR A A
+址分配机构 ICANN) S88. BLK M2 Fi — Me SEL ATA ATA PL
+HEM LM PUNT LM, HAULS. la, SUT
+理cn 域的中国将edu en 子运权给中国教育和科研计算机网 (CERNET) 进行管理-
+
+6.2.2 域名服务器
+
+域名到 下 地址的解析是出运行在域名服务加上的程认完成的。一个服务器负责管轿 《或具
+有管理权限) 的范围称为区，其范围小于或等于城。一个区内的所有节点必须是过通的，每个区
+部设有相应的权限域名服务器《也称按权关名服务器) ，用于保存该区中所有主机的域名到 下
+SR. ee BA A UP 地址的映射,还要能准护指向其他
+域名服务加的信息，当自身天法完成解析对，要能知这向哪个服务器进一步查询。
+
+DNS 使用大量的域名服务器,它们按层次结构组织。 没有任何一台红名服务器包信下联网上
+所有主机的史册，相反，这些贡身分布在所有域名服务器上。有四种壬型的域名服务器-
+
+1报名服务中
+
+根域名服务可是 DNS 层次结构中的最高层级。所有根域名服务器者知道全部顶级域名服务
+器的城名和 苇地址,无论哪个本地翅名服务器需要解析任间域名，只要自身无法解折， 就首先向
+根虞名服务器发起查诲。全球共有 13 PHEASANT AH NT,
+UR ALAR MER. CLABES ANE, HEAR BR I ACER Ct com) «EE
+并不直接将待查询的域名解析为 地址，而是返回 2 ENA ER A READS
+
+2, 画纪大名服务下
+
+顶级域名服务器负责管理在其下注册的所有二级城名。 例如，com 顶级大名服务器管理所有
+以com 结尾的城名。当收到 DNS 查询请求时，它会返回相应的明度《可能是明终的解析结果，
+
+===== wd_ch6_279_289-284.png =====
+272                              2027 年计算机网络考研修习指导
+
+印目标正地址; 也可能是下一步应当查乒的域名服务中的中地址)
+
+3. AUR ERE HOR BEE)
+
+BRM I Eh A I BN
+U5 BS TERE BL EPA. ER A PE
+BAP BR a. SE ASM AE
+
+4
+
+本地域名服务器在域名系统中失误关键角反。但家所联网服务提供商 (1SP) 、一所大学
+至大学中的各个院系，适常孝会部轩自己的本地域名服务器。当主机发起 DNS PAIRED, i
+请求首先发送给其配置的林地域名服务器。事实上，在 Windows 系统中配置“林地过接” 时所
+填写的 DNS 服务器地址，就是该主机所用的本地域名服务器地址。
+
+DNS 的层次结构如图65 Ta
+
+seem
+
+rey
+
+oy
+temas [ ae              ]
+
+图65 DNS 的层次结构
+
+6.2.3 域名解析过程
+
+域名解析是指将域名转换为IP 地址的过程。当客户将要进行域名解析时， 会通过本机的
+DNS 客户灿构造一个 DNS HR, JEDLUDP RRA EA IHS ASA BI
+
+REACT TIR Sk. ee CE
+
+CD EAM ANA SH Beh AR Yah
+
+在递归查询中， 2s eR AAR 0) UP SH ME SEL DNS 客户的身份,，
+ARENT RIN AL ME TER, AAR ERL ETAT TE. HOR
+OTe. RIL ASKOAR me a FL.
+
+2) AUBERT AMIE BITRE
+
+EET ovsaaeim 010
+
+Ja ALATA oa), AN A I I MRA A
+iNET MZ MBIT (IP RO~O] . Me, RAL EL ARMA 下
+ULI a AHR LIB CS>BRD) «LARAMIE Me AL, CSSD)
+PRM CRANE MMA LMR, Se UPAR
+
+ETEEY > onsintesiem 2018, 2020)
+
+ASU A TARA 2 EE RA. 当根域名服务器收到本地域名服
+
+===== wd_ch6_279_289-285.png =====
+fot 应 用 &     273
+
+务器的选人查询请求时，要么直接给出所查询的 下 地址，要么告诉本地域名服务器: “你下
+步应向哪个项级域名服务加查询”。随后，由本地域名服务器向该顶级域名服务器发起新的查询
+讲求。同样，项级域名服务吕收到请求后，要么直接给出所查询的 地址，要和告诉本地域名服
+务器下一步应当向哪个权限域名服务器查诲。如此这级查询, 直到获得目标卫地址，最后由本地
+城名服务器特结果返回给发起查询的主机，如图66所示。
+
+arn,
+
+a    renin      Qe Que
+oo全    2 au和   Ss =
+a ge
+spusune    sse Ga
+
+nye            aie
+
+| fea]        —
+
+“Bl patty tomas,                        °F wea amccminst
+aaaaaaaanm     oaaamakaw
+
+图66 两种名角折方式工作大理
+
+下面举例说归并名解析的过程。铸设某客户希望区取主机yabe com 的 TP i, PFE
+析过程〈最多涉及R 个 UDP 报文，4 个查询报文和4 个回答报文) 如下:
+
+D 客户向其本地域名服务器发送 DNS SRA CANAAN)
+
+加 本翅城名服务器改到请求后，先查询本地缓存， 车未命中，则以 DNS 客户身份向根域名
+
+服务器发送解析请求报文选代查询 -
+
+© 根域名服务器收到请好后，识别该名属于 com TAIL, com 顶级域名服务器
+
+dnscom IPS
+
+© ARH PUTER RE dns com 发送角折请求报文选代查询)
+
+© 顶级域名服务器 dhs com WCBAR. IMA BF abe com 区, 返回其权限域名服务
+
+器dnsabecam fi IP Sik.
+
+© ANGE TLR BI BE dns abe com LEMUR CSAC.
+
+© 权限域名服务器 dns be com 收到请求后，返回 Yabe com AERC I HALE.
+
+@ 本地大名服务器将结果保存到本地级存，并返回给客户,
+
+为提高 DNS 查询效率并减少互联网上的查询流量，域名服务器广泛使用 DNS SRA HL
+于存久近期查询过的域名与 瑟地址的映射。 当后续收到相同志名的查光时，服务器可直接从缓存
+下加结果, 无有得次发起完整的解析流程。由于主机名与 地址的里届关系并非永久有效，DNS
+角存中的记录会设置生存时间 CTL ，到期后自动天效并被清除。此外，主机喘也沁维护本地
+DNS 肯存，在运行过各中组存最近访问过的域名。只有当本地缓存未谷中时，才会向 DNS 服务
+器发起查油，从而进一步提升解析记度并碱因网络负开。
+
+624 本节习题精选
+
+=. kia
+
+01 MEH ( ) RAH RA.
+AL Iba   MAC地址。。C. 主机     以上都不是
+
+===== wd_ch6_279_289-286.png =====
+214
+
+2027 年计算机网络考研修习指导
+
+人
+
+ot,
+
+06.
+
+0.
+
+a
+
+下列说法错误的是 ]
+AL Intemet 上提供客户访问的主机一定要有红名
+
+有同一大名在不同时间可能解析出不同的四地直
+
+多个天名可以指向同一台主机的 四地址
+
+D PENPHLAT AY AAGRER ES AMP RG
+
+DNS LAF (DRAKE,
+
+A os      BRS      © PP      D，以上区不正确
+
+Wa Ase (DNS) 的组成不包括 ( )
+
+ees ee TS
+
+CRAM DANSE IPRALSL Pha IP ska Ani
+
+AEM PASAT HA ROLE, AURAL, hie bib
+二名解本的软件不需要知道( 信息-
+
+下本地域名服务器的四
+
+Uh Ra SMB CAH
+
+Uh, me RH
+
+A fl    Be Lett    © nem    DT 和于
+
+在DNS 的于和查询中，由〔 ) 给客户江近加地址.
+
+A HAO        BGR
+
+目的地址所在服务器       DAR
+
+省本地域名服务器向要二名服务器查询一个城名时，根并名服务器运回一个负责访关名
+的顶级关名服务器的 IP HL, GLANS MIR RR I Be, AE
+Kao
+
+Ate BR AREH Cc HRMEH DFE
+
+一台主机要解析 www skaoyan cam 的 IP 地址，若这台主机配置的域名服务器为
+202 120 6 68， 互联网项级域名服务器为 1L286，而存储 wwweskooyan com Hf IP HAE
+MAK AMZN BA 202.113.1610, MG ERATE RAH ( )
+202, 120 .6 68 城各服务路
+
+11286域各服务路
+
+202.113.16.10 总各服务路
+
+可以从这3 ALS MIR tsk
+
+) 可以将其管加的主析名转接为主机的 IP a
+
+ALAS,           BMA
+
+© ARLES          D. Ra LMS
+BAIL IIB MA, BP RAR MB) BN At BIE BHI MGS
+ie ah IP HAL, RMA 2 AIL eh A 2 MS BF
+RU PEAR RSA SLA A TRAM CO).
+
+人 1条1条 B 1条 S&C 多条1条 D， 多条,多多
+
+[2010 RE AKT BAER BAR H, NEAL AM HS PBK EHR
+名时，用户主机和本地域名服务器发送的天名请下条效分别为( )
+
+A lh le Blk S&C Ste le DL Ste. Se
+
+[2016 Hh AAD RITA ALS A Re RATA AA. SHE
+
+papore
+
+===== wd_ch6_279_289-287.png =====
+fot 应 用 &     25
+
+规范域名为 wwwabc xyz comn HAIER, ANA MIE AS AUTRE
+可能发出 DNS Bean I HOH FARA (
+
+A003   BIS   CO4   Did
+13, [2018 BARAT 下列 TCPIP AM LILY, TOURMRAERM BAL).
+AL FIP    BL DNS     ©. sMrP    D HTTP
+
+A 12020 5255 ALD ALR FM HAIR I I
+MLS BAER ME AML Sp; ARMA EAM) Iniemmet 上各县务器的往返对间
+CRIT) 299) TOs, 29838 habs, 2 3.40 LALLA AE htpyfowwwabe comlindex
+mls 8K Web 页 inde: tm A Az A SH BAR HEI nde html
+HAL, MRR MOM HRI MRE (),
+
+wee,
+ou
+
+‘AL 10ms, 40ms B. 10ms, 50ms 。 C， 20ms，40ms 。 D，20ms，50ms
+
+Seana
+
+01. DNS 使用UDP Hitt TCP. —/ DNS 分组二失，没有自动恢复，则这会引起问题史?
+若会，旭应如何解决?
+
+02 ANKLE? ROSE RENE RPO RLR AIH?
+
+625 “答案与解析
+
+=, tok
+
+1D
+
+FS TAO ERTL NEG CONRAIL AD «SUE SCATY IP Sb
+每个网卡对应一个 MAC JE, 显然这两个 地址可以吹射到同一个城名上。 此外，多台主机也
+可以映遇到同一个域名上《如全载均街》，一台主机志可以肌册到多个姊名上《如虚报主机)
+因此，选项A、B 和 C 和二名均不具有一一对应的关系。
+
+OA
+
+Internet 上提供访问的主机一定要有 IPS. TAR AREA, UT A 错误。域名在不同
+CORE LLLP ESR IPS, OT AL SR, iB 正确。可以把多
+个域名指向同一台主机的 UP SAE, ROH CTE. AP 子网中主机也可以出不同的域名服务器来维
+护共喘时，选项了正确.
+
+0A
+
+DNS 是一个基于 CA8 BONER ASCE A, MRT A AP SHER.
+
+oD
+
+DNS A ORIAME 51 PS A UP SWE BUMR OWE EMER RI — IRMA RH
+VEE, SERVE VR ABST. A OT TA RA. A IP 地
+
+===== wd_ch6_279_289-288.png =====
+276                              2027 年计算机网络考研修习指导
+
+直到外部里地址的歇届是由 NAT 实现的，用于缓解pv4 AM RNS, Sa I
+
+05. c
+
+TERETE RPSL ARIAL SUR 5 BE. TEAL AS I
+Sen. SHEARS HIGH fe. FOL WLS I A IP
+
+06.8
+
+在通归查询中，得台不包人被请求信息的服务器都转到其他地方去查找，然后它再信回送
+结果，所以客户喘最开始连村的服务加最终将返回正确的信息
+
+one
+
+Se AE A — 98 CAH ARABI
+查询的 四地址,要么告诉本地服务器， “你下一步应当向哪个 DNS 服务器进行查询。” 然后让
+本地域名服务器进行后续的查询《而不拓本地域名服务器进行后续的查询) -
+
+08 和
+
+当这全主机发出对 www skaoyan oom 的 DNS 坦询报文时,这个查询报广首先补送往该主机
+的本地二名服务器 202.120 66 68。本地域名服务加不能立即回答访查询时，就以 DNS 客户的身
+份向某一根域名服务器查询。但不管采用何种查询方式，首先都要查询本地城名服务器-
+
+每台主机必须在权限域名服务器处注册登记,权限城名服务品一定能名将其答辖的主机名
+转换为该主机的 IPE
+
+10.
+
+用户主机向本地域名服务器采用着归查询。 只天发适 1 条查海请求。 本培城名服务加无缓存，
+因此还要进行后续的查询。本地域名服务器向其他域名服务器采用过代查询，本地域名服务器分
+别向根域名服务器、项级域名服务器、权限城名服务器发送多条查询请求.
+
+rar
+
+ALPEN NAM mI ARIA, LAIR LRA ASI IE ENE
+RM RUAN A, ARR RAG NA | AR, ete
+UG OUIR A ACHE. ie, PARLIN 2 I BNR AT
+
+nc
+
+最少情况。震本地域名服务器已缓存该域名的解析结果，则无须发出任何 DNS 查询，最少
+为0次。 最多情况，因所有了服务中均采用选代查测，在最坏情况下，本地域名服务中需要依次向
+根域名服务器，顶级域名服务器《cam ) 、权限拓名服务器 (xyzeom) 和次级权限域名服务器
+(abe xyzeom 发起查询，共4次，因此最多为4 次-
+
+BB
+
+FIP 用于文人传输，SMTP 用于电子邮件发送。HTIP APPA, = AERA eA,
+族在传输导使用有过接的 TCP 服务。DNS 对可靠性的要求相对较猎，且过求效率与低开销，因
+此在优钵尼通党使用无连接的 UDP 服务-
+
+ran
+
+题中 RTT RH MLA RE ntemet 上各服务器的往反时间，日 与本地
+城名服务器间的通信时延外咯不计。最短时间，若 日 本地有域名缓存，则无须 DNS 查询，直接
+与 wwwabe com 建立 TCP HHRMA PE. TCP 三次握手需 1SRTT，第三次握手可朱带 HTTP
+请求。服务黑返回页面路 05RTT，共2RTT- 20ms。最长时间。革向本地域名服务器发起违查
+询 《时延包咯) ，本地域名服务器依次达代查询根域名服务器、项级域名服务器 com). BRE
+
+===== wd_ch6_279_289-289.png =====
+fot 应 用 &     a
+
+服务器 fabecom) ，共3RTTY RIE HABE TCP 连接并获取页面，需 2RTT 总计 SRTT -= SOms.
+
+二综合应用是
+on. UR
+
+DNS (HTN 208 UDP THE TCP. YE a er TC dl ee ATH Ea
+传功能。实际上，对于 DNS 服务器的沪问，多次 DNS 请求都返回相同的结果，即做多次和做-
+次的效果一样。国此 DNS 税作可以及复执行。当一个进程队一次 DNS 请求时，它启动一个定时
+器。若定时器计浇而未收到四复，则它就再诗求一次，这翌做不会有害处
+
+02 CHET
+
+中地址很难记忆。引入域名是为了便于人们记忆和识别。
+
+城名解析可以把城名转换成地址。域名转换过程是向本地城名服务加中请解折，若本地
+域名服务加查不到。则向根域名服务味过行查询。着根域名服务村中也查不到，则向根域名服务
+器中保存的项级城名服务器和相应权限域名服务器进行查询，一定可以查找到
+
+域名服务器中商速级存的作用: 将近期访问这的域名信息保存在高速颖存，理次访问时会从
+地存中认取，不需要重新解析，这样就可以加快域名解析的响应速度
+
+63 文件传输协议
+
+6.3.1 RTP 的工作原理
+
+AMER (File Transfer Protocols FTP) 是互正网上使用最广泛的文件传输协议。FTP
+提供交互式访问，多许用户指定文件的类型与格式，并支持对文件设置存取权限。它屏巩了不同
+计算机系统的底层细节，因此适用于在异构网络中的任间两台计算机之间可对地传送文件。
+
+FTP 主要提供以下功能
+
+加 支持不同类型主机系统【硬件、操作系统等均可不同) 之间的文件传输-
+
+© 通过用户权限管理，提供对运程 FTP 服务器上文件的管理能力-
+
+@ 通过用名 (anonymous) FIP 方式，实现公用文件的共京。
+
+Er (2000, 2000
+
+FTP采用客户/服务器工作模式基于 TCP ARE AR H+ ET 服务器进程可同
+时为多个客户进各提供服务，服务器进程由机部分姐成，一个主进程，旬责接收新请求，另外有
+着于从属进程，分别处理单个客户的请求。其工作步台如下，
+
+© 打开名知端口21 (控币并口) ，供客户进程接
+
+© 等待客户进程发起连接请求。
+
+© 启动从属进程处理该请求，处理完毕后从属进程线止。
+
+@ 主进程返回等竺鸭态继续接收其他客户请求。主进程与从展进程并发执行。
+
+FTP 是有状态计议，服务器需在整个会话期间准护用户的状态信息。钢如，攻须将用户账记
+与科制选接相关联，并吾跌用户在远程目录村中的当前位置.
+
+63.2 控制连接与数据连接
+
+> FTP araaienomusgines (2017 2023)
+FTP 在工作时使用两个并行的 TCP See AC 和数据连
+

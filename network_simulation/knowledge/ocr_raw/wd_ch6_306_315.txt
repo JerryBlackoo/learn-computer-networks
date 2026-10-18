@@ -1,0 +1,547 @@
+===== wd_ch6_306_315-306.png =====
+204           2007 itm LI
+
+Ped, ATP CL I a A A. ACA BTA, AS
+PROPIA. AEA LE CLS BB. ORE AEA AVS ES AEE
+HARMS ARAL CRISES, REG UABN RI AEE,
+
+5, HTTP ARSED
+
+F615 展示了使用 Wireshark SAFARI — 1 HTTP WRAL.
+
+6S Wireshark RP HTT ARR ELI
+
+根据上的结构定义，在围 615 的以大网数据央中，第1.6 字节为目的 MAC MBAE CULE
+关地址) «Dy 00-0662 3827.36, 第 7~12 字节为源 MAC 地址《本机的址) ，什为 00.27.13
+“TTB 第 13一14 字节为美型字段，人为08 00. 27. LEV I. 38 15一34 字他(失20B)
+为中数据报首秀，其中第 2一30 WIL ARE, FALL dard TO, He ARF
+为219223 210.112， 第31一34 字节为上的 四地址，十六进制为了1 69 4e Oa, SOBER FL
+113,105.78 10. 9838~S4 48 820m) 为 TCP OCB,
+
+AS 55 FTES TCP 数据部分《图中胃影区域) «RADAR AIR ODI
+FTTTP HERVE JE, GET 对应请求生的方法Ger2o gif为请求的 URL. HTTP. 为协议
+ROK. FEMUR MERLE AEH ASCH 三拓，例如，Gr = os47、世=0v45、T=0x54 等，建让
+者自行了解图6.15 PRR A OPIS L.A PLANS
+
+过见应用层协议小结如表62 所示。
+
+er RRGARIWNE
+aman [wanian [renew [rane [sure [ons [rom [ore [ron [amr
+AR |   rer [verve [uo [wwe | ve [a | oor
+nace [5    a Ls ts lelele fw lo
+
+===== wd_ch6_306_315-307.png =====
+ot ame      295
+
+653 本节习题精选
+orto
+01 Faith ( ) 协议中，客产与服务器之问条用面向天和村的协议旭行通信
+A. FP     上 SMIP    CC DNS     D HTTP
+ARES AL, WOW HS APR ERB BATIBO).
+A aE          B. Aevstabata
+CRE AHF          D. dbisstiesta
+03. TCP 和UDP kU RAE LAERehA M kM, HUTT RHR EC),
+A. TeP A 80382          1B, UDP的如关口
+©. Ter 25 8          D. UDP #25142
+
+08 从半个已知的 URL RAPA LAM, HARA UP ALA I
+A, MERMSIMAMADRE C). REMMI (
+© A. FTP HTTPB DNS. FIP C. DNS. HTTPD. TELNET, HIT
+
+OA upp kee      ©. upp. TCP 。 D TCP IP
+05, RM LUNA Eile, RAIA).
+A. IPsbae            Bk
+CRORE         www 地直
+
+06. RM RIES AMLIB, BUGIS, TSH MR, NL HTTPLO
+PRs ) ATC,
+Aa      BS       oa      Do
+
+07, (5 Web MLR eh HTTP RAT, HG RAL Re at TTP
+Hamar eR (
+
+A. OET     B PUT     CC post    D. HEAD
+(8, HTTP E-AEAS HR, MH Web AAPA LAMAN E ROPERS)
+A. Web! B. Cookie    CG. 条件GET Dstt
+09. 下列关于 Cookic 的说法中，钳刘的是 (
+A. Cookie BA 8 I Hi     B. Conkio AR HEA 04
+. Cookie HUME ? HALA     DL Cookie 4PM UIRIEAM? At oS
+
+SUPERBA HTTP AADERIE HEREC).
+A, HTT aitababinat aa spines
+1B. HIVTPNOaRmab abst, TTPYL 1 ROR TASER
+CARR A ERLE AR TOP
+D. GHAR IRR 4 100 NARI RA) Wed Ku, ET AACRAL 100 站
+
+Top
+
+1, SLR AIH TOP SLA, PRAIA TPL HGS 1 Web 页，访页
+PHM —ASELeY TNR IE, AYA UE Web GRAAL TOP SLR
+H, HURRLMAM EDL, HAMEL RITES LC),
+AG      Bd       C8      bo
+
+12, REALL TTP GAIA) HARA Web 服务器上的 We rl,
+seh SIA T PINE FW 3 JPEG SB RAS ho 后放能改进时其引用
+===== wd_ch6_306_315-308.png =====
+2007 itm LI
+
+a
+
+4
+
+1s
+
+16
+
+和
+
+让
+
+Rash). ksh eb) RIT, RR RAO, TP RE A
+26), UAC HTTP RIL ERS, SHE AIOE C).
+
+A. 2RTT            25RTT           CaRTT            D. 45RTT
+“EA :2 26448 bap hwwweanyan comin tl SAGE Web index, SCI,
+AAAS KOH HTTP 88k, HE Wed HALAS ASLO 7 BIRR ILA
+HAMAR SBS fo EM LB Beh 25002095 4 IRTT, AAAI RS
+VWs, RUA LMS AIRE AML, MATOS, UAE
+‘SESH BURMA HL, A sR RTT ARB).
+
+AS                6                 7                 Ds
+
+主机上通过竺从的 HTTPILI HOUR RIL S LOH SKB BRIE, ARACIR MSS= KB.
+IPO RIT = 50m. RARIULFS MSL = 800s, ALLAH RICH LBA, EH
+SIRE SHR —ABIERNNALTALS, 2970S ARIRARAUIRRIL Cs IRIEL
+MORTALS LITA). ACH SEI S HE TCP RIRSTA, HEA
+CLOSED RASA. ROAM)
+
+A. 1000ms——B, 1200n8    C 1600s, 800m
+RAL“ NAT HbA HAYA MURAL A 205567935, ALA FA
+eames           ra        ao
+
+‘ESN PALM 192.168.3256. BORA H WORE, RAVER).
+AL AHEM, AB IP LH 205 5679.35, 142 LH 2056, REALS
+
+B. Bh MEER, GRIPE REREAM
+
+CBR, orto
+
+D. Rake Sranle dSLR
+
+T0dF RAEL AMMAR AEH Web 网站主页对，不可能使到的协议是 )
+AL PPP     2B. ARP     . ube     D. SMTP
+ol5 Seo AAD ITA TTP EARL
+
+GET index tant HTTP
+Host: wwtesteduen
+
+Connection: Close
+Cookie: 123456
+
+PLA, HIRI).
+
+(A. IIE AGH inde ed
+
+3B. indeciol #32: woes eden 上
+
+Raa RAMI
+
+D. RIL B AEH ILAL wmwwlesteduen
+
+Toon RIED ASEH H 通过 NTTPII RIL Wed 服务路 S 上的 Web 页
+08 nl nes am 引用了同目录下的 1 HM, news html KEK A IMSS
+
+===== wd_ch6_306_315-309.png =====
+ot ame      207
+
+GIA). BICAE ACI IMSS, HPLS 8 ARALDH RTT=10 ms. 8 HTTP
+应报六的首人开销和 TOP FGM OHS, BH CEMA. MULTE 8.
+TCP 过接时齐起，副接枚到全部内容止，所大的时间至少是 ( ) -
+
+As    B. dom     Ss     D. Gms
+
+19, [2024 sb RLY HAGA RAM IAT TCP AHR, (AM OSEAN HTTPD O HARI RIL
+
+SLU A Web 页，访页中引玫同一网站上的 7 AMR, RISA fe Web 页
+
+AIRS. TOP HE, TRAC AT BA HH KM LILI RTT REI)
+
+Ad      Bo      cu     D6
+
+Seana
+
+01 ARESEGA mpeskaoyancom FRE, AEG TARRAMILET,
+
+SrMASLIRAL, ARM TCPAP 模型，从应用层到同络基部阁到了哪些协议?
+
+在如下条件下，计算使用非持续方式在续方式请一个 Web HMI
+
+1) 下的 ROT 的平均什为150mms，一个 iP HLL 35s,
+
+2 一个 Web 页本中有 1048 TBH, Web 页面的基本 HTML SC. HTTP SRI.
+TCP 报于报浆大小入中不计.
+
+3) TCP 三交手于的第三步中朱芝一个HTTTP ER.
+
+DAMS RATK
+
+03. C2011 FRAT REN MAC 地址为 00-15.CSC1-5E.28。 IP MLALI 102 1261004
+AMAL). D1 RMIGAEAh. BD LLRIUR AY Web ee — food AM SAAR GT 808
+eh Rib GLA ASCILAGE.
+
+ete
+
+WO SR HONE
+nn ore 650002006 HratODID SHO oa.
+
+图3 以太网数据由【的30B)
+
+请参考略中的吉据回答以下问题-
+
+1) Web 服务加的理地赴是什么? 2A ALIA RAY MAC 地址是什么了
+
+2) 计主机在构和加 2 的上要由时，全用什么协议哺定目的 MAC 地址? SPRSRINAC ER
+BALAK AM A) MAC AEE AZ?
+
+3) RGR HTTPILL tigre ERARTALH, AIA GHEAM RIT, fohind
+REIN T S40 JPEG HMR. NALA 2 中的 Web HERA SLI BULSL Ra
+ARAL, HESY RIT?
+
+4) RRSRA pinta RARE, GL 分组关中的哪些字机
+
+注。以二网数所术引构和 IP inset HALO 3和国 4所示-
+===== wd_ch6_306_315-310.png =====
+2007 itm LI
+
+Tmacen | wancen [xan     oo      eae
+TS LIER
+ene     '    =    四
+四本 cr   ake
+CE   aes
+aa
+Ths
+
+Ba amNY
+
+06, 12001 RAID Reiedcdbse FMS, AMR AAES 通过路由回民与ntemnet 下
+
+A BWSR, KONAMAS. HI, 12M IPRA MAC 地址如图中所让.
+
+2g UA HI ARP 表和 S HRAROAL. ML SLM SMERE
+
+swonvabe com sBAGF Web 服务器， 在1时部10 >61S VIEL T A HTTP SRA
+MGPLAMTR, ALT 4 5 MOTOS (We BL RHEE.
+
+nate
+aa
+请回答下到问题-
+
+1 从到 4M, HL 除了 HTTP，还这行了哪个应用扶协议? 从度用层到折扣站
+Ke, RAAB ARA RAMETERS RA?
+
+2) BSMRBABHAMAC IR, Sher, Aq aS RARMAEL IAT
+
+3) 从加到且期闻，H2 至几扩收到下个与此次 Web 访问相关的术? ARAL LA LP
+本的目的 MAC 地址是什么
+
+634 答案与解析
+=. nat
+
+oc
+
+DNS采用 UDP Je(4iE8C8, UDP KH ERONINR
+
+ee
+
+eR a RZ RE PS CHD TANIA
+jv RAT. AE WWW 2 OR, LSE AY DNS HR
+===== wd_ch6_306_315-311.png =====
+ot ame      290
+
+RENE. EON H I ES. MN RABL TCP HAR.
+
+03. 4
+
+HTTP 在传输层使用 TCP，庙口号为49。TCP 的 25 号泛口是为SMTP RIA.
+
+Oc ac
+
+本为不知道服务叶的四地址。所以先要用 DNS Ar AU HER HTTP 进行客户和
+季务器之加的交开。雷要用到的人答导协议是 UDP (DNS 使用》 和 TCP (HTTP RAD «
+
+as. c
+
+PENDENT HO HC, IE NSC TT MR
+
+NFR URL
+
+rane
+
+HTTP 在传输尼用的是 TCP。 ITPA. 0 PURNATSRIEAE, PADLABUDR— ‘oad em aR
+次TCP 连接，传答 1个吉本hpnl 对象和3 个本[对象，共出灶立4次 TCP RRS
+
+07D
+
+‘UT MEAD 方法时服务器可对 HTTP HIGHT, COR AGAR SPATE
+试。另外三个和项中的方法的作用请查看本章中的表61-
+
+8
+
+可以在HTTP 中性用 Cookie 保存HTTP ML ABATE" 2 MEMEO RAIE
+
+四
+
+Coakie 是一个丰久在用户主机中的文本文件。它由务安生，作为识几户的手段。服务
+吉的后呈数关库记录了用户在 Web 站点上的活动,因此这此信息(如用户的个人信息及购物的人
+好等) 有可能村出给第三方，从而有到用户的隐私
+
+ID
+
+非持续于接对每次请求响应才建立一次 TCP 连接。在浏览请未一个包含 100 NEAR
+(fs Web 页耐时，服务器到传给 1 个基本 HTML 文件和 100 个图片对象，因此共有 101 AR,
+需要打开和关闭 TCP 连接 01 IK.
+
+1.8
+
+建立第一个 ep MENA IRTT, WEAR HN Web TURE 1RTT, RICANS HT TCP HR,
+因此在收到 Web 页后可同时建立7 个并行的 TCP Ake, DIMER AEA 7 个小图文件。因此，
+总往返时间 RTT AK = IRTT (建立第一个TCP 连接) + IRTT CURR Web 页) + IRTT (刀立7个
+并行的 TCP SERED + IRTT GRR 7 个小图像文件) = 4RTT-
+
+2A
+
+SUL HITTe TUR AGCIP, ATOM TCP REO. SMELT ae KARO NSH
+第1 个 RET 请求并收到 hml 页面，收到 Maml 页面后才能发寺对共引用小图像的请求，所以第2个
+RET UPRIAIALS RRR, AHEM RTT.
+
+nc
+
+EYL AUREARAER uml, ALLL LAA ANUS AE RBC
+‘Be IU A 4 ANKLE UP MERA. NUR ELEMLIEL OGLE IP A. SLA RTT.
+ASM EN HEM MMP BIE. om TRIBE. ckacyan com 8 BM BIE
+SAARI, AR SUANSI UP 地址最多 ATT, BSL TP IEE ARTT. RI
+A Web 页需要 RTT, AVIORERIENH AN. HL EERE Web TUS UNEARTH RHE
+inR, SBD EGF ME TRTT CALAUAEIE) + IRTT GRR Web TD + IRTT 《请求了个小
+
+===== wd_ch6_306_315-312.png =====
+300                            2007 itm LI
+
+BURCH =3RIT. RADE. PO RET HAE a
+
+4D
+
+主机用在建立TCP 连接的第3 NE EAC UALS ERMA A SIRT —
+{ECL ~ IMSS 1KB, HAS 1KB 数半后，向请求和放 TCP 连接，但8还有 4KB BEE
+发送。因此，8 收到 HACE FIN 彼和列认后，拥害窗口变为 KB，发送窗口也叶之变化，再用
+1RTT时间S给是发送3KB 数据.最后向 HRA FIN 自,这个 TIN FUR A FARIS 2KB ER
+HAGELFIN 身后，向S 发送 ACK 自，并启动时间等竺计时器，等竺2MSL A WHE CLOSED
+拓态，束个过积如下国所示，共柑N 4RTT+ 2MSL = 200 + 1600 1800s
+
+ee
+
+roan,
+
+B.C
+
+ALES 80 是 HTTP AYALA UAT UPS 192.168.3256 CLADE)
+的主机是 Web MIRE, MIN 80 说明该分组是 Web 肝务器站出的 HTTP wasp.
+IVT 响应分拓是对外网主机发出的HTTP MRE, WY NAT 表中一定存在相应的项 《理则|
+HTTP 请分组不可能到达 Web 服务哇) ，但在 NAT 表中找不到。所以只可能是对内网主机发
+TTD 请的遇应，访分组不要通过路由岩转发，国此路由六自友该分组
+
+16D
+
+接入网络时可能会用到 PPP， 选项A RITA: SEALS EAL MAC JANES J
+地址查询相应的 MAC 地址会用到ARP，和项上 可能用和到，访问 Web 网站时，若 DNS AERA
+存鱼相应域名的 WP Sh, MR A HL IP MALY] DNS，而 DNS 是基于UDP 的，所
+DLR C 可能用到。SMTP 只有有使用生性客户才子件，或红件服务器向其他邮件服务器发送
+邮件时才会用到，单地访问 Web 同页不可能用到，答案为选项D。
+
+ne
+
+Connection RR, Close 1A ERE, heepalve A REHEAT. Cooke th
+NR BHP, HTTP RAL CA Cookie 5H FEAR WHAM www tes eduen 服务器-
+
+18
+
+HITTPA.L BRIMGRATISSSHEA, PATRAS RINE. 要求最少时间，于的情况是 TCP
+在第次提手的报文生中拉带了 HTTP请求以及传久过程中的慢开奴阶段不考虑相大，旬疫接收
+ARACEAE PLFA, TERRIA, SEL A RIT, ST TOP 连接
+AECL, BEART. 主机 发送第3 UIE ERI 7A huml 文件的 HTTP ER
+‘TCP 连续卫建立时服务器$ HIRT = IMSS, HRS 发送大小为 IMSS 的huml 文件， 第3个
+RIT. 2:41 C 发送对 ham FOAL IH PRICEY HTTP 讲求，服务器 SUL
+送价品变为2MSS，然后服务路 EK AN IMSS IIRL As SAP RTL. NLC 向服务器S
+发送对到的印分图人文件的靖准，服务省$ 收到靖认后发送窗口变有4MSS，央后服务省 发送
+利下的1MSS 图人文件，完成传钉，共再要 ART, 40ms。邓个传给过程如下图所示，
+
+===== wd_ch6_306_315-313.png =====
+ot ame         201
+
+3
+
+区es
+
+at
+区At
+
+oan)
+
+WNLA-R AF tr TCP SEAR, LEER MTTPA.O 协议, 因此每传输一个 Neb 页和小图
+作文人都要建立一次 TOP 连接，第一次建立 TCP HEARN, ACME RTT, BMPR
+和中可以撞带HTTP 请束，服务回收到请孙后返回 Web 页。共花 2RTT。 Ki. MEARE
+SLAVE 3RTT。因此，到接收完所有内容，霜要的总时间至少是 2x8 = 16RTT。 Hs FM
+可支持并行 TCP 连接。则请求 Web 页人要花 3RTT，但收到 Web 页后，可建立7个并行的 TCP
+过接请求图作文件，传办图像的过程公花 3RTT，名时间为4RTT。
+
+Rm
+
+a. bike
+
+1) BRR. HTTPS WWW 访问所以，DNS，域名解折服务。
+
+2) 传输层。TCP， HTTP ALOR Raya. UDP. DNS HH) UDP Ae
+
+5) (BIE. 1B WP (ENR NB EHRs ICMP, HRP LIEEREMG, ARP. ASASHL
+
+(CUAL i Mua ONAE MAC SB
+
+0. Lie
+
+每次进行 TCP CWP. AUCH PHN RTT = 1S0ms, BE 3 USP B HILAR
+对 HTML 祥件的请求，国此清求和接收基本 HTML SPHERE TRTT= 150ms (其大小各障不计时,，
+‘RABBIS Om) «
+
+EN BEIELK
+
+RUA TOP MARAE ml SCPE OD fag = 150 150= 300m:
+
+‘UCR TCP 连接并传送一个[文件所需的时间为We= 190+ 180 38
+
+ELSON 1a=ud + Wirx10=300+ 335x10=3650ms.
+
+ENED Fs
+
+REEL TCP HEN, MISE aml 文件和 10 wit
+
+SIND = Pesce ht #10 150 41804 (1804- 3591021505.
+
+0. Lie)
+
+1) DRMOLON LIE P 数据报，只要数出相应字役所在的字节图可。由图3 可知以太
+网由首各有6+ 6+ 2= 148B,由图4可姑可指报首部的目的四地址字抽前有 44= 16,
+从图2的由第 FEM 14+ 16=30B,得到目的理 地直为40 2 20《十大进抽数)，
+#49000} BIS 64,170.98 32。 由图2 可知以太网由的衣6 字节00.2127.21-5Lee HEEL
+的MAC 地址。轩为主机的对认网关 102.1281 RCI MAC HS.
+
+Sms:
+
+===== wd_ch6_306_315-314.png =====
+302                            2007 itm LI
+
+2) ARP 用于解决地直到 MAC ALLL ADAP. ADL ARP BELAEALLAPIU HEC
+SR ARP IRA}. ECORI LM, CLAW AMEN 1. 即TEFFFFFFFF-FF。
+
+3) HTTPD 协议以持续的直流水乒方式工作对，服务器发送响应后全在一下时间内保持这
+自连接，客户在收到前一个请过的确应后才能发出下一个请求。注意直目说的是从发出
+Web 请开始，所以此时 TCP 连接已经建立。第 1 个 RIT HEF Web 页面，客户收
+到消一个请束的骆权后《还有 个请求未改送) ，色访问一次对象并用去 IRTT。因此共
+WH 1+ 5=6RTT 后浏览可改到全部内容.
+
+各有地址和 Interme 上的主机通信时，希由 NAT 路由器进行网络地直接，把让 AEA
+LP A CASEI 102.128 100 HERS NAT 路出路的一个全球下地址 (本
+(Wy 101.12 123.15) « Di, HE HEHEFA bao 80 6 变为 65 De HO. IP KAU
+过一个路由器。TTL Waa 1. AR SPE SURG AAADAL. UP ALERT
+SUMTU, UCI RR, IRAE, MRR RATE
+
+os. coe
+
+D Ay EL4 MN, KET HTTP, HL 还运行了 DNS HEALER. LAM 8 IPI.
+DNS 运行在 UDP 之上，UDP 将应用民交付的 DNS HCIBIOEABIS. RIS I HA.
+REGUL MERAH, SELENE, MBAR COMATCD
+RIPE. 因此 BEEN KORY Fs DNS 报六-UDP ERB IP RBH -CSMAICD fh
+‘HefROLK EMIS EIN CSMALCD 协议，国此使用 CSMAICD BUB FT H
+Hs 在数据和中层对该报文的圭于角和为以大网 V2 BU GRULATARD 28 (08, tt
+等案结出的 CSMAICD 由相对而寺并不算特别人适,CSMAICD 协议更多地用在以伟集
+夫吕百连的以太隐中。交换机可工作于全双工方式，通洛不采用 COMACD HRs
+
+2) wHPRL, HIM) ARP 表和 S MUZICA. HL ARR SLAREMLAR DRE] Web 服务器
+因为要先半域名查询该吉对应的下 地址，所以要和向本地二名服务器法 DNS 查询
+报文。ARP 表为空，因此需要先发送ARP TERI, HW ASAM 2 IR TIRE MAC 地
+ie, POU ELOY MAC 地址是 FF-FF-PFP-EFFFEFF。S 接收到这个帧，在交换才中记录
+MAC 地址为0-11-22.33.4-ec, (FARO) 4, 类后广播证。当本地二名服务器收到 ARP
+请求后，癌 HI 发送 ARP IBED EL. § 扶收到这个帧，在交扫表中记录 MAC 地站为
+00-11-22-33-48-05, (UPI 1, MRE RRAWLMIA 4 发送出去。
+
+AST MSH iS PAE, NEARS, RMR RE
+
+的 AR 224M IE) MAC SLE, RUCREAR SEALE ARD UHR aL.
+由器对应的 MAC Sh /SOLAD FIA MAC ABHEAE FF-PF-FP-PP-FP-FPS 2248
+HHL. SUK RHEE ARP PROG, FY HL 发送ARP HILAL. SIRNA NB.
+交换中记录 MAC WAL 00-1122-33.48-0n, AFA 2, ARGAETABUISTT 4 RIE
+去。 SME, HU 就能发送 HTTP 请求。在整个过程中。间没有水及TD，H2 HAT SAR
+SE, HUES 不会记录 HP 的MAC SOLER, RLS ERENT FR
+
+3) avbIRD) 的分析可知，1H2 至少会找到 2 个和此次 Web 访问相关的相。按收到的均是
+‘NA ARD Hi BECATDLSIVOL, S06 FN MAC SOME FF-EF-FF-FF-FP-FF.
+
+===== wd_ch6_306_315-315.png =====
+ot ame      203
+
+和6本章小结及疑难点
+
+1如何理解共户进入站口和与用务中进程找吕号?
+
+ALRITE SOARES, SLIT Ne LATE, OCP PRA UME. 客户
+PECIBHAS, cI ARCOM AO, (LORIMER, PRL
+Ste ateieieol: SAARI RIOR: SPARE LOOSE LC ASO LI EHS
+BMRA CEST PMR) ER HRM,
+
+2 王联网和万维网约区出什么
+
+瑟联网 Clnermet) 是一个全球作的计算机网络瑟丑系统，志源于ARPAact，果用 CPAP 协
+SURGES IER, SOC LZ mE
+
+万从网 (World Wide Web, WWW) JIVHIRE EST ARAG. A —SRAURRAERS. nO
+(RSC AORAS ALR, ML HTTP RATE.
+
+WZ: RM RR. HMA “LH.
+
+3. HTTP MSE, 4 FRAME HATH LE RITE
+
+因为 YCP Sea RRR CIN BL EMSS, FL HTPrL. ! HS eb Na Rae
+送清求，服务器也不能一次性发送全部数据。全如。网页文件为IMSS，图片为3MSS、
+
+第1个RTT， 完成 TCP 建立连接的前两次所手-
+
+第2个 RIT 第三次所手柄带 HTML 请求，服务器发过 TMSS Cewnd =D)
+
+第3个 RTT SE PURNBARIUHAIMTAM AR. cond 增至2MSS，八大 2MSS FEY
+
+第4个 RIT SPR EMI NE, cond BEA MSS. DEB IMSS 图片.
+
+Hit, SCR ACR ROC TAEELEE, OOM. WAH ART.
+ERNE RIEL, MLIARIMESE CN, MARR ARES
+
+4 PUR EAM AALS HFT Web Ab, Ste ues (LAL?
+
+CEAADPOUN. ARRIETA 8, OMAR SUI AIA. PERIMETER
+{e883 AULAMIMEIRAS COMAICD HLAIULRSAAR GE, MICERSAVAMG BURNET AL
+起，不使用 CSMALCD) 。以访问hupywww ahe comfadex unl JP. RIG APAT F.
+
+DUCE 蓝职网络配置.主机户动后，先通过 DCP 折动区家 j SUH. EINES. BRAK.
+DNS 服务中地直等参数。DHCP 属于应用层抄议，其报计区在UDP 数据报中，UDP SEALE
+RCE IP RRs. RYE RARER AFP 数据报竺六为以太网 MAC AE HED.
+
+DNS MAEM. FUER EPA Li URL 后，训览吕从中失取域名 wwwabe com, J
+向本地 DNS HLF BALM HOR. DNS 属于应用层协议，在任民中使用 UDP，查光报文被
+‘ede WP AUER), DNS 服务器与主机位于同一子网内，出主机先通过 ARP 将 DNS 服务器的
+I ARAL AR ATE) MAC RE, HEAP RRL YORI ILIA DNS 服务器。 若 DNS 服务
+器位于共他子网中, 则主机先通过ARP 获取味认同关的 MAC HS, HR ARBURSUEE RAR,
+BESO. FR, DNS MFHT, HAR etm UP 地址告知主机
+
+HTTP BRR. EAH UP AES. LAL Web 服务器的 80 TRAE TCP HEARN
+未连接建立后，测划杰立即发送GET indes htm 的 HTTTP 请求。服务吕收到请求后，返回馈
+index tl 内容的 HITT. HGRA HTML. 页面，若共中引用了闪好纪源《如图片、视上
+等) ，风对每个天分别发在亲的HTTP 请求 (根据 HTTP 版本的不同，可能复用新建连撤) -
+Aide MEENA. TCP 通过四次反手和放秆接。测攻吕解折 JTTML，完成网页展示。
+

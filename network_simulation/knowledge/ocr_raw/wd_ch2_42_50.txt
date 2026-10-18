@@ -1,0 +1,459 @@
+===== wd_ch2_42_50-042.png =====
+nite
+
+物 理 层
+
+【考纲内容]
+(ste
+i S.A, YE. I. RS A
+RENNER IS REM: EIN,
+BAR. HCE A MH ae”
+(=) tetra                                       mee
+双绞线、同负电给、光纤与无线传输介质，物理层接口的特性
+(三) 物理层设备
+kas Ae
+【复习提示】
+物理层考虑的是怎样才能在连接各人计算机的传输介质上传给数据比特流，而不是具体的人
+输介厦。本章梳多较多。易出选择是，复习时应折信重点如杂赤捧特定理和香农定理的应用、
+久码与届制技术、物理导接口的特性、物理层设备的功能和特点等、
+
+2.1 通信基础
+
+2.1.1 基本概念
+
+1数据，信号与码无
+
+通信的目的是传输信息，如文字、图像和视频等。履据是信息的筑体，即用于传达信息的实
+体。信号则是数据的电气或电磁表现，是数据在传输过程中的存在形式。 数据和信号均可分为民
+HORA EMI, HEI OME, SC AE RL A ED.
+
+(Rib, NAc een a eR AAO. aR, 《也
+TEA SLGAD » TOMB AAAH CARIE-T IIR) «EM HEE AR A AS BOE
+OSH ORAM MEAT, 1 码元可以的带若干比特的信息最，例如，若一个信号由期内可能
+出现2 种信号，则每种信号可表示 1 IR, TL 码元可撞带 | 比特信息。若可能出现
+4 种信号，则每种信号可表示 2 位二进制数，意味着 1 PEIN 2 比特信息-
+
+eer
+
+图2.1 Ria TS RAI NL, SRM EC MILA, PNA.
+数据通信系统主要划分为信源、信道和信宿三部分，信汪是产生和发送数据的源头，信入是接收
+
+ARI ACER AER" NLA AR HED 和-
+===== wd_ch2_42_50-043.png =====
+第?章 物 理 oe     at
+
+数据的终点，它们通党部是计算机或其他数字终缚园置。信泛是信号的传狂介质，一条双向通信
+的线路包信一个发送信道和一个接收信道。信产发出信息后，需经发送变换村转换为和全在信首
+传输的信和号，读信号经信道人至接收庙后，由接收变换器还原汶原始信息，再交付给信克。江声
+夭是信道上的只声及分攻在通信系统其他各处的只声的集中表示
+
+ee [eess] [
+raed           <一一一
+本                   ha
+ee
+
+mar heme ROR
+
+按恰信号形式的不同，信首分为传送术所信号的模拟信道和传送数字
+Henin TRE, SPRATT REE
+
+CE LMT TREES ALERT 2D. 基带信号是由信源作出的未经过调制的原妈
+电信号，当在信道中直接传送基带信号时，称为玉带人办。融信号是特基攻信号调制到高频较
+该上形成的信号，拓后其在信这上传输，这种方式称为党天传给
+
+EAI Stor ae TEAR ALT 4H ARLES EAE
+fee PIERRE £ OL. RATHER ALE AEA. Ani RCALINE. SEAT
+GMP ROEATR, ALTIMA, CPU SEZ
+
+从通信双方信息的交百方式看，可分为三种基本方式
+
+D 间遂售。只有一个方向的通信而没有反方向的交卫加天线电广播、电视广播等
+
+2) 考区工通信。通信双方才可发远或搂收信息，但任何一方才不能同时发和和搂收
+
+3) 全双工通信。通信双广可癌时发关和接收信息
+
+RAUMIR A — Neils SALMO PH
+APBD REAR, EE
+3K RHO,
+ATRIOS, ARANETA PIORNBIBIEA,
+EET.» er HAARHAR CON, 24, 202
+D Ayetbik he. WRIA SRNL, RTI AR HERMITE. MIE
+
+AF (Baud). HHUA AAI, WHT HEM, LTO SABLE
+DERM, WANA, RRM RENB HRMICIER AML bi.
+
+OMIM,
+
+ith CEP «MRT
+
+在同
+
+REPRE MLE, (RE SMART LARA, BAMA 有
+
+ALE. MAH Baa EHH Monbis
+
+AML. $2 CHIE JentcimiRe eas BANE. RE TL
+HIRE, MOLLE CH). OPER RTE SUMO, SERRE aD ek mE
+SPARE. URAHARA, enter RUS RBIE Hz，而是 is.
+
+2.1.2 ”信道的极限容量
+
+号在信道上传输时会不可坦免地产生失夷只要接收总
+===== wd_ch2_42_50-044.png =====
+2                               2027 年计算机网络考研修习指导
+
+能够从和失真的信和号波形中识别出原色信号，这种失真对通信质量就没有形响，然而，若信号失
+ee
+KEM IGE, WACO,
+
+1 ema RAD
+
+ > RAKIM Come, 2014, 222, 2023)
+
+SE EMEA LTR. GR ROR A NL A
+TeAEANA EAR, GHARUCRRNC ELAS IE APTEZ A ONTIRRL, TRAIL RA ABI
+ashanti CAMO CRI, ARAM 4, Hk LO A, MRA A
+办和率为 2这特，其中 下是信这的颁这带宽 (间位为Hz)。若用 RPT
+数量(不同本元的种类数，例如，若有 16 种不同的码元，则需用 4个二进抽位来表示,此时数|
+ee eed
+
+ICE AE RICE 2 lop 《单位为bs)
+对于亲氏准则，有以下结论，
+1D 在任何信这中，码元传输吕素存在上限。若超过该上限，则会产生严重码同曲扰，导致
+RHEE EAT.
+2> RATNER, Seen eA AR.
+3) ROCHE MS AS, FERAL FTCA ARON LAR CLLR» Bt
+SCARE OATMEAL Ch QAM-16、OQAM-64) HEFT.
+
+2 #Rem
+
+REET) > semana cove. 210)
+
+St EMR. RA ARSE EA I
+6, SRIRAM, PE LATEST. AACN
+
+HE LMUERLIEHE REE = Mog + SIN) 《单位为bs)
+Rib, WASSER CLI Ha), SIS OES, NPAC SI INHER,
+Ros AO SSN MRE Ht.
+MeL AMERICA HAMIL RVA SL (AB) 记法。 RALLIES = SN
+当采用分册记法时，信喇比 = 0igvfSIN) (单位为 dB》, 例如，当 SN= 1000 By (ERLE 30.
+注意，使用香农定理计算信道的人限数据传输速率时，信只比应采用无单位记法
+
+EET» aingm cow
+
+对于香农定理，有以下结论，
+
+ut eee
+
+ee ee
+
+3) SURSZRSIS MLA IESP AREAL, bf RADE Ay UES BRIT LA.
+
+4 FOTO ER, TSE RRB E CEMA,
+> RReAMS mace (207)
+
+RIAU RE CMTS EMAAR, SGA EMAL HC A
+CUE, SHEE MEPSTOSERGES. ALCAN, NEAR ASML,
+束存在上腿，芭全个加元所能可徘的带的比特数是有限的-
+
+===== wd_ch2_42_50-045.png =====
+第?章 物 理 oe     33
+
+21.3 编码与调制
+
+信号是数据的具体表示形式，数据无论是数字的还是杭所的，为了传和的目的，部要转换成
+Hho MCSA RLF OAR has, ARR BLA LER
+SPAR TLE PER VRE ATOM, LOT LS ABIES
+‘fede FIN, BUOSRRETI St POM 编码圳转换为数字信号进行传输，也可直接以模报信
+号形式传输 (例如传统电话中的语音信号) 。由此形成了以下四种纵码与调方式，
+
+1, RFR NEES
+
+SCPRGRSPIAL PALO, UNEAEACREE ES NOME PRIORI.
+iF ATF PRR ACARI OL. INTL RLM 22 所示-
+
+=
+
+omm | F Teal UL dead LE
+
+vee as, 所Ra 人SO (aD, atantnesien
+人
+人
+
+|
+
+信人 am, SUERRERETENES, 和gg了wwe D
+2
+
+ee
+eae one reer anye ere
+定的自同步能力，并且避免了 RZ 的带宽浪费。USB 2.0 等标准采用此编码。
+
+pit etl atl
+
+4) Raat, MRTG PEA ORR. GEE LR Pe RR
+
+人
+
+5) Lhasa. Fl, SMPTE TRE, SAUTE,
+ee
+
+===== wd_ch2_42_50-046.png =====
+34                               2027 年计算机网络考研修习指导
+
+AVERT 0。这种方式具有更强的抗二拓能用
+
+传统以太网采用的就是县彻斯竺编玛，再差分天特编码芝用于令隆环网等高速网络-
+和沉见数字编码方式的特性对比如表 2.1 aR
+
+E21 党风类字坟方式的特性对比
+
+DECIEIOEIIOEEDIIII
+Ten |    =| emcee | a     a
+waee [we || sane [a    ae
+aren | La    =     =     a
+
+2, REE
+
+ALEGRE PCM CRMERBIADD . fae=tbH.
+
+1D ete BLS MTHS, (G30 ON AE YA. UA,
+
+RIESE BITING
+
+2) dete ORATOR AUR, HekeR ORIOLE ROO.
+
+3) ie HE MEH REE — ES
+
+3. ROT MS
+
+SC PRURIIL RERUN ACs DORON, CRCOR UA MES HEROIC
+co. SR NBN A MTB NRL. 23 显示了数字调制的三种方式-
+
+ww fof feiofrii i: lo}
+| baw) Fb amt) |
+eno Lass aa        jase,
+| AR | MG | MO | a | a | Mm | 录 se |
+
+eens
+
+awn oss
+
+图33 ReRMBION =H
+erameAnAsn co
+ > puns (201, 2022)
+
+1 #85832 (Amplitude Shif Keying，ASK) 。通过改变坊波的所由来表示数
+例如，用有瞄波和无近波输出分别表示 1 和 0。这种方式容易实现，但失干拓能力
+
+2) MUSHLEE 《Frequeney Shift Keying，FSK) 。通过改变较波的须率来表示数字信号 1 AIO.
+例如，用频素三和频率分别表示 1 和 0。这种方式容易实现并且抗干扰能力于
+
+3) AVSOLAE CPhase Shit Keying，PSK)。通过改变地波的相位表示数字信号 1 和0 鲍
+如，用相位0 和分别表示 1 和0，它是一各绝对调相方式-
+
+===== wd_ch2_42_50-047.png =====
+第?章 物 理 oe     35
+
+与 PSK 不同，DPSK (AGMA) LRAT A, CALS TRL
+相位老来从就字信息， Ht, MERCER EMRE HO.
+
+En mosemssirsermesen 2000, 2000)
+4) ERATE! (Quadrature Amplitude Modulation. QAM). ¢ERVEMLEATRIOEE Fb
+ERBNARATATEY, TERALO ISS. Aide AEH PaO HERR.
+
+OAM FTE, HULA, ATER. MRR CRRMH SIR,
+‘BLN HI3E 90°, OBST Saks HAR MLL PML. EL QAM 16°90 FAM? a)
+BUR AVLEMIR OR: SERRA 4 HORPIRIRIS, SRA BRIE AINE. SASIERORTERE
+OOH. ISHS BAL OLE No 种不同的信号头态，每个状态对应星座图上的一个点并
+且代表一个4位二进制数。接收呈收到信号后，通过判断该信号最接近电个星座点，苑可恢复出
+原关数据。若将每路拉波的振相调制成8 种，则可组侣成 64 种不同的信号状态 (9AN-64) ，狂
+个大表对应一个6位二进制数，如图 24(bJBi示。
+
+ae                              ower
+
+24 QAMLI6和QAMe4 HII
+LABORER 8, RL PA, AMIGA HR, QAM HE SEEN
+Blogs) 《单位为by
+
+4 AUR Re ES
+
+{ERMA ARARTHRLL RIOYE BIER, TEST Te. Ain, fe RHR,
+‘eA EAR ERLANG REARS TEER 全给，则
+APRA CAND. HAS (FM) 或届相(PM》 *BMLSAALA, (5 NRE HARARE
+
+214 ARE
+
+sete
+OL, FALTAR AMHR AMS RH, Em.
+
+A. PH SAROR RO, RTA ERA Re — ME
+B. MALE HAURE RAMEE St
+
+CAB Raia Sak eM
+
+De ALINE, RARE TAY AP dea a A
+
+© BH ETRH POET OAM. BREEN, ERROR OAM IS.
+===== wd_ch2_42_50-048.png =====
+2027 年计算机网络考研修习指导
+oz。影响信间最大传办过季的因素主要有 ().
+AL (ea etre          BRAM RR be
+CREAT         De Aik abhor Rohe
+03.) ARTE SEhm aaobaeansb
+Re ee eR 。。 D，异亲人从
+
+OL FHA Aas shim REY. EMAL),
+A PEFR ASA ERD
+日将时镍与娄所取信都包售在仿生中
+CSA es a AIOE
+D，每位的中间不中次表示信号的职值为
+05. AMIE IE Him Riots RH LEMAR (>.
+AL RAP a RAR LB MLAP BARA PAC RL
+
+CR arama A atte Ht     D. RMSE RT
+06, AERTS LIRA CD.
+Le Aeteakah 。 用 Rtas, Lora
+A aL     & an     cen Dn
+07, RIESE AHA % lo0oHand, PRAIRIE HEALS] Ab, NE
+AT RAM ).
+和      88      cs      b. 16
+08，下图是某比特事的受彻斯特编码信号波形，则该比特事为【 ),
+JUULTULT
+Anomg moono cootoo  D noonoy
+
+的，已知基信进的信息传给速率为 64hbhfs，一个苯信号码元有 4 AT Ae, aA
+的让鱼蕴为(
+AI6kBaad 。。 B，32kBaud   © GtKBaud 。。 D， 128kBaud
+
+10. PARAS BA 信道，每个信号包含8级，每秒采样24k A, MATAR
+大传输素是(
+auhs     aakbs      CC as     DT
+
+对于甘带宽为4000Hz AULA, AU 16 AR PLN sea SRL
+APR, ABRAM RHR (
+
+AL kbs    BL akbs     © 6ks    D. 32kbis
+1 Sab 5 ARR 127: 1 的 ak RL eA, BURA HR TILEY )-
+‘A. 2300008 BL 8000015    CC 4000bs    D. 无限大
+
+3。电话系统的典型参数是信秆带宽为 3000Hz，信呈比为 TOR, RRA AIR MR
+AL kbs      Bhs      © skis     D. bibs
+
+14，一个信道的信号功率是 OLAW, RA DRA OOOW, HAM 35~39MHZ, RII
+Hee Sats EA),
+AL2Mbs 。。 B. 24Mbs    © Tbs iD. 234Mbs
+===== wd_ch2_42_50-049.png =====
+第?章 物 理 oe        a7
+
+1S. AM 8 fHAREL, Settee SATEEN QAM BIBI 3, A 1200Baud 的信息传输过
+AFRESH IRIE CD.
+
+A 2400S B._ 3600s    CC 960008    D. 480008
+16. 一个售站 18s 来样一次，传从信号共有 16 种变化庆坊，最大雪据传给过夺是【 )
+AI6hs     BL hs     ©. 48bs     D. fabs
+
+17, RASH BIEA NOM, RIE WB. SM QAMAD HAAR. BALAK
+2OMI2, (BRIA 8) 404B，划信道的权限数据传输过率大的提高到原未的《 ) 8,
+A2        B22       © 24       D 26
+
+18. (2009 REAM ARS HILT, BANAT A Tete, AMA RCE,
+每个相位具有4 种柱度的 QAM BELLE, RAL ARMOR RARE MER ( ).
+AL I2kbs    BL 2dKls     CC 48khis    D. 96khis
+
+19, [2011 RET RNIB HEE HARMEN EA DONS, LALA HNL.
+HATH (
+
+A. 600Baad Bl200Baad 。  C，4800Band 。。 D，9600Baud
+20, [2013 A AIT FAY 1OBaseT 同卡接收到的仿半波形, MEM PASTA BA .
+
+LUT
+
+A. 0110110             B, 1010 1101
+©. 0101 0010           D. ion 0101
+
+2 【2014 REAM ETRE, Kim trbetIee eR ( )-
+AL BRI    Pe ee ee es
+
+22. 【2015 AA ALD em AR ALAA 01100111 AERA RF
+Bah | 和编码2 LEC,
+
+woe tt ee ta
+al         :        d        yy
+ame! [7        |        |            |
+AL NRZ Saphir         B，NRZ 编码和差分受彻斯特编码
+(CNR Bn            Di. NRZL tf 3-08
+
+23, (2016 se AED FAG, AE R2 和 R3 AA A ALA Bk, ABRIL 3B,
+HSE HEB ak 8 HEE ASE SOM, RU RHE
+#88).
+
+QR,        ers)
+oy)        Vw
+A. Skis     2B 20s      Cun      D. sokbis
+
+24, [2017 RA AAD SAMLAARA Mh FO AOPRALIE RE AT (BRIA OU 条
+ATURE, UE PRARE IL ().
+Ad        Bs        © 6       D2
+===== wd_ch2_42_50-050.png =====
+38                               2027 年计算机网络考研修习指导
+
+28, [2021 AAI FM RAI AMAT SL, MeN ARAL BAC
+
+TULUT LULU
+
+A 111101 Banooo conomo Diono
+
+26 [2072 统关走题】在一条带宽为 00kHz HANA ATL, BAM 4 个幅值的 ASK 调
+制，则这信道的最大吉据从给志和是 【 )-
+200kbs iB, 400kbs    Cookbhs    Di6ookbs
+
+27, 【2023 RAR RAR AAI AMI, AML QAM 调制，着该信和的最
+AAI NSE AA ARMs, RIESE RM QAM BATRA (),
+
+A QAMI6——B, QAM-32     © QAM6ID, QAM-I38
+8 AREA AFHAMNAF MOTE, BLIAKAREMAHL ( ).
+AL ASK      BL PSK      © FSK      D. DPSK
+
+寻合应用天
+和下图所未，主机信和昌都通过 10Mbs 的仁政接到交接机
+
+Casaca
+
+每条钴路上的传播时下都中 20hs、S 是一个丰负转发设备，它在拉枚完一个分组 35hs
+后开格转发收到的分组，斌计算将 10000 比特从人 LAL BOTT MSOF,
+
+1 作为单个分组，
+
+2) 作为两小 5000 比竺的分组一个民接着另一个发送，
+
+02, 一个分组交毛同条用虚电路方式转发分组，分组的首部和区摇部分分唱为甩性入位.
+更有上(上沁忆且上为忆的们数) 位的报文通过该同络传适，天点和纤点之则的线路
+Sky SA LAE MeOh IE dO, MARE Wis, MAA RAO
+Ys, GAP APA mW PMB, KERABR AHH AEE IS
+Sasi eet.
+
+2.1.5 答案与解析
+
+=. nk
+oD
+(ea Fame, —seoratD
+
+项A HH. WALRISSARSEAR RULE MOM, Heo B MEER. aC ORLA. “比特素”
+TERIA SEER” 的关系如下! RARER OEE ES MSLE ADE, HD TEM,
+
+A
+
+AUREL, WU SR EAR ARAUDD  RE EAUORE TURE REAL
+FRIES SURAT, HET a
+
+0.8
+
+SPATS As MERINL. SLORY. PION A REBECA. ib, ZEEE
+A GUND FARA REEIPIT EM. PD. SUDHARINIA TAR. MPRA.
+
+OB
+
+ORRIN MAREE AEC. PEMA MIPIM. WAN Rare
+

@@ -1,0 +1,684 @@
+===== wd_ch4_139_150-139.png =====
+#45
+
+网 JA
+
+【考纲内容]
+《一) 网络民的功能
+SHURE TLE PBI SEER: SDN MAEMO, NARADA
+(=) sane
+seh 2hdsohs BEN POAR, IRA
+(m4
+Id 分组:ITPv4 地址与NAT，划分子网与子网拓隔、CIDR、路由聚合、ARP、DHCP
+与ICMP
+《四) 16
+TPv6 的主要特点，IPv6地址
+《五》 路由协议
+自治系统，城内路由与城间路由，RIP路由协议，OSPF 路由协议，BGP 路由协议
+OO Beit
+SMOG IP RSH
+
+sus             ai
+
+Cp ae
+
+ear Ades he IL
+OD RRR
+
+tas Me ey SEM
+【复习提示】
+
+本章是历年考查的重中之重，净其早合第3 章、第5 章、第6 章出综合是的概率很大。 其
+中 IPw RGA MTHS RAG ATED, DSA ICE HE
+CLOESRRREMN. AR ANIRALMNIA, OOIPNG IP EA. Beal IP 也要有所了解-
+
+4.1 网络层的功能
+
+网络层所供主机到主机的过信服务,主要任务是将分组从源主机经过多个网络和多段链路人
+欠到目的主机。访任务可划分为分组转发和路由选择了种夭于功能.|
+
+OSI 参考模型主张在网络民司用面向连接的虚电器服务，认为应由网络自身来保证通信的
+IMR. fi TCPIIP 体系结构的网络民提供的是无连接的数据报服务，基核心思想是应由用户主
+机来保证通信的可介性。上电路和数据报服务将在4.13 节中介绍
+
+在互联网采用的 TCPHP 体系结构中，网络导向上只提供简单灵活的、无连接的、尽最大妈
+
+===== wd_ch4_139_150-140.png =====
+128                              2027 年计算机网络考研修习指导
+
+力交从的数据报服务。也就是说，所传送的分组可能出异、丢失、卫复或失译，这屿使得网络中
+的路由器可以全得比较简单，生价格低康。通信的可区性可由更高层的传输层来负责，
+
+411 异构网络互连
+
+苹联网是由全球范围内数以百万计的异构网络连起来的。 这些网络的拓扑结构 寻直方案、
+差错不理方法，路由选择机等部不尽相同。网络层所要完成的任务之一就是实现这些异构网络
+的互连。网给亚连是指将两个以上的计算机网络，通过一定的方法，用一些中维系统相互连扩起
+来，以构成更大的网络系统。根据所在的居次，中枚系统分为以下4种:
+
+1D 物理及中续系续: 转发器集线器
+
+2) SEMI MRA Be OCU
+
+3) MAH Ashe BR
+
+4) AAA Le Atk MLE,
+
+LRA AHA RR, PURI NAT. NOME,
+它仍姑是同一个网络，一般并不称为网络吾连。因此，网络互和通常是指用路由医进行网络连捷
+和路由选择。路由世是一台专用计算机，用于在互联网中进行路由选择
+
+JRO SRSA A CDI eh ak mI AHA A,             |
+
+ERNE TE OA AERA RM BATTLE AYE
+(FR. aydeaai-E SUMP —Mer TTL. BH SE A A
+同的网际协议 ,通过IP VoL HCH OE EOL RAINE — MB,
+所以可以把耳连后的网绍视为如图4 Nb)所示的一个庶权下连网络，简称 网络-
+
+a Tp
+
+eas
+
+seer                        moments
+图41 were
+使用正网络的好处是，当正 eee
+看不见于的各个网络的具体噶构细节《如具体的负直方案、路由选择协议竺)
+412 路由与转发
+
+‘ec BH PC A A AS AL ES
+1D abRde. Ml RHA NAR, EAVES NUR IR ARNE AHI,
+动态生成维护路由表，从而计算到达目的同络的最全路径-
+===== wd_ch4_139_150-141.png =====
+第4音 wee        129
+
+2) 分组转发。路由器要据转发表将到达的分组从侣天的答出吕口转发册去。
+路由表由路由选择算法生成，放重于扫欠计算。转发表划由路由表导出，其结构应全查找最
+优化。在讨论路由选择的原理时，往往不区分转发表和路由表，而疙统地使用路由表一词。
+
+4.13 网络层提供的两种服务
+
+分组交换同根锯其十信子网向沿点系统提供的服务,还可进一步分为面向连接的虑电路服务
+和无连接的数据报服务。这两种服务方式者是由网络属提供的-
+
+1 tee
+
+EEE mate coo)
+
+ERR. PREEMLTTIOIE MS. LALA ee tak — awe, ON
+(Viral Cieuit，VC) 。 HER FLeb, SLA FAMED. LR eR.
+NPM = POL MRR, Neath RRA.
+
+AAR LEN, RHINE PAGEL GS (VCID) ，以区别于同一节点
+上的其他具电路。此后，双方名治着已建立的和电路传送分组。值得注意的是，仅在连接建立阶
+自使用完整的源和目的地址，后续分组的首部仅需所带由电路号。得个中间节点都的护一个|
+五表，其中记录了每条虚电路的 VCID 及下一中信息，这些内容在连接建立过程中确定
+
+下面以图上2 为例说明虚电路服务的工作原理，假设主机上 向主机旧作送分组。
+
+图43 deat CAP
+
+1D 数据传输前，主机 A 与主机 B 需先建立虚电路连接，A 发送 “呼叫请求” 分组，经由
+中间节点转发至 Bt 着 B 同意建立连接，则返回“呼叫应答”分组也以确认。，
+
+2) 左电路建立后，双方即可竹下人数据分组。
+
+3) (OMEN. EBL A 发送“笃让请求”分组，逐段拆除电路，
+===== wd_ch4_139_150-142.png =====
+1a0                              2027 年计算机网络考研修习指导
+
+意，图4.2 所示的数据传欠是有确认的，接收广收到分组后
+
+通过上述例子，可总结出庄电路服务具有以下特点。
+
+1 建立与释放连接开销大。不适合交卫应用或少量数据交换，适合长时间或大最数据交换-|
+
+2) 路由进择在连接奸阶段完成，建立完万后，训固定了传给路径。
+
+3 提供可篆、有序的分组交付，并支持揣到册的流量控制
+
+4 对节点或链路的辜镍路。任一故障都会导致所有经过该节点或链路的应电路中断-
+
+3) 分组首部开销小。因为其无须失攻完整的目的地址。而只天携带虚电路号
+
+应电路之所以旦应的，是因为这条链路并非专用的，而是可被多条虑电路共京.
+
+2. tem
+
+在数据报方式中。发过分组前无须建立连接。源主机将应用层报文分条为若干数据股，并封
+装成扒带完整尖地址和目的地址的独立分组。中间节点对分组短各缓存，独立选路后随即转发-
+网络不提供服务质量保证，也不确保可传输，因此分组可能丢失，重复、失序或出铺，这上
+使得网络中的路由器比较简单，且和过价低床《与电话网络相比)。
+
+下面以图4.3 为例说明数据报服务的工作原理，候设主机和 向主机上 发送分组-
+
+A.
+
+图43 数据方式转发分组
+
+1D 主机人将分组逐个发送至与其相连的节点A，该点对分组进行短打级存。
+DMG. HALA 查询其转发表。网络状态动态变化，导致竺发表防之更新，各分组独立进
+行路由选择，可能经由不同路径转发《例如训分发入节点 C，玫分发往节点 D》 «
+3) 后近世点以相同的方式转发分组，直至其最终拭达主机
+在传过程中，分组仅古用当前链路的资源。得益于存储转发机制和资源共享，多个主机可
+以同时通信一傅如主机 A 在发送分组的同时，主机旦也可向其他主机发送数据-
+通过上述鱼子，可总结出数据报服务具有以下技点:
+1D 无须建立过接，发送方可随时发送分组，交换节点也可随时接收并处理。
+DD 最大努力交行。网络不保证可靠性，分组可能丢失、出错或突序，由于每个分组独立
+过路，转发路径可能不同，可能时到失序到达，
+3) 分组损守皮地址。每个分组均包含完束的源地址和目的地址，以支持狐立路由
+D RAMUS ROKR. SAI ANOLE, PARR ESE AN.
+SBMA LANE I.
+5) CARH AE AR RE HH eR
+===== wd_ch4_139_150-143.png =====
+第4音 wee            431
+
+© RRAMES. AAT AAAS, AREA e Heiss
+RIEHL ALONG LE MOM HR CARE. AT APSR ANOS NA.
+联网能名发展到今天的规模，充分证明了当初采用这种设计思想的正靖性
+雪据报服务和虐电路服务的比较见表 41.
+
+Rai 并所李限务和具电哟服务的比较
+
+ET                ET
+ET                  ro
+
+Z                CT
+|         Fe条
+CEITITTTTTITTI      eres
+aa eT            esr
+wet [Roe oR RM      CTTTTTTTTS
+
+ETIITTOIIITIERTITTTTCEIITTITTOT3
+ETTTITETTITTETTITITTOIIITTTTRTITTETT
+
+4.14 SDN 的基本概念
+
+网络层的核心任务是分组转发与路由选择。从功能架构上看，网络层可抽象地划分为两个
+SUV: U8 CURE ALP) 和注制平桓，其中，数据平面负责执行分组转发，再控制平
+MMRDA, RIM NITES.
+ACP SLIAA (Software Defined Network» SDN) 是一种近年来广泛采用的创新网络架构，其
+核心在二控制平面与数据平面的解模，拉制平面集中化，数据平面分布式部署。 在传统网络中，每
+路由加同时承担撞抽与转发功能, 既运行路出协议, 又维护转发表。 而在SDN 架构中(见图44)，
+路由器仅保六数据平面功能，不再运行史由迁择软件，因此锌此之问无须交换路由信息。网络的控
+制功能由一个多辑集中式的和程失制器《通常由多个服务器协同实现) 统一承担。访控制器休所全
+(avs HLA, 能为每个组计算最人转发路径, 并通过 OpenFlow EDGR AFH (SDN
+中的转发表》 下发盏各路由器。 路由器的工作因此变得极为简洁， 接收分组、匹配流表、执行转发。
+
+===== wd_ch4_139_150-144.png =====
+492                              2027 年计算机网络考研修习指导
+
+如此一来,网络村轴又变为集中控制模式而互联网本质上是分布式的。SDN JER CHE
+互联网改造为如图 44 所示的集中控制模式，这旺杰不具有可行性。久而，在革些特定条件下，
+例如像一些大型数据中心互联的广域网，采用 SDN 架构能够显着提升网络的运行效率。
+
+ET soni cD
+
+SDN 通过损供标准化的编程接口，醋于网络商度的可编程性, 使开发者能够以软件方式灵活
+定义、动态调整间商效控制网络行为。SDN 架构主要包含三甘接口。
+
+1D 北向接口。轩向上层应用提供标准化 APL，支持开发者高效构建定制化网络应用，而天
+
+须关注底层转发设备的具体实现细节。
+2) 南向接口。实现控册器与转发设备之间的双向通信，通过 OpenFlow 等协议,控制器可统
+OUR TE. IPH LLAMAS FRET,
+
+3) 未本和接口。用于控制器集群内部通信提升控抽平面的可对性和可拓展性
+
+SDN Hifi: O 集中撞抽与分布转发，按抽平面具各全局视图，便于统一优化:数据平面分布
+式商训转发，保障必能。名 灵活可编程性，通过标准化接口，开发者能以软人方式动态定义网络生
+Phe © 降佐成本，控制与转人分离使如件设各简化【仅需基夸发能力) ，能有效降低成本-
+
+SDN 的本成，GD 安全风险，集中化的控制忠受攻击，一量淡。就会昌个网络。 加 性
+A, ANUSARA EG, ROR AMINE, RMA RRR EAC,
+
+415 拥塞控制
+
+网络中册现过量分组，超过其趟理能力时所引发的性能下降现象，称为拥宇。知断网络是
+进入拥守状态，通常焦措的是奉吐量与网络负之间的关系:
+em aR ELT RHE, eT FIR.
+。 FEAR ML CTE RB, Ee THEIRS
+ISLE CE FAO RBIO A I, ELAR PENILE A
+的目标是将保网络能有效承拉当前流量，这是一个全局性过程，涉及所有主机、路由器及影响网
+Ee ee eee
+REE CC ANA ALL SEALE PRR HR Z A A
+Seb CRANIAL, A ARC ENB RC
+ees
+DF iReh. ERGO, BURRIS SAMUI, Mi A REO LI
+ARGBAZIT, RMU RAPER RIM. AMIE BRL, 确定何时接收新流
+Ih, ASEM KEHOE. MARPLE RAS. 3H EA RO NER AR.
+2) MIRAE. MGAIMMUERLTTARS. ASANO BEN, MI RIMES
+WA, AMR TORI. SEMEL, ASH
+
+4.1.6 本节习题精选
+cote
+OL, aba Bask REE ().
+A。网结的托扑结构不同
+Be Mae Pst SARA Kok
+CERES ARR ME HBL A RRL
+D. AAS IRICAIE, SRSA
+
+===== wd_ch4_139_150-145.png =====
+第4音 wee        133
+
+人
+
+on
+
+0s.
+
+6.
+
+o
+
+os,
+
+09.
+
+10.
+
+PsA TIME, IER.
+
+A。随着通信于网页并的增加，乔二旺也增加
+
+BL MAP AAR MF He ADR RAR
+
+CC网络节点接收和发出的分组直下多
+
+D. SALEEM ARS, toh
+
+TMB SIME, RANK (
+
+AL ASR UMROT OAK], ARISE ALI OL ba UTA]
+BHR, SUBIR ERCT CR, AHERN Rk La BURL SEHBL
+CHR, IORESR IR. SGA ASOT AR, PLU RL Ew RBCS]
+Di HS. ARMEMESE AL. A OLS CRETE
+
+在互联同中，一个中由器的下由表通常会 ( ).
+
+AL 目的网络和到达目的网络的完整聊径
+
+日。所有目的主机和到达访目的主机的完整歼径
+
+CC目的网络和到入目的网络路笃上的下一个路由路的地址
+
+D，目的网络和到达该目的网各路径上的下一个路由路的MAC 地址
+
+政由回转发分组的根据是报广的【
+
+AROS    B. MACSAL CIP SRAE    D. mE
+
+Bhi BAO AH eRe A, RANI ode kN
+AC.
+
+A。丰鱼转发机全日直通交接机制。C，分组交扫机制。 D，分组检测机抽
+EMMY, IP SPIDER RIE Shh Rd BSA NS, RC.
+A，源主机和中间路由器都知道四 分组到达目的主机需要经过的完半路径
+
+日。源主机和中国政由加都不知叶|P 分组到夺目的主机需要经过的完必路径
+CC，源主机知道分组到夺目的主权过要经这的完整隐径，而中间政由加不知道
+D，源主权不种分组到目的主机项要经过的完上路经，而中间路由器知道
+下列协议中，属于网络野协议的是【 ).
+
+Le       下 TCP       ul Fre      Tv ICMP
+
+A LIL     B. feu     cme Dev
+FAIL T RAUB RIF KOU, ARLE ( ).
+
+A RAR LARS OHA,
+
+日。分组交摘的分组最大长并的限币
+
+CC，上电路是醒向连持的，它提供的是一种可香的服务
+
+D，在让障站很高的传纵系统中，选择度电路方式更合过
+
+下列关于雪电四服务和邹据报服务的级坟中，正确的是 {
+
+A, EAL eos UT te aR
+
+B.AMERILE PIMA AeA, ALARA UAL,
+
+C REM ALALRG, HOPE REA EMI
+
+D. ALN oN SSANUE TR A AE RRL
+
+同一报文中的分组可以由不同的传输站径通过通信于网的方法是 ).
+
+人分组交换             日 bea
+
+CC. 应电中方式 D，徐所报方式
+===== wd_ch4_139_150-146.png =====
+134
+
+2027 年计算机网络考研修习指导
+
+站
+
+13.
+
+14
+
+15
+
+16
+
+V.
+
+18
+
+2m.
+
+a.
+
+FOL RAI Late RC.
+A UMA, BEAPABAM RAIL, RSME SrI INT eA
+数据报方式中，每个分组儿地进行路由过择和转发。不同分组之问没有必然联系
+C.左电路方式中，必于同一和电路的分组按照问一路由转发
+
+D AEROMT ALM MER, (2 RRR AISLE
+
+FORE RUBLES, LANL).
+
+A RMR Fare TRILR, AURAL KF
+
+BRUM (SOLA, Sue RotLAP SRR
+
+CRIB IEE EM, fa UR eM OAT HLL
+
+De ARERR h Ae ar 8 AO ea
+
+下列关于应电路的说法中，正确的是 【
+
+A。庶电路信靖其他协议实现关织控制
+
+BAMBARA RE pa. PEM SME OSA Moka
+
+C ANBE TEA TRE, LETRA ROME
+
+D. SabR May th Mm —etna Ase A IR AR, Aa
+
+下列关于虚电路的说法中，正确的是 (
+
+A RAR RRM, ARIE IRS AER,
+
+B RERPMDALAMIES, THROM EMA, KOA
+
+CRATE RARE ARO aN RAN oak fo aE
+
+D，在应电路上传送的同一个会话的数据分组可以走不同的路径
+
+下列和种传栓方式中，由网络负责差错控制和注重控制，分组按顺序被道交的是 CD,
+
+A eRe              BRR RR
+CRN         De AHR a
+下列务种措这中， () RAMA (SDN) HAA
+A RAL RE        B ROG REM
+© Ro RT RR           D. Openton 取代了路由协议
+
+下列关于SDN CHAR CM) 的描述中，甸谍的是 【 )。
+1. SDN 是过年出现的一科新型棉理网络结构
+
+由OpenElw 交换机基于“注表”未转发分组
+
+ML. SDN 22486136624 Openflow 交所机中
+
+1V. OpenFlow 可视为SDN 的控制层面与数据后面的通信接口
+A 1和图    Bev    © hv    D.
+[011 3 44G] TPP REHABIL ( )
+eee eee ee eee eg
+
+CAs, THM. Fall. THRO
+[2020 se AIL FHA TREE MIME, HIE CO.
+
+人。可以确保就撕分组传检顺序
+
+B ERASRLERTR RAE
+
+CC建立永电路时需要进行路由于择
+
+D. 依据座电路等【VCID ) 进行数据分组转发
+
+2022 直考上十】在SDN 网络体系结构中，SDN 控制吕向数据的SDN LIRICA
+
+Lf
+===== wd_ch4_139_150-147.png =====
+第4音 wee         135
+
+流表时所使用的接口是 {
+人 koko BAO CAMO kA
+
+41.7 答案与解析
+
+cern
+
+oe
+
+aeRO SHURE EAR es fra, MARSALIS, SAS NUN OR OAR MSR NEAL
+hl, SR AR EEE BRE
+
+2D
+
+TL RLM ALT PACD AnH REE IRTP sO
+IRR TERT RRO PN AC SE AHP, OOH LICH.
+aT AGH Ye 2 AGH, B,C HRM A > WO
+RITE. ASE ROE AR
+
+3
+
+路由器是第三层设备，向传钵导及以上层隐城下屋的具体实现，所以物理层、数据链路层、
+网络层协议可以不同。而网络层之上的协议数据是路由器所不能处理的，因此网络层以上的商层
+协议必须相同.。 本呀容易误先主要原因是在目前的百联网中广泛使用的是 TCPHP 族，在网络
+EEA Tpv4。所以误认为网络层协议攻策相同。实际上，使用特定的路由器连接 Pv4 与JPv6 网
+tC ANE BCA HERO
+
+oc
+
+路由器是网络层设备, 其任务是转发分组。 NE AEP — AN SAE
+为了所高路由串的查诲效率并诚路由表维护的内容，路由表只保留到达目的地址的下一个路由
+器的地址，而不保全整个传和路径的信息。另外，采用目的网络可全每个路由表项包售很多目的
+主机 IP SBME. 这样可不少路由家中的项目。因此路由家通沉包全目的网络和到达访目的网络路
+径上的下一个路由器的轨地址。
+
+[3
+
+路由器是网络层设备，网络层通过 UP 培址标识主机，所以路由器根据 地址转发分组，
+
+06.8
+
+路由器转发一个分组的过程如下，先接收整个分组，然后对分组进行错误检查，若出错，风
+丢痉错误的分组，理则存储这个正确的分组。最后根据路由过友协议，将正确的分组转发到全
+的晨口，这种机制称为全转开机制
+
+078
+
+每个路由器都根据路由表玉选择 下 SPL RAKE, SAE Baa.
+下一中应当怎幸走，主机公知道到达本地网络的路径，到达其他隐络的 TP 分组均转发到路由器
+TEE UP SPLINT, EA RE VLA pO RA
+
+08. D
+PIR TEMA. FTP 属于成用层协议，只有 AP AU ICM TA
+
+09. D
+
+电路交换不具备差错控制能方,选项A 正确。分组交换对每个分组的最大长度有规定超过
+EAHA MEMES BURL EA AN PLT, EB TE.
+
+SIA RAR LIBERTE, MARRIES, EVE AS SR
+
+===== wd_ch4_139_150-148.png =====
+136                              2027 年计算机网络考研修习指导
+
+分组有可能丢失、失序，也不保证到达的时间，但因每个分组独立寺择传送路径，当某个节点发
+生故障时，后续的分组可另先路径。另外,通过高协议如 TCP 也可保证其传输的可靠性和有序
+性。虑电路是面向接的，它提供的是可多的服务，能保证数据的可你性和有订性，但是一
+电路中的某个节点册现故凡，就必须重新建立一条虚电路，对于放承率高的传给系统，易出更节
+点故阶，这项任务贰显得相当到巨，因此采用数据报方式更合适。选项C 正确、选项 HR.
+
+0.
+
+RE RATEABLE. LIRA LA
+
+BAER. ALIESHUR APSA. AERCREALe oP, yt PLA SR. RE
+
+不保证可千性，又不保证分组的扩序到过。
+
+1D
+
+SPLAT HER RULED AURCARAR. EEA Ae 8
+
+BNR EMIRATE EMRE ORAERS RE. SCARE
+
+sre.
+
+2D
+
+关于应电路和数据报的比较，请参考表4.1。
+
+13.
+
+IEA APH, MIURA RIG IER TAR, EA HS AATF
+格时性的，它提供的服务包括水久性虐电路《PVC) 和交换型虑电路〈SVC)，其中前是一种提
+前定义好的、基本上不要任何建立时间的冰点之则的连接,而后痢是员点之则的一种临时性连接,
+这些达接只持续所东的时间，且在会话结束时就取清这种连接选项错误。 数狂报服务是无连接
+的，蚂不提供可靠性保障，又不保证分组的有序到达，选项和 错误。在数据报服务中，每个分组才
+必须多带源地址和目的地址;而座电路服务中，建立连接后，分组只震捕带应电路标识
+
+uc
+
+AeA OE AS» ASR LA AN, SF EEA A EAA
+SM FUGA + eM eR hs GOT. 0 SE
+SMAR MARINAS He, BO Pa A AP BOL RA A
+
+15.
+
+AUREUS. HENAN eMOIER EHR PAEAR, aL A LS
+Ce eo ee ee es
+fa 95 0. ENA TSA, IG A A, 2 OM A A RT.
+一个会话的旧电路是事先建立好的，因此它的数据分组所走的路径也是国定的，选项 错误。
+
+16.
+
+志路交换和报文交换不采用分组交换技术。数据报传输方式没有差和控制和流量控制机制，
+也不保证分组接序交付。永电路方式提供面向连接的、可靠的、保证分组拉序到达的网络服务。
+
+TD
+
+选项A.B 和 都是SDN 的特直。Openfow 协议是控制平面和数据平面之间的接口,在 SDN
+中，路由加之间不再相下交换路由信息，由运程控制加计算最佳路由
+
+WA
+
+SDN 是一种新型网络体系结构，是一种设计、构建和管理网络的亲方法。不是一种新型物理
+网络结构。在 SDN 中，完成“匹配+动作”的设备通党也称 OpenFlow 交换机。相应地，在SDN
+中取代传统路由口中转发表的是流表。SDN 运程控制吕是一种控制平的实现方式，它由一个远
+
+===== wd_ch4_139_150-149.png =====
+第4音 wee        137
+
+各的服务器米计算和分发流表给网络设备，SDN 运程扩币器不在 OpenFlow 交换机中
+
+ion
+
+TCPH 的网络导向上只提供简单灵活的、无连接的、 RAAT MAT
+首部，若是面向连接的，风应有用于建立连接的字段，但是首部中没有，著提供可浊的服务，则
+至少应有序号和检验和两个字段，但是外分组关中也没有 AP 首部中只有首部检验和)。通党
+有连接、可靠的应用是由传铀民的 TCP 实现的
+
+m8
+
+ARTA MMOTEL. SHILA MAR BSE MEEK, DURAN. 28.
+Ls ESC NIT, A — em pA IBA HE, SPALL
+的顺认与发送顺于相同，可以保证有序传答。虚电路只是一条还辑上的连接，并不是一条物理上
+的连接，因此不需要为条虐电路预分本带宽
+
+car
+
+SDN 2 9F @ ORR ELAR CTR Peo PRR EL AR)
+的通信，所以SDN foals PMR Tidy SDN 交换机下发流表时使用南向接口。
+
+42 IPv4
+
+42.1 IPv4分组
+
+Ie CA 4) 即现在普遍使用的同际协议 (latemet olcol，印) 。中定义数所传送的基本|
+单元一一下 分担及其确雪的数据格式 WEAF, HN PALO TA. ARR
+LEP RUST BR, UL I XML.
+
+1. IP Santi X,
+
+TERY» P HwaRar Con 2010
+
+个下分组 CRBS UP REAL) AAR TARE HEAR. PTAA IEE. 4208,
+
+AAT UP Sp LATO. CEE A 8 — A PA, IR
+机制，其长度可变，从 1B 到408 4%. WP 数据报的格式如图 4S Hi
+
+生生     站
+(ee [NM] TOR      Bee
+4       i       ee.
+48 samme | ae      nae
+和              wae
+Tr
+ae
+be?        mR Ceo)      [ae
+eee
+
+cm
+eee
+
+(mas wm seme
+===== wd_ch4_139_150-150.png =====
+138                              2027 年计算机网络考研修习指导
+
+1Pve 首部的部分或要字段信义如下:
+
+DBR. 4A. Fea 下协议的版本，lpv4 中该字段的值为4.
+
+2 首部长度。占4 位。以 4 为单位，可表示的最大首部长度为 60B (154B) 。最常用|
+的首部长度是 20B (5x4B)，访字且的值是 $，表示不使用可先字和。IP 首部长度必须是
+AB 的整数佑，若可选字段导臻长度不足，则通过需友字段加以扩充
+
+RTE LIED Ons 开:
+
+3 BAM. 8 16 位，表示首部和数据之和的长度，以 1B 为单位，因此 UP 数据报的最大
+长度为28- 1=65535B。由于以太网 MTU 为 1300B，因此当一个数据报持装成山时，数据
+ROE 《首部二数据》一定不能趣过当前链路的 MTU。
+
+DAR. FF 16 位。涯主机用一个送增计数吕，为每个数据报设置标识字段。它并不是“序
+号《因为 下 是无连接服务)。分片时，所有分片复制原始数据报的标识字段什，以便
+目的主机氢此正确重组为原数据报。
+
+5) #8 (Flag)。占3位,目前只有低 2 位有章义。 ME (More Fragment, 更多分片) , MF=1
+表示后面还有分片，MF=0 表示这是最后一个分片。DF (Don't Fragment，不能分片) «
+仅当 DF=@时多许分片，若 DF= 1，则兹止分片
+
+© Fab. 13 位，以 8B 为单位，指出该分片数据部分起始位置相对于原由数据报数据
+部分开关的由量。除最后一个分片外，其他分片的数据长度必须是 8B HE.
+
+Tt zone 2008)
+
+1D 生存时间 CTTL)。占8位，表示数据报在网络中多许经过的路由器数的最大值，防止其
+在网络中无了循环。每经过一个路由器，TTL A 1. TTL RO, WEF
+着 TTL 的初值设为 1，则该娄据报仅限在本局域网内传输-
+
+协议、上 $ 位，指出此数据报失东的数据使用何种钞议，即指示数据应交付给哪个上层
+协议《如 TCP. UDP) 。其中信为6 表示 TCP，信为17 表示 UDP.
+
+9D 首部检验和。占 16 位，只检骤首部 《不合数据部分) ，不检允数据部分可碱少计算的工
+作重。数据报每经过一个路由器，首都中的革些字段 《如生存时间、总长度、标志、片
+仿移、滨目的地址) 部可能发生变化，因此路由器痢要更新计算检验和。首者检验和的
+计算方法与 UDP 和 TCP 检验和的计算方法类似，具体见S22 节-
+
+10) MSA SE. a, Hm A ES
+
+1 目的地址字约。 4B, PRPC AIP SB
+
+OWkeRE Me 个与长度相关的字段: BORA LER. ABS, CLAD
+10, 1D. 5B, HEE RERAR, LEARN RRSP RAS LH, MECH IM
+Ko PANES, ARR AME, L—RMPIEL ATR SFA TCP 和 UDP HAE.
+
+@ APH PAH RRMRUELIEST, PRUE ADT RM ALAL, MRA
+CHLOE ASE RIGS, BILAL AN AMER IN ROL
+
+下数据报分上
+RU ER RU RACAL AA LR, (MTU = 由于 下 RI IE

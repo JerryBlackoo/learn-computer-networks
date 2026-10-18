@@ -1,0 +1,1137 @@
+===== wd_ch3_101_120-101.png =====
+oe mite                            ey
+
+AULA TSRIE RCAE TENA MIMO VO 总线以并行方式通信。因此，适本区的重要
+功能之一进行吾行与并行数据的转换此外，适配器还信责， 物理连接与电信号区配、帖的发
+RISHRC, LODE SENS, {FULL AEREOOMNON SD, LTE, NAL
+[SIEWMOUORD, Kt PMOL, 3S URINE: MBL IRI UP RE
+HY, HOLA FRIES, NER AEN,
+
+2. YER MAC ab
+
+IEEE 802 (pce TH 48 eA, LPR ROM,
+Dithmbk bak MAC HL, FEF EBLE FAVOR. OREO MIMND EN MAC 地
+SYR, FINE ERLNR, ZEMP TIO PETE, HE MAC 地址保持不变-
+
+ > mac tees (208)
+
+MAC 地址长 of 《48 位) ，通用 12 个十关进制数字表示，以过字符丰轩号分后。例细
+oz.60-icet I-21. W524 (079). $626 WOES SPRINT
+
+SEG GAD EMRIREA ROAR), ORRC ARCH MAC SMEs BR ABNER.
+Fone Te, MINE ENON. EMEC ARAL] MAC 地址。
+
+SIRE ABUCTI—7 MAC HI, EEEREVEPHHCRESCHLODIRIE. 27S ARIEARIBODML,
+Bis UZ eR AL Rake” 包括以下三各本
+
+DER OH. FURIE MAC JOSE IPL.
+
+2) PAR 《一对全体) ，目的地直为全 FTFFFE-FFFFFFFP)
+
+3) 多拘术《一对多) . CIAL TEMA, RARE ARI AL
+
+3, ESMAICD HR
+
+GARMENT PRO
+EOI, lik, PTAA LAIR. AULA OR,
+
+EEE!» counco wnenier cos)
+
+AGL SDF RED! (CSMALCD) HUE CSMA HILAR, IEEE SERIE
+Pook ERLANGEN. IF -RACIAS, POR RASC IE EN AL
+广林同时发数据，不全产生冲突，因此天天使用 CSMAACD 协议，
+
+UL ALAN COLE URAL RE IRE Ms HAAN A,
+(NARRATE ABA ER
+ARSE Aa SUAS SR ROSRIR-A TFIID. Aw (Colson Detsstion) BULA
+2M, gem fe RAN FOL AA, ETC
+HOES, ANEURIN, SEA RRAMAL A,
+
+CSMALCD HRT TIESEAE TRL *HENPRERE, MOR. APRA. OLA” 5
+
+GEERT!» cauwco warerannse 200
+
+UMRAO PEMA. SE, AMP A HORTA, EBA
+SEGA, 1008 322 Ria. Wee PMRAYEMBYRE, (6108. ADIHERIGRR. tEe= 一人 OL
+ASR REI BO, BANDANA. LIMA (7= r- 5时) ，A
+站和 B ARORA. CUA RBA. T= z 时，B SERIA
+停止让和在7- 2r-~ 二时，A 站也术测玫突并停止发至此，两个站点的发风失败，孝再准
+AMPLE
+
+===== wd_ch3_101_120-102.png =====
+0                             2007 itm TL I
+
+mh
+
+As
+
+—_——-   iy 人
+
+———
+ete ae
+
+‘oes
+
+si
+
+a2 传所时下巴的|
+
+从图 23 可见，A 站在开始发送后最多经过 3 CRE HONE) 即可确认是否发生
+冲突《当5一0时) 。因此，将以太网的员到器往返传播时延 2r FAIS IIB CLARE RAE).
+每个站点在发适才所后的一小肌时间由，丰在冲突的可能，只有在争用期结束人未检油到冲突，
+才能确定本次发关成功-
+
+ cshwce 二 (am, 2016, 2018, 222)
+
+现在者中一各情况 基站发送一个很生的伏。在发送完成前未检机到冲突但读由在传人
+让与其地慎发生冲突，导致目的站收到铺误籼《并丢弃)》 ，而发送站妈丰知情，也不便传。为
+王旬此类间量，以太网明定了基站由长，即争用期内可发送的娄据量。若在争用才内检油到冲突，
+发计和中止，此时已发关的数据长度必小于关短由发，因此，任何长度小于地得由长的帧均为因
+六灾硬异澡中目的天的是，应裕示弃。最条由长的计算公趟为
+
+ASSURE =D A CHB ERE
+
+Olin, CORMNUR PRIMA S12ps. AF TOMhs 的以大网，争用关内可发送S12hit CHB) «
+ERO AGREE OAR, RUSH TRR CeoR CMTC AER)
+HZ, RMR, ORCATEN GAB A. IPMS CROPS, RRMA
+“GRIF NB. Witt. VLAMAARERMMBHEN 648. BICKER AHL TF 648 CNG 40) ，则|
+REMI AICI AE PRE HOFER. AERA MAC HKD IF OB.
+
+aE] > counco win c=)
+
+HUREEAER, ARRCICET AR. HERRON. CSMUCD AT it A
+WaRM(UHE HL, HUA ILRLNS, AGMA EB
+
+1) BRR AAS A UU CSUN (ENED E 2D
+
+2) SAMEHESRALO, Lo!) PRGMLIER— er, HELL AAEM, re 其中
+
+amin AEE, 101，邵重传次数10 时,上等于重传次数， 超过 10 IC. AAEM
+ty
+
+3) SIRES 16 UI, RUE, ACR MARIE.
+
+‘oil, BUC OB URED « k= 1随机数 MCE (0, SUBIR, HBAOL AD 0
+mn 若再次冲突《第 2次得传》 ，4=2，从集合0 1,2, 3}中过取，推时间为 L 2 Arak 6,
+DLS. CU REE SORE CHS RL) «AARP,
+
+===== wd_ch3_101_120-103.png =====
+oe mite                            1
+
+FSM, RHEE.
+
+st, CURRIN: BMRA, HORROR ARIAS. SMR AR 32 比特
+RAR LGA OHA SS FARAE UIST, RARER.
+
+DORIIGEAUREHR LIL By (相当于 96 REAR) LOLA MEAL
+INSEE TE, JatRSC KoA AR.
+
+CSMAACD 协议的归纳如下
+
+© eae oRiks NCEE AMMEN, ARN, A HAE.
+
+加 eM ARMA. RURFARINOF Ee CE pe SLR GEN
+AOD «SFR.
+
+© 发送过程中持续检测信逢，可能册现丙种情况:
+8 RMT. “PIM AIEMLALNITE, MRR,
+eT ee ee
+ORD. TAR Ne UCR IRAN PLA EAR
+
+4. LRA ACR
+
+DORA MAC HTH As DIX Bernet V2 标准《以太网 V2》 和TEEE 8023 Batt.
+由仅介绍最用的以太网 V2 标准的由格式，如图 323 所示-
+
+EDITIEDI           加
+
+cr        aE
+an
+
+aaa
+3.23 以大网 2 ber MAC tt
+EE» wamuacmanar 200, 2019
+
+1 AAG 8B EUs RRA HOTS, PRIMER
+第二个字段是 1B RAL RAE, Hck MAC MTEL
+
+HORMMLEA RAM RARE, OLA MILMO, BASINS TRAE Gost ma,
+Bie, RIT RNS, REARSTLAEA LRT ELA, 9h, LAMAR THAR
+
+ik, RR LOANS) MALEATE MARGE, SLE AR,
+SARS, UARLAKNML, MLGLF RIND LIER E RA EM, AMALFI ERE Bob
+ASUMMA RAR, EAR UIRAN ILL ICS Fi, AGA LRT RE,
+
+EERE > caRMeeL TANI om)
+2) A ebdbiks 6B, MUAEKAARHIM EFL ADIERE ABA MAC IBA.
+===== wd_ch3_101_120-104.png =====
+2                             2007 itm TL I
+
+3) seths 6B, MLIEROUHTEAPEEM MAC BIE.
+
+4) Sete 2B, PLLA HoiL, CLEERES IY MAC MUIR 2H EH
+发协议。俩如。当灶型字段的人是 0x0800 wf, RAR EOE IP,
+
+Rh cor
+
+5) $e 46~1500B, RAL LTEOVBRIRAAR TE Ci TP 数据报)》。以太网的最大作答单元
+为 1300B，着 外数据报超过此长度，几需在网络民进行分片。此外，由于CSMAICD Hs
+议和法限制，久太网由必须清足最小长度为 6B，当 数据报不中 46B 时，MAC 子层
+ELT EMMA TAFE, VIRAL 6,
+
+NG REARS?” a COMACD HiT, oLRAIRURALIERA 6B, A MAC Rab Ae
+ALS) AH 1B, BUERIF ARI A A.
+
+6) HAAS CFCS) 1 4B, ZA 32 位 CRC H. RANATUA OHNE Co HH
+Hk, ROBIE. RATA . KERNS,
+
+IEEE 802 3 ALKESC'SULAT V2 MUHGRIOECRIYE + RKNE RELA (RT V2 OHO,
+指示数所字有的长度。在实践中，达两种机制可以提存，由于 IEEE 802 3 RRB PRRGREC KEI
+1500B，故发度字服的信 < 1500: Hi 1501 到 65535 AARNE AAR.
+
+5. AREA
+
+过素达到或超过 100Mhs 的以太了和加不以大网，其主要类型如在33 FE
+
+23 用种病过以大网疆术
+
+ae,            Tenant oom            ren           eae
+away            a               Ta               ‘eae
+an             aa             ECON          Tan
+
+CET           TENS FR NED                 x
+
+CD IO0BaseT以大网 CRS LARD
+
+IEE)» ioaae Th (2818)
+
+100Base-T LU MEARE LL IIOMhs 如人办其信号的呈形以太网，支持全戏工和
+学双工丙种工作入趟。妆使用以太网交换机组网时，通运行在全双工作式而囊突发生，因此
+死项使用 CSMAICD HLL, LEELA, OS RAR CSMALCD PRICIER.
+
+SURI PSA IEEE 902.3 标准，保持最小由长为 64B ER, ASA ERK
+100m. 同时，由问最小间环从96ls 8790 96s, CLINE LAR.
+
+2) Stk CHAM
+
+吉比特费太网志持 1Ghs OEE, RRO RVC, LARA IEEE 8023 标准的
+ONE, (RARER IESE YER Se CENT. ASC FBI CSMAACD 协议《很少部村，
+ERAT MGR FAB CSMAICD 协议。与10BaseT 和 LOOBase-THRPUAT IRE
+
+G) sie
+
+10 吉比特以太网的格式与JOMhs、IO0Mbls FIGs HLAHESE-E HUFL. JHEP IEEE ama 3
+十的最小和最大由长。仅工作在全到工本式，无争用问题，因此无须使用 CSMAICD BIR.
+
+===== wd_ch3_101_120-105.png =====
+oe mite                            3
+
+LATA IOMhs 到 MoGbs (GAOT T SEAT REHE CaLES TOMS 到 InGs) 、灵
+AE CHIE. SOERUTUR, JORPERNE) . BALRTHERIB ARE.
+
+3.63 TERE $02.11 无线局域网
+
+1天手记上站的经
+
+ARI MT ICR 有固定基础设施的无线局域同和无轩定基础设施的称动白组织网
+络。所渭“轩和基础设施” ，是指预先邦轩、能术基一定地理范国的固定基站。
+
+《1) 有固定基础设施无局央同
+
+AEP ATE ERURG I AARIGMMM. IEEE 制定了 有211 系列协议标准，包括 802 llalshm
+等。802.11 协议采用星开拓小，其中心节点称为扰入点 Access Points AP) ，在 MAC FEEL
+CSMAVCA 协议.采用 802 1 LENA A WH.
+
+802.11 PRRLIBIE, ARAKI ME NIOAE R-RILIE. Basic Service Se. BSS) . 一个 BSS
+Gus 1 AP AAFP Res, NPR AA AOA TOMA BSS 的 AP，此处的 AP
+区为 BSS 中的基站 (ase sation) « RBALAP ERIE — AOSD 328 ORAS AE
+《Seriee Set IDentier, SSID) 和一个工作信道。SSID NDAECARIE MINNA, BSS Wah HH
+BON GNE ROLY Base Service Area, BSA) ，共直径一般不超过 100 米-
+
+个 BSS 可以中析立的，也可通过AP 连按到分卫系纺 【Dution System, DS), HF
+SS THE, HATIHUIRIP RAMLIRK (Eset service Set. ESS) 。分本系统的作用是全数个PSS对
+上层显现为一个划一的 BSS。ESS THER Poa (门户的设备，为天用户提供接入有
+扣以太网的能力，Poatl 的功能相当于网疾，在图324 中，若和8 A HE ws 中的移动让
+28K. AAD AAPL--AP--B, J APL APD RES EER,
+‘snipes                         ves
+
+324 RI RRR,
+SABAAM A 从一个 BSS 福清到另一个 BSS 时《图324 中的 A) ，仍可保持与 的通信。
+但使用的 AP 人发生改变-
+2) ABR RARE A AMES
+MARGARINES (ad hoe network) «EE
+Masts AP, WU PIP AMON SA ALAMOS PRR COREE 3.25). aE
+
+地
+
+a CARRERA AAR, RR A
+
+CL eee GL Ue
+Tei, ERRNO ESS IA AOL SHIP. PIRI. A
+STAAL VGA, UME ANTS RDM PMN. OL
+Fie RT OREM.
+===== wd_ch3_101_120-106.png =====
+Ey                             2007 itm TL I
+
+nao
+
+(3.25 FIAT FH AOR IRM MRE I
+BUELL, ALMA 58 IP AASSRDC AB CEE LARIMER
+EAT, 其度民全人村国定网络的路由大检设施而白明网络是一种分布式的无线白治系统，
+不权提有专用的路由协议，还能多立于下联网运行，无须人办任何预设的四定投施-
+.CSMACA 总
+CSMAACD 协议忆成功用于有线局域网，但无线局域风不能科间归报 CSMAICD 协议。无线
+局大网角使用 CSMA thik, CUES, EAE NIT
+1 适配咒接履到的信号强度通知小于其发送人号的强度，且无线信关中信号强度的动态
+TOMBE, ESE, A ONAN ii.
+2 EARLE, FEATA NS ALAIN SUIS CAAT) GAM
+问题，导致冲突认测机抽无法发贡所有冲突-
+在图3.26 4), A 站和昌站均在AP的种攻范围由，但术此中记较运，无法人听到对方。 当上|
+ich AAPM ARSE OY AKL AP RE, SELON, ACER, NL
+HAUSA. GSH A ASL AT SABA, ERS UEP,
+
+3.26 A mB meg AP SEMA,
+il, 82.1 ARSE RT "ERAT FERIA CSMALCA 协议。 EM CSMAICD 协议进
+FFE. 15 “HORI 8Oy APRA" (Callsion Avoidanee，CA) 。 “AIR” JIE
+UNIQATOLse een, TIT MINER AHH. oF 902 1 UDLTRAC ARASH,
+中站点开始发送村 LOAD, 若在冲突存在时，仍发关至个全(区其是长数据由 ，
+SPORES AOR, USL AR ANIC OREM
+
+EEE)» couaca waraine com)
+
+‘SET ALLURE IAAL. 900.1 YOLEN] ARDEA (ARQ)
+MDL ABSENT —OUES, ARUCSLARAC A MNINAN (ACK) ARERR IE F—tl.
+O21 5 AR RIAA RA.
+
+802.11 协议在MAC FIRE RT HIRSH RRNEIS
+
+1 分布式协调荔能【DCF) 。不采用任何中心控制，各站通过争用信道区得发进权。这是
+ol 协议名有实现的方式，也是目前广泛使用的方式，
+
+===== wd_ch3_101_120-107.png =====
+oe mite                            四
+
+2) 吉坟调动能 (PCE) . HR AP si. ASHI EHUB BAY SEL FE
+Mi IH. EL 80.1 HALAL. ARAL HL.
+
+802 11 OEE, St M SURI. iH, UALR. Wks
+PS, 02.11 REE, EG MEE, C—O HG EA)
+OREN. RI WDARAAR LISS (InterFrame Space IFS) ，其长度取决于是的类型.
+
+EEE» ceuwc tyaialg和5 cm)
+
+1D DIFS (分起协调TFS) ，最长的1FS，在 DCF 方式下用来送据由和管理由
+
+2) PIFS (点协调IFS) ， 中等长度的TS，在 PCF 方式中使用。
+
+3) SUES (短 IFS) + 最竹的JES，用于分山同一对话中的连续帧,如 ACK HR, CTS HA
+
+片后的数据帧，以及对 AP AEE
+当信道由人这为空间时，在有多个站点同时等和发送的情况下，苦它们都在时间 DIPS 后立
+BURIEAGE, MLE BEIAPS, lL, CSMAVCA 协议规定，当检测到信道从必变为空间时，任
+何站吉要发送娄据，攻须和等竺时间 DIFS，再进入匀有其，并执行项进洲，芭中机站择一个妈
+下时际数，并在每个空几时了将其诚 1，直至减汶0后才发送。当且公当检测到信道衬且这个
+数据由是要发送的第一个数据由时，才不使用授关算法，其他所有情况邦必须使用好避算法，有
+体为，D 要发送第一个数据由之前检负到信道，加 未四到确认，要重传数据椒，@ 每次
+设功后要发送下一个数据帧。CSMAICA 协议的到避和法与 CSMAICD 协议类似，第 HORE
+在.Ce一吕个时障中随机选择一个，当时阴东图最大达到 1023 时《对应第6深重传) 加
+aM.
+CSMAICA HOULSLERIIENI Fs
+1 着站点首次尖放送数据 CRAMLIETEILE KLARA SiN, et DIES,
+后《信道持续空骨》，立即发迁下个数据帧。耕则执行步邓2)
+
+2) RMA, RULER Or. YR RNGAT IONE. AIRC. SURAT
+FE CHIPHIAD «JERR. RUSE CML. IRM HL
+在时则 DIES 内持续空间，则开她争用信道，进行倒计时。当计时器减夺0时《仅可能发
+生在信道持续家期闻) ，站点立即发送区个数据由并等确认
+
+3发送站收到博认后，若仍有后续村改丢，则转到步避 2) 。才在给定时间《由重人计时器
+RD 内永枚到确认，聘接二进招数和下规则坟大赤争窗口，有转到步允2》 重新尝试.
+
+MUCHA GRRE, ARAL IGE, ALARA EN, sea AE
+
+FAHRS. GRALONAESARTOI, RALLEMS, LOL ARLE DIS LS.
+
+802.1 PRRBIGE IARI AA Mle EERE AR. MN
+Ria a 8 SL CORRS LIAR ACK AL
+SUG CSL, SPARC LE HES see ATE Network Allocation Vector，NAV) ，并在
+i eh ed
+Ri. AEF RRECHLUONNO EADIE, OR FPR.
+
+ > CoM Rus (2018)
+
+WT ARRAN RONOLNL. 900.11 协议允许发送站对信道进行隐约。在图 3.26 中，A 站和 旧
+外可为隐胡站，下面以A 外和 AP 通信为例。介绍信道预约的方法【见图327) 。
+===== wd_ch3_101_120-108.png =====
+Ey                             2007 itm TL I
+
+1D €E ABBA AP-RUIRHL DATA Rl. SCHLOSS. UHR DIFS 后。 广
+MARA RTS (Request To Send) FERIA. HHL A VBR TIRSEACSY RS BUPA
+= 2. (14 —-PLO [SIPS CTS+ SIFS+ DATA + SIPS+ACKJ” « BIAMERSHSCHL RIS
+(a, 81 AP 完成 ACK 发大为上的时间，这个时间补写入 RTS 由首部，
+
+2-H AP EELS RTS WELSH, MG FNP SIPS 后,广播一个多放送 CTS《Clear
+“To Send) 控制杆。目的不仅是告诉源站“可以发送数据了”，同时也是告诉所有能收到
+(CTS 幅的站“我要占用信道一段时间[ISIES+DATA + SUES+ACKI ，即从上f功收到CTS
+二起，到 AP SEAR ACK 改进为上的时间，读时间同样被写入CTS MFA.
+
+3) A站收到CTS 由后，再等竺时间 SIFS，邵可发送数据帧。基首邦写入时间IDATA+ SIFS
++ACK]，即从开始接收各所由起*，到 AP完成 ACK 928 9 HBF.
+
+ER wv xm ce
+
+任何站点只要收到 RTS CTS MAAN —, OL HRA IER NANA ARIERE
+
+的 NAV, Hn 3.27 Bak 虽然有站收不到人站发给 AP 的 RTS BL CENCE AP CTS
+
+(Ml B 外根据 CTS OU AEH FARRELLY NAV. BBE ESRI MAE RO RR. FRE
+
+‘HL UL. IOLA BER 7 eR MRE AN
+
+ve                        hymn
+
+As ra as or
+
+1              和
+i       |                | one
+ers      TARTS
+
+CIS           NA: APEC SR                       7
+|
+327 人用 RTS 和CTS 上的各
+29%, (RA RTSICTS 亲人全网络的通信效率所下降，但这两和控制央才很得，与数据
+十相比开销不算大。相反，震不使用这种控制病，则一有发生济突二导致和据由王忧，浪旨
+的时间往往更多。信省预约并非强制亚求，各站点可自行决定是否启用。 或仅当竺发送的数
+OU AL AL A I RTSCTS 帧，从而在可和与效率之问取得平和
+CSMACD 协议与 CSMAICA PRR EECA
+1D MSRIESRILACL. CSMAICD 协设能在发送过和中检测中实但无法多奖，CSMAICA
+HARRIES HERI OSCR IVE IRON MPSS). BULSTAEIER TE.
+2) FRAC CSMAMCD 协议用于总线形县愉太网，CSMAICA HLT ARIE,
+3 检测方式不同。CSMAICD 协议通过检洒线路中的电甘变化来间断是否冲突，而
+CSMAACA 协议只能在发送前通过能量检测、才波侦听丰两者的混人方式，综全判断信
+过是否空间-
+总结，CSMAICA 协议的思扣“先打招呼，再发数据”，发送前先三揪通知其他外点，在
+
+ET全OA 人
+机，本，和和和NE
+站本人天 RINE SH
+===== wd_ch3_101_120-109.png =====
+oe mite                            7
+
+SUA ANION IE. LATA CSMAICD HORE “ROR, MT ARIE «IE
+AeA im, URAL RSIS. — ELEN, RNR. JERTADIERER AGU.
+
+3, SIRT 局由的 MAC 由
+
+S02 1 RTARTA
+(8 RTS ML. CTS BLAU ACK 类的格式如图3 28 所示.
+
+02.1 EL F= Ae
+
+1) MAC 首部，革308。四的复杂性主要体现在MAC TIRES
+
+2) 懒主体，芭数据本分，最大长度不超过 2312B，运大于以太网村的数据瑟。
+
+3) RUEREABI CFCS) ，作为MAC FEB JAB.
+
+saci
+
+i   co
+Woe ee
+[Bea we [er Pe [an [roe aa [wn [ves]
+2 | an | vam [32] %8[ 2] mu] 98/89]
+Re         ‘r] st [|=]
+
+TORII. TISHMAN
+
+re
+
+(ie [a enema 7]
+
+osu tear zt FO
+
+wea: et
+
+(we [am ee] Fs]
+
+CrsRCKWEK CROFT ARADO NOOIOD
+32k HHEMLELA =A IONEIOR CRIS OR. CTS ALALACK AD HH
+
+EET)» ma Wayanfim (017 2022)
+
+502.11 由首部中最关键的部分是四个地址字段〔均为 MAC 地址) « JLAMIR DU =2
+《地址4用于自得网络) ，这三个地址的具体言义由由控制字朋中的两个标志位“去往 AP”
+和“来自AP” 共同决定。表34 列出了 802.11 URIBE RRA AE.
+
+34 Sm. MIO ERR ARENA
+
+Tie [sar   Era     Era    aa] sae
+7   ee ee IT     =
+n   a ETEEITS IT    =
+
+其中，地址 1 是直接村入的节点地址，地址 2 AS RRR A
+现要定在同一个 BSS 中，A 站向站送数据，该这程分可为两个阶段-
+第一阶段，站一AP
+
+Asai 902.11 HR AP, ROE ERA Fs
+
+“去往AP-I" 而 “来自AP=0" ，
+SE 179 AP HY MAC 地址。地址2 为A站的MAC SBE. JE 32 BAH MAC SE.
+
+===== wd_ch3_101_120-110.png =====
+8                             2007 itm TL I
+
+Re APB Ib
+
+AP ASURMUIG. PESEAEARE ws 802.11 UALR Fs
+
+“去往 AP=0" 而“来自AP=1" :
+
+地址为有站的MAC 地址。翅址 2 为AP MAC 地址地址3 为入站的 MAC Sh.
+
+多这三个地址的关键 地址 和地址 2 外络表示当前无线从的卫谊，名直接接收方和直
+接站方。当主机发入 AP时，捧收方是 AP，但最终目的不是 Ap，国此用地址3存放实际目的
+Milks "SAP OSEAN. 发送方是 AP，但原尖不是 AP，国此用地址3 存放实际源地址-
+
+下面讨论一和更复杂的情况。 如图 329 所示, 两个AP 通过有厂甸路连接到同一个路由器，
+人 站和目 站分别位于两个丰同的子网中。现分析 A 站向 DARIEN AES aE A 站与
+日关不在同一个了网夫，访通信宕经由路由器转发，玫个过程也可分为两个阶段-
+
+4  “
+ooo
+
+网329 ek yw Mar802 38
+
+Rhee Aaa
+
+人 让先关断电站的目的地址不在本地子网内，因此将数据发送给于网关，凤只的村口
+Lt, 为此，A 站通过ARP GECECTL1 的 MAC 地址，随后构造一个 802 1 URIBE: APL
+
+该302.11 由的首部字和设置下。
+
+“去往AP= 1 而“来自AP=0" +
+
+地址| 为AP MAC 地址， 地址3 为A 站的MAC 地址地址3 接口LI MACH,
+
+Apl 收到该售后，将其转的802.3 帖《仅包香源和目的两个 MAC HSE) ，其中源地址为
+站的 MAC 地址，目的约址汶接口LI 的 MAC 地址，间适过有线庆路传送给中南路及.
+Be Meas RB A
+
+让由器及政到 8023 MG RAE FAR IP RAR MARIE SP
+查询转发表。确定下一上出口为连接 SCE FVRRET LRA. WORM ARD 获取
+外的 MAC 地址，并竺读数所报重新持装为一个新的 802 3 OH, SEHR REET L2H MAC
+地址,目的地址为昌站的 MAC 地址。 APD 收到此 8023 @UG. ASCHER 802.11 BUERAE BB.
+
+902.1 RTA
+
+"te AP=0" tf REE
+
+SH 124 B JBM MAC HIE, 地址 2 为AP2 的MAC 地址，地址3 为按口12 的MAC地址.
+
+上壕两个阶妥共同构虹A 站向了 站和过数据的完整小径，从网络视全看，IP RT
+网 1 ert SIRF 2s URAER TEM 80011 由中的地址 3 PR, ELAR AS RAE
+SOLAMPIRRNT HUIRARET A MAC HAS. HOR THRE AWE, 22—PUOLD IRS
+转人功能，学完相关内容后，该者将能更深入理解本例甩述的中网通信过各
+
+下面介绍 802. a I LMI
+
+1 幸续期字段。在前面的CSMAMCA 协议中提到，人发着站点可对信间贡约一自时间。并将
+
+时间写入持续期字朋，用于起所术波鉴听，
+
+===== wd_ch3_101_120-111.png =====
+oe mite                            ey
+
+2) RASA. OMEN RAMA T SINE. EPICA. 802 RIE
+FRM, GHA NE PEIN, AMORIRLELI RTS. CTS. ACK FIN.
+
+3.6.4 VLAN 基本概念与基本原理
+
+APM ek HEAR. MER UAE TAN. tet
+6 ERS LAIR AMR. JESUS II ARP 和 DHCP 报文(见第4 D
+FMLA ARLE ARORI. BAL OE
+ALLA Vil LAN, VLAN) «SLR CRUMB 02 Ps REO
+
+(EMEA VLAN, A VLAN So—“PIBS OT ABRE. I~ VLAN 内的主机可以直接
+
+通信，而不同VLAN 2 (6 MURDER.
+目前主要有以下三种 VLAN 划分方式，
+
+1 基于端口《可) 。将交所机的若干条理接口划后一个地加组。该方法最障单、最
+几。若主机更换了村入颖口，则可能术划分到新的 VLAN (亲子网) «
+
+2) EF MAC 地址,根据主机的 MAC 地址划分 VLAN, 当主机从一个交接机移动到另一个
+BN, ELSIE IR VLAN.
+
+3) 基于理地址。 根据网络导地址或协议类型划分 VLAN. JER VLAN 可承直由器进行扩
+展，将多个物理局闫网中的主机纳入同一地辑 VLAN。
+
+TEBE 902.10 HABE LT 19 VLAN 的以大网相格式扩友,它在标准以大网相的邓址字玫与类
+
+型亲自之则括入一个 4 的 VLAN 标答，用于标识该所属的 VLAN. HAIER 902.1
+
+杆，如图3 30 Biss. a FARHAN 4B, IVBARRM AT 6B 不变，数据字有的中长度由 46B
+
+MeAIB, BICKICTY 15008, (CTI SLAB HAE 2B
+
+o>
+
+ee ee
+
+a                   wr [es]
+
+SS
+
+350 A VLAN PRE RART om2.10 8
+
+VLAN 标签的两个字节加定为 bw8l00，胡示这是一个 902.1Q OL. EBS
+位要国未用，后 12 位为 VLAN 标识符《VID) ，用于叭一标让该由所属的 YLAN。12 位 VID
+最多可支持 4096 个 VLAN。 $A VLAN HIB. UIE FCS 必须重新计算。
+
+如图3.31 所示, 交换机 1 连扶了全计算机,被划分为两个VLAN VLAN-10 和 VLAN.20
+8 和 2 即 YID 值，由管理黄配置) 。各主机并不知道自身的 YID 《但交换机忆须知道 ，
+主机与交换机之问交互的全是标准以太网帧。VLAN 的范轩可越多个交扫机，前提是这些
+RRO VLAN 功能。 交换机 23 $ 台计算机，间与交换机 1 相连，其中 2 LT
+VLAN-I，3 台属于 VLAN-20. 尽管这两个 VLAN 跨越了两各交换机，但各白人保持为外
+的广播
+
+SIE ATSEIRULOURERGARSIC ARNE Trunk Link) «aE.
+
+===== wd_ch3_101_120-112.png =====
+100           2007 itm TL I
+
+Fs AROMA MARAIS
+
+ > oman Co)
+FOE A 站向 B 外发送村，交换机 1 根据目的 MAC 地址，识别由 属于本交换机管理的
+VLAN-10, 于是将读全当作彰邓以太网由直接科发。若 A 站向上站发关帧交换机 SANE
+发到灾执机2，此了必须先插入VLAN 标签，下通过二二链中传输。吉风，交执机2 UI
+二应旧必天个 VLAN，因此，干线链路上传输的基 2.1Q OL. -LARUL2 在疝 B 站转发削，会测
+DG VLAN 标签，确保站到的是标准以太网央。若A 站疝 C 站发送由 《虽同必交的机 |，但
+分必VLAN-I0 SS VLAN-20) ，则因二者处于不同的广播城，无法直接通信。比时希售助上屋路
+AESRSMI VLAN 通信或通过支持三民功能的交执机完成第3 AER.
+MEMEO REIL. JRA RAR
+
+368 ATOM
+
+=. eat
+OL FRIAAME, RALRARECIE MRNA).
+
+A. 0Baez Res, WORT OD, inBasF
+02, TOBase-T以大风采用的信介质是(
+
+A mR BL RF     D. Ae
+
+03. 襄交扫技术而言，以太网素用的是 ( )
+A PHLARA BOBRRRE C MARAE D. ROUILE
+4 网卡实现的主要动能在 (
+A. OR BAe RINEB        BAINES BARI
+C Rm           D. RRR EbEM
+05. PRAM PH A CAM, RAMP A Riu Ment AT mE ORR F
+ta. ULAR, EAM CO).
+A，量全机机。 B，爱外类衬机伸。C，寺全检验机制。D，定时仿生机介
+06 FFARR, HELLO).
+人以大网站起是通常说的MAC Se
+MAC 地址也各而二网硬件地下
+CC MAC 地址是通过名表新查得的
+D. LAMAR AEM EE
+07 FARTRAMEROOAMPR RAR MAM ALR, ORME)
+A MERRARHARANAR- CHAE RLAS
+B. ARAMA MRA Kee Hh eA
+CPR ERM TIA, HL RAM RAE
+D. tok KMaLsT vik. COMACD 协议
+===== wd_ch3_101_120-113.png =====
+oe mite                            101
+
+四
+
+n.
+
+一个类度为 40B oP RAL RA RA Bon 1Q MARAE HEM Hs 302 1Q ME IA
+AMSREMLH TIAL ()
+
+AD      Bt      C6      Ds
+
+AOAME, HOPE MAEM MAC 地址不是自己的，则 [ ) -
+
+A CARRE UENO, cM RATHI
+
+B CREAR, HOME EREHE
+
+CHE RAM, KAM I RIEHL
+
+D. CAGRHRRAT—ENAKH
+
+在CSMAICD 以太网中，站点 ( ) 进行全芭工遂依， () 进行站到工通信
+AW, ATL 县 可以可以。 CRT. TD. RTH, RM
+在CSMAICD DAHL, “PMH AARC).
+
+As AB ek 8 ALLA rt
+
+B55 Agile] ane
+
+eeererererrc ny
+
+D，从发完毕到履到应答的时间
+
+在CSMAICD 协议中，著不对由的长度和以限制，当一个站在必送守单之衣法有检测到
+APE MURR ATC) 和其他让发间的由灾生冲突-
+
+AREER 。。 日 可能人    Cee    Daerah
+ZORA, SAGebRsh Rue, RELA Inia, AON A esl
+ibibo, AT ARAKI, TOURER CO)
+
+A BUTLER RAISER BAL MLR EMA AR
+CARI AAAS DHE ANA I SEH
+
+长度为 km. ACHR UESL-E 9) TOMBS 的CSMAICD AAI, E4288 200m.
+FARE! O).
+
+A. 20bie     2006     oobi     D. 10006
+PAMPER ANAM, MRM OE ORM RAR FARR HNOHG,
+ASEM EO REL CO).
+
+A RE         ARR Sk rah
+CORSA TA A Auth tun D. 这种和法与网络的规模大小无关
+ARMY AM Sab OLR eA a, FLAN HE Ba AL RO,
+PRUE)
+
+A EHH         B, RAMA HIB
+
+© 发生三次和从的由        D。发生加次重人的
+100M LA BARA CSMAICD 协议，读以太同中的革沾站在发由时检测到闻实，
+SREB, EER RM OAL ()
+AD    CC 256s     D SLs
+
+ORM SAMRER EA. £ ALLS, ARE O~ () SAR
+个随机各-
+
+A. 255     B. sit     cams     p. 2007
+
+HS CSMALCD UBL ZF RAE, FRABBOMEM (
+
+A RIBERA RR, FER ITE At
+
+===== wd_ch3_101_120-114.png =====
+2007 itm TL I
+
+BPTI RR, MIReU EHS
+
+CC、上层协议使用 TCP HE
+
+DL APR ACR UAL Fay AUB a ak BC
+
+AR CSMACD EARBPS SRAM Hub SAAR FASEB SLAC. SY Hab RSE
+
+BA Wm, SAHARA OOOO, MLSE A RAMTEC)
+
+AL 2us         B ams          clas          D. Ins
+
+|. IEEE 8023 ORIEL, AMALIA DEM. ERRATA
+URI CO),
+
+A. 500m    1 200m     100m    D. sim
+下列玫种以二网中，及能工作在会双工模式下的是(
+
+AIOBasecT 以太网        1 100RaseT YAK
+
+CC 二路特以太网          D. Wosieet AR
+
+EEE 802 局关同村次对应 OSI SARAH).
+
+AL RRA Rom       Baba osRiEe
+
+CC物理肝              D. aie
+
+FiAROLAR EMH MAC HERS ARO IMER ().
+
+A ESM 。 日，完全不同 CG ROM DAR
+
+FARE R RAMU, MIRE )
+AL Rabies
+
+BL AMR tasiAb as, elm scene rrskiee
+
+Heeb ae otin 2 Sk BAe RH 1
+
+D. ANARSM RAPER LRA
+
+ALE EIRM CSMAICD HILAR AL CSMAICA SHERRILL, ALAN C -
+A RALMSHN, sk Aone
+
+B. MARNE Riba, SNARES
+
+C. wE rE, KALE
+
+D. ALAM Rs, ber iba, REALE
+
+下天关于CSMAICA THALUAEY, ERMA C)-
+
+AF RSIUNE, FRM ULF OAH
+
+BL CA AA Collision Avoidance, HAFRMAG, HALA MISE RAE
+
+C RAEN HAR, RL GMM TMS LM CL
+
+D. CSMAICA Shik CSMACD 协议的区弄之一是前才不过要使用进浊算法
+COMACA HME RAE ( ]
+
+A AGG Riba, (eal pk, ab teaee UCL
+
+B. MAMQH REL, ROE RUA MLR
+
+CLA uso, RBIS ERE
+
+D. RAS FARUM, BILEITKIA RU MUM
+
+在CSMAICA BRE, HENCHMAN SIS. ORAM
+DIES HASARUAM FS，它们之间的长度关系是 ().
+
+A. SIES<PIFS <DIES        1B, SHFS<DIFS PIES
+
+CC PIFS <SIFS <DIFS        D. PIES <DIFS<SIES.
+
+===== wd_ch3_101_120-115.png =====
+oe mite                            103
+
+3.
+
+31
+
+2
+
+Mt
+
+3
+
+了
+
+2.
+
+A802 11 ALE, MAC 术首寺中的地址字具的全又和作用取沁于 ) -
+A RM SERA        BMA Hab.
+
+CREA AP HAA APE    D. fhe) BSSID 和SSID 入
+AFR RU RUG, MULLIN LIB ALLELE, A MAC HUMIRA APD A
+
+到且的主机上的让生路上，MAC HAGA Ha 2 HEAL 3 ALEC),
+
+UP sci gens
+
+SOHN, ta       sess    set
+|A. BSSID2, BSSIDI. MAC    BL MAC), BSSID2, BSSIDI
+© BSSID2, MAC). MAC     D. MACy, BSSID2. MAC;
+
+FRAT 02 IQ MUSAHLY, HAA )
+A 在原好的以大网由中加入一个 4 UAE, SLA SOD IQ H
+
+B.A VLAN 标签后，以大网的最大司长也须要保持不灾
+
+C VLAN APSA ARIEL. 14 VID. He SEAMS VLAN
+D.REVLANE, MEEK ME ERIM MIM
+
+FAT RAM IRE, HIRI CD
+
+AL VLAN 使用的 802.1Q RUHR 15228
+
+BL SPAR VLAN #2h, BR AP —G ARICE, UOT aH LE
+©. VIAN EAB PAL AI, AFA BR
+
+D. AP VLAN 的主机可以处于不同的局城网中
+
+FAA TIRALR IAM (VLAN) HGR, HOA),
+
+A BRS RAR Ra
+BRAM RA LE Eh ee
+
+CRAM NL Hit ha RRL
+
+D. -RBLARSL SAMA) £2 Ak ARR HG A
+
+SUspARAUAR (VLAN) BBAFA, () REEMA,
+
+A RE RRIHRO MT       基于网卡地直基分
+CC 下于用记名划分           D. RTM BEBE
+下列选项站， () RAMAN (VLAN) ee,
+
+A REET       前化网络管理
+cee             D. RMA
+
+L009 5: 4A] 在一个采用 CSMAICD DIL MIE HARM HEE
+9 AEA A GS. OIL PAE HEEL 0M, SANE OE
+特，则最这的两个站点之间的再至少壳要 ()
+
+增加160m BESO. AL 16m. AY lm
+
+Don AED FALLOT, aR RIES AL MA ELE MAC HAE).
+A. CSMA,    B. CDMA    ©. CSMACD iB, CSMACA
+[ror 4 A) 以大网的MAC 协议提供的是
+
+A ERT EMS       BGR TOL
+
+CC 有间接的可要服务        D. WERE KTR
+===== wd_ch3_101_120-116.png =====
+104           2007 itm TL I
+
+40. [Do15 RAKED FRE COMACD LAER, HEHE CD.
+AL UCHLI, MALES
+DL. EMTARMI, ARAL EMEA E
+C. RILAR STRIFE ERIM
+D. SESE O Hf, CLAIRE 100%
+
+AL L206 AAG FI, Hb 下生比特流的这各中会产生 1335h 的时让(Swih
+“fH #2) 100Base-T 设备) , BFE A 200m, FFB AAMAE TE,
+AMG 和 HH 2A THAR (
+
+A. 200m    205m     ©. 359m     D. Siam
+
+2 DOTREAM) AFAR AWM, Sli RAR!
+(2) IEEE 902 10 丁目，风机下的地站 1 Sb 2 fosbak 3 ALEC)
+
+全ne
+
+baiemaet的四分
+
+0
+00-12.34.5678.9b，O9L12.34.36 18.99。00-12.34.56.78.9k
+C. 00L12.34.56.78.9b，09L12.34.6 78.9c，00-12.34.56.78.9a
+D，00-12-34-36.78.90，09L12.34.56.78.9c，00-12.34.56 hb
+
+48. [208 $4261 EEE 30011 无线启并同的 MAC AFR CSMAVCA SESE REIN
+LOE
+ALAA
+B Am aweleeatibe
+CARR MAC 地址
+D. ZARRTS 4 CTS Ht
+
+44 C2019 8 MIE RAR CSMAICD SLA OOM LAL, AIRE 280.
+NAPA RIA, AUER Z IM HAH HER ELC).
+
+AL 256u8     Das     1024s. 2048hs
+48. D019 RAF AAET 100R ase TALL AM IAM RAKES (
+AL Rake     ees Se
+
+46. (000 ANE FEA NEE BO2 1 AAUGARP, he 上 AP ma HRA
+CSMACA BANAL FIR, AH AAR Ae HOE CIES) 中
+RRHRC)
+===== wd_ch3_101_120-117.png =====
+oe mite                            105
+
+二
+
+a             BFS           css           器
+47, 202 RAARD Sto OBaseT 以大网的名用时间片为 31L2hs，基网卡在发天病由时
+RATER ALAR, MRT LAER RAL HAR ARAM EO
+HC).
+A. S28        B. 20488        Tots         D. 819295
+48. [2024 HAIL) ARI CSMAICA Shige 802 11 LAURA, DIFS= 128)5, SIFS
+Bus, RTS #R. CTS Hie ACK RAGAERRDEEARL 3ys. 2p 2h OEE
+SDL, BEAR AP AEN A 19988 HEIN, AMIRI SIMI,
+[MB AS] AP EA CTS Hh, GLANS see NAV HLL).
+AL 3264s         2. 38s          C3858         D sibus
+8 LOS AEM ALA LOST AMARA, SLAP HLA AIER
+对发生了连续 NAOH, OPN RIC AAA ETAL () -
+A. 052m B O5632ms——C, $2.3776ms 。 D 104 Rims
+ean
+PLAIRALNY CSMAICD PELL ARAL, 460.0 CDM)
+机比，黄优所未如何了
+0长度为Im、并括人给直为 IOMbs 的 CSMAICD 协议以太网，信号在电线中的导拉
+EAA 20000DKmI. ARE NRK MBE FDL
+03. 考让建立一个 CSMAICD HHMI, WALK thm. SBAPLAM Lbs, WALI AMEE
+PAE 20000IKmis 最小相关是多少?9
+(4, 榴寺一个CSMAICD H9iLEA. EF 1OOMDS, 1 4M HR A 210m,
+ARAKI KAY 2B, RABMRTA KARR (MULE EIT LTS).
+05. [2010 BF AA REAMAM CSOMACD ILEANA RA
+TOM's，主机四和主机忆之同的殉衣是 Dh, EH GBR A 200000KmS. 请回答下列|
+问题，要求说明理由吉写出计算过各
+DBENP HENCE RAR, AAA LRHENH OE ALC, SIG LH
+Silas AL, AR IES KO? HUCK IE SOE OGLE.
+PRERCRERM HEED, RO ZARB)?
+2) RIERA ALAR Kt, EAP BAAR ROA MRI (1518B) 向主
+
+===== wd_ch3_101_120-118.png =====
+4106                            2007 itm TL I
+
+ROREHE, ERODES. LOM EAP RA OB HA
+bt, EAUPALS| ABLES ALF ANAL aE AA I A A
+BABY RAR KAU)?
+
+366 等案与解析
+
+=. eat
+
+oc
+
+这里 Base 前面的数字代表数据素，单位为 MG, Base HAPLESS ESS CEH
+输，采用曙和类特久三) ，后面的 或 > 才示和及电失的最长长度为 S00m 或 200m 《实际上为
+T85m) «TRAE. FRI,
+
+04
+
+AERA 10Bas-T SSE. SRE | AHORA RATA, J 10
+207 10Mhs、100 表示 WOM: 582 部分的 Buse 类示切名传给。第 3 A-ROD, Nee
+$B TREN, PRE, HAE, MCRAE,
+
+03. 4
+
+在以太同中。 数据以相的形式伟铀。源员用户扔较长报文需要分为基于数据抉，这些数据所
+在各层中还要加上相应的信和时，在网络层中是分组，在数据甸路层中是以太网的由
+
+rare
+
+通党情况下， ERAT ARSEARELAC RAD AS A
+ERAN GOLA, SWAMI ARK. MOVER AGE. SAA AL, ROBO AF
+FURRIERS, ULL Ms IR RE.
+
+05. 8
+
+10BaseT LALA AES2 ADS, AD SERRE EPA SrA NCH
+OVE, RMU, RH Fra OEE™ CHAR
+
+.C
+
+AC AEH PAL NUMA UP 地址，它不涉及MAC 地址。实际上，MAC 地直通
+党是地过ARP 查得的-|
+
+oD
+
+VAR BARIN LAM se fee LCS. MR AIEARIOEL ABEL ee FAC
+RE, LVUTMEARTARE, WA, BIER. JEP EEILN TS ADAMARLRTED,
+SPORES CHAD Z MOEA) «RAR MCIRAE HRA, ELC EM. — HB,
+FRAME DUAR. MUS EA TIME, BULA EPERRCARRA CSMAICD
+HR, ALD HR,
+
+a
+
+以二网 MAC 由的最小由长为64B, IEP RAG ERE) HOB, 802.10 LEER 48
+的 VLAN 标签，所以 2 19 REVERE RAINED 8, UENO 2 1.
+
+wc
+
+“Sn Rts—soto, eHAE KA FT MAC 地址是赫与当前网卡的物理地址相同。若
+Ce ee ee rs
+
+wc
+===== wd_ch3_101_120-119.png =====
+oe mite                            107
+
+CSMACD HRA FOSSA LAST, AERC RM TE
+AAUTAMSH SVB CSMAICD YR. MALIA ALOT ULRAG EACLE, OPORTO.
+
+nA
+
+(CSMALCD Hike 95 9H 2 A
+
+2B
+
+GENRE ER ATH, SHE REAP RU
+AMORA. BN TEEORMERH OR SPARES. HE TIARIAFTRRR, TOA,
+iy ese anON RE ACF ONO RRA, (HAIR — ETN
+
+BOB
+
+CSMAICD HIER: AEGAN > ADA (MR
+HYD «Bid. “SRC (ESRMRIE. RRMMORT ONAN. sor L AR MRE
+AREOLA, ERIE ANTHERS HMO, LOUD A“ RRM =
+(ti 6-988. HRBE CSMAICD SODLIRIED OIA
+
+any
+
+来同中
+
+15.
+
+以太网采用 CSMAICD BRLEEA. HE EOTOCRLRE, SARIS Ba. RAEI.
+AIRE APATeARRM, A RM—eAU ARE GALEN
+AAA, An AEAGRDENT DEOL ASSEN, BRYAN OIE,
+Sen ERROR. 当网络负较小对，后退时下的到值次国也小，当网络负大时，后妈
+SoA EAR. SRI NRE AYO. A ANP SR
+FABOREAT. Ki, “AUREL ET HARE REN.
+
+16D
+
+‘AUR IEEE 902.3 标准的规定, LAMA MR AEH, 当检测到冲突
+面目发送后，一个站必须等一个随机时间生才能重新矢斌发送。这一区机等待时间的目的是
+Ne HURRAH. “OE IRIE UTR
+
+1) Rasy S74 0 21 2 PUL RAIL.
+
+2) DEMURE ze MEAL HAMID, DLA SBE,
+
+内这个计算沙可可以看出,大越大，师重导时再次发生冲实的要二人。
+
+me
+
+与 19Mhs 以太网相同, 100Mhs AIA HDR S12bi 的站送时间，芭 312b-IO0Mhs
+Da根基CSMACD SDL 5 UR LAGI 9s RAI 40, Lo, 2
+OKLA rR POE PAM. AERO 10 SER,
+HUET 10. AREF A= 2, HMAC, BAUR = 3, RGILIEN 9 18 36p5-
+
+AER. (698 (1<10) IHG, SEE 0 到 了-1 ZOOL AAR PS
+
+1 A DR RRMA 0 次冲突后，随机数的区间辕定在最大值 023 上。以后不再
+in. RABE 16 次冲突，则委痉相应的数据由
+
+站
+
+CCSMAICD 协议要求， 发送由的时间这争用期的时间，当等号成立时，部最和央长 = SHH
+办束*争用期对于选硕 A，最大中变会使争用期4最大下离的往返时间) 38, MIO
+
+10000:2m, RTT=100002-(200:10")=10"%, 最小人长-HRTT- IO00biL
+
+===== wd_ch3_101_120-120.png =====
+408                            2007 itm TL I
+
+LL ae 对最短由长没有影响。对于造项D，
+在训灾城不要的情况下吉少线路中的中江器粳会降低估揪时延，争用基变短，最短由长妆短-
+
+m4
+
+URE SIARED 《Hub》 OEHEINS 100m, BARES 2 LACED 200m
+OREM PEF CEP NR 2 NEAL. 2-200 200000kmis = 248,
+
+2A
+
+LAREN SHOT 4s A, RAO. AAAS Som AD
+15x eae. EL pe OM
+
+10Base-55 入以太同，数所认为 10Mhs，生也拉最大长认为 Ome 使用特殊的收站
+SEARS. WOR ese ARR HUET
+
+Base 2: FBLA, RUSE TOMS, SERRE CHIE Tams 性用 BNC HERES
+ART HMR, AH
+
+2d
+
+19BaseT PLM, 10oBase-T 以太网、吉比特以大网才使用 CSMAICD 协议，国此可以工作
+ERAT MLA. 10 吉比特以太网只工作在全允工方式,没有争几问题，也不使用 CSMAICD 协议，
+使用光纤或双级乒作为传办介质，
+
+2.8
+
+TEEE 802 7. M4 WARE OOHS IEA OS ANY RIRRENN ROU RR
+ERASE PH vA LO) 和介质访问控制 (MAC HER.
+
+MA
+
+AULA MAC 帧格式与标准以太回的由格式完全相同，以全和级和向后半容，
+
+23.8
+
+CAGOLAON PSB ATE PEs BEE 80232 和 IEEE 802 3b, WTRERIDILEERO, aE
+Ri 4 UTPS HR
+
+6B
+
+无线局大网不能简单地使用 CSMAICD 协议，特别是冲突检汪部分，原因姑下:第一，在无
+ROMMEL, RUT TRA TOM, BULL, Hee
+Ce ee ee ee
+ CURAAEORD ZEKE, (RAR BNSF A SOIREE, CLAM D 站通信， 但 C
+外检测到信道，于是就不向 ABNER, HO B ABP A 站发送数据并不影响 C 站向呈站
+发送数据。在无强局城了中，在不发生干的情况下，多许同时有多个秘动站进行明信，这一
+UATE AUXOIEDD 。而“所有让点都能听风对方" 正是实现 CSMAICD 协议的前
+18. SLA. CSMAICD 协议和 CSMAICA 协议的特吉，但不是无线局网合用 CSMAICA 协|
+oe
+
+ma apm
+

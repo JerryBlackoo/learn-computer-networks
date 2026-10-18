@@ -1,0 +1,925 @@
+===== wd_ch5_261_277-261.png =====
+st ee      249
+
+A. 1667     2. 2666      2067      D. 2668
+29, “A TCP RAEI MEGA AL, RAIL 2 Ul 2000 % 4 300, WLR
+sor),
+A. 在政到一个确认之前可以类过 3000 个TICP ARAL
+BARS PAKS ATA 10008
+CBs} — Amine ATT Hie 30008
+D，在下到一个确认之前可以发 2000 个 TCP ARAL
+3. FH CAT TCP 连术站向己帮过了 3 EKA TOP 自分别包仿 2008. 3008. 4008
+的衣直畸，第3 个和的序号为 1000。若已包正克拉入到第 | 个和第 SE NCA
+SPORE EC).
+A. 50     8. 600     cc. 700     D. 800
+BL BP TCPABY, MSS 9 IK, SHARIA 34KB 时发生了超时事件。 BAI
+AM ARIT ARRAS LEME, AERO
+ROD.
+A. REB    B KB     CRB    Dike
+32 SMELT “HTP aR, LUULK A IKB, CHARS NEMA RN
+RAT OH KB OMAR, BPH HAIRAAST, sLOLMEROH LKB. HAA
+时齐起，在不发生超时的情况下，经过 IORTT SG, FORE MAI ().
+A. OKB    B. 2KB    CHKB    D. 1SKB
+3B. RICH NERO GRE MIN 8 REALE), KIN RULAS|
+对发生超时。TCP ELAM, AM 13 RibaratME Re MN C).
+Aa      6       G7       Ds
+Mo FLAES TOP AR, HHLAAREH KB, MALE AAR RMA, Mae
+ROHL KD, sates 为 16KB，若双向传输时间为 10m, RAAB TI
+卫汪用生负的恒丈，则经这 C), PARE! HAH 20KB，
+A. dns     2, Sons      coms      D. Toms
+35 FUR TCP 过接的传区过程在模开外阶段，在 RTT 时间到(+ RIT FALL
+TA RRHEAL, BORIS RRA LEE, UAHA + RTT 时刘到(+ RTT HEAL,
+Ha CAR (MIRAI LAI A).
+Ak      [YI     CC      bm
+3. FARE TCR 的拉攻控制机机的撞过中，钳二的是 )
+AL TCP aie ot kG HL
+Bore eNBHO RMR
+CALLE, RM RHONA R A) FEMA UNE
+D. RMR ATE O EAS
+37. BA TCP ERY, SSH IKB, SHER 8 UKBNDILET 3 470 ACK ILL,
+PARTAM 4RTT ARLES, USRARTTIAAS, OEE
+口的大小是{
+ASKB     B. 16KB.     CC 20kB    D 21KB
+信和四建立TCP 连接，MSS 4 1KB. Kol, AURAL! 2KB. A SIE
+HARB. ALFA) IRTT A. AH BACLT AKB OEE CTCP 的各所部分) ，症
+
+===== wd_ch5_261_277-262.png =====
+2007 itm LI
+
+a.
+
+a
+
+卫得到了 BAA, MAMA ow oF ILAHED KB. AFA RITH. ARE
+fe BRL) Hus.
+
+AL KB     [人     © skp     D. ako
+SIA RAM OMEE, ALLIS RIT 为 ms 8. IEA
+He, BRA A I UKD, RAIL MSS 3 2KB, RET BALL
+RRO (ARLRH YL MKB) 需要的时间是 C),
+
+A. 30m     2 dom      sms      D. oms
+Pca —/ TOP A, RAIL MNS = IKI, RIT= Ios. CHALICE 16K,
+OMAR AEDS EAIIGL, PALMAE ELAS OLS
+KB、需经这的最小时间以及此时己的接必缓存的可用空间分别为( ) 。
+
+人 ans HSKB 。 Bems9KB Cns BKB. Ims SKB
+
+[2009 BAM EAP HEMCLM EAH TCP 迁接，主机旦向主机忆改寺了
+两个过的 TCP Hk, RIEL 300B 和 SOO MATAR, INLINE HA 20,
+ALEMRUTAG ERE, LULL HADAGA ().
+
+A. $00     700     800     D 1000
+
+12009 EN ATP 连接总以 IKB HALA TCP HR, LAH LS A
+HAA, SET WKB LA TALE, BAF AM ART 时间内的 TCP 和的
+ORLA, AERA RIT 时间内改进的所有 TCP REE E OSH, OR
+宣品大小是( )
+
+AR    Bake     CC sk     DekB
+
+Lol AFAR EMP HEA CLMEILI—ATCPHAR, TPR 10008.
+SLATTERY F400, BLAM EKER IIES, ISL
+EWERANT — PAULA, ALP A SRILA KI) 20008, Maat LIC?
+TAA ERLAANRRT TRE),
+
+A. 1000     2000     3000     D. 4000
+
+LOU RAID EMP ERLRA—H (SYN=1, seq=11220) 的 TCP AR, Bat
+与主机己建立 TCP AM, SAMCRRMARL, HERCALLTREH ERS
+TCP呈可能是(
+
+D，(SYN-0， ACK=0, seq=11220, ack=11220)
+LOU BF RAT EME HEMCAM EAH TCP HR, SPALNERAT
+3 Fest sk TOD HE, 48) 4 3008. 4008 和 SOO HA ALAA, FH 3 ARMIES A
+900, FRAC MRIS NGO SN, ERO PML
+RO).
+
+A300     2 S00      Co     D. 1400
+
+(0 RAR BHT HERLAMEEL PTR, ACTA AIP
+BRAGG ER, HPS PAM L1G TOP A, ERAS 1913. IVES 26,
+AAA 1008, NIP PALE CA) TCP RA TARA ALL).
+
+A. 2046, 2012 B, 2046. 2013, 2047. 2012, 2047, 2013,
+===== wd_ch5_261_277-263.png =====
+st ee         251
+
+47, TRO RAAT RP HCA T TCP AR, PANNA MSS=IKB KSI
+RJA RUNS; CGAL — NARI LAE Ak ANIC 2H TOK HULL.
+BUA HAA MAHER OH SKB, MAL OER, RASA,
+经这 RITES, POLEB IMIG (1,
+
+A. 10KB:    B. KB    CHKB    DDNskB
+
+如[2015 REAM) LPRERCH Rf TCP ER, PREAH MAMIE KB,
+PHEHRA DOL MSS=IKB KIARA, RAMA, CARRIE
+16KB HAIRIG A, Heh ECHR ALAL ATRL, RAUL Cac Sle Acie AE
+AGRA, RARER, UPA ALIRAES dh aA, ADAIR HHI, He
+ARITA. PHABHOL )
+
+A. IK    B. KB     16k,    DaakB
+
+99. [2017训考册是】若向忆发起一个TCP 迁接，最大投长 MSS -KB，RTT- Sms，蕊|
+ARPA RIIR A ORD, MITA RIE LAS LOLS 32KB,，需经过的时间至
+PROD.
+
+A. 2508    2. 3oms     Cc. teoms    D. 16m
+
+0, [2019 RAMI REP MLN TARA ES LUM PER TM.
+BPE MAB RIAA ack seq=100 HER, ACSLAT seq= 100 6498,
+KARA. B TCP LINEA EI, UEP RHE sy 100 SEALE ()
+
+A      Bee      Gn      Daw
+
+Si (D019 RF AMI BLAP LARA — ALK CH TCP ER, P Citeebiniee
+SHH DOIN 42046, MRSA TOP LUMURSA C).
+A. 2018             2019
+© M6               D 2017
+
+52, (202084 AID FEA PHEMCERA-K TCHR, RAIL (MSS) 为 IKB，
+KOE (RET) 4 2m, NUE RLU ALAR, PUR eK BKB AES] SKB 所
+BOREAL).
+A dine     B. sms     CC as     D. a8ms
+
+58. (LOM RARMIS LN HAM LIES TCP RIESE, RAL SYN Fe EEA 1000,
+AIR, RAPIER IN PAE S01, RL EAE EAE NE
+===== wd_ch5_261_277-264.png =====
+252                            2007 itm LI
+
+WF, PHC A LOM REP CD
+A. 4002     1B a001     CC 000      D. 3999
+4 202) RH ANEL SEP AMMS BAI FIN ALAIT TOP se, HSE PHS
+MB RAW FIN HGRA B LA ACK HG, EPH TCP RAH (
+‘A. CLOSE_WAIT BTME WAIT ¢. FIN.WAIT.I DB. FIN.WAIT_2
+5. [2021 ASL 414 2B #8 mH SUD ata A TCP AE
+RIK UDE RRIEAL > TCP PR SRAN A AA (ALBRRIE) RAM MACE AAI).
+AL 375%, 167% Th 375%4,375% C. 610% 167% 。 D 601%, 375%
+56. (02) FAMED AAUP ALLL TCP ECAH, Mabe TAL. PA
+SEN
+RARE ack soa=S01, HRAEHe revwnd =SO0B 的县，出四在未履到新的痪
+WMeei, THMnAeRANRNA TEER).
+
+到 ol- no
+
+D soL~1100
+
+57 DOM BF AMI MRE T HREM AF TCP AI, RAE MSS= IKI,
+PH AMCRMRE, EP HME TO A LKB, Set eLA TAL PIR
+PARMA LOK 所省要的时间至少是 (
+A 4RIT    昌 SRTT     ©. WRIT    D. \6RIT
+
+58 TO RAAT MGRE? CAMB S Ca —1 TCP, HEF AMEE RTT-SDme
+ARAL G MSL =B00ms, ACEI RG, CLALIT, BAC LIM
+SAA FIN SiH} 3G, MC 40S HEA CLOSED RAMA MEMES RHA (>.
+AL 8505, $0 ms          1650.5, SOs
+8500s. 75 ms          D 165015, 75 ms
+
+59. (D024 AF AIL PERL HC HALAL TP MRAM NO HK, AIA RIT
+TOms REALS MSL ~ Ws, RAMRAIREIE MSS ~ 10008, TCP RA,
+BOLIRGHE ALG HAsO AM, RUA HSE TOP RARE 18, $1 HLA CLOSED
+RAbAak, MRE).
+AL 30038    1B, 3008s     ©, no     D. 6004s
+
+6. 025 BA LAEY 主机申通过 TCP A RE ALALIR AALS EIT, weg 为库
+4, ack sq HRW, rev HATO, PA 1 ETO HLAT OI}
+20008, DUALS SO00B, MSS = 10008, PAGINA MSS RA TCP HA. PA 4
+HeaIOksL ol ANIMAL, MP ARASH MIE ME, ENTIAL) TCP
+HEC).
+
+===== wd_ch5_261_277-265.png =====
+st ee      253
+
+Ad                 7
+
+61, 12025845 A88) Tine 是一个拉人时间查询务的CS RHA, LEP Ms UDP
+
+TCP 4 Tine Bi AFM, BRE PA Te AAI ERY A RIT ~ Sms
+
+SLE? MASE UDP 和 TC HRM TRI, RL OHA C) .
+
+A. Spa Rs BL Sims, ltns C,H os。 D 6s, Ins
+
+Roane
+
+AIM TCP ARID, FA- AMARA, MATRA ARMAS
+
+时户的所的重传。斌说明理加-
+
+02, BASGMRALEM, RAMLOI, NTC 对此未明确规定，而是让 TCP 的|
+
+RSL ATM, RT Ne
+
+D RAPRLLER.
+
+2) AASUMUUL AFRICA, ASTRA HHI LURIR G AACR
+
+一个 TCP AREA S008 HELIN, HAF HAIRS A 10010, ATH AME
+
+#10008 HA, LE AMLAB BATHS, BSAA AT.
+
+OF TCP AERO GRRL OOKB, MANE HALE m4} 20ms, TCP 所能得
+HGRAREGUAEASY? (ELEHAM, LRLEAEL RRM)
+
+05, BA TCP IRIE, (FULD 100M, AAEM 10008, RL EBLE 60,
+RSLRAOIILA 20m, TCP AI RES AMM SL SI? EAMES?
+CORSE, MIURA. SEIS TALI.)
+
+6. SHARE WPA LM DARA IN TCP RRA, BO MREROAS HD, BE
+PURRERGH 100, HERA TA 150.
+
+昌 各一二个角文中有多少全所?
+2) MRBAAMLAER GAMA TRLASAZICB, ARI DELIA MRL
+WRF, RURG ALS I?
+
+07 EAE TP ARENT HMERUG TAL AMR ILT, AITO H
+2UKB, RIT A Wms. HARKA KB. NGL SRI MARLENE AT A?
+
+08. RIC MER UHRA TEGAA IMSS, ER OF 16 时出现超时，抽次
+SIU, WAST AIILSET IE EOL, RET NIL!
+
+©. HE TCR ALKA L 1008, RAINES AL 1205, LARA TCP ARLE
+FREORORD ER, RIA RARRL SK? CREEREMLEL)
+
+10. AN TCR 连接使用 256khls HHL, ARSIBROE IE (28s, ALARA
+
+===== wd_ch5_261_277-266.png =====
+                            2007 itm LI
+
+128khis。问窗口是多少? ee PDU ARAN MAN meh RE (银
+RASPES).
+
+HH TCP 最大报文下的长度是 1KB。拉宝窗口福为 18KB，并且发生了超时事件-
+FREE SALE RLADG, NRBORLEA?
+
+TR, A TCP 首部的加据们息(十六进负表示) 为AUD 28 0015 50 5F A906 00 00 000070
+4 p0 CO29 0000。TCP 首部的格式加下图所下。计回答:
+1) Bo Fema GER SIT
+2) HAGAS ASS? ALASL EI?
+3 TCP AHHH ALB I
+4) AERA AHO TCP RY AR TCR ARS AEE
+
+mao   7   ry
+ae
+we      aug      ea
+ie Tom ARERR   rH
+oo     am
+rarer   L we
+
+13, ORAM EAU AA MER Imemet, PHA 19216808, ES
+SHIP AbA 211 687180, HH SEM TCR 进信时，在是上清获的其中个理分组
+SRL.
+
+四葵下列风题:
+
+DAL Ee IP apse, mir ALLOY ARI T TOP ARR LATE
+TU ssh KASH EAE TMA?
+
+DAWA LEH I OA, SiS CHU TM REELS
+
+3) AERA 中的革个四分组在 ALS ART AOD 2, ML IP ASL a
+
+和个由
+=
+ee
+
+===== wd_ch5_261_277-267.png =====
+st ee
+
+255
+I Seta RAB Hye TCP LIAS HAA 12 所未-
+we   co   Dk
+lee]
+ETI配了   CE
+oy
+Wen wane
+22
+Hee
+i)
+ie        CE        ine
+ie ew
+SS om EET   加
+co       ro
+aera   [we
+图 Tepmati
+
+1. 12016 4 ET RFF HM Web 服务器S 时，S 为新建的 TCP ROR
+
+了20KB (K=1024) #22486, KSEE MSS=IKB, 244308) RTT~200ms_
+3 EAS Heat an 100, LAER ISS AMAR SALLIE, HO
+SHILA OKD: S*HESIIMRR HAR, JL OAL TCP LIE
+AURA, Sao) TCP RICOH REA LAER, HOVE FILA:
+a
+
+baer
+Swaine
+prove
+
+aa,
+ms
+Et
+
+1 TCP 连接建立过程中，H3 履到的 RICE HALE TCP MR SYN 和 ACK
+BELO ETHES SY AREAS IT
+DID 枚到的第呈 个确认下通告的打上窗口是多少? 此时 HH3 MRE LAST
+===== wd_ch5_261_277-268.png =====
+256                            2007 itm LI
+
+WeHkawe taser
+
+3) H3 ARKH! FF OU, F-AAREM AAAS ES 1D RL 个
+ARATE OFT 0 OAL, FIER MARL ST RRR
+ran)
+
+FIG 与8 之辣的通信已经结表，在 /时间 3 ROPER, MLA ots, 8
+LERMAN S
+
+538 答案与解析
+
+ee
+
+oc
+
+(TEAR AERA, ALAA HRLERAR ATELIER
+RAGS. aR RC mT AEE IRA AEH
+
+mc
+
+"TCH S580 标识 Web HA IY HTTP ALL, PF Web 服务器的 HTIP 进和的
+Cube PRES. WLR ETC.
+
+6.0
+
+SPURT IES MEDEA SMR. RAPREIATHR, 交
+FUG 16 2. SILSE LAL HOM RIA, HD 错课-
+
+04D
+
+‘TCP BOLO COTA RIL EER TCP 并不支持广播，
+
+05.0
+
+在TCP 首部中没有目标主机地址，这是下首部的字段。TCP RATARABUM. JE
+超时的分组进行重传，以保证所的可守性。TCP 会根所网络的最大优答间元 MTU AUR
+身长诬MSS Hi IHRE NEL CEA AEE.) ，并在目标主机中进行重组
+
+06.8
+
+‘TCR 报文庙和 UDP RARALAGEL RT. HAART. HES. By UDP HE ASH AEA
+Woe, RELIG. MULE IED FRR. wi TCP HORT OSA. RCA RO
+SFR. HL) ANE UP LRH ALE
+
+oD
+
+“TCR 首部与UDP 信首部一样，包括 uP Ss ANOS ADLER,
+于指明上层协议是 TCP 还是 UDP。 17 代表 UDP，6代表 TCP，所以选项 SHR. REF A,
+因为数所你字段的单位是 4B。所以当候称到最大值时 TCP 首印长度为 15=60B。由于使用
+ASG, SOLA AB 的信数，选项 正确，
+
+os. 8
+
+URGED, HI RCA ROME, HIS, RST 是复位位，其为
+NER RTUAURIBR, GALYPRIEIE, MS MLARABIBAR. ACK 是确认位。其为 1 时表示确认库
+号 ak) FORA. FIN WPI (U. JY LH (CRIB TRIAL ODER, SEM TRATES
+GIR, SUT SHRED RARER JEUNE FIN GERD LA 2 PHOERR.
+
+wc
+
+TCP SREP CPLR RMR
+
+===== wd_ch5_261_277-269.png =====
+st ee      257
+
+8
+
+TCP 合用冰动窗口机制来进行流量控制。在 ACK 应和信息中，TCP PERG ACK. 加上
+NCHA I RICA TAKE ERIE, OER
+Ra CAMINO OL RARE BRL, 20008,
+
+mc
+
+“TCP AFF SA RCI FN ER IR — he OE A
+lh BA CHC TI 99, HTIAAR C 正确。 ICEL BEI
+MERRIE A ON AL A、 RTE. SUAS ABEL ASU MRSC OLA A
+I, NALCO 99, LTA 9 99 的字节已改到，
+
+na
+
+‘HP AE RL TCP 连接的请求时,会在 TC 首部写入MSS ACARI 选项,
+告诉对方自己的接口能名适应的 MSS 的大小，然后在二者之间选择一个小的人投入使用，此
+后 TCP 将以 MSS 的大小对数据进行分发送。MSS 是在三次提手时计算得出的
+
+nc
+
+TOP IEPA RIERA, SRR ABER. 为了避免网
+UR FR SHRDHHCAA, TC R38 AF AY LIRR RK ART OAT
+RACINE.
+
+an
+
+‘TOP Jatt NAR shat BC A NE AI, ANNE
+Ae BTR RAADN, YR ARRC URL, eI NM IC
+mI. MTNA, RT MUL ISA ARIAT
+
+1s A
+
+在400bh PARE LGN, MEF OTHELE $x10 的数据，TCP 的序号字朗有 32 位，共有
+2个不同的序生，风可发送的时间是2945x109 = 08895 859m.
+
+6
+
+ER EAA NRE
+
+nme
+
+参与 TCP MERRIE NAPS “Poe
+
+MEP AREALIELR, SD—RSE BRYA RAG BH TCP BRP ITF SYN 位
+为 1，并选择序号 seq = 表明伟数据时的第一个数据字节的序号是 BIE. AB
+ARUCTHBLIS, RELA MABAILSCAL WE SYN, ACK = 1，且序号ACKui= 1 CACK OF FEE
+AAO) » GO EE CAPES seq
+
+any
+
+在TCP的“三次提手* 中，第二次独手时，SYN 和ACK ISARELI 1
+
+0
+
+TCP采用三报文握手建立连接，其中第一个报六是TCP AIR, SBMA TCP
+RUDRA, B= NILA TCP ESRB HL
+
+21. B
+
+人向有发送的第一个SYN BRL ZRINAP AIR, CLUS —PE 201, A 向 发送的第4
+APACER seq 等于5，说明之前发的数据的呈为 212一984。因为在电开过接对发送
+
+===== wd_ch5_261_277-270.png =====
+258                            2007 itm LI
+
+的第一个FIN PLEA. URI KIRN 984-212-7728.
+
+nc
+
+46 AE BOTCHED — AN A RRC
+(AS. ack 表示和 其外到的下一个报文庙的数据分的第一个字节在 IRA
+号。 国此，同一个报文中的 weq Mack HULA. CE BARRY A HR TATA 中，
+seq 人应和人 发向有的报文中的 ack UTP, 201s aek WA BL FAG A RMI
+段的第一个字节的编号，应是 200+ 2=202.
+
+2.8
+
+FIN ADK hia, CTO EMERALD MI, RENE. abe
+ewe RS AR, RIULiCA Hsu.
+
+4D
+
+‘OMT EERIE FIN HETIL A, POSNER P ET RA, UI BE
+yen Tse PREM, MRL ACER FIN RL BZ AURA PORT A OR,
+报文民昌中的wq ay +k, AIT A. B HRI. ML A PIER RU BI —
+BEAR, SHES GB. FRAFURLASEL FIN RUBE, LER AONRI RE CRC
+SUMAPRLRD . BUREPECAL BH ack 值一定为x+ 1 SKC HB, AD AE.
+
+25.
+
+本图中，一个 TCP 报六的首部长度是 20B, 一个 HLL A HE AE 200, NE 60B
+的数据，一个寻才所报的长度为 00B，可知孝据占 6500.
+
+6
+
+1时刻TCP PARI. AAR AE FIN ALC 题目问的是最短时间,所以当 TCP
+服务回收到 TCP He RIAN FIN 报六后不理发送数据，国此同时发出确认 ACK ICHAT
+ORC FIN BLE, BOELGRREEE CLOSE-WAIT R85: TCP 客户收到 FIN ALSCEL © 02H
+‘TCP ALACHUA FALE CLOSED 的者，共经历 1SRTT.。
+
+mc
+
+AD Wy 200, 建立TCP ERS — ALICE IRINA AR, CLIENT.
+PIR HAR OME) 的序号是 201, ALATA, 27 A
+$8 URENGEE, SHPRKDICE EAR RME, UIE FT AEN RINE HIBAE QOL,
+
+aC
+
+ANAS 1666. REAR R—MRRECRINIT RHE. CEE AE ANTES. AH
+BRET LLOEGR 1607, HALTALAINA ALE, ULIRNREIF A. FPR
+报文的序号仍是 1667，10008B OFFAL? 1667~2666, AU UL B RELIG RELY A COMBAT
+号是2667.
+
+wc
+
+TCP HAL ei Fe AHR ALBUM OSA. TCP 的滑动
+SALA TO, BURTON ET. RRM ICANN, ORAS
+aL AE HANTS PERIL NET
+
+wc
+
+ZOIEWRIRACSI 1 个和第3 88%, AFDLZ. FECMRSIUESR 2, ZARA ES
+第2 PAE. 58 3-PORWGER TY 1000, U5B2 “PAREHHF EY 1000300 700, PALLIAT SS
+70.
+
+===== wd_ch5_261_277-271.png =====
+st ee      250
+
+anc
+
+RCM HRB HIRE T OMI. NTFS TRUCE ALARIE 17RD. HL cond 重新
+Da IKB. PEALE ITA. OB AP RIT 后，cwnd=2KB， 第 2个 RTT 后，cwnd=4KB, 第3
+个RTT后，cwnd =中B。当第4 个RTT 发出去的有 个报文度的确认邦收到后，cwnd= 6KB (此
+寺还未超过介开始门限值) 。注意，是中“这些报广度均和到聊认后”这何话扫生要。
+
+RA
+
+HOUT OKB. RKB. EUR 1, REAL RTT TIT
+TOK, ROY RVERTORCARAER LO AURRNCHTCIHOYELANML. BD IOKB。
+
+3
+
+EXOT ONIGE Th. NNER Le WEICASTA ROC. RELI.
+PROFS RIGA LADS. CRS. HARMEN RME 8. SMT
+口内大到村时改用儿之锡算法，窗口大小接线性增长，每增加 HATAR, ANN 12 时，
+沁现超时，重新设门限人为6 C2 的一半) ，押寨窗口重新设为1，执行慢开始算法，到门限
+{HORS ITE, MOEA ANSEHEN 1,2, 4,8, 9,10, 11,12, 1,2,4,6,7,8,9,
+
+其中第 13 ENA CE 12 MENGARUOES ER Ky 7.
+8
+
+AMDROCVANT syresh M. FOENCIUUEMLITIRAM KG, MHAEEIM,2KB 到 16KB HE
+BRIT. 超过 WOKE 后，每和过1RTT，据守窗口加 IMSS，所以从16KB 到 20K 2650 7 2RTT,
+SREGEL SRIT, RET ms EEE Sms 后四的发送窗口第一次为 20KB，
+
+35. D
+
+在要开始阶自考收到一个对新报文遇的确认。拉半窗口才加1。因此但经过 UR. AT
+ght. aRTT mPSUS+ DRTT 时刻之间发送了上个数据役，因此在这个 RTT 后，帮天窗
+hy £2679 2h 所由在下一个RTT AUG 2h EL
+
+3a
+
+ARM, ERAT RTL, ARR RL
+
+37.
+
+SRIRCDUT 3 7c ACK HCL ALERT PPLE, CPHL TK
+ETL ewnd 也入认为ITKB，第1 个RTT后，cwnd= 8KB，第2个RIT后，cwnd= 19KB， 第
+了个RIT 后，cwnd=20KB，第4个RTT 后，改出的报立全部得到痪认，ewnd 下增加 IKE. 2%
+IK. 38 cod AMAL CHIME.
+
+aA.
+
+TR TATED. HT ORE BARR RIR AR, UL
+FIG AALNL. ARAVA, AHP MORIGTROY KB. 5B 1 RIT 中 A ERIN aK.
+SOLE SITA, 421 6 的确认报文后。拥窗口地长为 sKB。再看失收贡窗口， 四通过确认
+SLOPE A 通知接收志窗口。则接收窗口为 KB。因此在下一次发送才据时，人的
+适窗口度沪为2KB，即 TRTT 内最多发 3KB。所以选项A 正确
+
+v8
+
+PERRIHEINE, EWC RGIANDRTEDEEE, BE MSS 的大小 2KB, ARH.
+增大为4KB、下B，16KB，然后是接收窗口的大小 24KB。邑达到第一个完全窗口。因此达到第
+
+ee Ay ART = Om.
+8
+
+===== wd_ch5_261_277-272.png =====
+260                            2007 itm LI
+
+AMIERGLANOAL. ILADLRe MME TAHT MLL BF LIMRR—ee ea
+RAR. HONE NIK 增长到8KB 需要3 个RTT，即9ms，并在第1 个 RTT WIRE IKB, 在
+第2 个RTT 内发送2KB，在第3 个 RTT PRUE AKB, RBULIE 14 2+ 4= 7KB，这时己的接收
+角存还币 16~了=中B，此时的八关窗口=mint捐守窗口.接收窗口1 = 3kB，所以这 B
+
+4D
+
+AF RIO NGO F— PEATE. BA RARREIE GM 200, 4 3000,
+
+i. FESO 200~4904 38 —PARLRKF AEA SOD, fh SOOB MIR. FH S00~999.
+
+Bes ZIESMRICES. MIRNA —P BEG 1000, LTO 1000,
+
+ac
+
+起时发生时，箱旧开始门 sxesh 设为当前名窗口 cwd Fy BU 8KB,， JE evnd 重
+村为1KB。此后进入慢开始阶段; 第1个RTT后ewnd= 2KB, 第2个RTT后cnd=4KB,， 第3
+APRIT 5 own 8KB (达到sahresh) 。从第4个 RTT 开始转为可守多算法，窗口线性增长，
+BE RITHM MSS (KB) ，国此第4个RTT 结束时wd       KB
+
+aA
+
+RATT Ach CRE AOTC MAINTE. EMU RIE 40008, 2.08
+AAR rRNA 20008, LIE = min{ 4000, 2000} = 20008. FEEL ALIRE
+FAL CGE 20008) ，但仅第一个自补确认，说明第二个段 (1000B) {HALF ERIE RIRULIK.
+因此，意已使用的窗口为Do0B，还可发送的最大学节数 =2000~ IO00 = 10008.
+
+ac
+
+在 TCP REF, EMLZARSEIEIRINR. AVRIL SYN= 1 FLACK = 1 的报文良
+ULI ok KEY PADS soq = 11220 加1，即 11221。忆的凤号seq 由其自行迁择，与的
+圭呈无关，可为任意值。因此选项C (SYN=1,ACK=1,seq= 11221 ak = 11221) PIER.
+
+TCP REY TRAM HOES, LIA SFE 90, WI 2
+个段的结责任号为 899，起由序号 =900- 400 = 500. MLZ RE 1 RAE Ry AAT 2
+BR (300一899) ，国此基收到的下一个字节译号为500，即确认订呈为300-
+
+46.8
+
+ZEA TCP BR» FE seq = 1918-2 AL BE 1913 TA MARA 100,
+UL 1913~2012, RULE ack = 2046 205-2, MRI MIRE DE 2065 ORCA NE ML
+BLE-ASP AI 2ON6. PARSIEEING. ECHO TC. seq ELI 2046 (发送的第一个字
+WEED + ook UPD 2013 (期待乙站送的下一个字节订号，即 2012+ 1=2013) «
+
+a8
+
+0A, AEG sesh BOY SKB = 4KB, IFAT ew IRFU IKB.
+接必窗口恒为 OKB，因此发送窗口 = minfewnd, KB}. £20) IORTT IMEC
+位为KB) MUM 4和.6 了人.9 10, 1,12. PERE LOK, AREER TTT LOK
+SEAL, PRTC TOK, MAPS SUIT A 符合条件-
+
+aA
+
+RAW = minG RUCHED, TT} CARMEN TKR HORA, HLA
+FURIE, PRO FEAEARME, BEURO 发KB， AUF 1KB 第 3RTT 2 2KB. Rit IKBs
+SU ARIT CAKE, RP TKB. BARTER SKB, Rif 1SKB. 此时乙的缓存利余 IRB, ARNE =
+1KB。 者闪闪口上时为 1GKB，故发窗口 = min(6KB, IKB} = 1KB.
+
+===== wd_ch5_261_277-273.png =====
+st ee         281
+
+8
+
+UCR KB. ACFE KB. BULRINRCT MICA. TCR HOTS
+PL, IMU ewnd ~ IKB CIMSS) + (HEGRE IRTT, cunt BG: IKB—2KB--4KB-8KB~
+VGKB—I2KB, JR SRT, 每个RIT- Sims, SAKE) =SxSna = 2585
+
+50. C
+
+‘TCP ARAMA MLBUALE, YR SEI PL—ARERO 3 RAUNT, CTE ACK) mY 2
+MAEEASL. 0 RIE VCC ack seq= 100 HIRIARR, BEATER: fy oe KERNS BG
+sek seq 100, HR 个重复 ACK，因此在和时启发快刀重伟，重新发送seq = 100.
+
+si. D
+
+iW PLD 8 SVN = 2018): 2. SYN + ACKISeq = 2046, ak
+
+a= MULTE ANE RD 2046 +1 = 2087.
+
+82. D
+
+由于作弄始门限 stesh OB BLP WRN ewe 从 3KB 增长到 32KB TREO
+Yo, or sesh 设置小于或等于 SKB. OER PIES, end 从KB HEE SKB,
+MHI ARB, ABELLA RIT, ewnd 1, ARIF RIT, £885 94 22m = ABs.
+
+53.¢
+
+‘TCP IRIE SYN RELEASE, (LEIA, SEL ARI TA
+100 + 1 = 1001。FIN ARABIAN, ACL Maoh 1) SOON
+S000, EE EH 89 SOOO 1001 +1 = 40008。
+
+S48
+
+TCP APA IEEE, FIN 后进入 FIN_WAIT_ 1 9:51 HCSIEIE ACK 后进入
+IN_WAIT 2 状态，收到服务器 FIN 后客户发 ACK 后进入TIME_WAIT 状态: 经过2MSL BY
+后才进入CLOSED 加者，因此，当客户收到服务器 FIN 并发法ACK his HARE TIME_WAIT.
+
+55. D
+
+UDP首部因定为8B, 传输 128 AER ere = 12+ 8= 208, fy ARH BE = 20:
+0%. TCP HER 200, {KOE = 12 +20 = 328, FAERIE RCT 1232 = 37.9%,
+
+6
+
+GE IRE seq = 501、2008 RAE RLM SO1~TO, 1 收到乙的史册，sxk_sq = 501 CR
+ENE SO1 ZMH EBRD «rowed = $008 (FIA SO 起可深信 5008 He) « FBELIDEE 2008 (501一
+70) » HERMAN. HG AREE AS S00 ~ 200 = 3008, HF 7011000.
+
+1.
+
+YA) 0 S24 RHO), SENTRA IAL sahesh 设为 16KB = 8KB, FBAEAE cwnd RAY KB.
+执和慢开始算法，cwnd MAES, HORE SRT, RL snes: RU ARIT AURA ownd 线
+HOME, SGML SRTT, IKI 16KB- SAG RIT. AEWA LtO FRE
+
+19) AFAR ACK.
+
+ss. D
+
+题目的是最少时间，因此当服务器 8 收到客户 C 发的 FIN RRR, ED
+ACK AUFIN. 客户C 主动关闭，C 发FIN (Ons) —S 46 OSRTT (25m) 下到后立即返回 ACK +
+FIN (因天数据竺发) =C 在TRTT (50ms) S&S hy ACK + FIN 后发送 ACK 并启动2MSL 计
+===== wd_ch5_261_277-274.png =====
+262                            2007 itm LI
+
+NYC HEA CLOSED IRAE Some + 2x800ms- 160s. $ 在收到C 对 FIN ACK KEE
+ALCLOSED AN, ACK CR FIN IF LSRTT=T5ms HLS, AS >A T5ms.
+
+9.
+
+‘TCP 连接建立的机次提手大时 IRTT。第三次所手段可所天 19008 MAE CORRAL IE
+PDE) 日履列认后，拥密口增长至 2000B。因此第 3 个 RIT 内，可发送科余20008 SE,
+盏此孝据村答完旨。第 个 RIT 开好时，旧向服务器发送 EIN 请束电开连接。题目的是最少时
+间，因此服务器和到 FIN 后不再发送数据，并志芭回复 ACK + FIN. 584 RIT SERGE. HACE
+LER FIN, ‘$F 2MSL 时间 (60s) 后进入CLOSED ARES, SNIP Ame + 60s = 605.
+
+上
+
+rc
+|
+ao
+
+2 Ea"
+
+001) » 289 2001~3000 的 100 B HURCARKE. FT
+ENE FAM, HF HERTEMI. SHE —7> ACK. RAEI 1 MSS, fl 2000 B A 30008.
+etc 40008. (AEE — minf3000.4000 ~ 30008. LAY ALI RL
+FS 3001~4000 (1000 B) » aOUTBREIs 3000-1000 20008, KEBI IRE? 个TCF HL.
+
+6.8
+
+UDP REM, SOR RGMAR AIM, PLR IRTT. Be UDP
+(fA ms, TCP HIERN =U AR-PAR HERS PE SYN, BUUPZEBIWE SYN-ACK
+客户再发送ACK COVARABRIINWER) 。从客户发送SYN 起，到服务器收到请求失经历 1SRTT，
+服务器攻认后，再经0SRTT 返回客户，总计2RTT。因此 TCP 的最少时间为 ltms.
+
+全应用是
+on cee:
+RATA AMIE. ETT ARATE GUNA. OU HL A SEEERGIAPH NH
+
+RRR (SEQ=92, DATA 3% 4B) 和 (SEQ=100, DATA 共20B) ，均正克到达二机 B. BAER
+
+AERIAL (ACK - 100 和 ACK -120) » PIMA HE EA. Nh A CE — MCR
+
+(SEQ=92. DATA SESH) 超时之前收到了对第二个报六县的确认 (ACK = 120) ，此时 A 知道，
+
+119 号和在 119 号之前区所有字亿均已 EEN. i A Ae Rem MBC
+和
+BWANA, NOE FATAL LIER, MORTAR,
+
+e-FARGAI TILA OTRAS OCH.
+
+BL HOA EACH RIEROCERAT (6 THREES. #5 FORIE AD HHH RUC ae
+
+i EROTIK A MAR CR. MRR RA HOR, MINT HR LC
+03. (HE)
+
+TCP SLR A SR A SE TOT —HSCRRUGI AL 10010,
+
+FSSA 10010~ 11009, 38=-PLsLFRAYAEE 10010 100011010, FF ELE 11010~120095,
+
+===== wd_ch5_261_277-275.png =====
+st ee      283
+
+{R= AP ALIERRUYFEEN 1010+ 1oo0= 12010, 1H 12010~13209,
+Uwe]
+最大数据从吉率表明在 TRTT 内将窗口中的池世全各发送完毕，在平均往返时间 20mms He
+PARRA RATE CM, 64-1024,
+(61024-8420 10" =262Ms
+i, AAR HA eG 262M.
+
+ASCE LP RE = 1000610010) =0.08ms CHEE
+(ONE «RUMP, — ALAR MEAL =008 + RTT
+= 008 + 298 REF AE =40 08s. 发出一个窗口的所有报文所埋的时间=60x008ms=4 Rons. 在
+0.0Rms 时间内，发送太可以连续必出一个窗口的所有报广，若所有报文都正确到达接收方，则
+1003 He 9 1000+60>840.08-10"} = 1 98S.
+
+INALFOE = 平均数据传给这/信道各宽 《最大数据村给这)
+
+6. 086)
+
+1) TCP 报文身的序号是指其数据部分的第一个字节的扩号、国此第一个要文生中的数据有
+
+120~90- 30B，第二个报文中的数据有 150~ 120=30B.
+
+2) 因为 TCP GORI RRURUUR. LSM I, MCAT
+
+Ky BITES R— ALIA BPN 120 HR, FILLER 120.
+
+wo. tee)
+
+最大委长是 2KB。初的加鹿窗口是 2K, MLN 3 个 TT ANARCHY KB, SKB
+和16KB,，经过第4个RTT 后押窗窗口为32KB CAC FARMED 24KB) ，所以此时发送窗口了
+4KB，即第一个完全窗口。I0msx4= 40ms，因此兰要 40ms 7 RENEE.
+
+os. Cie
+
+CHOTA ITh, MEMO NIEN 1. CLA ATPASE
+PRAEGER NE STL SANT. AARP UALR 12, IN
+FURS 2 Re. ACM RARE, KAMEN 1 PHAR. A 16
+册现超时，重新设门限人为8《16 HD. AMT 1, ARATE, UCT
+Minot Aram iE.
+
+RPE, BART AYSELEOD 1,2, 4,8, 12,13, 14, 15, 16.1, 24,8, 9 10, 11,12, 13, 18,15,
+Ms PRAM CG 16 IAL EC 16, MN CR 上
+Peak, ICANN), ADMIN 16 A | LSTA. AH ART.
+
+0. Coe
+
+目标在 120s 内最多发送38B (序号为 也 位) ，印 35791394B' HORE. TCP ARRAS
+1008, 因此可以发送 23861 ~MIESCEL. TCP 开销是 20B,，IP 开销是 20B, 以太网开销是 26B (138
+AUC AORERE, TR 的前同步玛，1B HBUEAVERRAD 。 这上坦味奉对于 13008 Miaka, WAIL
+18 1566B。 15668-23861 = 299Mbs,国此多许的最快线路速是 299Mhs,，当比这一速度更忆时,，
+就存在同一时县内不同TCP AR SU ALP A
+
+m0. we
+
+来加路程的时外 128m9-2=256ms. ATTN CES ALA «
+
+HEARS FMM IRAN AFT 236ms，则色改大一次得信下来期和再
+次得到下一个窗口的确认，以得到新的发送许可。 这样，放送时间等于停止等应答的时间，结
+
+1. 98/100- 11 99%.
+
+===== wd_ch5_261_277-276.png =====
+204                            2007 itm LI
+
+AMRIT ITAL KOR T RIL M—P. ADDN
+5(128:2:1000)=256:0.001 一 ¥°=256+1000256:0 0018 =256°32=8192
+Biv, WOH 8192,
+1 ORE
+在 TCP OMAR. RENTER ZT, 还使用第 3 NR,
+FEL. RUMAH CART SIN EEO, OMNIA
+起一个最大报文科长。然后使用慢开始的入法决定网络可以接受的进必量，一直增长到站本为
+ss REALE, HERA IEE, FR — NREL
+APRA MCR I OMAHA UA, LAE FRA Te, FU
+FEAR, PRRGIE2 个、4 个和8 个最大报文身，第四次发关成功，且门限为9KB，所
+DLE RIOR. AENEAN KB.
+1. WRT
+D 源生口号为第 1、2 个字节， 0D 28, FESR 3308, ANAIENIT 3 4
+个字节，即 00 15，转接为十进制数为21
+2) S~8-NE WIFE. BI S05FA906. I~ I-AA IRF, (00000000,
+a-aettio.
+3D) 第 13 个字节的前4位为 TCP 首部的长度，这里的人是75以 4B NM BARE
+后得到 TCP 首部的长度为28B，说明湾 TCP 首部还有 8B 的选项数据.
+4) RLACELGRICUE 2b 可知这是一条 FTP 连接，而 TCP RAMA BH MA 个字节第
+14 pF AGLI 02, HU SYN BL LHL ACK =0 RMR ATH HBIA, RL
+RAP RAHM TCP HAR.
+13. OWE
+1) 由图1 看出，源时地址为 UP LINE 13--16 AEH. CERT 中，1、3、4 号分组的
+LIP M979 192,168.08 (cts80008H) ，所以1、3、4 分担是由 发送的，再观察
+1,3, 4 号分组的标识字息，分别是gb Se, 9d，标识字段是一个计数器，得产生一个数据
+报就1，这也说明主机理先后发送了.生生分组
+在表1中，1 BFAD TP AREY SYN- 1，ACK -0，seq-虽6b 4lcsH，2 4H
+YO TCP BH SYN= 1, ACK= Tseq =e059 9fenH，xxk= Se Alco 3-6 SHIEH
+‘TCP £20 ACK=1, seq=846b 46H, ack e089 90H, EDL 1. 2, 3 号分组守成了TCP
+连接的建立过程-
+由于所以太网数据可有效上符的最小长度为46B，表 1 中 3、5 叶分组的总长度为 4
+GMD 学节，小手 46B，其余分名长度均大于 46B。所以3、 号分组通过快速以太网
+Hea HIE.
+2) oh 3 号分组竺元的 TFT, ABIL RA AIA ysoq= 86b4ic6H。 由号分
+ALAPAEAY TCP PLHP, ack 为sq- 846b 41d6H，所以 CAECUM AIM
+为846b4Ia6H- 846 4IcGH= 10H = 168.
+3) By S MHEG UP ALA = 681TH, 所以该分组所对应的是天1中的 号分组。S 发出
+的中分组的TTL=40H          1H=49，硬49=15，所可以失恋
+中分经到过日时经过了 15 个路由中
+crs
+D IEPA SV
+
+= ACh
+
+RUF IAEA G +1= 101,
+
+===== wd_ch5_261_277-277.png =====
+st ee      285
+
+2) 因为s的 TCP 技收缓存公有数据存入而无数据取出，当S 收到第& Bnd RR SER
+12KB，所以了3 收到罗第 8个网认有所通告的撤收窗口是12KB。在慢开始阶段，每收到
+个对新报文度的将，捐窗口避加 1，当收到第 8 个报文生的确认后，H3 的角守
+OA OKB. 1 HRA CRRA CHO ATO RMB KB
+3) 1 ORR UAEE 0 AY, “FAM ERATE A 20K + 101=20*1024+ 101=20581.
+HS MARES 1 PREURIOATVGE ORE, SERERRT SRT (每个RTT ANGER
+SEW) IKB. 2KB. 4KB. SKB. SKB), TUYEUIR(EAMAEEIE 20KB-(5>200mns) =
+2os04eAbs= 163 BARD'S.
+
+KAP LIA AIRMAIL OD, RATA K: k RMR RAIL
+
+HOLE 1000, ARENT A. RETO.
+
+4 BPH WPRIGIFIBIE, RRUUEEERAR AC FIN ACER, S 政到后。最短时间的情况是S 已
+没有要发送的数据，所以同时发出确认 ACK SRSCPRADERRAE ME FIN ALKA, HS FEAR
+过CLOSE WATT 5s HS LB) FIN 报文度后必须发出确认，S 收到确认后进入CLOSED
+‘kas, SERAID LSI, Hit 8 大放该接的肯短时间是 1 5*200ms~300ms.
+
+54 本章小结及疑难点
+
+1 MSS URC) ILIA AEA?
+
+(MSS WiR5E RICA ACRES, AE LA UP PI HE MSS 设置
+得太小, MER AUD ELBE. DAA TH AL BL 40B WH CCP Pe DOB
+首部 20B) FEAR RSE. ORDA. ERAGE UL A MRA EI 8
+EMMA AENE TAO FETT, IRM ARIE LMI. 2 MSS LILAC, EP ete
+RAL Re BEEN) MTU EP ER A 4 9 TAL WTP HSCs
+
+FUE ER, RADE ARG, RG MMAN eR IFUL
+
+因此，MSS RUEHTVEK, LOLS UP ARIE MARTE. PH, oP LNRM
+(ot, SURE LUST MSS, EAR LOTHAR MSS 难以确定。 为
+此，TCP 规定默认 MGS. Wy S36B. HE OR GAPE TIIRIG 2: HL EISHEEC EOE S368 (数据) +208
+MTCP 首部) =8868 的 TCP ALR.
+
+2. TCP ARASH N ML (GEN) SELAEEHE (SR)?
+
+表面上看，TCP URE, KF GON. CEG RR EATER
+SIR RICRL, WLM, IELILIRIRTE ACK, MARIUS Fase RO
+FES. Pl, GURU A SEER IRAK NASER, IONE CL < N) AHI, HEAL
+过接收方 B，在 GBN A, MRE ATA RIP ALLAL OB it1 个至 N 个) ，发送广二
+传从第大个开始的所有未靖认报六县。而 TCP AERA k MATAR, GCL CF
+STALEAUIR(G. $694, TCP HELI SACK (Selective ACK) iL. FIP SACK 15, AAA
+i OR ORME AR ACR CAROL, LALA BEI SR 协议
+
+因此，TCP 的重人机制可袖为 GBN 与SR AVILA AAS ME FURL RIESE ACK

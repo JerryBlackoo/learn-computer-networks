@@ -1,0 +1,640 @@
+===== wd_ch5_236_246-236.png =====
+On
+
+fe 输 层
+
+【考纲内容】                                         四名
+《一) 传输民提供的服务
+
+ESRD: AREAL ET, ENR PEN
+© Up
+
+UDP Hees UDP Re                              wa
+(=) ter
+
+TOP HEAR: TCP HERAT HL, TCP MTR. TCP HALAS SIR
+
+【复习提示】
+
+传输层是整个网绍体系结构中的关键层次。要求掌提传给层在计算机网络中的功能、工作广
+ADIGA. HL UDP 及TCP CESARE. AAR. VEN. ARAB, ERASED.
+
+其中，TCP ALA. HARARE, AEGIS INATRORIPLL, AR, Hs ROHR,
+BUCS (RARE, CURE A IRMOEE HU RREAL.
+
+S1 传输层提供的服务 AR$
+
+S.1.1 传输层的功能
+
+数据链路层提供链路上相信节点之间的闻各通信。网络层提供主机之癌的乏负通信。 传箱层
+位于网络层之上、应用层之下，为运行在不同主机上的进程之问提供到枯通位"。传输尽是面向
+通信部分的最高层，同时也是用户功能中的最低层，即使网络层雇议不可靠《例如，导致分组和
+Se, RPRSRIR AL» OM BL EAE OT
+
+5.1 为例说明传销导的作用。 和设局域网LAN1 上的主机A RUS LAN? 08 4:61 B
+通过互过的广域网 WAN 进行通信。一台主机中常有多个应用进程同时与另一台主机中的多个应
+用进程通信。其中 APs 表示主机中参与通信的应用进程。传给层的主要功能如下-
+
+1, MRA mob
+
+ARLES ASCE, NGAP EAL, UP 数据报首部指明了这两台主机的 了地址。但
+“主机之间的通信”的实质是主机中应用进程之的通信，也称为站到站的光扣通位，IP 虽能将
+分组送达目的主机，但该分组仅停留在主机的网络层，并未交付给具体的应用进程。而从传箱层
+视角看，适信的页正中点并非主机，而是主机中的进程-
+
+O EAM RRMA RMA ORR TBI. OR LIE Srna
+===== wd_ch5_236_246-237.png =====
+an
+人
+
+L                  occ ate
+ume neteanatey
+
+ALS eR EDNIETMIRIOIR ARSE NO
+
+2 提用和分用
+
+入用是指改送方的多个应用进程可使用同一个传欠层协议传适数据。 分用是指接收方的传给
+层在利去报文首部后，能将数据正确交付结对应的目的应用进程，
+
+PERE MERA OOM Mobi, (RAMANA ORO IPRA: fp
+WN ARTERIES, HAIER MEA HAMIL,
+
+3. kam
+
+传町层对收到的整个报文《包括首邦和数据部分) ATTRA. AT TCR, RECTAL,
+CCB, MURRIETA. ANF UDP，若发现数所报出钳，则直接丢弃。相比之下，网络
+es 下数据报仅对其首部进行术验，不检查数据部分。
+
+4 RR Fa Mee ah RR
+
+ET NEMO AE CIMACAM N.S» SIRE
+eS OTE i. AEA RCT RAUNT He EL TCR CBE
+Fh, RARE URGE IRRIGATE ONLI EAT ANON HE
+用 UpP CeseHD mh, SBSH(SiR MTS SeT Mi.
+
+S12 传输层的寻址与端口
+
+1. Bow ER
+
+FLEE SIRE ACRE RO RT Pe MeN
+AGALACTIAE AIC MANOS A. RNY, ARAB ERC.
+SEMEN IER: Heed, HAMAR ERT, SUEARLASP ORAL. TCP AI UDP
+i A AO RR, en EI 2 PIG.
+
+===== wd_ch5_236_246-238.png =====
+226                              2027 年计算机网络考研修习指导
+
+RMSE ARO ALM “RA FR, UMAR ARI “HY FR,
+
+HORWRFERAR “MOF FR, AMEORATMAL “MPR.
+
+2 os
+应用进各通过端口号标识二口号长度为 16 比特
+FACILE ARM, OSU PRB BLE
+的，且UDP 和 TCP MPH Fs ACD.
+HUB. TNS AI.
+1D 服务器站使用的站口号。又分为两关，(D sss (O~1023) ，由 IANA 分配给最
+MH TCPAP 应用程序，供所有用户娄知，吕 登记站口号 (1024一49151) . HATE
+知端口号的应用程反使用，下在IANA 登记以站多冲突。常见娄知训口号如下
+
+mine TS os [ie | ane | oon
+
+示 65536 (HI2") AAAI,
+的进程，不同主机的相同端口号是没有关联
+
+aang | | sts te) « | «
+
+2) 客户站使用的关口号《49152~65535) «LANE HAE PARC ATA ML, AL
+得痢交口号，服务器从客户报文中提取源册口号，并将其作为回送数据的目的庙口。
+SERA. ANI ROM, nro stb aa aL.
+
+3. eRe
+Em, SP MARLO ASOD, SALLI EMMA,
+CEES IP AWALHHE, WRYIRARE (Socket) +
+FARE (Socket) =(IP 地址: HS)
+夺接字叭一标识网络中革台主机上的一个应用进程，时通信的庙喜，
+在通信过和中，主机 A 发入主机 的捐文包含目的同和源册口。基中，源江口构成“返回
+地址" 的一部分: BELA 时，其报广的目的端吕即为A RUIN. NE IP
+址可参与多个 TCP连扰，同一请口号也可出现在多个不同的 TCP和连接
+
+S13 ”无连接服务与面向连接服务
+
+TCPAP 协议族在正层之上定义了两个主要的传铀协议:
+
+。 TCP (传术失协议) :面向连接，提供可光的全双工馆加信道
+
+。 UDP Cm sues) ，无连接，浊供不可靠的理科信道。
+
+TOP 要求通信双方在数据传输前先建立连接，传给结束后释放连接。TCP 不提供广播
+或多播服务。TCP 通过确认、流量控制、计时器和和连接管理等机制保障可你传给，但代价是
+首部开销大、处理痪源消耗高。因此，TCP 适用于对可靠性要求高的场基，如 FTP、HTTP、
+SMTP 3.
+UDP JARI, IUCR ARIS, WACRRIRIMA. EAE IP 层之上仅提供两项服务:
+多路复用与分用、数据交情检测。由于结构简单、开销小，UDP 执行效率高、实时性好，送用于
+对时生生感、可容忍少量委包的应用，如TFTP、DNS、DHCP 和 RIP 等。
+
+表51 列出了一些典型了联网应用及其对应的传输层协议
+
+===== wd_ch5_236_246-239.png =====
+ast eee      227
+
+281 一些开瑟联网频用及其对应的传输殿议
+
+ED            1a aI           I RED
+aN             REET OD                              we
+zn          SCI CTD                 1
+om          Ta                      Ue
+Te        BEML CONCH                 oP
+Ha          TTP SNMP                 m7
+‘era            inane sa)                   1
+ET
+a             TASER TTP                     16
+ECT          EMuEn cm)                     Te
+
+下上各报和 UDP AGAR As IP AIGA Aha 8 SANE: 而 UDP AIRED IP
+AERA, AMBAIO. RASRAR RTL,
+
+S14 ASE
+
+ao.
+
+o
+
+0.
+
+certs
+ROSARY, SEAR SLahes it MIE Meme, AMARA AICO C) .
+A    B. mie     err     D. 会话后
+传输层为( ) RAUL
+A 主机     Bee     Cah    D. RAR
+FORTH BG AIDA, EAR).
+AL RET RAMA      日，不保证可划但保证顺序交付
+.保证可千但不保证珊序交付      De RAE om AE
+
+os.
+
+0s,
+
+w.
+
+os,
+
+0.
+
+在 TCPIP HEY, HG Hh 2 REAL A MRM So HUE IRS OT
+立用于会话的( ) 。
+
+eT es C，控制接。 。 D，观到直和楼
+FEMME THT HHL).
+
+A MMAR RE         BRM RAH AN
+CMR Ahab ee RAT oe    De (RARER AAR HHA IER ER
+下列选项中，。 ( ) HRA me RR La Hae,
+
+A 主机名              B IP S43 MAC 地址
+
+© MACULAE        DIP sbab ass 0
+
+A) RM AAS FAIA Osh ALOLIRM, Haba LRM GAN
+协议如FTP、HTTP FARIA
+
+和 0-D7     昌 0-255,     co-50     Do-io3
+下列哪个TCP Atos FRAO? (
+A. TELNET233 。 B sSMTP25 CHTTPR DFTP24
+
+下列关于TCP 和 UDP UMA, EMEC).
+ATCP 和UDP分别提有自己的交口号，它们互不千拢，可以共存于同一台主机
+===== wd_ch5_236_246-240.png =====
+228                              2027 年计算机网络考研修习指导
+
+BTCP 和UDP 分别拥有自己的站口号，但它们不能闪存于同一台主机
+CTCP 和UDP 的效口没有本质区出，但它们不能闪存于同一台主机
+D，雪一个TCP 连接建立时，它们互不二扰，不能共存二同一台主机
+
+10. FHA TARA MELE, HIRE).
+
+RA OSI 条考模型的第四层
+
+A HLA 2 HU A A HE
+
+:。TCP是面向轩接的，UDP RAIA H
+
+TCP 进行流量控制和胃宣控制，而 UDP ARATE, ARAMA
+
+S15 答案与解析
+
+aE
+oc
+
+AIAN A, SLA EN A ULE EH AN A ELK
+的通信服务，主要功能是路由选择。本二条件若换成 TCPHP 模型，答案依然是选项 C。
+
+2B
+
+(eR EUGENE PEA
+
+0. D
+
+TERR RI eeSR TIO Zw, Bea — em, EMRE,
+iTV AMT. ABIES ROE. ERI MTA RUE MH
+昔和顺序交付。
+
+oD
+
+e002 YF ARE PL APF OE LEZ OR ARH A IRR,
+cA hh — REY AL RE. A ee OZ
+
+05.
+
+CL ee ee DOU ec eee
+协议采用“尽力而为”的传各方式，则是不可靠的。钢如，TCP RENAE OA
+是可间的传输协议，而 UDP “SHR RM, ALICE Amr AmB.
+
+06. D
+
+Ble AG LEE, AEA PEO GE,
+《SockeDb ，下地址确定某主机，端口号确定该主机上的某进程。
+
+07D
+
+ARRUOBCT OSB O~1023, EEICNRCT AYRE L0D4~49151, “MHRA
+HILHE 49152~65535.
+
+08. D
+
+FTP AWRERERATLIE 21, SURMEARANACLIE 20,
+
+0A
+
+SORIA L, RITE Ua ASTENEDL NAR. 同一台计算机中的|
+‘TCP 和 UDP 分别拥有自己的交口号，它们互不王挑，因此 UDP 和 TCP 可以使用相同的靖口号*
+
+10.8
+
+传输层是 OSI 参考模型中的第4 层，TCP 是面向连接的，它提供流量控制和抽剖控制，保证
+
+eae
+
+===== wd_ch5_236_246-241.png =====
+ast eee      229
+
+ALOT: UDP 是无连接的，不提供流量控制和拥塞控制，只能做出尽最大努力的交付。传答导
+提供的是进各到进程癌的传给服务，也称站到网服务、
+
+5.2. UDP
+
+5.2.1 UDP数据报
+1, UDP ise
+
+UDP (4 1 AB LI ZL TL. AFA I. A
+FE UDP TH TCP, JUSEITFRE IL ML Aey IP TEI. IRAE TCP BOAT. UDP AE
+供，但 TCP JHE GARE IR. FSR WO CIE UDP，主要原因如下，
+> wor 的 zor, 2020)
+TD UDP是无连接的，没有建立渡接的时延。TCP AIRTEL MARINERS CRRA
+接收缓存、失控制参数、译号和确兴序号等) ，而 UDP 无须维护这些羽态-
+2) UDP 是面向报文的，发送方 UDP 对应用层交下的报文，在很加首部后即疝下交付给 中
+层，一次发送一个完整的报文《不可分割》，皮不合并也不拆分，而是保留报文的边界。
+因此，应用程序必须和择合适大小的报文，著报文太长，则交付给 呈层后，可能导致人
+Fi TANCE. Ue UP 首部的开销右比过大。两者均会降低传输效率。相比之下，
+TCP 是面向字节流的，得个字节都有贸号，支持自动拆分与重组，对报文长度无限出
+3) UDP 的首部开销小，仅有 8B，而 TCP HAL 208.
+4) UDP 支持一对一、一对多和多对多的通信。TCP 仅支持一对一的通信
+SD UDP SFA), HULME Ra HELA RAE. tae ORO
+NRK, TIES, CERI AEM IE,
+UDP 党用于一次性传输少量数据的应用《如 DNS. DHCP 等) ，因为 TCP AER Vt
+护和和放会带来时开销。UDP 也广泛用于多媒体应用《如视频会议、流媒体等) ，因为这些应
+FR RE HE, TOD 的失窜控制会引入不可接受的和
+ UDP 不保证可革交村, 但这并不意味着应用不要求可介性一所有可靠性机制可由应用层自
+行实现，开发者可根据需求灵活设计-
+2. UDP 的首部区
+
+UDP 数据报包信两部分，首部字段和数据字段。UDP AEA SB, ch 4 个字段组成每个字
+PROVEMENT 2B, fe 5.2 所示。各个字段的意义如下
+
+ UDP 的部及 018)
+
+1) 汰痛口号。发送进程的赋品号。需要对方回复时选用，不雷要回复时可是为全0
+
+2) 目的站口号.接收进程的商品号”该字段在所有 UDP 报文中都必须有效-
+
+EEE» vor ask 020)
+
+3) 长度。UDP BARRE CORE AERIAL 8 CATED 。
+
+DHS. HET AER ETIIESA, RCNA EEO RUET ALAN. HINO IE.
+
+在pv 中，该字让可置为全0 表示未使用《但不建议) ，在 TPv6 中则强制启用
+
+SGM EIA IP 层收到 UDP 数据报时，获根据首部中的目的沿口，把 UDP 数据报通过
+
+相应的和口上交给最后的络上一应用进程，如图53 BER
+
+===== wd_ch5_236_246-242.png =====
+230                              2027 年计算机网络考研修习指导
+
+or)    veer
+"ERDF    |
+ii
+                                    yao
+32 UDP雪所报栋          N33 Up基于的人用
+
+{ROE UDP 发现怕到的报文中的目的器口号不正确《不存在对应于端口号的应用进程) ，
+则丢弃该报文，并由 ICMP 发送 “端口不可达”差氏报六给发送方。
+
+5.2.2 UDP检验
+
+ey)» uae en (2025)
+在计算检验和时,要在 UDP IR AM 12B Kah, ON ABI AE UDP AURIS
+只是在计算检验和时，临时添加在 UDP 数据报的前而。得到一个闪时的 UDP 数据报。检验和就
+是按照这个临时的UDP 数据报来计算的。协首部既不向下忧递给网络民，也不向此交给应用|
+层，面只是为了计算检验和，图$4结出了UDP 数据报的首部和伪首部
+3         a     AG 2
+(Ferns Teanwnnt To [7 [vrs]
+7:
+
+[ane]
+a |
+
+图54 UDP seaesReie asp ra
+
+UDP 检验和的计算方法与 下首部检验和基本类似。 不同之处在于 HS HP
+报的首部，而 UDP 检验和把首部和数据部分一起检验-
+
+UDP 计算检验和的过程，在发送方，首先将检验和字段置为全 0，然后将伪首部与 UDP He
+据报视为一加中 16 位字。若 UDP 数据部分的长诬为厅数个字节，风在计算时林尾补一个全 0B
+《该填训字节仅在计算检验和时临时识加，不影响实际发送的数据内容》 。随后，扩二进制反玛
+规则对所有 16 位字求和，并将结果的反玛填入检验和字段后发送。在接收方，将收到的 UDP 数
+LS EERE CINE Cem IME HIRAM USE
+为全 1 (16 位全为1) + ANU RUPAT AER, ARACEAE UP 数据报。
+
+EEE!» vow wrerniew cm)
+
+MEER MIE MIM: CD 从低位到商位逐询进行计算， 0+0=0. 0+ 1=1, 1+ 1=0
+并产生进位 1。园 着最商位相加后产生进位，则需将该进位加到结果的最低位，该过程称为四者-
+以下通过一个简单示鲍说明，息设有以下3个 16 位
+‘01100110 01160000
+‘A7010101 o1o10101
+10001111 00001100,
+
+===== wd_ch5_236_246-243.png =====
+ast eee      234
+
+先将前两个字相加，得
+‘01100110 01100000,
+‘1010401 1010101
+TONTOH 10110101
+再将结果与第三个学相加《最商位产生进位，需加至最低位) ，香
+iotnon 10110101
+10001111 0001100
+‘oro01010 io00oi
++           Lib
+oo 1000010
+AUTH RIMS RRS, ALP A,
+10110101 oor 1101
+eis, AMINA 4 个16 位字相加，落结果为 II LLL, SUPE,
+郑展。震结果中的某些位是 0，则说明有关钳-
+
+OSUWPEE HEE AMIR, MEERA, LF REC AER LIL LRSM BIE
+We, MERKLE EA,
+
+@ Ais, UDP RRR O. Raho stm, SSIEe JP ae bate,
+BREA GAOL NRHA.
+
+这种差氏检验机本然检针能力有限，但其估执在于计算简单、处理速度块-
+$23 本节习题精选
+
+=.
+01, 420 UDP ema, Seakte eur tei CRA
+AL Ate    Bam    CREED. ma
+
+02, FRAT UDP Mabie. HHL).
+A. UDPMALROMMIG, KR. EER
+B. UDP -AA-FALR UDP 数据报的长度，包括俯首部的长并
+(C.UDP 检验和对苏首部、UDP HRC 9 AL RIB AF Ha
+D. 仿首部包括分组报关的一部分
+
+03. UDP RIE ROS C).
+
+AL UDP 天号          UDP检验和
+©. UDP 目的站口号            D. UDP 吉扫报首部攻庆
+04 UDP HIRE HEREC).
+AL RGR RR        B。只记录首部的长度
+CREASE       Di. Bissett sear OR
+0S. UDP 数据报比 吧 AHIR FIER T (BU
+ee ed
+
+06. FAKE UDP Mabie, ERC).
+===== wd_ch5_236_246-244.png =====
+2027 年计算机网络考研修习指导
+
+0.
+
+os.
+
+0.
+
+10.
+
+a
+
+1.
+
+4
+
+1s
+
+6
+
+v
+
+AL A ge A Ra         B. RAs SALA
+CALA          D，是无过接的
+
+ACF ASIA ANG UDP 数据报时的处理方式是 ( )
+
+Ake     BRE CERES EE
+
+FORT UDP 检验和的说法中，铺误的是 【 ) -
+A 计算检验和时需按 IB ATR, BAMA, HMA OB AR
+
+日 # UDPHRAE FE TIR H 0, MIRA PLA O
+
+C. UDP Raabe Fes SEs Oita. UDP was fo em ME
+
+De UDP 窒验和的计算方法是二进制反码运算来和再取反
+
+下列关于 UDP HaHa, HRA).
+
+A UDPERMOFRL TG, FHL RMI, MARR EO
+BHI LY, FRAR- NIE, REMERON TORR HEA
+(CRS UDP Acasa ebony, To Ap
+
+De UDP Habe lbh IP 9652. SL Ao IP AL
+
+下列网络应用中，不过合使用UDP的是 { ] -
+
+AL 客户服务器令吉         Bee
+
+Ca SRA         D. ea
+
+一个 UDP SRR AREER 91928, AHIR AML AMAA,
+应当将其划分为下数扬报片的片数是{
+
+AG       BT        Cs        bo
+
+某应用层数手大小为 200B，传村使用UDP，网际攻使用 IP 【采用最大首部长度) ，
+SM DLR aR AGA Re (不考虑前导码和 VLAN ) ，则该应用层喜括的传办效率是 ( )
+AL R26%    BL 713%     © 599%     D. 67.1%
+ALATA MER ey IP ALTE AEE NAT，传从层使用 UDP RATS, AREOLA
+以太网MAC HAR APIE. RIF SISPEP RIAL ()
+
+L UDPS& IL UDP检验和     UL, PCS Has)
+IV. RMAC HAE Vs 目的下地址Vi PDA
+AY        BY CIV, ML     D IM, IV. V
+
+2014 se AE FHKE UDP HOEY, EMAC).
+1 RRR TL RUSLAN IIL 通过苦氏检验，保障可和就据传给
+
+Aw      BL     © aim Dat
+(01s s24086) UDP 实现分用时所依据的首部字段是(
+人 源直口号。 OB RMROS OC KR     D. ieee
+
+2024 统考其题JUDP 在计算检验和的过程中,计算得到中间引亲为 IO 1001 1011 0110
+2b, ERS LAG — 16-4 01100101 1100 0101，录终计算得到的检验和是 )
+TO        县 0001 11110111 1100
+
+€. 1110 0000 1000 0011,       ._1110.0000 1000 0100
+
+2075 EASED READ BIL NAT 动能，内网中主权昌的理地址为 192.168 15D4.
+BFF RAM Inert 改天了一个UDP ALR oS EARS UDP ALLER
+四雪所报的过程中，UDP 报文生的首部字下会被修改的是 CD .
+
+Leos nL AROS OM LKR    IV, ee
+===== wd_ch5_236_246-245.png =====
+ast eee      233,
+
+付。UDP在传送数据时没有流量控制机制，也没有确认机制，是一个不可徘的传答1
+
+A MLM  BALIV CIRM Dav
+
+2, Seana
+
+OL, 为什么要使用 UDP? Hb A A RAR AHH IP MRL TS?
+
+02, RM TCP xh nh s8 HUGH UR BATA OLA UDP ERAS Mat A A
+
+03, SAME M UDP, SLT WP BAAR ILA ALG 9) 4 SLATER, ARITA
+AHAB EA, GPYPSLIER G28, ET — Rot ih MALIA UDP, IP 5
+SLi 4 PREAH RAL, PRITAM MEEK, IRA: AeA
+SERS GARR MARAE AEA 4 NARI OH AA MRL AR A SE A
+RNAI AAR AN ABH
+
+04 一个UDP首部的信息【十六进负表示 3 OXF7 21 0045 002C ER 27. UDP SUSE HE
+
+Ad FE, 3A
+°               sie              a
+
+ros           ET二
+TDPEE            ET
+
+和
+
+1) Mako BAO. ALG, RU RRA?
+2) 该 UDP #86 RAE PARE BEA AIR BAR 7 使用该 UDP 服务
+AR EM Ro ABR
+05 —PUDP MAAR RIE S1DB, KAMAN AM, HL HIER
+FR, RADA MUA IP ARIE 2 SS PAE IEE RA Rf HR
+BER.
+
+524 答案与解析
+
+=. eae
+oe
+
+UDP det P M2: 7 SLY A RE A RRR
+a
+
+CFSE UDP (EARLE, UAC a2 II A AEP
+
+Cary
+OPT SLASH SCHR BI, HEA. UDP AKI, APD, OF ACER
+
+下和目的 TP，这是四 分组报和的一部分、
+
+0 D
+UDP 数据报的格式包括 UDP MBIT. UDP 目的区口号、UDP 报文长度和柱骆和，但不包括
+
+UDP 数据报首部长度。 因为 UDP 数据报首部长度是国定的8B，所以没有必要再设置首部长度字段。
+
+of. D
+长度字段记录 UDP 数据报的长度〔和包括首部和数据名分)，以字节为单位-
+
+05
+
+‘HUOR UDP 和 下都是数据报协议，但是它们之间还是存在差别。其中, 最大的差别是卫数据
+===== wd_ch5_236_246-246.png =====
+234                              2027 年计算机网络考研修习指导
+
+报具能找到目的主机而无法找到目的进程,UDP 提供问吕功能及复用和分用功能，可以将数痢报
+ibe EMER.
+
+06. D
+
+UDP 27a hy. AFD MAROG HEHE, ABER A: UDP 只在中层的数据报服务上
+增加了很少的一点功能，即复用和分用功能及基链检油功能，排维先项B， 显然 UDP 没有流量控
+制，指除选项C; UDP 是传输尼的无连接协议，答案为选项D.
+
+OA
+
+JEIORES ICME, IAEA, LAE
+
+O88
+
+UDP 检验和不是必需的车不使用检验和，册将检验和字段设置为0。而车检验和的计算结
+累恰好为0，风将检验和字段填为全 1 (这个结论了解即可》
+
+9
+
+UDP数据报的伪首包含了 地址信息, 目的是通过数据检验保证 UDP 数儿报正确到达目
+的主机。协首部是临时添加的，只是为了计算检验和，必不向下传送，又不向上肖交。 车检验出
+UDP 数据报出铺，则可以丢弃，也可以交付给上层，但是需要告诉上层这是错误的数据报。
+
+10.
+
+UDP UIE AURAERLS, IONE LG TIC, 6 FUR MI, ZO RAT
+GIR, (2B UDP 不但编权简单。而且只需要很的消息。 远程词用使用 UDP 的理由和客户/服务
+村林型的类似。对于实时多媒体应用，琐要保证数据及时传送。而比例不大的错误是可以容刀的，
+所以使用 UDP 也是合适的，而且司用 UDP 可以实现多播，为多个客户端服务。而运程三录雷要人
+摹一个客户江到服务器的可看连接，儿须保证数据传输的安全性，使用 UDP SE
+
+1B
+
+UDP 数据字段长度为9192B，UDP 首邦长度为 8B，共9200B。 每个下 RAR MM
+为1500B, MEd: IP P1208. AK 1480B 用来存放 UDP SARA. 因此需要将 UDP 数据报划分为
+Taaorldso]=7个下数据报片.每个理数据报片的数据字段长度为1480B,除了最后一个为320B-
+每个下数据报片的信和字段的介信次为D 185,370, $55,740, 925, 1110.
+
+ne
+
+以太网 MAC #iciAAORAD! 18B, MAREE 首部为 60B 《采用最大音部长度) «He
+UDP 首部为8B，所以该应用层数据的传欠效率为 200(200 + 18+ 60+ 8) = 69.4%.
+
+BB
+
+UDP 总长度等于应用层数据加 UDP 首部长度，传办过程中保持不变，UDP Hes AE
+At COWUELE IP) 、UDP 首部及数据内容，由于中间节点不修改这些字段，检骤和无筑更折。
+FCS 是以太网相的校验枉，每经过一中都天要重新封装帧，因此必须重新计算。MAC 地址是链
+路慰地址，路由器转发时会将其更新为下一上的 MAC 地址。路由器依据目的JP 地址转改分组，
+不改变四地址，但每转发一次会将 TTL 诚1，并芭新计算 首部检验和
+
+4B
+
+UDP 提供无连接服务《说法正确) . JRAEREA RMR MORE ALD SAHIN CB
+LIEW) . SLA UDP ear tuerleNeRT RMT EAMG. ICAL AUR AMM RE IHN.
+不具各重传、确兴等机制，无法保障可车数据传输，可靠性项由应用层实现。因此，说法 错误-
+
+15.8
+
+UE Uy AA 8 MA 9 I AU 使用目的闪
+

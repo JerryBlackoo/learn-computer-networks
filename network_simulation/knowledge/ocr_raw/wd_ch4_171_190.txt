@@ -1,0 +1,1058 @@
+===== wd_ch4_171_190-171.png =====
+ot 网 的 ek         159
+
+A. 16816801, 168.1684258    B 168.16501. 168.1695256
+© 16R1684 1, 168 1684258     D. 16KI6841, 1681695258
+
+71, 2024 8 ALL Be} KAY VLAN 贡分的交接机，已总口划分了3 个 VLAN，
+“Sep UALR FA) IP 地址和 MAC 地站如图中所市，ARP 表结构为<IP ALE, MAC
+SL, TTL>, FAM, PEMA HIG ARP表中的是 ).
+
+2e
+
+A. 2.U6K381, GO-IA2SRA621, 14:3200
+B. 192,68391, O0-36-C2-29-12., 14:3700
+©. D683 125, OMESTEAAID-RD 14:45:00
+D. 192.1683.129. 00-08-66-05.A7-82. 1435200
+
+TR, [2025 8 ALY SHAR AMIEIN EHH eaLst DHCP 服务器动态请表 四地址的这
+9, DHCP LA DIICP AK HHA FHT. 3K DHCPREOUEST
+BORGER A PLE DLL).
+
+fl        Bor
+ns
+
+A. 19216851,0000       B, 192.1685.1, 19216859)
+
+© 255285255255,0000        D 255255285285, 19216859
+
+入全应用是
+ARERR A 40008 CHERAB A DOB), BLE —AMAB A, HALE
+Bie R AMIEL 15008, IP HN, MAKER. RANGA LE
+AHI) AHEAD EGER, AUR be ME He A st?
+02 RARE LR AA TOA PAIR, HHILH 208, AIEEE AH 20008, 访
+ASCARI AMIS SLE A EAL, Hk ISA OI UG
+位 (MTU) $9814 15008 和 S76, PL IP AUER oh Ah nie 7 LAS IP
+RI GAMA RHE?
+©. HAG FBGA AELA 100, SARE ERERE ROA 5. CERF BD
+100, SHER AE GREASE LSE TS?
+
+===== wd_ch4_171_190-172.png =====
+160                            2007 itm LI
+
+(4, 在4个 7D4r shake fA Aries 21256 132.004. 21256 138.04. 21256 1024,
+21256138078.
+05. HAEMATOL. ISH, EGR. aR
+公室5个部门，每个部门有 2 - 30 GHEE, RI
+1 若要将风个部门从网给上分开，且分配给该公司使有的地赴为一个 RAL,
+地泪为192.168.1610，册如条划分网络?可以将人部站分开了
+2) 痪各部站交网络地直子风指吗，二写出分给每部门网给中的主机印地址范围，
+06, Reb BA AMT ROR A
+1) ALU SL aa; Sptt A Tabb 1311285535, ahaa
+A BLIESSH, ALBUS HRM MERIT. 一Rag
+二加以说表
+2) GW ADA — AIBA, Cie 1311285833 HH
+的地址的 IP me “AT AT a, RII
+shat i anid,
+3) 在只由表中增加一个路由表项，使所有目的地址与这中由
+PEE AAR ACT OA IP ALIA LF ie“.
+4) AE 131128.560D4 划分为4 TRAE REM, ET ALS TAM
+TREE
+07. FARM A RAAIDRAELE (CIDR) ASR RIA, BALES RHR,
+AISA FD esa UP eA 8
+
+=e
+
+aa |e               ET         四
+
+Di C4SEIS87 2) C4sE2209 3) Cla00 4) 5E439112
+一个自治系纺有个局着网，如下轩所未，LAN2 至 LANS EH SACS 981% 91. 150.
+3 1S. SEES IP MAI 30 138118023, ae ARM
+(edema).
+LANE SUG ERL Los A LAM 168
+
+wet
+
+_Y | |
+09. HARI 192168750 中有 5 LALA. B.C. DAE, EAL A 的 IP HALA
+192,168 75.18, 40 4) IP SAL 192.168.7514, 24LC 4 IP HBL 192.1685. 158,
+主可口的理地址为192.168 75 161， £4 IP HAH 192.168.7573, RPDF ME
+By 285255255240, HME:
+DSGEMA. B.C. D. EPRLAMR! GELLER? 主机 的网络
+地址为多少?
+DBRWABCGINE MELSERA TAMA, ORIOLES?
+S)SEMIE BhA—G RA, HIP MALA 19216875 164, NE MHA LB?
+===== wd_ch4_171_190-173.png =====
+ot 网 的 ek         161
+
+上主机能所由到了
+1一个 TPv4 分组到达一个时，其首部信息(以十六过他示) 为: 0sd50000 54 003
+58 50.2006 FF FOTC 46 0302 B4 OB OF 0中分组的首部移式见天5，请加和
+1) Sree She Heh IP BLE RAE. (点分十进负表示法) 2
+2) PSHE ALR SI?
+3 ) RPMRELEONT EAMK, MABERS HT
+Mh, E408 P9432) 218207 61.211, MAC IBAA) 001d TIBIAE. AMES,
+本的前64 AE TOE RAM Ke ASCH BR EMR.
+8 GERESESs SERRE Se cae:
+DPA THRALE AS, RAMRHBALLI62 7. Ae
+1) 主机和 AM mah Beh HO sR IR oh MAC 地址是多少了
+2) KP HNP EAS EH?
+3) Sidra lesb eB 2 MTU 为 380B A EEAB Mab ARAL IT
+an
+1 基网络拓扑见下图，民| 和 RD NRG, REIT NAT sb. Switch ARAL,
+Hub 2RAS, Web RFS S, LM -84 和下内加各接口的JP 地配置见图中
+tet.
+
+waaes
+
+STARR:
+1 ROM EL 接口的到地直是什么?HH RAMEY
+2) GR HI 和 RD 的 ARP HAIER. RA RAH, AB 发
+ANID HLA, HS HRS] 和后向 HER fo WP pt BS MARISTA
+以网六的主机有哪些 RILSNY-R Bahk Ample LA?
+
+3) HLA Sab AAT HTTP 请未报文的鱼分组C，首名中的这 Ae OP
+过分员是什么? 当C 从 2 转发册去时，首名中的生理地址和目的 I 地址分
+是什么?
+
+13. [2009 二考二】基网络拒扑图如下苹所示，路内基 RI ALAR BL. 12 stb
+SRL, RMD, AR LEAMA RO, PA RD AE
+1M, RU 6) LORE ep oes 200.1182 1; 2H LOR AP aA 20211822,
+Lr Ro PAA 130.1120, BOAR IPL 20D NIRS EH
+SAE 20211832.
+
+===== wd_ch4_171_190-174.png =====
+162                            2007 itm LI
+
+RIA RD Mab AMO:
+Tamer | sn       Tere        =
+
+1) A Bp ALI 202.118.1028 NIAAA IM, AERA RL AeA 2,
+‘GAM tee PALEY $20, aA TRL HE, HLTA A
+coke,
+
+2) SHAE RE AGHA, GLAMUA ASSL) ALL | hab. SL AR 2 abd. Me
+Sith Lube ERMA
+3) SRAM LOLA, Ae RD SLIM 1 FoR 2 eR
+14, 015 RAP RAED RAUB Sodb Fab, PAB AMER. DHCP 服务器，WWN
+MPR HSH HAMAS oak, MII Lae: 282 EN
+ADUCPRERSARR IPR FER L,
+www COR
+
+加答下列问是
+1) DHCP RS 250% £4 2-N 动态分配四地址的最大范围下什么? 主折合用 DHCP
+区和阳地址的过程中, ALA HE DHCP Discover R.A) IP HN 2E IP MLA
+地下分别是多少了
+2) 范主机 2 的 ARP AME, MiLLALISID Imemet 对，发出的第一个以太风钙的目的
+MAC 地址是什么4 SR 242A 0 Jiemet MI pon AMMA A MAC HAL
+fe?
+3) Lh 1 FIA FRAME al BLE 2852552550 和
+AGRA WWW 服务器》 是否从访问 nema? 请说明理由
+1S, [2018 AMT RAS MG FM. IP ABBE 192 168.1004 AE
+和技术部两个于网，并已分别为部分主机和小由站接口信名了 WP, RAE
+MTU =18008, LAE MTU = 8008,
+
+123152, mee,
+===== wd_ch4_171_190-175.png =====
+ot 网 的 ek      163
+
+n.
+
+加答下列有问题
+DERE RT LE Hee RF MT HA? 若各主机仅分配一
+AIPM, MRREF METI 6 2H
+2) RELA H, 192168 1.16.24. 192.168.1208 RA— AGA S008 的 rn, IP 分
+AO ECRAA DB, BOREAL FRA I RENE T OA. BAH
+RTRPATAN, NOAA DP SAHRERME ERLE I? LIRRR AIL
+个分月? RAIA WA DEERE I?
+(2002 RAL) RIAL PNA, ALIS RL, RD HORS SRA Ime,
+SUS AMAMEAK, ERM AMD A Pabst, Bu SAR AEE
+四地址如下图所
+
+Ss        re
+‘aR NATAL RAR
+oo                         a
+7a         oy         aE         ae
+
+请回答下列问题
+1) ALD HS 能久访问 Web服务器 【使用网认关吕号)。表要进行件么本于?
+2) 若1 主动访问 Web RH Beh, AE HTTTP AER LITLE ww aR PH AL, ALND
+CLA PP Lo UP AL LSA? 经这有3 AL, PI
+Ap IPSRAENSLSCAR 2? S04 RD ARAL. P hal IP ALOR IPRA LIE?
+(00 扣考捧基]本网络拓扑如下图所示， 有 为下和器，S OAM, AP A 8.1
+BOA, HBB BO 接口和 DHCP IE BH IP MEE KA PFs HLH HD EP
+APH UREA RI HD fe HE AIR: He HS CBR
+网络，并通过 DHCD 动态区取了 印 kak, SLATE. 10OBse-T 以大网交接机和
+TD0Bass-T RACH (Hub) = RIES.
+
+===== wd_ch4_171_190-176.png =====
+164
+
+2007 itm LI
+
+人
+
+种-
+
+1 设备上和设和 2 Bak pala
+
+2) 若信号传所过度为 2v10'muls， MAMIE OMB, LIES 时全产生频外
+的 1S1hs sb, MD 与HB3 LATRINES TT
+
+3) AMSA DHCP AARC IP MALLY 14 首先改进了DIICP ALL M, NLA
+种 DHICP ALE? thin E0 ARO AR TALSLSER M 的以大网村? S 向 DHCP HAE
+ALG SEEM HOLA IRB MAC 地址是什么
+
+4) 8H ors RAP HP, OY HS LAE A MODY ANAL BD
+‘fovea 3 ALAA?
+
+se ROTATE A ATM, cee ROL RL LA IL
+
+UE, SAAS RRA SAMI, MULE T ERGATA. RS
+
+ARRAGHAS, ALMIADHESUHAN-F2AMGRD, ERLRGAD
+
+GRA RI 和公司总部网络的路内器 RI. Ae FIT, S182 为千上以太网交接机
+
+TRI 和 TR2 LDA SRHGRG, ALARA, RAF ERE
+
+otk, Basak (54 8st A SOODIGKS. ALARA RI 和 R= ML
+
+AMIEL, Sho RATE URIE RH DOK,
+
+话回答下列月是
+
+NSSGLR ET EMA TRI 和 TR3 MALMO, RI REM
+ROMANO ERS 7 主机 EMS BAM, TARR GLE
+是多少1 BNE AI OA TAHA MA MeHBO IL, MEE 向
+SAMS EM 40008 大小的工程进度报告文件。至少需要多攻时间?
+
+2) 更从要下于 OWN Hah Sieh BARGE EA TASHA RU SLD,
+PRI dy RD 发送气，SLP ARIE HEA 1510, ACK HEAL, HRA SLP AE
+WEL AME RUE HOM, 0) SLP 的改天窗口至少为多少? SLP RAS EREY
+Besyer
+===== wd_ch4_171_190-177.png =====
+ot 网 的 ek      165
+
+3) BST Ee LAAN ore MELE 101010004，工各进一步将法
+AREA IATA, RPLSLFRTSE PMR 0, fe
+子网和管理区于网可分本四地址加均不少于 0 个,且主机|已正确配置了起地直，
+出作业区子网.芝理区了网和生活区了网的子网地址分别是什和 给出CIDR 形式
+
+42.9 答案与解析
+
+=. eta
+
+oc
+
+‘TCP 和UDP是人第导协议，钙，ICMP、ARP、RARP (轩地址解析协议)是网络层协议-
+
+a8
+
+OCHRE IP OY EGER. MOO 6 TP, HOH TAG UDP, ROHR
+ICA, I RR Mt, 796 2 IPv6-
+
+6
+
+在首部中有三个美于长度的标记: OIE. KORUNA, AARC I B.A
+so, i 分组的首部长度必须是 4B REAL, MANES 5~ 15 《于认值是 5)。因为 下 分姐的
+首基长度站可变的,所以首长度字民愉不可少,总长度字段给出 分姐的总长度, 单位是字节,，
+包括分组首部各所施分的长度数据帮分的长度可以从总长度袜去分组首部长度计算.
+
+OB
+
+检验和字稀只检查 让 ARIA, RAO AAA AR. SET HMR
+PALSY LL ISTE 16 LEANNA, FRC AEA 16 比特相加后,将和到
+(Aue Mes EL, AOL IER IP 并不要求源主机重传有关氏的 PME, REE,
+关销传输是由 TCP 完成的，另一方面，首生检下和只能检理 下 RRC REALE OL
+Pe rt eo ee ee cd
+(05 2A. DULARUC OANA RAEN NEARS, LETHAL. WTR II ARAL
+LC ARR, UP RURAL LEER GEST, Ose ACME UDP ak TCP Hae
+am DM
+
+5. D
+
+ERIRLINE. MAC HWIRADNRTLEMLAN RE, SUBIR RUM LAUR, EI
+目前二的 MAC SBA REMNLRRS, UBES UP ENEMAS MAC SBME, ALAS.
+
+.D
+
+RUGRATS ALAS AAI FTOLAL, SRO ATI SAE ORR, TR
+EEO RL ALAM RA.
+
+oa
+
+61 YEAHH, HEROS LE HR MLR — LO TCT
+em UP RA. WEN DF AR SCTE ME ARIS IR
+eet
+
+i ER A AR ARAL. LB a.
+
+片人和以 8 REAR, ARS EA. ELA HN
+===== wd_ch4_171_190-178.png =====
+166                            2007 itm LI
+
+FeO 0. RETURN ECR RUBE FRUIT. 2H ARAN 100,
+Re ARH OSE 1 PIA HR 800
+
+wb
+
+藻分组区超过 MTU. Mb DP=1 8, IPAS, SELB ICMP (终吉不可达报六)
+向主机报告关错，当 DF -0 时，进行分片，MF= 1 表示后还有分片。
+
+站
+
+片凡移、首部长度、总长度的单位分别为 8B、4B、18B。片信和估为 00，表示该分上的数
+所部分的第 个字闻的编号是 Oo, LUE AW LOB, 首部长度为4Bx5 = 20B，所以数据部
+分的长认为 80B。国此，访分片的所部分的最后一个字节的久呈是 879,
+
+oar
+
+APA A, 132192575 dt 8 位与 13200018 匹配。 南昌 和项中，132.192375 的前 上
+位与 32000MT 区配。C 选项中，132.192375 的前22 位与32.19232 022 AEE. 根据 “最长
+部角区本原则”，该分组应该竺发到 R2。 选项 D 为中认路由，只有当前面的所有目的网络孝
+不能和分组的目的了 地址区配时才使用-|
+
+BA
+
+在分类的于网络中，C 美直址的前 24 WIL. 8 EAL, EBLE “0” eR
+纤号，主机位全“1” 闪示六播的址，国此最多可以有也~2= 254 全主机成路由器。
+
+WA
+
+CIDR HS 86 320.012 的网络训级为12 位，说明第 2 NTR dee. BIA
+PA 2 的二进制形式为00100000。 给出的4 个地址的由& 位均相同。而第2 PA es
+‘58 0010, 100, 0100, 0100, LL EER iBT A.
+
+18.
+
+10255.255.255 9 A 美地址，主机刁全1，代表网络广播，为广播地址。192 168 24 390099
+CIDR 地址，只有后 全为主机号，而 和9 用二进制表示为00111011，可知主机号全1，代表网
+F8O-HR, PHBE. 2241085211 为 REMI.
+
+16. D
+
+所有形 aT exyy zz 8 PH, AE TRA, PNR
+
+can
+
+选项A ALC 类地址, A 255.255 2550. A A 地站的主机号为全0(志使用 CIDR)，
+因此不能作为主机地址。 选项 是回环测试保久的地址。移项 是语法错误的地址，不允许有
+6。选项上 IW ARIE, HME 110, EME 47 100.
+
+i
+
+127xxx PASCHAL, EAHA UP AMAL, LATHE Ps, He CH
+WR. 0000 HTP INTE ID 地址。表示本网络上的本主机，通作为 DHCD 客户的 外地址。
+285.285 285 255 可作为目的 地址，表示在本网络上进行广播(各路由器均不转发)。 MRD
+特定网络,主机号为全 的目的理 地直表示相接广播地址,可对特定网络上的所有主机进行庆手
+
+Ni0000:，所以共有 垃比等位用于主机地址，下主机位全0 和全 | 不能全用，
+所以最多可以有的主机数育28 —2= 4004,
+
+0.4,
+
+在temee PRAT AT RN
+===== wd_ch4_171_190-179.png =====
+ot 网 的 ek      167
+
+接收到一个下数据报时，路由器根据 IRI HT ABLES. RCE 下
+地址的取值。即使 1 AARNE} CUP RAE A EL TP SEAL SLBU IE
+Av gem Meteo UP LT A PSHE PSA REA,
+
+2
+
+划分子网可以增加子网的数和(把一个大的网络划分成许多小的了络,这是于由划分的结时，
+并不是目的)，子网之间的数所办需要通过路由器进行，因此碱少了广播城的大小，提高了网
+络的效率和安全性。基分子网后，因为各子网中主机号全和全 LESAN SHED. IDLER
+总的主机数量，伍划分子网提高了外地址的和用事
+
+2
+
+直题可知, 主机号有 习, 荐主机号只占 上位, 财没有有效的地址可供分配(除去9和 1
+因此最少 2 位表示主机号，还币3 位表示子网号，所以最多可以分成8 个子网。而当5位对表示
+主机数，即只有 个子网时，每个网最多只有 30 个有效的下地址《除去全和全 DD
+
+2
+
+EER, ft RAP PRN LA iW, GALATI LL
+Si RE HLL SAR OL PER S192 168.1128 HF CAR SE DL
+与A、 BRD IFAT: 只有上 MME, LEMP.
+
+4
+
+TDR EL AAP PE, ARO IP WALA, AERA EAE
+尽的问题。CIDR BLPBAA Gr THB MLA, Mak HR NHN HAT
+ate. EAMG Usha NFL. RAE CIDR 划分子网的结果，并不是作用-
+
+25, D
+
+CTDR 表示法是一种用利线“/” STEPS CRE HLA PS AE
+名所占的位数是网络刁印分，利下的位数是主机可部分，所在地址块人包含的地址数是 29 1028,
+主机如全为0，所以 126 166 66 9922 所在考据的第一个地址是126 16 640,
+
+26.8
+
+200.15.107 HRI hy 0000 OL ENE 200.15. 10.679 ge
+(ey Mbw, 7AIRHOM. -ESRUME CHRIS HM, USPC, TEARS
+播目标，导下分姐天法正确地转发给共他网络，而夫分上给本网络上的所有主机
+
+2 DA
+
+CIDR Sse Rea NA LIAL AAR, CIDR 将网络前组相同的连续 ip BS A
+“CIDR 地址块”。 网络前雪的长度为20 位，主机号为12 位，因此 192.168D020 地址所中的地
+直娄为 28个。共中，当主机号为全时，取最小地址 192.168D0。当主机号全为1 时，取最大
+地扯 92.168.15255。注得，这里并不是扫可分本的主机地址。
+
+AUT 193.460198，表示子网失玛为 35525525S240。 UP 地址 19216049 与 四 地址
+1g2.146047 所对应的前 28 位数相同，才是 1IO00000 DO00I0000 00000000 0001，所以 IP 地址
+19216017 是子网 192160.1908 的一台主机起直。注意，主机生人0 和全 的堆直不使用
+
+28.0
+
+Jat WP SLE APRN IL CTL. GEOL —ANFRNR TTL AKL, TTL 为0 时，路由于
+URINE EL APH HTL eR ERASER Fo
+
+wc
+
+LRA EY A ASE ARAL HRAR ETHER. #13 个徐有地二
+
+===== wd_ch4_171_190-180.png =====
+168                            2007 itm LI
+
+190008. A 190.00~10285255255, HIF 1 个人 类网络-
+TIG00112，即 1724600一17231255235，相当于16 PERO B I
+192.168.0016, 1 192.168.0一192.168.255255，相当于 256 KER C IGE,
+
+所以只有造项C 是内部夫址，不允许出现在互联网[公同) 上。
+
+wD
+
+最初设计的分类 下 Bh, MPS ARERR EAL AAAI
+车大了正地址的浪费。 划分子网通过从网络的主机号信用基于比特作为了网号，从而使原来较
+大规模的网络细分为几个规模小的网络，提高了昔地址的利用率-
+
+与划分子网相比,CIDR 是一种更灵活的手股，它消除了ABC 类地址及划分子风的要
+使用各种长度的网络前绥来代普分类寺址中的网络号和子网号,将网络前帮相同的 地址组成
+“CIDR Sisk" « 。网络曾缕越旺，地址块越大。百联网服务提供者再要客户的具体情况，分本
+“RUN CIDR 地直块，从而更加有有效地利用 TPv4 的地址空间，
+
+采用网络地址转换 (NAT)，可以使一些使用本地地址的专用网过所末世联网上，进而本得
+一些机构的二主机可以使用专用地址,只天给该机榴分本一个 地址则可 并且这些专用地址
+是可重用的一其他机构也可个用，所以大大节省了下地址的酒-
+
+层得以上三各方法可以在一定阶用内交角外 地址村尽的危机，但无沦是从计算机本和
+发展来下是从互联网的失重和传名半来有,现在的 TPv4 SIE CE SII, 所以泊本的方法还
+是使用 128 HARB IP 培址。
+
+31 B
+
+ee ee ee ee er
+ARTEL KAR RPA A KORA. Up A AL
+‘i, LAE LE OS AF AE He AT AG CHARGER HO MTU 可能不同)，国此不能由中全路
+直台进行重组分片后的 分组直理到过目的主机后才能汇集在一起,并且基于不一定以版先的|
+次序到过。这样，进行接收的主机要求支持重组能力。，
+
+BC
+
+“9 表明前29位是网绍号,4个和项的前3 个字节均相同.A趾4个字节120 901111000,
+前位为DTlyB中第4个字节64 为01000000,前5位为91000YC 中第4个字节96 3 01100000,
+前 4 位为0108 口中第 4 个字世 104 为 01101000，痢 $ 位为 91101。因为已分配的子风|
+了4 17824796129 的第4 7 ORE 510% ION, 这与 中第4个字节的晶4位重各所以中
+的网络前继不能再分配给其他子网
+
+3 D
+
+本国实际上肯是要求扫一个子网排码，使得 A 和日的外地址与该网拉玛过位“与”之后
+得到相同的结果,选项吕 与A，昌相“与”的结果均为216000。
+
+4
+
+来进行子网划分时,也类地址有 16 位作为主机位。 因为共震要划分31 个子网，25< 51 2%,
+所以和要内诗机位划出6位作为子网号，得下的 10 位可容遇的主机数为 1022 (20 ~ 2) 台主机，
+RIERLETER, BL FANT 2552852820,
+
+35.4
+
+4条路由的并 24 位 《3 个字世) 为网络前级，昌 2 NEAR, SULA 3 个字
+他加可，129= 0000001，130= 0000010，132= 10000100，133= 10000101。 前 $ 位是完全相同
+的,因此售后的网络的卸码中1 的数量应该是8+ 8+ 5= 21， 至合后的网络的第3 个字节应该
+
+===== wd_ch4_171_190-181.png =====
+ot 网 的 ek      169
+
+8 10900000:
+6c
+ALMA 4 192 168 6.19226 RA, REFS MARLESN 192168 60724, OKI HHIAAL Sel
+
+fee. Hs 5 192.1686 19276 不生生，到全后的地直志为 92 168.6024. ED
+
+SIRS AE seis eH C45 192.1686, 192726 FHC, EHO 192.1686 128725,
+
+AC IGAVENEAS AT ADEs HRD £192 168.6.19226 HARE.
+aA
+‘ROO AAR SUREPOS, — ‘SPR —AN yA AL
+
+主机号内需 2 位，因此于网到指定为255 35255252 或用CIDR ACTON “180 «
+
+7          本指定为235 255 255 254   DR
+3B
+28, UES IRIE RNS ORAEE SIU FER, POL
+
+LIAESURCER)— FNAL. -FMDNEI A 255255255 204 表示前 27 IRAE, TU
+
+A BFE 2023:16027, RIL TPH 2023.1.3227。 或者，后 $ CIEEKLD. a3
+
+PP ARAL TE) 2023.1.1~30,33~62, 68 ~94 CRO 或全 D，氢此也能和出答案-
+Dd
+FED) 255 255 1920，可知网络呈占 18 位，主机号占 14 1. FE 1666666 66 的后 14
+
+位主机号为全 1，目的间地址为166.66.127255.
+wc
+AULT BARES ABAD, ILC 32 RAL EA.
+
+支节点者可胡示成一个地址钠，访分支节点下的所有时节点的编码部是属于该元直志的瑟地直-
+
+下图是以赵直块“24” 为要的二叉辐表示，为了简洗，图中洛咯了共同前组 192 168 1
+
+28, BY 172.18 28021.
+
+BL
+
+AMIRI 3 AFR FROIA PRIMROSE, IRI, RAR
+fie D4 A FRAIL, D4 个分支节点不存在任但先或双素关系: @ 4 AF
+网好能构成一个新的地址空间，即存在一个吉风好能时六这 4 个节点下的所有子孙。现结合
+ARIES HAIN A, D 和 T1027 可与中子风了侣成24网络，选项目、0026、1126 可与中了
+网到合成24 网络;选项C 车要与中子网到合成一个更大的网络, 则于少还再要0026、01027、
+Mn. 3S 个子网，与意不符。注意，上对子网号的分析部是用二进制家示的-|
+
+a8
+
+1 BLSEARA EASBEAA BE uw Hi, SANT 地址，但在通信中，路出器只会根据目的
+地进行路由法振。IP 数据报在通信过程中，首部的独 PH OU 地址在经过路由器时不
+会和生改变。ARP 广播只在子网中传播，因为相瑟通信的主机不在同一个子网内，所以不可以丰
+iL ARP HELE SHANTI ITSO SLIT ASE ALA iM RAG UP RR
+BRIERE NURI. A ERE APTS A.
+
+===== wd_ch4_171_190-182.png =====
+170                            2007 itm LI
+
+aA
+
+255255295255 是受限的广播抱址，仅用于主机配轩过程中 下 ALAM, CME
+沈下，中由吕不转发目的地址为受限广播地址的分组，这种二 LOLA
+
+68
+
+ePIC ANE ATER — AER. AP AAO EPA" EMR, IC
+EAMES. FLORENT TM, MMR, REM, BUA
+乙的 MAC META FTE MAC 地址，闭乙和四不在同一个子网内，则要通过网关转必，
+国此将网关的 MAC 地址作为由的目的 MAC 地址。 经计算 四的网络昌级为 211.71.1280720
+忌的网络前雏为 211.71128020，志和甲在同一个子网内，因此十的目的 MAC 地址为己的
+MAC 地直。
+
+4c
+
+-SNEDL AD ENA EMHLEOOVLRIE I AUR ER, eC ARP AIBA A AEA
+下地址与 MAC 地址的再。 2747, ARIELA-PORPEIMIE A MAC ML, AREAL ESM MAC
+UAHA. RAE. 风先通过广播 ARP 请求分组。在获得目的主机的 ARP EPAL
+将目的主机的印 地址与硬特地址的隐身写入ARP 高速援存。基目的主机不在本局并网上，则将
+里分明发送给本局鲍上的路由器当做要先通过同样的方法得中由器的 IP HALTER
+的时出半系。
+
+68
+
+(pH RRMA CDH LAGS, TRAN 1". 192 16832.8285.255255
+192.168:30, BI!) HS FLAPGUREES SAL, PLLA HAO HL 不网于同一个网络。 加 H3 全
+用 ARP 区和吹风关 E1 的 MAC Hei. JEG HL 的人 数据报持半万 MAC AE CH SA
+HI 不属于同一个网络，因此目的MAC 地址是吕认网关 ELD « AOUEESE MARR. ZARA,
+是络夫下网关 1 接收《HI ICRU ARSC BE UP GE, ER ee
+不会向 PR ARP RURAL, SRS AER. Rao AS TN
+
+46.
+
+DHCP 提供了一各机制，使使用 DHCP HEAR 的配置信息而无须手工二所-
+
+4D
+
+BPR Eh TTL Oy 1H UP MARL. PIE TTL a 1. TANNER OL 若
+0 ECP MARA FPL BL GG LH AE ICMP ALE HL.
+
+aA
+
+TMP 属于殉络导协议，ICMP LMA AE UP AEA, LIM AEN
+
+wc
+
+DING (GRIT LCM si cP RAE RK
+
+50. 8
+
+Iss ikraay1P HEHEy 192.168 0728, HILLARD NAT 24 (2, BOERS EHS.
+FIRED 255 255255248, 384 个字节248 SBMA TLNO00, HUE 8 oP TSH
+
+===== wd_ch4_171_190-183.png =====
+ot 网 的 ek            amt
+
+几于子网续，在CIDR 中本以表示了=32 个子网，后 3 GUAT RMU. Bese O 和全的情况、
+可以表示2-2=6 fr EHS
+
+51. C
+
+ICMP 差和报告报六有5种，终点不可达、洒点折制、时间趣过、参数问题、改变路由。其
+BLA A RA TR AR ALA AL, HI
+REAPER ARRAN MM. Fm. ARE E ICMP HME PFDA IIR
+
+82..¢
+
+首先分新 190.168 4.080 这个网络。主机号占 2位， SHALE 19215840192 16843， 主
+机号全 1时是广播抱址全0 时是本网络地址，因此可容铀4-2=2 GEM,
+
+53. D
+
+"EE RI 能正机地将分组路南到也有子网,R1 中需要有到 192. 1682.05 和 192168, 212825
+(ns, SINE RRIF
+
+18216820 1000000 19}01900 oan00910 co000000
+
+192 1682.128 14000000 10101000 0000010 10000000
+
+前 24 位才本.于是可以村人成起网 193.168 2.024. 子网交友为 24 (1 285.285 258.0.
+FUE RI 直接相连的 R2 的地址，因此是 192 168.12.
+
+s4.D
+
+子网拉友的第3 AN ITIL. 可知前22 位为了网号、后 10 WNL. UP DSR
+3个字季为01001101 (下基线为子网号的一部分)，将主机号《后 10 位) 全置为 1，可以得到
+HAIL 80.80 79258.
+
+S84
+
+在实际网的数报链路导上伟过数据时，节终必须使用硬件地址，ARP 将网络民的 1 SE
+名新为教所链路导的 MAC HE
+
+56. 8
+
+ICMP W/E RCE UP Sp BREE IP PRY ICMP 提供服务。 UDP和 TCP 部
+是导欠协议，为应用居提供服务。PPP AIRDRIE. RHESEUE RAE.
+
+57 C
+
+根据“最长机和匹配原则” ，16996 40 5 4 16995.400 的前 27 位匹配最长，因此千C。造
+项 为于中由，只有当前面的所有目的网络都不能和分组的目的 IP KETC HE
+
+s8.€
+
+SPENT A HAD HD 处于同一网络，1H3 RL 处于同一网络，国此 HI 和 H2、H3 和
+分别囊以进行正常的下通信。H1 和 H2，H3 和 H4 处于不同的网络，国此消要通过路由器
+名进行正常的昔通信，当和1 向H3 LAE SDH 用目的下地址、子网到到位“与”HI1
+ESE, PARALEGAL 属手不的网络，逢要将该 HALLAM.
+HL 配置的里认同关为1921683 1。但R2 YEN 接口的了 地址为 921683254，国此HI 不能
+HS 进行正常的旬 通信。注意，即全 了 的中认网半配置正确，但团为路由器不会从分组入口
+进行转发，所以 HI 和 H3 也无法进行正常的转表售。H2 的默认网关为92168341，因此H2 也|
+SARL rel, HM 的吻认网基为921683254，国此 HA 可以正党访问 niemat
+
+59. D
+
+S MIRD/ PLS PREP FN), NAT FOL HMB, OVER
+R SFTP AE. HEME RI, 2 ATS 2 SE RE RRAR 201.13.090 JESU
+
+===== wd_ch4_171_190-184.png =====
+172                            2007 itm LI
+
+的下地址的后商人为主机号，面主机号全0 和全 1 PUA, 2S
+的点对上名下中的一个路由村接口的地址，就可求出另一路由器接吕的惠地直。 在RI 和R2
+相过的甸路中, een RI RECA UP SEM 201139130. 将其后8 (OIF Ae ona 1001,
+南昌可分配给R LO 接口的四地址为 013.0。间理，也可未出 R2 的LI1 BEC MI
+201.13 3。访问 Weh 服务器。只能通过 RO 的接口 L0 或 1 转发，所以经过 转发后，I 分组
+的尖址可能为20113.10 或201.132，目的地址为 Web 服务器的下地址 0.18 10 .1
+
+oc
+
+LON 16 (USPS. YN 128 -MOMEINIO ERE, MERE 7 UO FI, 9 位
+(EME, Red —-NEAMIETO MAL, ST ARRIOR ACIP MAR RU 2=2=512-2=510,
+
+人
+
+0.000682 可以作为本主机在本网络上的源地址。I27001 是回关地址。以它为目的 下地址
+的数据将被立即返回本机，200 10 103 48 CSIP SAE, 255.258 285255 是广播好直。
+
+ac
+
+CH PALOMMG, SSP OFA Art MUSE UNL, oT 4 NRE, 16 位完全
+相同，不同之处在于第3 AR ARIE IER, SH
+
+四站四四
+
+观察发现，在4 个地址的第3 Boh ADORE 3 位相同，因此这3 (AR
+位至将这些相同的位保鲜，将第3 段第3 位后的所有位都轩9，就得到了条人后的IP Ss
+35200320, ORION 1663, BOW 19 位，因此采合后的网络直直为35230 32 019
+
+6.D
+
+在网络的数据传送中，会经党用到两人地址，MAC 地址和 IP 地址。其中，MAC SO
+者数据被必入不同的网络而改变,得 下地址当且公当数据在区有网络与外部网络之间作地时才会
+Pe. 分组在如是图所示的网络中传过时，首先由主机 I 将分组发和中器R, 这时源MAC
+地直为 HI 主机本身的 MAC 地址，即 00Lls ab-e-4d32，目的MAC 地址为路击器R的 MAC 地
+Si MD DO-lw2b3c-4d.51。路由器 R 收到分组 后。根据分组 的目的 UP ARE, OBIE,
+AS) ARNEL, FAR ele SL PLAC MAC ABE, ALY MS SCRA
+所以了的新MAC HBSESO9 FEO] MAC 地址，即 00-aL-t2-e3d4-61。目的 MAC ME.
+为主机.2 的 MAC 地址，即 00aI-bz-e3-d4-6@2。根所分析过程，题目所的 MAC 地址应四由
+RALPH MAC 地址，国此过D。
+
+OB
+
+PREG 20 位。将 108 20,16.020 划分为$ 个子网，为了保证有子网的可分配下地址数
+尽可能小, 即要让鞭她子网的可分本 地直数尽可能大，不能采用平均划分的方法,而要采用杰|
+长的了网划分方法，志就是最大子网才 CFM, BATON OTM, DLR.
+
+子网1101200000IQ00 0000c001~101200.0001Q111.1111110s SAB 101200 16.V21~
+ot. 20023 25421; 可分本的下地直玫为2046 个
+
+子隐2: 1012000001H00p000000I~ 101 200,00014011.111110, SBA EA 11 20028.122~
+===== wd_ch4_171_190-185.png =====
+ot 网 的 ek         173
+
+1on.20027254722, 可分配的四地直数为ID22 >.
+
+了网3; IOL2000001ll000onno0l一1012000001lI0L 11
+101200 2925423: BISA IP SAE S10,
+
+子网4 10} 20000011150. 00000001~101 2000001 10 111110; HEH Y04 20030 128~
+1oL.20030.254/24, BISA PSEC 284,
+
+子同5 1012000001111 c0000001~101 2000011
+20031-25124 可和的下地直玫为254 个。
+
+ADR, TARO °F ORO I KEEL 254 个-
+
+68
+
+‘59 ROR AG FA) MS 7 A, ALA
+1, RAPARREIRAP IO AGN. AEA AL SRE AD 3 OR AE
+AOR. A 下网络划分为3 TEM. SRP 192 168 9.12806. 可简写成1026 CRE
+相同的 24 位前锻，其中 10 是 128 的二进制000 O000 的朋两位，因为26~ 24=~2)。同理，A可
+aR ONS. 四可简写成926，C 可简写成 11n6，D 可以和写成11097. 采用一又机形式画册这
+夫子网的地址空间如下并所示-
+
+0; 地直攻图为02002813 一
+
+10地址疮图为101200311D4
+
+TOROROROMOROM |
+
+SEF A RIC, SIDIALR 025, 1026, 1128163 PHAM. 对于 D, HILAR 1075,
+M027, 1127 这3 NRA, (Ew, EDK WP RLS IS LANE RHE
+网 3 MERI, SMR 4 PPR. 0006, 0126. 1026. 1176.
+
+6.8
+
+链政层 MTU- RD0B。I 分姐首部长20B。片全区以8 个池节为信和单位，因此除了最后
+个分片，其他每个分上的数据部分长度部呈8B HEAR. EL, OA 分上的数据部分长度为
+7768在和长度为 15808 的 下数据报中，吉和分上 19608。1560BT76B= 01…，震要分成
+片。所忆入个分上的区长度字和为196，ME 为1《表示还有司续的分片)-
+
+o.8
+
+主机所在朵络的网络地直可以通过主机的 IP HEARERS 19" ASU. PRE
+2552551920 的二进制贡18 位为1、后 14 位为0， AE ML 地址的后 14 位变为6，得到的结果
+为183 和640，轩为主机所在网络的网络地址,，
+
+8. D
+
+默认网关可以理角为到当前主机最近的路由器的端口地址，所以尽 192.168.162，而流主机
+的了网枯码和网关的子网指玛也相同。/27 即为255255255 224.
+
+169 Ieret 25 (PH, IEP HE 192.168035 FOE NAT 路由器的转必后，将
+ee eee ee ee
+195.1230:34730 处于同一子网，该子网可分配的 SMALE 195 1230 3一195 123034。所以
+
+===== wd_ch4_171_190-186.png =====
+14                            2007 itm LI
+
+Ro 外部硅品的鲜地址是 195 123033，也就经过Ra MELT
+
+0.0
+
+Re Set 20 = 8-2-4, FABRE LHLTEILL LILITH NM0000 09000000. 将它与主机
+地址168.16 84 28 HE AFNUE “与” ，得到网络地址为 1681680020，读网有共有289- 2 TRS
+而的四地址，地址区国是168 1680 1~168 1695258,
+
+1D
+
+ARP IEF AFORE: 8) BRR AEG PSA AT MAC SMEAR PO. HARP
+220547 NOFA A HERI MAC AOR, 4 0 VLAN
+位于 VLANS, le D249 6 I #5 MAC HAE ORRE LA 1 ARD AR
+
+mc
+
+在 DHCP 交豆中。主机夏到 DHCP Ore LICHT AHREIANLIL. ETH DHCP REQUEST
+报文，通知所有 DHCP MLR, RPTL BRU Ae, GO ALTE.
+主机疯示正式床得耳地址，因此数据报的源地址为0000，目的地址为 255255 255255,，
+
+二和全应用是
+
+on (86
+
+SAR LACE COO. FRAT Ys 4000 - 20 = 39808。网络能传送的最大有效过为
+1500- 20= 148&0B。因此应分为3 ‘MALO, OOM FORK 14808, 4806 和 10208.
+片段人称字和的单位为8B，1480忆= 185，(1480>2)= 370，因此片信和字段的伟分别为0，185、
+370，MF-= 1时，代表后曾还有分片 MF=0 时，代表后面没有分片，因此 MF 字让的分别为1、1
+确定是独立的吉报，还是分片得来的，只有当MF=0 ELE FRR >0
+时，才能本是分上的最后一个分片)
+
+©. URI
+
+在 四 1 FON RRR FE FTEL ANON. Te OH MIR FRO
+Es RHO AHURA (MTU). 1300~20-= 1480, 2000-1480 =520, BFDLME IP 数据报经过第
+
+SIME APT PP AS, 1) — NISC LS CEE 80, = AREA ER LAE
+长这是S20B。
+
+《除最后一个报六外的 RI OY ARTA BB 的依数。576- 20=556，但 556 75H
+SHG, SOLS ML RAC ACCS 92. 第 1 个报文经过第 2 个网络后，1480- SS2*2=376<
+516, MARAE SEA SS2B, S520. 3768 的 3 个 小摄六，第2 个报六320 < 362，因此不
+用分片. 国此至达目的主机时，原20008 的数据入分成数据长度分别为 SS2B、352B、376B、S20B
+Matter.
+
+3. 0
+
+Pr ARE SRL TT EMI OR ALOHA AS BB
+PAIR ER 4B MR, OHI MAL. LET, FAO EL TOO, ES
+SEALER THRE 800。因为组的总长度为 100B，首长度为 4c5= 20B，所以数
+所部分长度为80B。因此该分组的数据部分的最后一个字节的编号是879-
+
+of, C0
+
+因为一个CIDR 地址沁中可以包舍和多地址。所以路由才中训利用 CIDR 地址所来查找目的
+Hi, RIL ROMER,
+
+ARMED RIF 21296 132024, 212561380024, 21256 134004, 21256138008 SHEAR. OT,
+
+===== wd_ch4_171_190-187.png =====
+ot 网 的 ek            175
+
+3/0 6 (UAT. PSUFLRIDY 8+ B+ 6=22 位，因为这4 个地直志的入 1、2 个字节相同。
+省志它们的第3 个字节132=(iOO00100h。 133=(IOOODI01h, 134=(Io0o01i0h。 135= (10000111).
+ivLFEEHON BIRT 22 位，即 1M0OI0OOOTI0ODI00001，到的CIDR HbHE HAE 21256132002,
+os. Lire)
+1) OTULRNDRLP FROM DRA MARAE RLS. STAT ELAS $ 个部门，所以革
+需要划分为5个子网-
+2) CMI 192.168.1610, 是一个C ANGIE, FIA EROS. Se FE LAIN 20~
+加。子网号的比特娄为3，团最多有于= 个可分本的子网，主机号的比桂数为$，因为主机
+号不能为全0或全 1，所以每个了网最多有蔚-2= 30 (STS A
+个部门子网的子网反均为 255255 255 224，各部站的网绍地址与部门主机的 地址
+
+aM seme
+=o   cn      Team
+TA   TRA     ET
+ae   ET     1s a
+06. Coe
+
+1 使用 CIDR wl, Bree SARA POURRA, Neo A MOREE RE EE
+SOR. 下面来一一分析分组 A 与表中这四项的区本性
+DBL. 128 86004 与 31.128 55 3 不区配，因为 24 HAH
+(@ Ba8553228 与BID28 5533 的前 24 位开配，只霄看后面4位是理区配,32 转换
+为二进制为010 D000，33 #3838175 ODIO 0001, ULE, FLULAET 28 位
+(9 131, 1285,3230 与 31128 .55 33 的前 24 位匹配，只下要看后团6位是可区本,拉力
+$=) O10. 0000, 33 转换二进惠为 01 OWOL, TERE. HERE 30
+@ Ba&00116 与13112835 3 UE, LICR 16 fe.
+Se, APIA, 5B 2, 3, 4 RIMES ICR.
+选择网络六 13,128 5532030 的表项进行转发，下一路由器为C。
+同再, 对于分组 B。 路由表中第 2、4 AS 2 I, A I,
+SEiRiB 9 2 “NaBH, “FREER By
+2) 即增加1 AVE AU MUAH 131128883882) FRB AL
+3) HUARIN |条跌认路由，网络前组 00000， F—FKE.
+2) 到划分成4个规模尽可能大的子网，融要从主机们中划册 2 位作为子网位 (2:= 4，CIDR
+挛证全用之后允许子网位可以全 0 和全 1), FREE MTL TTT TI
+000000，即 255 255 255.192-。 二地直范关中不能包含主机位全 或全1 HE
+
+===== wd_ch4_171_190-188.png =====
+176           2007 itm LI
+
+on. CR
+
+1) FRB C4. 10.0720. (下一站地是 B) 的第3 PATEL 38H AE 0001 000. FE
+edUHL C4 5E 13.87 NR 398 TDL ae Ee ONE 0011， SEABK 20 HED
+#85, C456. 10020 KITURZ, BOLI IP ea AERG FIG B,
+
+2) MEEK C4 80.0012 CF —BBEAL A) (8 2 个字革可以用二进抽表示成0101 D000。目
+eSB C4 SE 22.09 的第 2 个字节可以用二进机表示成0101 INO, SARK HE
+5} 450.0012 相匹配，所以内有该目的地址的IP 分组将被投间到下一站地 A.
+
+3) FSS ROO (下一站地是下) 的第 1 个字闻可以用二进币表示成 1000 0000。目标地
+址C341 $002 的第 1 个学节可以用二进抽表示瑟 1M00 ONL. LARA 1 HESS
+800.001 相区配，所以及有该目标地址的下 分组将被投地到下一六地
+
+网络号40002 CK —S58HKE FD 的第 | 个字节可以用二进抽表示记0100 0000。目标地
+ie SE 43.91.12 的第1 个字节可以用二进制示戌010 110，显名了 2 (HE ST
+0.00.02 相区配，所以及有该目标地址的下 pa RRA
+
+os. (86)
+
+SPIER HURL SHRM AR CAG HL. CL ARSE IP SAC 30.138
+11803 GEM: © — PAE AEA Hs FRR.
+TLAN3: “EBLE 150, 1%92"=2) < 15061 < Gx- 2h 所以主机本为 A EPRI
+SG 24 (2790, SPE 30.138. 1180724.
+
+LAND: EHLME 91, BHQ"=2)<91+1-<Q"=2)- PALSENL IN 7 HEA MARAE 25,
+LIB 24, 28 10) 10, SAREIAIEIA 30.138 1190728.
+
+TANS: “EBLE 15, BDQ'—2) < 15+ 1 < C5-2)，所以二机号为比特，网络前给 27.
+RSH 24, 28, 26, 2729 1110, FREI AK 30.138.119.19207.
+
+LAN: 38403 P9H84, L—PMIMA, R U HUHL, 因为-2<3+1<
+(2-2), OLEH 3 Het, (HBA 29, MRIS 24, 25. 26. 275 28, 290% ION, RE
+‘Sik 30.138119.23209.
+
+LAN4，主机数为3，国为-2 < 3+ 1 < -2)，所以主机号为3 比等，网络前组29。取
+第对、25，26、27、28、芭位为TUIT10，分本地址块3013811924029.
+
+GED
+
+1) 共同的子网后为 2355 255 255 240，表示痢 28 位为网络号，同一网生肉的 中 地址具有
+相同的网络号。主机 A 的网络呈为 192 168 75 16， 主机 的网络号为 192 168 75.144:
+主机的网络对为 92168 75 144 主机 D 的网络号92.168 75 160，主机的网结生
+为192.16875.160，国此全主机和，B、C，D,王分属 3个网段，主机哩和在一个网
+BR, EMD 和下在一个风展，主机人A 在一个网用。主机的网络号为 192.164.75.160。
+
+2) 主机了与主机和 网在一个网县所以主机下所在的网让为92.168 78.16, 8 4 FF 6
+的二进制衣示为 0001 0000，最后边的4位为主机入，去挤全和全1- IK UP SE
+29 192 168 75.17~192 168.7530, JHELANE I 192 168.7518.
+
+3) 因为 164 的二进抽为1010 0100，将最右边的4位全时1，即 1010 LIN, ARBRE
+2.16875 175，主机 D 和主机下可以收到,|
+
+crs
+
+eed RAGAN NARI HRA a RMR
+
+===== wd_ch4_171_190-189.png =====
+ot 网 的 ek         a7
+
+wos        ww     二
+
+ee [fo]      et
+四      CR [CT
+a     anne
+5               oo
+co
+器      Tan    [me
+
+1) LPR, AE SE UP aA.      16 ASE. MTC HE 03 02. $0
+SP SIR AOR OTRRNE SAAD 1247032. FL 下地址为 首部的第 17、18、19、
+204%, BD BEOE OF 中，转换为点分十进制天示可以得到目的了地址为 18014.15 2.
+
+2) LEANER IP ROHAN 3. AAR, LOD Sty HAR PARSER IL A,
+(1 OT RII EI S~ 8, HS, I A, A HATE AS =208
+SAB HE = 0 I ABEL = 84-2066.
+
+3) UA MO REED 7. 8 FET OER TPE MAS KO. MEF 0.
+F8=38A(H 1 1000 0101 0000, -}ABBIE 6224, NE 8B.
+
+tb, SONNE PRN TNE BHO 3 18. BD O10, “PHL DI
+
+位 MF -0 表示后没有分片。
+
+1. We
+
+1) HUBGIRL, ARN Hh 9 a7 66 28, eR FEM 218. 199.10240, 是一个C
+Rw sik, 59 (HP Hide 218 20761211 RAE. TDL ARASH BNE
+MAC HERA ARE CARP AE SUB-LIFER MIB. YAY ACEI
+此目的MAC 地址为A的MAC 地址，源MAC HBS 4B aBAE MAC SBA C2
+为A REISE. SEL MAC SU ARATE MAC 地址)。首先乒到目的MAC 地址
+Dad72.98 -你的位置(在下图中的位置 1标出)， 根据以太网人的结构，目的MAC 地
+SL MUIR AEAT MAC 地址，因此源 MAC E73 000:5e0001-01.
+
+表示不可分片，最后
+
+Dw
+MOUIE ner das, FLAP IP MH. CREA ANE OE
+2). BRAG IP 首和的结构。分别从目的理 的位置向前数 14 和 16 个字节，即可找到总长
+度和间部长字段的丛置但首部长度字段所在的字节估为 0s45, 首部长度字肌只有4位，
+前4位是版本各。因此攻孝字和的信为5，单位为4B，所以攻部长度为 20B。总长度字且
+{Ws 00190, FEM Aone. des LER Bai AEHE 3808
+
+DURE 下 LATCH 4008, JFL MTU (380B)。 这时天要者上分片，但
+是否能名分片还得大邯首部中的标志位。昔 玫部中的标志字乃右3 位。从前到后依次为
+RAL, DF, MF. HEP FEAR HR IRATE TS. SN OO. “SBIR
+示为91000000，于是 DF = 1，不能对该 PAE SLAY FB AN MRE
+委革访分细，并用 ICMP HN CHARLEY
+
+2. OWL
+
+1) RPS HTAW30, ELA OR 1, RA RE HET EL PHBE 203.1021. HE
+
+RAL ALP MAT, I A ARNEL EME, 218 20761211 表示成十大
+
+3
+
+===== wd_ch4_171_190-190.png =====
+2007 itm LI
+
+»
+
+»
+
+1.
+四
+
+»
+
+配置的对认同关应是R2 REET BO IP KE 172 18.1126.
+
+在HI一了2一HB 导适本分组的过各中，分别使用了两次 ARP。 交换机进行了相关的自学
+Aly SEARO Hub 的广播特性，HI HS RTP 分组 A，和能收到针堵A 的以太，
+
+OLA AUK Ho H4 SUA FA MAC 地址与自身的不同且不是广播地址,，
+PALE SVK. OHS 发现相的目的 MAC 地址与自身的杠同，于是接收该站。H3 给 HI
+
+发送一个下分组，人收到鞋靶的以太网由的主机有 84 和 1，黄中 4发现村的目
+
+的MAC IEE AMER RIE. TREAAM, WHI HRs.
+
+当 TH as Cm}. 0000 1 ARAL HPS 172 18.1.3, FL SRE Web
+
+BLA Sw MMM 21348226 31, SC AA RD 转发册去时，首部中的狐四地直为R2接
+LEI 的对地址2031021，目的下地址为Weh 服务器S的下地址213.4822631.
+wed
+
+PREAUL OME 1, LEME OR 1.
+
+Hs, 2451 NORE 200.118 1024 sry FM, ELA ARNE I
+
+ARE E 204 WERE AH HH | 位-
+
+W282. 120.2"~2 wpa, EMA ATA T CL.
+
+BDV P OAHU 28 HELL RAL + FIM 8.
+
+综上可得主机号位数为了，子网号位数为 1.
+
+因此网的划分结果为子网 1 FSA 202 118.10, FIRE 255 255.255.128 (或
+子网1 202,118 10025) + 子网 2 子风地址为207.118 1128, FINED 255.255 255.128
+(AFI 2- 202418112823)-
+
+地直分本方案，子网1 SPAREN 1. RD SARA 2 或者子网 A
+网2，子网2 分配给局域网1.
+
+LBDWRSRRHG 1 和局二网2 分别与史册器1 的 ED 接口直接相桥，所以在1 的路由
+Re, HUSKER 1 SPIRES ESTIMA BL 转站的，目的网络为局拒网2
+YR RIE I 转发的。 因为局城网1、2 MENTAL 25 位，所以它
+们的子网后均为255255235.128
+
+姑名服务器是一台特定的主机，它指明了共印地址，国此役定 1 条特定主机路由，沪表
+
+U9 FARGO 255.255.255.255 (SLAP HE 1 的子网失码相与时，才能保证和目的 地
+
+址一楼，从而洁择该特定路由)。对应的下一中地址是 202 1822，转发接口是L0，
+
+RL 到可联网的路由实而上相当于一个味认路由(当基一目的下地址与路直表中其他任何
+和表项者不区本时，则匹配该味认路由。互恬网包括了了无数的网络集合，不可能在路由才
+项中一一到出，因此只能条用点认路由的方式)，叶认路由一般写为 0，色目的地址为
+0090，子网到为0000。对庶的下-让地直是 20211822，转接口是LO。
+
+or VIRB Ru 的中由表如下
+
+《子网 分配失忆大网 1，子网2 分本给局拓网2)
+

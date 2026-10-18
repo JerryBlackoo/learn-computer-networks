@@ -1,0 +1,866 @@
+===== wd_ch6_290_305-290.png =====
+278                            2007 itm LI
+
+f& FRC 20) . RMAC.
+
+&                          Tt
+CE二                        | |
+‘ie                               ‘tr
+7m             Tame             cry
+
+Ris? WoleMNe
+1 meat
+EET)» FP eusemnte 2000
+GERI 21 HR, ENR, RICAN RAEI REAR, EOE
+Wie Gam, RMAF. HROSAD . FTP BPEL EAGER RAI LAER,
+eee ee es Ce ea
+因此控制连村在整个会话期间保持打开状态-
+2. fae
+SU LA PSR SCI MEARS. Ze — A La
+SEAR. DEAR 7 RA AIRES LZ AS. URSA ER. 传
+REIS. SUBSEA. ee IRL
+SERIA Metab: AEH (PORT) AUREL (PASV) ，
+。 PORTA, SMe IMMN 21 ORO, JMR. BONA,
+DBRUELIRIE—PASWARCT, SEAL PORT OAHU FTO RR. FMR
+220 SACLE EP RENAN UE.
+8 PASY ILE, EPRIPRGRE PASS. MUEMTIE, CSURNALER— TAIL,
+kL AG ICED a. PER IL eA.
+可见，两各模式的区别在于，是服务器主动连杰客户六(主动本式) HLM BR
+ee ee
+
+te
+
+Mo GROHTHERM TIM. TRLAN LAIR,
+
+Ae FTP (RAISE IOREHEIRI eRe’, SEROBLIRLMET AM COutokband) At.
+FTP ASCE, BIHAR, ACAI R.A ERE
+i. RERARAL, EB AEAM, ONES) RAVINE: UE ATIEREIIRITAHGRESCEE,
+REQUIEM. RA. SEMEN, ARAL EE
+
+633 本节习题精先
+
+单反是
+文件人给协议 (TFTP) 的一个主要特权是(1 -
+
+===== wd_ch6_290_305-291.png =====
+ot ame      279
+
+a.
+
+可
+
+上
+
+SREP BALA KB RAIL AHIR
+1 RAHEEM AR,
+IIE P MLA R AA,
+RAED DEI RES K,
+以下关于FTP AHR, ROL).
+A. FIPARM IEE. RIERRAR LAH
+B. ATAOLL RA TOP BRM Sak iR Oh lk 4 2
+CAFRA TOPE AEP Mem AD 3H 20
+D. Raia ote. saat ane,
+APLAR (1 ，
+A. rTP           上 SMIP            CPP              D por.
+下列类于FT 过接的人过中，正确的是 (
+A 之接先于并所过被建立，并具于处所过拉被入
+BRIER TREN, FAT Hel Heikeh
+APIA TRIE Re eT RUE kaa
+Di. RGR A PAOLA, JOR ae BARA Ea
+FIP SP RAGS FTP MG BER H—AILLIES ().
+
+eos
+
+A (RR BRIER C Sis HOLE
+FP OARS R—FGRA, ALU ( ) ah HoH RIA,
+AS      2. 90      20      boa
+
+FRAT FIP ME, HEME).
+A. FIP TL SALAMIS HH TCE MD AE
+
+B. ALERAH OME, PIPED ROR EAL MSL
+
+C. PIMA RAE 20 540 LUE SP aH LEA
+
+DFI使用TCP Birt ees
+
+一个FTP 用户改进了一个LIST OR RRAM ALAA, ROMER AL 人
+Sho RAR
+
+An      B20      cn      be
+FRAT FTP HOUR, MRE C).
+
+A. FIPTAARA ARMM AREAL
+
+B, FIP ARENA MEERA TIES RH
+
+CC制造接在从个FI 会话期间一直保守
+
+Di. BP AMALIA iO 20 RBA ARE
+
+省一台计算机从FTP mE PALA i FTP RH RAB SR HOA
+BIRLO).
+
+Ac obi. AIGA, SUCHE, seIKAR, tat
+
+BEI, AHR, ARAL. HEAR, THE
+
+CAE, ARIE, RAE, HEA, ARERR
+
+Di AedBSR, RIBAK, ARH, HA,
+
+FTP 支持两种方式的人给; ASCH AF Binary (i841) FR LALA EE
+AMO 方式，而图像、声音利文本文件采用 ( ) 方式从
+===== wd_ch6_290_305-292.png =====
+2007 itm LI
+
+a
+
+a
+
+下
+
+AL ASCH, Binary B, Binary ASCH C, ASCILASCH —D. Binary Binary
+ELH FTP. DNS. DHCPALLAMHLAALE ()
+
+‘A. TCP. UDP. UDP        B. UDP. TCP. oP
+TCR. UDP. IP          D UDP. UDP. UDP
+12009 9 RHEL FTP A HR RAUL FTP et, RAIA).
+A RSSTCPLEMHMER — BLAS TCP之上的数据和
+
+CAG UDPL LMG —D. sta. UDP Lisette
+L017 REL FHKE FTP MECH, HRA)
+
+A es A dp A se AG ALI
+
+BAHAR ae Ne LRA AS
+
+C 服务器与客户名的 TCP 20 38 HE a HRA
+
+D. EP MSHA TCPDI SAAR
+
+Roane
+
+ZIMEGICH ER EARLE A NIN? Sibel ibe Batt AtEm?
+
+为什么FTP RRM HS thik, ALA RO RIEIE RD
+
+MAM FILE tpiMpabecdientile, KIKIBIEF RET LAME BALA,
+
+(0003 HAAIT RABI HS. EAH SR FTP MISS, GOMES E
+
+传一个大小为 8000B HRM ER AME F LAIRD, HE
+
+100, MSS ~ 1000B，拥主宰初地网作为 4MSS，RTT ~ 10mss 2 TOP RAH et
+
+BAP OMERLAP, HM MSS ROA, BALE, HR
+7 on ni
+
+a
+
+D FIP HESEREAAMCL HAG! FIP HREAREHAMICR EAT
+HWBRFRF RO}, Lith TPLRL LHR LIED
+
+2) SHAGRELARM Fol, FOE APTOASL SY? ANTI RL
+¥, FIPREBRMHG LKMF ACK RY MEF ES I?
+
+3) LUMAR RR FRAY, | HRS AUUE EH D101 的确认抽时，上的抽
+EROARA SY? AHA 701 RILEY, HORS OND 97
+
+AHA AIE ARIA, SHRI E CRRA, BITRE ROM?
+MAM ARIE ALA ERE
+
+634 答案与解析
+
+on
+
+sect tet
+c
+
+FIP RUC TACHA, SUR PHRMA aH. HACC ARIAT.
+
+©.
+
+c
+===== wd_ch6_290_305-293.png =====
+ot ame         281
+
+eS; Ba, AD LRIEM TCP 的 21 GN, HALEARAAT TCP 的 20 BNE, THEE
+A, HOEIRAUEARIEARE TCP A A NEP RAR AR. RTE. AT
+FTP (LM 20, 21-39, HTP AR 80 号江口，SMTP 使用 25 RCN. REALNAME
+AWARE AACS, wee RN RARE ENR MC A ARO RAE
+
+wc
+
+ASHER LIRR RRS EL SLASHER. psn, FTP 使用一个单独
+Aga ew RENE ART-P A=  A  I  R
+MBIA MEE, OF, HITT ALAR ARLE ABLE tT Hee ATH.
+
+ac
+
+FIP 2) POEMEARMRAG BA 21 GCL. RELA RIE iS RA
+打开) PRRGABMCRATIER. ERIC IBIG. HARIRIRIRA AE. RULIERRAN At.
+
+05. >
+
+FTP fhe QPOs PORK RURLDE AR. FTP 客户对 FTP MIELE
+REURAOER, iil Bi21 号 TOPRIM, 录后建立娄据连接 (20 号 TPM.
+FT 并没有传答连楼和会话连楼的说法-
+
+6 D
+
+FTP 服务吕邓过让听吉知缚口21 (控币端口) 得姑有无服务请来-
+
+wc
+
+因为 FTP DFAT QS ULREROLAOS, EDL PSL MUMMERS SEAL ZIM SCH
+‘ls SCAM UD 0 BZ A SHAT ARIE. PUP 服务
+BASED RA OE 21 上监听客户六的服务请求。FTP Cte TCP BHF EE
+
+8
+
+FTP PRU SEAROND CAL 20, ss RAM RE
+
+.D
+
+PREIRIEGT, RIERA FL CMERRAR AAMT 20 Hep AARON Sa
+SUMIG (RENE 《于认为PORT MAD «RUE PUIERBANAR SLEEP AR ALON
+
+WB
+
+FTP BARRA OCIS UI, FEN. OV. SERAPH AN, LNG
+IL. MURAL, RUC, RBI, LILLE.
+
+mA
+
+FTP 支持 ASCI 和 Binary MAIKO. PMMA CIRM ASCH FIER.
+图你、声音竺文本文件采用 Binary 方式传铀。本是可能有所超纲，了解即可
+
+A
+
+FIP 需要保十数据从的可从性，因此条用 TCP 作为人答尼协议。 在 DHCP 的应用中， 客
+户在分配到钙地址前无法使用 TCP 建立连接。国此只能利用 UDP 进行无连接的交瑟。 UDP A
+TAME. MAR, MAELO MERRIE DNS HH KORE ERAGE
+
+A
+
+对于 FTP CAH, WT ERLEOTIRE, SEYP'TCR. HAR C 和 D。FTP AER AAI
+2th, RU FTP 蛋用了一个分高的控制连接来伟对命令，因此答案为和项 A.
+
+Mec
+
+FTP 使用拉制连丢和数据连接, AOMEIR Meee PY FTP BMAD, MaREAR HEHE NT
+
+===== wd_ch6_290_305-294.png =====
+了                            2007 itm LI
+
+人办时才建立，导欠结束训关闭，选项A 和日正确。 加请况 PORT HI) FTP ARAFAT
+TCP20 端口进行所连护，使用 TCP 21 RRA PERUE UR. KLAR A FTP LI BE
+口号。因此选项C HEL, AIK D 正确。此外还和注音的是，FTP 服务中是否使用 TCP 20 CL
+于立数妆过接与传输术式有关，PORT 村式人用 TCP20 HC, PASV 模式由服务器开机寺定，
+
+综合应用是
+on Cee
+FTP 的主要工作过程如下，在进行文件人答时，FTP Be PARA BEA RIE HEAR
+过给服务加的控制进程，并在整会话期间一直保持打开，。但控制连村不用来人运文件。服务
+可消的控制得在接收到 FTP 客户发送来的文件传给请求后，训创建所人送进程和数据接，
+TUDES PRM ROGER, MH RAE SCARIER, HE
+AOR *AIRMEIRIE . JE GEE
+FTP RA ASEAN AML: — I. RRR: BEAM. Oe
+sem
+©. cee
+在FT 的实现中,客户与服务器之间采用了两条传办连接, PRAT eM 8 FTP
+全令，而数据过接用于文的传大之所以这样设计。是因为使用两条独立的连接可使 FTP 变得
+更加简单、更容史实现、 更有效率。同时在文人答过程中,还可以利用控制过控制传输过程，
+细客户可以请求终止、杀售传条等
+03. 086
+大下过程下
+© 建立一个 TCp IEEE Np abe edu en 的21 DARN, HERBIE NERS.
+ee ee eo ee
+@ 主机和 发送恋取文件全令，内容为 get files MES RE 20-171 —/h TCP HEAR
+主机入 的随机打开的这口。
+@ 服务中把文件内容通过第二个连接发送给主机上，传输完毕后连接关闭，
+of. C8
+1) 在FTP 会话期间，控制过一直外于保持状态，是持久的。当得次需要人办文件时，FTP
+客户和服务器之间会过立一个临时的数据连接，用于传欠文数据，是非持久的。拉制
+EERE eM > HRD, BARMERA OIG, RM BHT BE HL
+“GR FUP 服务器时建立的TCP LE
+2) MEIER, FIP 客户发送的第一次担手SYN RENE AVE. IRAE 10,
+因此文件下时，第一个字节的译呈为101。文件下共有 18000 个字节，需占用 13000 个
+序号，和过按时，FTP 客户发送的第一次反手FIN PRUE, TUL FIN 和的
+序号为18101，国此 TCP 服务器发送的第二次反手ACK 由的确认号是18107
+De eee er
+BIBRTCTHRAR ROK 第 2个从次结束后，扣于窗口增长到4MSS，此后和经过一个
+人办和次，关六口二加 TMSS。当古收到确认序号为2101 的确认肌时，表示服务器已
+收到 2000B 数据，即 2 个报文良，此时还站在第 2 HERE CANA) A
+口还未达到阅生，发送每收到一个确认，帮吉窗口就加 ARLE IS 2 +1 =
+3MSS。当用收到确认序号为7101 ORSAY, Zea BME 7 MRR,
+
+===== wd_ch6_290_305-295.png =====
+ot ame      283
+
+eGR. RLM SIRET 1+ 2+4= 7MSS 数据，所以相守商口大小为SMSS-
+ra [es | ee
+maw [ws [ans | aes] es
+
+4) AEDT EMODMAEN FARE, CAFE OL 80008 ISMSS, SURE F BE
+经过 SRTT，此外还要1 个额外的RTT FRB TCP ER. dL, ARR
+接开始，到确认下忆术服务器全部接收为止，于少需要 6RTT = 6xl0s = GOs: 期间应
+用层的数据平均发送建率是 18000B-60ms = 300° 10"BIS= 03MBS= 24M-
+
+TREESRL [ane [ane | wes | ses | ae
+
+64 电子邮件
+
+6.4.1 电子邮件系统的组成结构
+自闪瑟联网划及以来，电也和全迅速流生起来。作为一种异步舍方式，电子好件不要
+通信双方同时在线。发送将件发送至收特人所用的邮件服务器，并存入其二箱，收件人可随
+HSE oC He RAREST.
+Ae FA NEE 68 PRA = AEF ALPE User AgenD 、邮
+PPAR. LIEN FAG ANATENAR (a SMTP. POPS a IMAP 等 -
+sn     ae                  ews     we
+
+akin sue shun             下
+
+Shr [om                   fe] RN
+[° 图                 Grae)
+Mos arian Reeth ema
+
+PP RE CUA) = RSL FRCP RAZ MO. ALAR RC RA
+i, FH PARIS ECT, ALI MET. SR RUMLNENGN PARANA. ABA POMS
+(PAGAL LOO FINA RAKE, Ouook, Foxmal 等
+
+RAMA: SICAL RE SIR, SHURA A RRRACEHOERS INEBRIB, MABWR
+类等) 。 AUPE I Po RAL fh CASA RRA I RUAN
+eth P AREA. Oe, “VET Bh A 内邮件服务器且 发送邮件时，A扮广SMTP 客户，B
+风作为SMTP USABLE
+
+GHEY wzamamatoye cn)
+
+Sn Ab iLHo sR ADL: 用户代理使用岂忻改送护议和邮件服务器发送邮件。或在蚂腿
+BZ PIERLICHY. SUAVIRZIE SMTP， 用户代理使用部件到协议从邮得服务器获取邮件，如
+POPS 或IMAP。 HEB, SMTP ALG (Push) AC, OHM RE PHL BB
+PSEA Rb 而POP3 LIM (Pu 的方式，即用户代理读取名性时，主动向服务器发
+IDR, RRC PCH.
+
+===== wd_ch6_290_305-296.png =====
+204                            2007 itm LI
+
+AU PASH He FooT nN 69 FR.
+
+28 mmm
+
+RE ey,
+ay)
+
+‘actin
+
+am sei)
+
+NR ee waderwey — eteamiunt
+
+(loo seas. wd
+ima Fant
+© 发件人通过用户代理模写和雪村发送的可件-，
+加 oH. LALA A I” Bee, ARIMA ORME. FLO
+[LI SMTP WLIG MUN AAP
+© RIRMRUOIT ML GOOEY EEE ROTTER, AR.
+© RNC ANE B40 SMITH RRL AHI ABS SMTP HL BEET TCP 连接，
+RSE URAL IR UA I
+(© BRU RAGCE NC A) SMTP RSG LAE. HEICTE MARU AOA
+FICE ARR.
+© 当收件人准备查收邮件时，记动用户代理，通过POP3 Ca IMAP) AMUUALEIOSAEH IL
+务器的角箱中下载邮件《前提是李箱中有新邮件)
+642 电子郎件格式与 MIME
+1 era
+ALF AE SHOP COCA OPO BSA IT ATI PHT, REC 822
+SAS TAG AGE, AACA UPL EARS. PUR ARS A Ma ROE
+FLAY AMHR (3M oR, AL NN
+opie ea AF ATH NGM, APE. TG a aA. SAE
+好字是避需的，有些则是可过的。好重要的关键字介括 To 和 Subject.
+是必十关键字,用于措定一个吕多个收件人的电子氏忻地址。志子虑件址的格式为，收
+件人邮箱名加邮箱所在主机的域名，合如 abeBicsiaoyan com. 其中， 邮箱各ahe eskaoyan com
+所对应的邮件服务器上名须是叭一的，从而确保该地址在玫个了联网范困内是叭一的
+Subject 是可迁关键字，用于标明骨件的主题，简要反碧名件的主要内容*
+此外，还有一个人十的关键字是 From, DAE NEN AR LAAN, ALI
+入-首部与主体之间以一个空和分症。划型的如人肉容示例如下
+Fram: hit tun
+] mm
+
+“To, abe@estaoyan com
+Subject Say belo to neme
+
+四       ja
+===== wd_ch6_290_305-297.png =====
+ot ame      285
+
+2, SARE ERR MAL (MIME)
+
+za > rrr wae nt
+
+由于 MTP 协议仅支持传输 ?位 ASCII BORIC, LICL ee Cn
+2k, ASC, SEIS RAND) ，也无法从可执行文件或基地二进制对象。为解
+这一限制，抽出了多用于豆联风邮件扩展 《Multpurpose latemet Mail Extensions. MIME) -
+
+MIME 并未修改或取代 SMTP，而是在其基础上进行扩展。当发送天需要传答包入间 ASCH
+孝提的邮件时，不能相接通过SMTP LAB. TOA MEME ABE ASCH HEIR ASCH 格式
+2th SMTP 传输。接履浓收到邮件后。表通过 MIME 对 ASCH SUSE AEBER Rn tAL
+Rabo ASCH PE, MIME 与SMTP 的关系如图610 a
+
+7                                 7
+Fasc             Esc
+‘eases            eases
+
+610 SMTP 4 MIME
+
+MIME 主要包括以下三名分内容，
+@ 定义了5 个新的首部字段，MIME 版本、内容樟过、内容标识、传送纵四和内容类型
+© 标准化了多种时件内容的格式，为多红休电子人人的表示方法提供了统一规范.
+
+全 定义了导送抽硬机制，能名对任可类型的内容进行名码导热，而不会被邮件系统上变，
+
+643 SMTP和POP3
+
+1 swe
+
+ or corszo, 2028)
+
+(BRE ArADIL (Simple Mail Transfer Prowcol, SMTP) 天一各用于提供可大有高效电子
+竹村给的协议，它失范了两个相杞通信的SMTP 进程之间如何交换信息。SMTP 采用客户/服务
+RAL SRA BYP SMP ER AS PF SMTP AR SMTP
+AEF TOP HEA, (HINTS 25, JORIAAL IPT ADL = rR,
+
+cD aka
+
+SRA AIRF ERNE ROUEEAPELBUS. SMTP 客户会定期扫拓该下列、
+
+是发现待岂件，己主动与接收多最特有务器的 SMTP 服务器建立 TCP HERE CHAI 28) «
+ESRI, NL SMTP 服务器首先发送 220 Service ready 《服务头绪) BAG, SMTP 客户向
+服务器发送 HELO 命令，并附上发迁员的主机名，以标识自身身份-
+
+要让间的是，SMTP 不使用中间时人服务器进行中转。TCP HEHE ARN ARCH
+件服务器之亲直接建立，不沦二者的地理位置相更多远，也不论数据要经过多少个路由器。 着
+ACH BANAT eM, NH AL A SPR ALF
+
+2) Heeb
+
+SERRE, aTIFAAAOHONG. VEDI. MAIL @ 94. SURIMRERRAE ASHE. tn,
+
+===== wd_ch6_290_305-298.png =====
+206                            2007 itm LI
+
+MAIL FROM: <tnaiteduen>. 2 SMTP MRI ABC HF IRASER. MUZE 250 OK. RIE.
+PUN RE—‘rakE RCPT 命令，格式为RCPTTO <收件人地址>。每个RCPT ve 4A RAIL
+务器的应，如 250 OK CBE ARID) 或 550 No such wserhere (无此用户) ，
+
+RCPT 命令的作用是天先验证收件人地址的有效性，确保接收绒系统忆针好接收准备，进而
+址免在发关长入邮件后才发现地址错襄，造成通信资源浪费。
+
+到所有 RCPT Se SHH. PHAR DATA 仙人，表示好将传运闻件内容。 服务
+正常情况下会回复，354 Start mall input end with <CRLE>.<CRLE>. <CRLE> 27RD
+此后，SMTP Se FFHSIRETIRREABAA A, SEASCRLIP <CRLP MOP HAE I
+
+3) dikes
+
+RGPYRABERRAG, SMTP $e PRERIA QUIT 命令。SMTP HRAFABERAG(ANIE 221 (服务关
+FD» -AeaPLNEIC TCP 连接。至此，本深邮件传达过程全部结束
+
+2. POPS 4 IMAP
+
+ > porainensstne 21s, 2018, za)
+
+‘)3NiL (Post Office Procol, POP) 是一各结构科间但功能有限的由件沪取协议，目前全
+用的是POP3 fe. POPS 同样采用客户/服务器模式，在传办导基于 TCR, GABA 10.
+
+十户代理项运行 POPS PRE, Mt OIALPFREI BIG FF POPS LIER. POP3 支持两
+种工作术式，DD FAURE. LP MIL BRUCEI. RGAE HRTEM, HRSA
+UH: @ PAVE. AEP — IMMORAL, BUIABG
+
+AeA RAE ONAL CHHAL (INMAP) - 43 POPS HIE, IMAP NEBL
+ERIM EMA RMONAE LM, ARAL Z EIA. LRA ACI
+BRO AEERIBOF. Du, IMAP MLS RB AIM a vA.
+
+此外，MAP HER AP RAH DORUGEE AH, BDL CRESTOL SUF RAGES ALS, UNS
+吉政其间,或及提取多部分 MIME AEE ESERBAD, APE ACHAEA IT 用户
+KATH OSTA. SAEAWI A MIME, WDOFARSERM ARTE HE.
+
+此外，随着万准网 WWW) 的普及，册现了大量基于 Web (ML FAR. Homail
+Gmail 等,这类服务的特点是，用户测览加与邮件服务器之间的交互《包括作迁和读取邮件) 均
+通过HTTTP 完成，而人在不同好件务器之间忧进邮件对才全用 SNTP，
+
+644 本节习题精选
+eke
+OL LMAMA RHR ALIR ( 。
+
+A NPAGtamiss 单位网络名加用产儿
+
+CC邮箱所在主权的上名加用户吉。。 D，用户名加几条所在主机的并名
+02, SMTP RAEI (HEL, POPS RFA RHE) SR,
+
+AICP, TCP TCP, UPC. UDP, UDP. Unpp UDP
+03. SMTP RE HIER AOS ()
+
+At      Bas      c. 80      D 0
+04, A Fiefos (0,8 ) Gmail PARAMS ALARA. MANIA > HR,
+AHP     B, POP      CPP      D. SN
+
+05. MP RBR BALA RILAIR PARI, TALL () 地下错记，
+===== wd_ch6_290_305-299.png =====
+ot ame      287
+
+A. pops     B SMTP     c. HTTP     D. Mail
+6、不能用于用户欠邮件服务吕接枚电子邮件的协议是【 )
+AHTTP    B. POPS     c. SMP    IMAP
+
+07, 下列关于电子邮件格式的说法中，铺这的还 ( ) 。
+A. GPA A CER MIR
+昌，归件头中发信人地址 Crom: ) 发间时间、疏锭人地址(TD; ) 及邮件主题(Subyest_ 上
+
+SEW AR Gata
+
+AEH RRA SLUM
+DL MIME 3b FAME ARUP. IR. GRAS AES
+
+8 CORRE LMI BMP | 与用户 EMRE RICE RM EEA TM
+FD. D. GRAD IEMA MADLTAR( )
+
+er    下
+—o— Fj} Jo,
+A. SMTP, SOETP. SMTP      昌 POPS, SMTP, POPS
+(©. POPS. SMIP. SMTP       D. SMTP. SMTP. POPS.
+
+09, 2013 8 RIEL THAT SMTP MARE, AML CD.
+Late 7th ASC 码内容
+LL RHA RAMEE
+全，专竺从用户代理向邮件服务器发音邮件
+Iv 直排失邮香顾务器向用户代理放送邮件
+A M1 WAM BL Mey CAL MID. 私下 eV
+2015 54-48) Lit POP3 协议拉改邮件时，使用的从时服务类型是( )
+A ASARR Tae te
+Bears
+CART TERE
+D. ART Ret RUER AERA
+M1 (2018 AIL ESTHET SMTP 直接人本的内容是 (
+AW JPEGEIR 。 B， MPEG视频 。 C， EXE文件 。 DASCII坟和
+12, 2025 eH AAGT THF POPS 雪议的包玉中，亚确的是 (
+【支持用户代理从邮件服务器该了邮件 I RAPP RUMAH ARE
+RAPOZA SARAH IV. RAL TOP ARORA SNE
+AGLI BRIM CLM IM DRL MLW
+
+综合应用是
+PHU ASIA TCR baka, hte AOS EMILY 为件么有
+Nab eae Raye ahanee
+
+02. MIMES SMIPHAR LEH?
+
+(PERLE TEM RUG MULES THR, LARP TOP LA,
+Se FRM, BERT ARAM MT 126 AF PO HRM ASC AAR. TCP
+
+===== wd_ch6_290_305-300.png =====
+28                            2007 itm LI
+
+HERA 208, sha:
+
+1 用户代理和服务器之间全用的应用里协议是什么了
+
+3 MPRMRMHBOFASI?
+3) 该邮件的发怕人邮箱是什么
+
+6.4.5 “答案与解析
+
+=. nt
+oD
+
+UPORTAL TARE. RHE ERO, Pe REMMAT ELON
+FGA, SRM J ALATA CE MLO
+
+rar
+
+SMTP 和POP RELAE TCD HaHbiR. REO OT A
+
+03.8
+
+SMTP HL BHO ASTOR 25,
+
+4A
+
+{EMF TIMI FARES, LANE AKSS Homa 或 Gmail ACNE RZ NHAC
+RURAL HTT, SSE AR ZA A HIT SMTP.
+
+05.4,
+
+用户代理使用 POPS WORE MUIC HE. AA AL ECHO CR RCNA
+要的 POPS 地址《如 ppd gmail com) » ARAL, Mle SHAY EAA.
+疡代理中的 SMTP 地址错误时会叶玫天法发送归忻。收件人 emt HEHE, ieee RAB A
+也可能会导至投道失败 【不存在的地址)
+
+6
+
+[SMTP 32H “HR i, AE ALR Py RI 2 A
+NR BZ, RUIN UI AMARA. LONE POPS, HTTP
+和 MAP。 A@-FR/DMANE RS 163 A. Gai EAN. ARIMA RUHL HTTP-
+IMAP (SITE PRMLUCTHHORR, AEN POPS 复杂得多，功能也更为强大-
+
+or
+
+GPS HERE. SRP — A He ALAN, HORE AE rom) 、
+发庆时间，另一部分由发件人蛤入的，如履信人地址《To:) « HBA Subject) Fo
+
+8 D
+
+SMTP 采用的通信方式，即用户代理向明件服务器及邮件服务器之间发送凶任时，SMIP
+客户主动将时人推送到SMTP 服务器。而 POP3 采用拉的通信方式，即用户这取邮件时，用户代
+Se ee cee
+
+WA
+
+‘AGE 64 1 节可知，SMTP 用于用户代理向邮件服务长送邮件，或在邮件服务器之问必迁
+
+===== wd_ch6_290_305-301.png =====
+ot ame      280
+
+Wath. SMETP 只支持人条了比特的 ASCI 码内容-
+D
+OPS 建立在TCP AHERN oT MO OAT.
+nD
+A PANPHSURUR, MEENA NR, LEC Rm CNR KATE BL
+HH, ik SMTP ASHE PATNA INDE. SOAS ICTY CREASE 了
+位 ASCH MRR. dln FANE. MART AESCASCHM. CERT E IERIE ERASER
+NPY ASCH BEFHHEND, SALAALSARETOTIEAANGSE ASCIL ICA, BACHE D.
+A
+POPS ALEC AMMONIA ARRIGO. L-CS PLACE wR A
+使用的是SMTP, 而非 POP3。 邮件服务器之的针件传给也由 SMTP HE, 45 POPS HEX. POPS
+SRG TCP ERNE NGA, RL SOUEN SUNN TIE, WIV 正确>
+=. ean
+on. CoRea
+“RTH ARTUR, AE RAR. AP RE,
+ee ATM RERANCH IAL, BCH
+0, Cored
+因为SMTP fete sea! VAL, BFLLAEAE MIME EAHA SMTP. MIME EA
+RFC 822 格式,但增加也件主人的结构, 并定义了传送非 ASCI SERPS. ERRALA, MIME,
+atc te FAB ENED FIER,
+0. 086)
+1) ASR} am UEP OL HIB EL ABI A I ML.
+分析 TCP 首名格式可知，部潮口为49382 (De0e6)  FLAVATI§ 25 COxOOID) ，因此
+"ROFL SMTP.
+2) 因为使用的是 SMTP, LR RIC 25 YEPWET ACL. BFLLGUSRE 49382 为用户代理也
+meer.
+3) 因为 SMTP 的协议字段孝是用 ASCH RA, CLITA WRAL FROM, AAR
+“GN ASCH 到形式中直接找到答案FROM eskooyan20120 163 com.
+
+65 万维网
+
+65.1 “万维网的概念与组成结构
+
+ARM (World Wide Web, WWW) 是一个分布吉机起的信息存储空间。在这个空间中，
+EOE EMAIL CURL) AEH KUEN,
+“Adee CAETTPD ERENT. PA MR AED NCE IVR
+
+oA ORE 538 HAE EUR LAER) RAE — 6A KT
+主动，按需地加取幸富的信息。超文本二记语言 (HTML》 ETL NA
+MOSLEM RACE IRAE, IEE ORE SOLARA ME
+===== wd_ch6_290_305-302.png =====
+290                            2007 itm LI
+
+EY)» srr emnseRHn a
+ToS B=
+1 RAIA CURL) «PIRES, aE TS 7A
+这国内大有叭一的URL 标识符-
+2) 超文本传给协议(HTTP) 。一种应用层甸议,基于 TCP ARAL ARMA. TTP
+是万帮隐客户程序与服务器程之同交瑟时介须严格和的通信仙议。
+DALLAS HTML) 。一和用于儿女档结构的标记笑言，通过甩定叉的标记对现
+面中的各种信息《包括文字、产音，图像、视频等) 及其阁趟进行组织和呈现。
+‘URL 是对如联网上可区间源的位置及访问方式的一种阐清表示, RA A
+将国内的扩展。URL 的一般形式为
+Wioyckhocke sabe.
+-<协议>指明获取资源所用的协议，党见的有 htp、htps、fp Shy <A ear ase EH
+在互联网中的吉芭四地址; <六吕>和<牙径>在革些情况下可以省咯 (如HTTP BRIAN
+PEERS 。URL 中的字符通党不区分大小写。
+iA RA AOA TAR IAS. MART ARR I CLE
+撕电子名件、Usenet 和新闻组等) » THAR PUMA Lt PEW CT
+ATARI HELMET, BEML
+BP ARNNRAS RARER. A RAMUS PRATT PS
+
+65.2 超文本传输协议
+
+ALLA MGI CHTTP) EXT INN CUMREP LED MOPAR ARIE, OL
+RL AUPE CIHR IE. MUNIRIRVOTE, ITTP Hi Ceansaetion-onered)
+MLE. ART OIC ZR ARAN ARTE, ALTAR
+各类文忻 《包括六本、声音、立像等多如体内容) 的重要基础-
+
+1 HT aerate
+
+从动议执行流程来看,当测鉴器要访问次个 wWW BL RE eA eA A
+解析-一旦获得其下 地址，测览咒鲁透过 TCP 内该服务器发起连近建立请求-
+
+万天网的大到工作过程细图6 Bi.
+
+unum wae
+
+Trae
+Tra
+cen
+
+Meu nimeeictatee
+===== wd_ch6_290_305-303.png =====
+ot ame         201
+
+STARR MLR F/I, PARRLIE TCP ACT 80 CERI). SIREN
+ROL, ALIEN REA TCP IR. RG. A AEA IRAE TTP WR. BURCH
+Web Ti, AURIS. ALRRFIAGR BFA ONIEM, IEMGRE HTTP MASE NG I,
+aN st TE GALEN Web LEELA, RG TCP IR AR
+
+EEE] > wee mmemeMwinn ore, 2020
+
+APRA ATS CLELAND»
+
+1 AL aU ESA URLs hp ee singh eu nnd hin
+
+2) HNL} DNS BL HARA wowtsinghuseda cn IPH.
+
+3) DNS GL AF BH IP HH.
+
+4 NM BEAR TCP BEAR RUIN 9 80)
+
+5) NZ IRc HTTP Was GET finder tam.
+
+6) 服务器通过 HTTP HH nde Hin 发送给济览-
+
+1) WR TCP IEE
+
+8) HNL 2BARHF index fF. FAS Web TET EAE.
+
+ee ee ee
+| DHCP. DNS 和 ITTP, fe44709 UDP 与 TCP，网际层的 IP 和 ARP，以及数所链路导的
+CSMAICD [ORR PPP GP LISP HEAL ARIOHAN) 等。本节主要人于HTTP,
+
+2. HTTP ab
+
+HTTP 使用 TCP PEASTEAMEINR, TORE TERETE. LE, HTTP 无须关心数据
+detest AU Eo PT. (HAGAN MITT ACS MARA. LORE, TAI
+RAT TCP ERE, (0/62 HTTP HCH. ARERR ECT HTT IR
+
+此外，HTTP 是无权坟的- OR. RP mvt AM NIT A
+的嘛应与第一次完全相同，因为它并不记录比明与流客户的交豆历史
+
+ cooler 2015)
+
+HTTTP EARS IOUT AGT. RESCIENPRRCIERRUR. TRIAD,
+RE Cookle RARER! (PLE C402 IH PRB IEA) -
+
+Cookie 8-LAR: SAVER ALAC AH Cookie IME, LIEBE Zs Sem
+Cookie WIP, $6 12348" , FELIS AMMA OLE FFM
+‘HVAC RA. 服务器在HTTP ES RLCPaBN— Se-coakie 首部行， "Sereoakie 123487 -
+用户代理 LL) 收到是应后，会将 Cookie 识迪加服务关域名一起保存在其本地的 Cooke
+文尾中。当用户再深访问读网站时，测昌吉会在 HTTP HARA (TRL Cookie 首部行:
+“Cookie: 12345” .服务器根据 Cookie UEDA ARCHES ASL ONDER. ALR
+RACHEL, OUI ELI RAI AEA LA
+
+HTTTPL0 仅支持非持续过接，击其和级折本 HTTP 1 支持持续连接 RAED ，
+
+ rn了ma (2020, 2028)
+
+在非东续建失杭式下，每个网页元素 JPEG BHO. lash 动本等) HOHE AG A
+
+个 TCP HR, SR 6.12 BE CHIME CE TCP 第三次担手的 ACK ALCP HT 请求，
+HAMA, RR LIOAEL, ON AURNES LRA) 。请求一个 Web ESRF
+的时间 = 文档人办时间 《与文档大小成正比) + 2xRTT (一个 RTT 用于完成建立TCP连接的前
+两次握手，另一个RTT 用于疏送请求六收旷应) ，得人对象的获取都震承担2RTT 的开销， 为
+
+===== wd_ch6_290_305-304.png =====
+22                            2007 itm LI
+
+Mba, ACME OLS 1 IHF TOP HEAR, LPI RE AER
+RRR. ERC ERAS OMLARIS TC EIR, {RAB Po ARE
+SEARERAR HTTP 请求并接必叶应,如图6 13 Beas CERI, MLD
+SIRE Web 页面(通党是 HTML 文档) ，解析后发现其中引用的图像等交源，印可复用该连接
+TREO, Lana TLL RABE NEA.
+rots         wane
+
+er             wa
+
+waren
+
+woes
+1] cual ezrin
+sors                 leanne
+aa
+mn      a      a      a
+eis nates xinae      国人
+
+TTD GSR LA MAR LRAT LAP Ht
+EEE] mpny amen con, 22)
+PERRO, PUR AH EDA EIR BNR SURI
+发送完一个对象后，TCP NM FAN, HRTEM. LEA TIGR Be
+RBS ROR, MFA RIE. EAR SNARE eR. RIC
+部引用对象公震 RTT, ARATE st RM, APART ATT. i105 st
+TRIANON, STACK, ATE BAL, AT HTTP ABT TCP，实际传输时间还有
+‘TCP S60 UNEP ARE.
+HTTP 的报关和
+ Db MTP aE BNE CO)
+HTTP 2:06. 805 CText Oriented)» SRP INAGT ERE ASCH “EA IL ERR
+度不加定。HTTP KAA
+请未要文。从客户向服务器发送的请求报文，如图6 HG所示-
+8 ARR: MNF BAE MME, 6 MOR.
+如图614 Fak. RMLs, MOREE FT
+8 ite: RICOTTA, ARAL POTGTRORAT. TRT I
+ERLE NAD, FERULBMERTAY (CRLED 2
+ee eee ee er ee ee
+为空-但由“字段名。 AT Hak FPRWINVTL CRLE HAL. EATON ACET HAE. 3A
+
+© wr Tor ean
+
+SMAI RATE MSS 时，完时答可能多个RIT.
+===== wd_ch6_290_305-305.png =====
+ot ame      293
+
+要用一个空和 《仅 CRLF) HE TSI.
+9 hte WRIA ED: ABIL CF TERR A.
+
+aR         sm mt
+Te a Ten] ne Cee mee ae Ten) ne
+Tame [aor                    Barrie Une
+ss         Ia
+
+net            mn
+
+CE             CE
+
+os HT 的报文|
+
+请求行馈三个字几。广法、请求资源的 URL 和 HTTP 版本。共中，“方法”指明对目标
+的押作类型，本质上是一条命令，表 6 列出了过用的几种方法，
+
+Rei TTR
+
+ae]                             z
+Cet
+一ea Prrrorea,
+
+下面是一个典型的TTT RHR,
+
+GET bbwindexhtm HTTP. 。 振明方法"GET 、相对 URL. HTPC)
+
+Host wwweskaoyaneom         Seay
+
+Conmestion: Keep-Alive        ERI IR TERENAS ATA
+User-Agent MozilllS 0          200 Ff Mla. 0}
+Accep-Language: on            《表示用户希望优完得到中文版本的文档}
+
+二束报文的最后还有一个空和
+
+第上 行是请池行，其中使用的是相对 URL, BY FR Hos BTCA MB AMMA.
+3 行 “Connection Keep-Alive” 告诉服务器人用持续连接，即要求其在发送完六档后保持流TCP
+连接，基将使用从持续加接，则将沪首孝行役 “Conneetion cose” «
+
+ITP ISAAC | THLE. ASS TNE ITT RR. IRS URES
+1, DLR HTTP UC AL Haast
+
+HTP. 202 Accepted        ee
+HITTPIL.1 400 Bad Request {HR ENR)
+ITTPIL.1 404 Not Found      AUREL
+
+4. UR
+
+‘IBLE H (peony server) HLM) SSE HEE AMAMREL «ARS Rk
+8% Web cache) 。 MPRELM. HARMEN IRIE BAR AEH RATA. ME ARSE HR

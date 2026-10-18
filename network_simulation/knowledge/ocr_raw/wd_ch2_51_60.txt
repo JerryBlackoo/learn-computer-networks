@@ -1,0 +1,571 @@
+===== wd_ch2_51_60-051.png =====
+aot 物 理 ok      3
+
+元中间提央变作为时名信号，不同的吕方式作为痕信号，和寺项 A 错误选项 正确。担个四
+FAO TIE, AD AER. ROMER (EAR SAECO CR.
+
+05. 8
+
+BOSSE ROSNOL EPO RA NESE. RRMA RAE
+Ht, ARMA ORE EY Rw EWE,
+
+A
+
+HAZELL —ARI 8. EMER 0, MGT 1. AAR
+RIL. BSE MTZ IER APIRON ERTL aS. NG ANTS
+A AW A AN BREA I
+4, RBCS AESOP CT. EI cH LO I A LE 2 信、
+
+7D
+
+eA aR ologa, TEE Ak ARISE, AERO CRT SPUR
+no Zh. BERRA AE FLERE TECHS, LALA HCAS ~ 40/1000 = 4,
+WHAT N09 = 16.
+
+ran
+
+ERAS IOAI, IRIE 1. MLR 0, SR ATRIMNIRIO LER. Hie,
+该比特素可能是 DO 110 或 100 001, REE FEIB LA.
+
+四 8
+
+一个本元基取个不同的高艇值，几含有比竺的信息量。本关中，一个得元所的信息全
+为2 eA, DARL ORS = 比特率/和符号所人的比特数，所以该特素(6GU2IK=32taad
+
+wc
+
+OR aL EINE, RCA ARIAL = logs HERB ASR HO
+所代入，得到答案是48khls，注音古中给出的化采样24kHz 是无音义的，因为超过了小特率的
+上上限 21= 16kBaad。所以选项中 是闪避答案。
+
+ran)
+
+根提亲达特定理，古中 W'=A0o0ne, aA       00Baud，16 种不同的和
+至枯埠可以才示 Iag16-4 比畦的数状，因此信道的最大传过及~3000x4 SIRs,
+
+根据香农定理，最大娄据训~1iringx + SIN) -4000vedl + 127)=28000, PELE A, HE
+下让“二进制信号”的妥抽后，依据碌计竺定理，最大数据传输过率 = Degg.” = 2x4000vIoe2 =
+no0bls，两个上限中取小着，因此答案为B.
+
+BOLTS LUMENS, IE RALAAMAEILM, REERORRE RAMI
+DE EA POA.
+
+Bec
+RORLE SIN 过用分员 (dB》 表示，数但上等下 Oleg ASINNB. (RILET 30= 109g (SI)
+
+前由
+a,
+‘A -LOLILEMRINAH AE TETE, ALARIEARIRAR= Mop +N). Se, IE
+
+000. HERR, ASA EE = 3000.91 + 9) = 30K.
+===== wd_ch2_51_60-052.png =====
+“0                             2007 itm LI
+
+2 W=39-35= 04MM, (Sah S=O14W. PRISE N= DO2W，代入得12Mew.
+
+1s. D
+
+往个信号有 8r2= 16 各变化，每个到元摘 iog16=4 HERES. UE ARK 1200»
+ob
+
+16. B
+
+oRUBMER AEA 8Hz。有 16 ARIES DHT 4 比特的数据，因此最大数据人办
+hy 43H.
+
+aA
+
+RUT tee, ICANN, AMR CHEM, CLA
+件下: 理农定理的极限过率为 xlogsl001= 00MIN CE. RU TAMREEIE HRP) ，
+碌式难划的梳限过率为 2x10xleas32 = 100Mhs。东寅和信只比提升后。香农定理的根过素为
+20xtogI0001> 260Mhks， 订式准贡的极限岂于为 2>20vlog32 = 200Mhk，册于实际过受限于二
+者中的较小信，直所和后的模限过地为 200Mhfs，的为原来的2 全，
+
+rar
+
+采用 个相位，每个相位有 4 种伍度的 QAM HIM, ST 16 UREA, AN COAT
+eea16=4 比特信息。根所厅夫特定理，最大传箱束站为 2NPviogsF= 2r3kxd = 2K.
+
+09
+
+EAE (a) SAIEAEARIEAK CO 的关系为 C- Bviagsj。其中 三为到元可取的离履人个数.
+RA AOL, BY ~ 4，每个到元措和logv ~ log ~ 2 比特信息因此，波竺率 ~ Hea
+Hea RUMEN HEAL = 20002 = 1200 aR
+
+0.4
+
+TBase-T HAMAR. MEP —IOR, MILEAGE 0. MASTER
+1 CDRIIATAROEYRE. BORE —2O) . BRaRARAGAENZMHULAE SEAT OOM 011011001001,
+
+aD
+
+AREA, AMR RAR EMRE ROSTER, MONE CARA HT
+IRORRIRIOR. GERRI CRIME. SEX, KRAIETLURGILE.
+
+2A
+
+ES 1 为由型的 NRZ BR BENET 1. IAA O, SERRA. AEN RE eA
+SODAS, BE-RCACT 1. RGAE 0, Hee SB ROMTASEMHEN TE, UMN ORI LAE
+aa RNR 0. EMRE 1s TRS. Rb YL URI 2 I NI EA
+setae
+
+2.
+
+采用分由 (4B) 记法时，信网比 = 1Ologyd SIN) = 30, RFF SIN = 1000. UIE,
+BGHARUE A Wlog(1 + SN)= kxiag1+ 1000)- 由于29= 1024 1001, Ag 1001) 10,
+理论速率=8x10 = SOLD. SIAM ELAM M6, 805024 = AON.
+
+4D
+
+RGSS AO 7. MPNISINON HEME CZERMROSEAED 为 hog 有噬声信道的要
+RR HAIER WN logx1 + SIN), CNUIEMLEA IMB, ATHY SIV= 1000, ERs 20g >
+Mog01)= W710, ALAM ogY>S, RM VSI, bit, SARSMIDI32,
+
+2s. 4
+
+PLOT. ANAM ERI 0. EMER 1. 第 |
+
+===== wd_ch2_51_60-053.png =====
+aot 物 理 ok         “
+
+ERR C1) «32 位有踏变 (O) ，第3 FM CLD. HIER CL). 95 RATE
+(0) » BOARS CO) . 37 HAFIRM (0) ，第8 GAG (1) ，得到比特为01 01.
+%.C
+在 ASK 调制中，4 个时表示4 BHR (=). /SELZEARIY lopeb - 2 LEH.
+‘ROMER, CREAR. = 2Wlog, LAUHANE W'= 200kHz，代入得SOOkhs,
+nc
+eS ROCKERS =2MIog rs FLOR AMIE TARA ML. CMI
+Mle, HEISE sas, (RAL Iogl’=6, RAE =2°= 64, FIGRIH QANLG4 调制.
+8c
+SK (Frequency Shit Keying. SUEEGR?) (RIIA-TORPUSRIRASRIEP AR OAL. Re
+RAE FRALEY MILNER. ASK CAmpliude Sit Keying, WIYEUEEE) SCENE, PSK
+“Phase Shit Keying, IREWBRE RIDPSK CO2SPMIRRHEEE) EHC, 290K — IR
+ean
+on. coe
+1) 二条链路的发送时下是 IO000KI0MM) = 100055.
+SSA FF 21000 + 2.204 35=207Shs-
+2) APs OM eA RIT ETA
+开好
+人完成分组| 的发送，开始作关分组2
+分组1 完全到达S
+分组1从S 起可六
+人 结素分组2 的发送
+分组2 从S RATE
+分组2的第 1 位开始到达目
+分组2的最后 位这有
+解法二此区属于分组交换各个过程中时间不等长的情况，类似于流水段不等失的情况，为
+过旬出错，建议画册对应的时空图-
+
+am     EON TE EO)
+ee To Sp] oP        ，
+
+IR ROTI 5 PHAR, HURLEY 500u, 20h, 38s 500. 20s. IE
+有2 PL, ERAN ERE SIEM. ah BUT FRE. AEA 297
+i, “SARUEAEREIRUELRAMR, CDSS, ABARAT SEAR OR
+emi, AR
+
+2, Ue
+
+ea RA = Ea + A + He + HOT
+ee + ean
+
+应电路的建立时延已给出，为=秒。
+
+SARAH LOAM. ALR Lp. ASLAN +h LEAST
+
+===== wd_ch2_51_60-054.png =====
+人                2007 itm LI
+
++ pilip. TASER RANE = (hs pL YB
+pb RA = pO 秒，源点和终点之同的路上为天 有大- 1 个中全节点，
+的发送时
+
+INE, AIOE =e Be, STM Re
+到全部娄据所蛋的时间=s+ pL) +e pk Ib + mk ~ I +k
+
+2.2 传输介质
+
+221 “双绞线、同轴电缆、光纤与无线传输介质
+
+AO AE AR, AR RANA OANA I. OTS
+NIRS: © AEA, MOERERAREN. HBR NE EME Ms DAR AE
+Ae, IEE CN, TERIA, RESON EA LAE.
+
+1, suk
+
+RARAULIR FN FERRARI AL GS VSI. ERM LAB,
+证规则统合在一起的钢导线组成。绞全结构可有效碱少相人导线间的电磋二所。为进一步提升
+PALIE 1, MEERA MERLOT, PAAR CST) «EMH METEONE
+Hess ARCA (UTP 。双拉线的结构如图 2.5 ER.
+
+[UERERO ICE. BEUTLER, RATAN, AARON IL PCE RCE T
+2k. Trac FERRE RE EDN. ERE, PUR, ACB
+Ce ee
+
+T
+fas sk cae
+
+loys                      acm
+2s maetaienty
+
+2. ee,
+
+LAU PUA. A. SMH UBER HR 26 Bia III'S
+两类。 DOO MILER, NTA ON. AER ANNA, © 750A
+UM, RMF EN. MERON TEMALAR. AAAI STRIATE FR
+具有良好的扩干拓性能，适伯较高速率的数据伟笨-
+
+HANA, RRR ACR RIOR TEA
+
+Me IE
+es
+B26 aOR
+
+时
+克疼通信利用更生纤维《简称比纤) AEVEBODR ESBS TPEOREIE 1. ERNE
+===== wd_ch2_51_60-055.png =====
+aot 物 理 ok      “3
+
+FRO. ML MSARE LOM, UREA AR A HO A
+ESF APF ROEDER C2 7) SALA, Es 8100 my
+(FAS, AOE RTE. MIAO ALG IEOT REAP MOL AREA
+eee eee
+sear a)
+
+AIMEE) paren iA:
+
+El
+
+图27 半让和弛世中的性
+和用全反射理，多许多条不同角度入册的光线在同一根交纤中传钵的半玫区为多要和纤
+UII) REE AREF, BURMAN RINDI
+wan                                we
+
+N=  ——
+
+国28 emer
+当光儿和大小到接近光入长时，仅允许单一模式的光传播，几乎无反暑，此类光纤称为
+Jet LIK 29) . SLPS, PRAT EPOME IRAE ARIE IEA. RADE
+Wh, RLF PROM, IRI FRI.
+end                                 sat
+
+Cred
+
+HER MMA, ERO REE,
+
+1 fes@fR Es. SPARE RL, RSE aS HeSM ADEE.
+
+ee ee ee ee ee
+
+3) AAP, OHA, RS ARGMNRAE.
+
+DURBIN, EASE LIOR IMO. RRL AL.
+
+4. Se
+
+REDUCE IETF. BAECS TNL PE, CLI NAGA,
+SRE RA AAEM, ALG CWLAN) FIST SBIR
+
+eat
+
+AACR RMSE), HERE. ANT BORA WLAN. EDULE
+ROR RUM ETA RATT TINE, LAMM MRIS.
+
+(2) ak, SAF ARAL,
+
+TARE EAI. EAL RIOR= HR, IOLA, SUAS.
+
+men IMR, A, WKS 8, 2M RET RAE 900
+eer). (PORE TTARI GN. ESAT ADRS RRL, EMI
+
+===== wd_ch2_51_60-056.png =====
+“4                             2007 itm LI
+
+EAGAIADERALD PAY aehAe sk. ASAE T MMAR GITATAA. SLE
+HEA. LALIT, (eA: MALORNE. RIL IMAL.
+
+{UA Save I AOVKIRD LIS, cecum NeaR, PEL
+SOE COIL) RAINE, CAAURI MEN LION NRLES, HERA,
+
+222 物理层接口的特性
+
+物理层关注的是如何在各种传欠介质上传铀比特流，而非介质本身。由于网络中的醒件
+设备和忧条介质种类繁多，通信坟式也各不相同。物理县诬尽可能屏基认层差异，舍数据链
+RRB RRA. pT FARE AHIR SMR HI
+
+ 让
+
+‘Sp A A Sb RECUR
+
+DARE. AERC MOTEAR ANT. TION. RIOT
+
+2) AA, WWieARLIAUIR ARR MOURA, AREA IEE.
+
+3) 动能御性。定六每条线路上特定电平所代表的意义，并定义各线路的具体功能-
+
+1) 过生特性，也称具特性。 MORON REAM NNT.
+
+223 本节习题精选
+
+年本和
+OL ARAL ORR TARA, ROHAN).
+
+AMSTR — BREAIR 。C，增大情办再 DRE
+02 AARP RM ERAAE ROLLE ( ),
+
+AER         减少电厂入条和
+c Arama.             D. Ay emHe
+
+8. HME ERERMAAM, WE KIMAMB TRA ().
+Amr B far    cee     D RAR
+
+OF, FRM MR AAEM, BAF).
+A RUG He TL A, LLL Ke,
+DUAR U LARAMIE, ALT AES
+C RRMA ESOT, Se RCRA
+
+Dobie
+05. KLUM TILE AINE ().
+
+A RRM BRR CRF     D. mises,
+06. SHRINES EIOL ( .
+
+AL 殉的折斩特性         Ba Seana
+
+see         Dhaba trabee
+
+07 FRE R RAM ERY, EAM).
+AL IAI, AMER,
+BERTON ehet, i ele
+CRRA SIU Ai,
+
+DH EH
+08, FARE R EMERY, HI {
+===== wd_ch2_51_60-057.png =====
+aot 物 理 ok      45
+
+A BEARER, RAE
+BM ERAT RMS HM Ths MS
+C. BEMIS AT EE URI, RUE
+D. AGO. RURAL ELC RL
+©. EMGAMMAUL. EFS HLEMFIOV-TSV 表示二过币 0，用-IOV- -15V 表示
+SHRM 1. GAAS 1Sm 以夫，这体现了拍理及接口的【
+A 可横特性。 昌，双能特性 C，电气特性 D，规程特性
+SHE-NORRRO THAT HRP EL, RMIT ( ].
+ee ee ee es
+Mh, CD02 ROH. M-TH MANURE C),
+A RIE BARA Gata, HE
+12 LORE AMI FIERY, KAT HMER OMT LEMIL (
+A ROMR oo. Hiei CHAE
+
+224 答案与解析
+
+ane
+a
+
+OTR SMS RMT NT.
+
+0.6
+
+ara. AF AAG A
+
+0.8
+
+传统上去殉采用广播的方式发送信息，同一时间只多许一台主机发送信息，吉是各主机之间
+SOON, ML EAN TR EAC. 全双工是指通信双方可同时发送和儿收信息。单
+工是指只有一个方向的通信而没有反方和的交豆-
+
+wc
+
+FARiLERLRGIER 2s, SHR RIBEREANE, ABA NSAOSE HT EL RUN T.
+FAR LaF O AIA. BRERA SLAVIN, PTEBEA
+FE, LAT RAGNORT. at PINMUEREO REICH, LP OA
+
+sc
+
+SAFE ATR HIRAEIRSE. EMBETTER, Hes HESE.
+
+6
+
+多本区皇传给交信生的原理是光的全反册特性-
+
+oe
+
+区是的直径由小到与光线的一个波长相同时，交纤训如同一个波导，光在其中没有友遇，而
+eee. BOLEMNLET
+
+wc
+
+PARMAR, fee. SACL. MEHR, CLOSE.
+
+wc
+
+SELB SURE, AUR REL ELIA, LAR ER, LT 而
+SiMe BREMNER AP CAS RAR SE CLR. PH
+BR, BME). 例如，数据线上的电甘+HV RAR 1, SUR FNAB
+
+wc
+
+===== wd_ch2_51_60-058.png =====
+“6                             2007 itm LI
+
+‘SpA OHNE EE EOD RSE EMA APRA ANAL, UTES.
+c
+PERSORCRHHECLRAULMR, AL SAAEMMSDARTUR, Je, ARAPAHO
+FeO ReAALEMUE, CONC ARTE COURS, OAR, PELE) OMNI
+ne
+‘OUEIRCMACIRREDAN HNN CAREER. RODD MAUR GU AE,
+IRAN «ARRAY CSIR SAL RIL ADAG A OMENS 。 而物理地直 CMAC
+地址) ALE RUNS RUE, TRAE, Se Ne IER
+
+23 物理层设备
+
+23.1 pee
+
+PAR BOLE RAOLMERE, AGERE. ULIIRE(S Ao — KAMP ICAL
+NR, RSET ARNEL. ALR MAEG ORIEL. TONER AE Ct
+PRUNING). TARTAR, CARMA, MIP.
+
+PARE LO PANE AMAR (而非不同子网) ，因此所连网自信
+AAPOR. UR a RENTS PPR EL A.
+
+SG. A REAM RAIN. 网络因而也可无了下长. 但事实上这是不可能的，
+DUAR FANE MOET NOMAD. PAR ABSA CesT ATCT AE. AML
+AE Aa. Glin. AE RARITY 10Base.$ LATA NTE CARR A
+过4 个，十且由4 个中着联的5 LMM, LAG 3 LMT ML, He 2 SURI
+AILONSRPERR, ASUREENR EW. RLM “5-4-3 BNI
+
+23.2 集线器
+
+SE ee ee ey
+Bie PRS ECRAET CATER, MARMOT RE TM REAMICK. SIGE BE
+RRM, RANA SUWAT AS CRAB) P-L IRSR ASME EAE
+aR CPIM RS, MUR ABU ATMO RM. MEAT, eR EE
+让只起信号交大和转发任用。目的是扩大网络的伟愉范国，而不内各信号的定向伟能力，即人
+所广播至所有次口，是标准的共训趟设备-
+
+FASPRASRLEEAG), ILLRM ARMED HRA, Bm
+的过全放 MF IDIDINDS. BA RALALIRG. SAE IR LUE TOMES
+
+ARFOMARERAUIG DSS, CARAT AME AECL ae TE A ORAL
+SC ALAIN, CM eA ARENA eR A
+不同网舟。此外，集线吕只能工作在举双工各式，网络的香吐率因而受到有限。
+
+ET全
+NES) SUERTE a EMER. a ORE
+cn PRR RE, RS CEMA
+
+===== wd_ch2_51_60-059.png =====
+aot 物 理 ok         a
+
+Er [010,200
+
+HABARADARM, KAGURB ENA, RARE OTERO
+
+4, S-GRABAAHLWRERS ESS AMMENAM ON, ASALEAS, AERA
+AHRAL, Oh, PLD 10Mhys ARAB LEAT SHIEK, HOMIMML CH, HAE
+可用的和信用 TORN = 1250,
+233 ADDR
+seat ae
+01 FARTRMRLHHELY, HRM).
+A PBF ELIS
+BUPA 2 a SPE A A
+C AABERLRST NFR OM PAS
+D. AHORA LRA R— HA
+02 STREET AAR, TRUER (
+A tae    Bak    Cmte     Die
+03. AAMALIG IEEE 8023 4608, MAMSEAE ML RIG RACAL 500m. SEAL 500m 时
+OR, MLA ().
+A RRHER B FMR    CHAD me
+OF, HERSERS GREHAMMS Biome HE LMM ELE).
+A SRY. RH BMA EH CBA 2H DR, aH
+05. 且拓线寺接的工作站集合 CD.
+人， BULA, ARF dea
+BARA MER, ARP,
+CRAP, ARAL AR
+DAN RRB HBR
+06, PMB TUMAEH CD,
+
+AL RBLE AH GRR       B, PRK AR
+CRRA HAR        DL RaLsR HAM
+
+07. B45 SHAMANS UMD WEAR L, NEST ERR EPS HCD.
+AL Ms    B. SMe    CoMhs    D sows
+SEAR AUREL, ERC),
+A MR Ha       BMRA shia ae
+
+© HURRAH MCCA DL REISER HA A
+09, 下列关于中外器和全线器的说法中，不正确的是 (
+
+AR (FA OSI RAR OID
+
+B. SARTRE
+
+© MUP MBAAAR LAMM AEE KAMH
+
+D. PREMERA INO, RARER A ARR SO
+
+TO
+===== wd_ch2_51_60-060.png =====
+4                             2007 itm LI
+
+234 竺案与解析
+
+jon
+
+OB
+
+"PARRA ERO CHEMO MRIE). RRMMC.
+
+0.4
+
+ALORA REMAN, EPI AMMEN, SIRI. AR
+SEEN. CIRM RIG TE. ULEAD IN. METRE PERO
+CC ee
+
+0.8
+
+‘PIRI E MUNI TEM, MER KAMER, ORISSA — eA,
+ROHR, AS ENTE NEAT OTE, MAAN ARE, MAS
+FE, ULAR, B= MLR AH A
+
+ran
+
+集线器竺多个设备连接在以它为中心的节点上， 因此使用它的网络在物理拓扑上属于性形结
+Hh. 当和集线器工作时，一个堪吕接收到数据信号后，集线史计信呈角形放大，紧着转发到其
+他所有处于工作状胡的交口。因集线器不具备灾换机所具有的交换玫，所以记发送上据时是没
+AREA. RAI AIG RAN. le, TRICULAR LOS.
+
+05. 4
+
+RARBG ARCELOR AICHE MRE IE
+RT MAA EAT, CEREAL CESIUM GMM CHE ALTA
+2) OUR. TELAT SRNL. FE, MMT MOI OT He
+
+06
+
+中反可工作在物理层，无法对由进行明寺与重新坑 《无法实现协议村接) ，其功能仅限于
+对搓禾到的相对应的二进抽惠进行无共别转发，因此无法连接不同链中导协议的网有。中继吕可
+以迁接不同介质的局城下，如光纤和双级绵，只要它们具有相同协议。
+
+8
+
+CARRIO HA A AE SD ARR DURCUSHIORFADR CT. WUE CERM AUS FRET
+vA SEI CEPI Fs SBMA MARAE AE CABAL LOM. EE 5 EEE
+ULSTER ANS LILA. TSS AEH. OMS S=2MbS. 4 HEAL,
+同时发送孝据，则会导到每计算机实慰旨得的平均各寞低于2Mh,
+
+8
+
+集线器没有寻址功能，一个如口接到数据信号后，从其他所有江口转发出去
+
+wc
+
+PAROLE TEEN, RANA AME CIERRA IOR AF
+HOARE CEYCCHHBIE). Bab RESTA, HMO RE
+LANE RA ENON AA. EUREKA. Ha “4-3 规则”-
+
+24 本章小结及疑难点
+
+RN AC eae ot 它与物理导有何区到了?
+传输介质不属于物至层。 OE SAN RAE, LARIAT. 它位于物理层之下，

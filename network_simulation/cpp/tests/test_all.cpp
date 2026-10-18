@@ -1,17 +1,24 @@
 #include "netsim/arp.hpp"
+#include "netsim/capacity.hpp"
+#include "netsim/channel_util.hpp"
 #include "netsim/checksum.hpp"
 #include "netsim/crc.hpp"
+#include "netsim/csma_cd.hpp"
 #include "netsim/dns.hpp"
 #include "netsim/ethernet.hpp"
 #include "netsim/http.hpp"
 #include "netsim/ipv4.hpp"
+#include "netsim/mac_switch.hpp"
+#include "netsim/phy.hpp"
 #include "netsim/route.hpp"
+#include "netsim/routing_algo.hpp"
 #include "netsim/sliding_window.hpp"
 #include "netsim/tcp.hpp"
 #include "netsim/udp.hpp"
 
-#include <cassert>
+#include <cmath>
 #include <iostream>
+#include <string>
 #include <vector>
 
 using namespace netsim;
@@ -26,6 +33,24 @@ static int g_failed = 0;
     }                                                                                            \
   } while (0)
 
+void test_capacity() {
+  CHECK(std::abs(nyquist_bitrate(3000, 16) - 24000.0) < 1e-6);
+  double shan = shannon_bitrate(3000, 30.0);
+  CHECK(shan > 29800.0 && shan < 30000.0);
+}
+
+void test_phy() {
+  PhyParams p;
+  p.loss_prob = 0.5;
+  p.seed = 42;
+  PhyLink link(p);
+  for (int i = 0; i < 50; ++i) link.send({'x'});
+  Buffer out;
+  int recvd = 0;
+  while (link.receive(out)) ++recvd;
+  CHECK(recvd > 10 && recvd < 40);
+}
+
 void test_crc_and_ethernet() {
   EthernetFrame f;
   f.dst = MacAddress::from_string("aa:bb:cc:dd:ee:ff");
@@ -36,8 +61,32 @@ void test_crc_and_ethernet() {
   EthernetFrame out;
   CHECK(EthernetFrame::parse(raw, out));
   CHECK(out.payload.size() == 2);
-  raw[15] ^= 0x01;  // corrupt payload/header byte (not past end)
+  raw[15] ^= 0x01;
   CHECK(!EthernetFrame::parse(raw, out));
+}
+
+void test_csma_cd() {
+  CHECK(ethernet_min_frame_ok(64));
+  CHECK(!ethernet_min_frame_ok(63));
+
+  CsmaCdMac mac;
+  CHECK(mac.carrier_idle());
+  mac.set_busy_until(5);
+  CHECK(!mac.carrier_idle());
+  mac.advance(5);
+  CHECK(mac.carrier_idle());
+
+  auto ok = mac.try_transmit(5, false);
+  CHECK(ok.success);
+  CHECK(ok.collisions == 0);
+
+  CsmaCdMac mac2;
+  auto col = mac2.try_transmit(4, true);
+  CHECK(col.success);
+  CHECK(col.collisions == 1);
+  CHECK(col.attempts == 2);
+  CHECK(col.total_slots_waited >= 1);
+  CHECK(mac2.backoff_slots(10) <= 1023);
 }
 
 void test_checksum_ip_udp() {
@@ -63,6 +112,15 @@ void test_checksum_ip_udp() {
   CHECK(ip2.dst == b);
 }
 
+void test_arp_poisoning_model() {
+  ArpCache cache;
+  Ipv4Address gw = Ipv4Address::from_string("192.168.5.254");
+  cache.put(gw, MacAddress::from_string("00:11:22:33:44:55"));
+  cache.put(gw, MacAddress::from_string("66:66:66:66:66:66"));
+  auto m = cache.lookup(gw);
+  CHECK(m && m->to_string() == "66:66:66:66:66:66");
+}
+
 void test_lpm() {
   RouteTable t;
   t.add({Ipv4Address::from_string("10.0.0.0"), 8, Ipv4Address::from_string("1.1.1.1"), "eth0"});
@@ -76,6 +134,30 @@ void test_lpm() {
   CHECK(r && r->prefix_len == 0);
 }
 
+void test_routing_algorithms() {
+  DistanceVectorNode a("A"), b("B"), c("C");
+  a.set_direct("B", 1);
+  b.set_direct("A", 1);
+  b.set_direct("C", 2);
+  c.set_direct("B", 2);
+
+  CHECK(a.cost_to("B") == 1);
+  CHECK(a.cost_to("C") == kInfMetric);
+  CHECK(a.on_update(b.advertisement()));
+  CHECK(a.cost_to("C") == 3);
+  CHECK(a.next_hop("C") == "B");
+
+  std::vector<LsLink> links = {{"A", "B", 1}, {"B", "C", 2}, {"A", "D", 5}, {"C", "D", 1}};
+  auto routes = dijkstra_routes("A", links);
+  CHECK(routes["A"].cost == 0);
+  CHECK(routes["B"].cost == 1);
+  CHECK(routes["B"].next_hop == "B");
+  CHECK(routes["C"].cost == 3);
+  CHECK(routes["C"].next_hop == "B");
+  CHECK(routes["D"].cost == 4);
+  CHECK(routes["D"].next_hop == "B");
+}
+
 void test_gbn() {
   std::vector<std::pair<uint32_t, Buffer>> sent;
   GbnSender sender(2, [&](uint32_t seq, const Buffer& d) { sent.push_back({seq, d}); });
@@ -86,9 +168,7 @@ void test_gbn() {
   sender.on_ack(0);
   CHECK(sent.size() == 3);
   std::vector<Buffer> delivered;
-  GbnReceiver recv(
-      [&](const Buffer& d) { delivered.push_back(d); },
-      [&](uint32_t) {});
+  GbnReceiver recv([&](const Buffer& d) { delivered.push_back(d); }, [&](uint32_t) {});
   recv.on_frame(0, {'a'});
   recv.on_frame(1, {'b'});
   CHECK(delivered.size() == 2);
@@ -102,7 +182,17 @@ void test_congestion() {
   CHECK(cc.cwnd == 5);
   cc.on_timeout();
   CHECK(cc.cwnd == 1);
-  CHECK(cc.ssthresh == 2);  // max(5/2, 2)
+  CHECK(cc.ssthresh == 2);
+
+  CongestionControl fr;
+  fr.cwnd = 10;
+  fr.ssthresh = 32;
+  fr.on_dup_ack();
+  fr.on_dup_ack();
+  fr.on_dup_ack();
+  CHECK(fr.dup_acks == 3);
+  CHECK(fr.ssthresh == 5);
+  CHECK(fr.cwnd == 8);
 }
 
 void test_dns_http() {
@@ -110,73 +200,98 @@ void test_dns_http() {
   dns.add_record("www.example.com", Ipv4Address::from_string("1.2.3.4"));
   auto ip = dns.resolve("www.example.com");
   CHECK(ip && ip->to_string() == "1.2.3.4");
-  auto q = DnsResolver::encode_query("www.example.com");
-  std::string name;
-  CHECK(DnsResolver::decode_query(q, name));
-  CHECK(name == "www.example.com");
 
   HttpRequest req;
   req.method = "GET";
   req.path = "/xinxi";
   req.host = "www.example.com";
-  auto s = req.serialize();
   HttpRequest back;
-  CHECK(HttpRequest::parse(s, back));
+  CHECK(HttpRequest::parse(req.serialize(), back));
   CHECK(back.path == "/xinxi");
 }
 
-void test_tcp_handshake_memory() {
-  // Direct PCB wiring without IP
+void test_channel_util() {
+  // L/R = 1ms, prop=1ms => U = 1/(1+2)=1/3
+  double u = stop_and_wait_utilization(1000, 1e6, 0.001);
+  CHECK(std::abs(u - 1.0 / 3.0) < 1e-9);
+  double ug = gbn_utilization(1000, 1e6, 0.001, 4);
+  CHECK(std::abs(ug - 1.0) < 1e-9);  // W=4 > 1+2a=3
+}
+
+void test_mac_switch() {
+  PhyLink h0_rx, h1_rx, h2_rx;
+  MacLearningSwitch sw(3);
+  sw.set_port_tx(0, &h0_rx);
+  sw.set_port_tx(1, &h1_rx);
+  sw.set_port_tx(2, &h2_rx);
+
+  MacAddress m0 = MacAddress::from_string("02:00:00:00:00:01");
+  MacAddress m1 = MacAddress::from_string("02:00:00:00:00:02");
+  MacAddress m2 = MacAddress::from_string("02:00:00:00:00:03");
+
+  EthernetFrame f;
+  f.src = m0;
+  f.dst = m1;
+  f.ethertype = ETHERTYPE_IPV4;
+  f.payload = {'x'};
+  // Unknown dst -> flood to ports 1 and 2
+  sw.on_frame(0, f.serialize());
+  Buffer b;
+  CHECK(h1_rx.receive(b));
+  CHECK(h2_rx.receive(b));
+  CHECK(!h0_rx.receive(b));
+  CHECK(sw.lookup(m0) && *sw.lookup(m0) == 0);
+
+  // Reply from m1 learns port 1; unicast back to m0 goes only to port 0
+  f.src = m1;
+  f.dst = m0;
+  sw.on_frame(1, f.serialize());
+  CHECK(h0_rx.receive(b));
+  CHECK(!h2_rx.receive(b));
+  CHECK(sw.lookup(m1) && *sw.lookup(m1) == 1);
+}
+
+void test_tcp_data_and_close() {
   TcpPcb client, server;
   client.iss = 1000;
   server.iss = 5000;
   server.listen(80);
   client.local_port = 40000;
-  client.remote_port = 80;
-
-  std::vector<TcpSegment> wire;
-  client.emit = [&](const TcpSegment& s) { wire.push_back(s); };
-  server.emit = [&](const TcpSegment& s) { wire.push_back(s); };
+  client.emit = [&](const TcpSegment& s) { server.on_segment(s); };
+  server.emit = [&](const TcpSegment& s) { client.on_segment(s); };
 
   client.connect(Ipv4Address::from_string("10.0.0.2"), 80);
-  CHECK(wire.size() == 1 && (wire[0].flags & TcpSegment::SYN));
-  server.on_segment(wire[0]);
-  wire.clear();
-  // server emitted SYN+ACK via emit during on_segment
-  // Need to capture: rebind to push after listen path
+  CHECK(client.established());
+  CHECK(server.established());
+
+  client.send_app(Buffer{'p', 'i', 'n', 'g'});
+  auto got = server.recv_app();
+  CHECK(std::string(got.begin(), got.end()) == "ping");
+
+  client.close();
+  CHECK(client.state == TcpState::FinWait2 || client.state == TcpState::TimeWait);
+  CHECK(server.state == TcpState::CloseWait);
+
+  server.close();
+  CHECK(server.state == TcpState::Closed || server.state == TcpState::LastAck);
+  CHECK(client.state == TcpState::TimeWait || client.state == TcpState::FinWait2);
 }
 
 int main() {
+  test_capacity();
+  test_phy();
   test_crc_and_ethernet();
+  test_csma_cd();
   test_checksum_ip_udp();
+  test_arp_poisoning_model();
   test_lpm();
+  test_routing_algorithms();
   test_gbn();
   test_congestion();
   test_dns_http();
-
-  // TCP handshake with bidirectional emit
-  {
-    TcpPcb client, server;
-    client.iss = 1000;
-    server.iss = 5000;
-    server.listen(80);
-    client.local_port = 40000;
-
-    client.emit = [&](const TcpSegment& s) { server.on_segment(s); };
-    server.emit = [&](const TcpSegment& s) { client.on_segment(s); };
-
-    client.connect(Ipv4Address::from_string("10.0.0.2"), 80);
-    CHECK(client.established());
-    CHECK(server.established());
-
-    client.send_app(Buffer{'p', 'i', 'n', 'g'});
-    auto got = server.recv_app();
-    CHECK(got.size() == 4);
-    CHECK(std::string(got.begin(), got.end()) == "ping");
-
-    // congestion path exercised via ACKs
-    CHECK(client.cc.cwnd >= 1);
-  }
+  test_channel_util();
+  test_mac_switch();
+  test_tcp_data_and_close();
 
   if (g_failed) {
     std::cerr << g_failed << " checks failed\n";

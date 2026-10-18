@@ -1,0 +1,895 @@
+===== wd_ch3_86_100-086.png =====
+4                             2007 itm LI
+
+‘EAR RIEBDDLH. ARCANE CH PUR AURAL, TS RACHON RRA
+OPEC. RRL, RECT IEMICH O~3 AIS ARO, CLINE 4 生数据由是理收到。因
+为没有发生外时，发送方不进行重传，所以接沪至认下并续改送和下的吉据由
+
+2.
+
+在 GBN thik, SHRUG HeMLSLRMRUN INI, IMIR AMULET, TA
+超时后震重信数据由及所有的后续帖。注意，在 GBN Thi ARNIS ARAL BURL
+Re TREO SUM TARA, TASES 3 LOR REA
+00152. 3 HEE sn 1 SAA AA FE,
+而不代表 1 BOURSES. REE ARIGINAOUAN IE 4. S. 6, 7 的由
+
+2.8
+
+TEAR CHIL. CE NUECES. AREA ELIE ATT SURE
+HR ELOLIRIEARAE ACK SHEDIR TANYA, DURE ACK 分组不得具有时各确认的作用。对于这
+要特别注章与 GBN 协议的区别。此下中只收到 1 号由的确认，0、2 号本起时，因为对 1 ARH
+靖认不具有时各靖认的作用。所以发送广认为接收方来下到0、2 号帧，于是生传这两由-
+
+pyar
+
+SEHR ARQ HAIN
+
+ANT IROL RR OAR NTT SRA
+RGR / REISE) 2+ RTT “37 数据人办这率+RTT/ 数据由区
+
+从上术人起可知，数据由长越大，信道利用率菩机。数据由长是不二定的，苑轩为128一
+SB，在计算最小窗口数时，为了保证无论数据由长如何变化，信首利用半邦能达到 100%,
+应以 128B 的由长计算。国此，当最短的由长都能达到 100%的信间和用池时，发更长的数据由
+也各能达到 Looe ALAR. UL SID 的四长计算, 则有得交最小窗口数在128B 的由长下
+达不到 1009e的信刘利用率。 首先计算出发送一个由的时间。128x&I6xl0)=6dmsy 发送一个由
+到政到博认晟为止的总时间，64+ 270-2 + 64 = 668s: 这用时间站共可发送66864= 104M, OIE
+送窗口>11，而接收座口 = 1，所以至少需要用4 KELL.
+
+25.
+
+SHERI HIMES, tk, CREPE NARA, HRI
+SIE FE PRIMER HK BUSES. JZ EN PAAR, BE
+—PEUREURUCHIE ORL Z AT, CARIES, SRR Tee RIA eae.
+FC TRIER RAE MH. NUANCES} 1000, EONS
+RA RAE 1000 AGN. BF 1000-10008 IMB ARE, ARE — Nee
+fo oso 26, OD COMBS Sm Sms 0.1008 此时
+(fete 9 IMIBO.100085 = IOMBA 30Mhs，人入道攻为100Mhs，因此答案为minlSOMh
+TOMogj=a0Mhs-
+
+26. 8
+
+SALINE, ITPRINT hem AOD, HOLA r= 第一个央的发适时延+
+AAR GAR + A A + AAR EA RE 因
+Sie T= 1000B-I28khs+ RIT =0 5625s, HEWAEMZE TAVERN 2 IR HRA UA AT
+96。设数据大小为上字节，则(L-128kbaXT 208, FBI L> ROME, BE MRAM AD
+ER 72 个人才能江是要求，设和要编号的比特数为m， 2-12 72. 至少为4
+
+===== wd_ch3_86_100-087.png =====
+oe nate                            7
+
+nD
+
+‘AUT = FRB AH LP. ROE He PM,
+ADICIONAR, OH 3kbks。 于于天的传输期，应包含 4 FBshs OLE ON
+过时延，四从发送方到接收广的音程作时下、确认在接收方的发送时延、确认晴从接履方到发
+rat ME SAL, 2 4 个时下中，因为通目中说“忽咯确认岳的从时延”，所以不计算确认
+Re CARY Ay PARAL «DLA =A
+PARTENERS HH REDE as, SLUR NUIA IR ERC TYE 200s, RIS
+RRA UANEUCH HIRE EAA 200m. = NASM xk 400ms，代入信道
+HMC x= RI,
+
+4.8
+
+leh ESM AC, kA RAEN = 1，接收窗口大小= 1; LN EL
+RIERA 1 ARCATA SPER RUBLE He HRUCRTIIIC 1。在
+LYELL GRRL RUMI A < RRBs, NEE Joh ARE ICS
+根据以上规则，采用 3 RABI. RAE IChI S, ARHCRTTTIGIN <3.
+
+2 D
+
+‘8 AE BUA PLO FY = 1000<Rb-10KNS = 80M.
+
+‘GRO T =800ms + 200ms + RDms+ 200ms=2000ms.
+
+AN 100% = 8002000 40%.
+
+0B
+SAME U = abyT，其中是发送窗口的大小，轧是发送一个数据相的时间，了是一个
+Ce ee ee
+SP -SPAFUNRAOIRRE HI Fn = Te GBN 协议的发并窗口 = 2 Te SR ABLE
+WSN, MLL, Wy Wy Wi BBE UUs Ue
+
+31D
+
+SURRIRTOBNE O~7, RAMOS RANE. ERTS
+
+RO. FL, 2 ROS 四个数据由后。疏到 FO IA Bt
+
+ELAR IDE 4之后收到 OMA, (A FT Ee, ERR I,
+ih, ASL AMAL LAB, ACE FL. 3D 正确，
+
+WORE
+
+a
+Ue)
+
+SEPIRIPRIGUNR, (RUNCORN ME, ARROW 发送窗口尺寸
+Wy <2, HOOPLA Wy p= 922, ROLE AE. 举例如下:
+
+二综合应用是
+
+===== wd_ch3_86_100-088.png =====
+了                             2007 itm AL I
+
+Rib 01234567012345670
+ABU: 01234567012345670
+REHRIEO~S 号共6 HARMH, WRENCH AEN,
+双生人天确让并其后面的6、7、0 SL. BARA MMRMALATRSARE, Hath
+EWR AEOIAN PLR, MEAS IEE AH 6 PRO, RACH OSU,
+A RR RACER.
+
+a. Re
+
+RELSEOLIO 1. CEA RPD UL, ERLE 1, REAL GAS
+(inte 2k. RELI ns, BRILL C9 OM
+
+Bi      pre
+MNT arm ient eG Diovan
+
+AY L> 288 =250000 0361 Hs
+
+UW, SOLA HORE 300bi By BuIA SO
+
+03. tHe]
+
+RIT=250-2-Soome-0 8.
+
+‘Sot 1% 200-100-2010 ~0.025.
+
+— (MILE PAREN EMAAR, RAL — PAREN ERIN, ATE
+
+可以六发送，因此要人办交讲最大，关要让必六入纺地改六。设和过窗口等于x，则
+(0dee=0.s+ RIT=0.52s
+(9 x-26, RENAL I6 即可。因为 6 < 26 < 32. RADLAR ILS 2 MECH ARQ
+BMRA. RIBRICIMRERURIE 31, ACT 26, HOOSIER, AH 106.
+ote
+RECLAME NRTA. GLE. RRM EID
+uit, CORREO Sub, Ai RAR Wos= DORs, STSHRIBIR AHI
+80436-0775. AHR AULA RH COA RARADRIEHE) «BUCA ERED
+(002+ 027+0026027)s=0586.
+
+1 edi S OR, TREMOR ZA
+A, CEM, ERNE, aR A, KP
+HARRI 002s. st, ADRMECHIMAEH cord s8=34%.
+
+2) 在后退 ARENA, RRR 1 ARI m Hea ER. YER MTA
+WARE Lew 2-1, REA TULAMCOLRIEE PATO, ARIE A AE
+PIER, EAI, MISTER, UNO. MERIC
+UE SMUT ABS RDA. EA EIR ECR URTEEIER EC,
+HARUN. SSRI IERALOMM Fs RISWEIRK IN 2-107, state
+第一和的数据人答轩期038s 1, SRURAERRIOW T 7 CHIRIRTRIRAL. 08s IEA
+只下到 @ 号地确认，此时双可以发出一人新簿，这样人次下去，取模恨印是每个人和
+0S IRIS 7A «SL HME AL 70 0D 8 -2419
+
+2) PRIEST RAO AOAC IL PIRI EMR
+Hines, MSE HRN, MER RRR <7 si
+接收府口尺寸相等时，应有入收容口尺寸2 REAR <I", ATTA
+JAPAN, HORS TCIAORSHMOIRE. ATTIC OMAR PTR
+
+===== wd_ch3_86_100-089.png =====
+oe nate                            a
+
+ik. USAR. MLR REM AML. RASH TS RAEN
+和2) AMR IEEL, MEASLES IRAE, RHIC ANOS 2
+Dai, sea HAHA AEA 420.020 58= 13 8%
+
+os. bie)
+AERA BIO, AF
+sae =    —_
+pers Disys 4 ao
+加
+assbats- 06sMbs
+6, Coe
+
+要注意中的单位数据的长度为 3128，芭 12-bit $ 096K
+
+ods. PRL 0.068 + 2-027 =046085.
+Vg UB. STSCI HIRO 14.0960 6046 NS.
+7B. SPAS SC MAIL 7.0960 604=47 Sh.
+
+MRR BITTAT 0604A0064，即大于或等于 10 BLAIR tai LIER IRA.
+
+aR 39 17 ATT fa AULA 10%, HE SEBS RHEE GA.
+
+or. bie
+
+1) RE 4 SEO, PAF ANTEC. IERIE 3 个数据村分别是Suos Sion Sear
+Ry BIZ RGNLIRMUE DE 3, DAE OLA 3 LR, BO LIFE
+SUF GN 0~2 ARAL Cea, SPOIL RIED A BME.
+
+2) Ae BPM, ROMA IEMTELIL 5 RAL, SRN —HUIE Sy BUSA S, 2. 发
+EI. H8TEE, COUN IDLE, RENO SEEM, ALR
+口本最大秆7.此时已发送 KS BFL BGLII 5 HCAGARLLIS 1234567,
+(01234567, AURA. ADR SF 0123456 落在发送窗口内，之后了着发关方不电
+ATM, ERIM)
+
+3) AUFRIEILR 3 PRG MORO —PHE 5; 在GBN HIRE, RAEI NAUE.
+检测出情，则区要发才出异由及共之后的帧。吕超时，所以重发的第一由是吕。已收到
+己方的瑟杆所以信号应为3.
+
+4) 四可以达到的最大信和利用率 是
+
+REMI
+
+ME DENTE
+
+1000
+1
+0010"
+
+2 096x107
+
+me
+Prams
+ca    1000
+Pos    TI
+
+信道利用于 = 发送晓提由的时介;从开始发送第一个数据由到收到第一个确认直的时介
+TMGT+ RTT+ Ty. Seat. NARARERECUIBEEAN TH, TARP MAGNA, RUT 是往到时
+fe, TAA OUEGRE IL. RAT
+
+1006 = 0%
+
+RIT
+
+3.5 STARE
+
+A a UG AEE LARA ROHN AF, RS A
+===== wd_ch3_86_100-090.png =====
+旭                             2007 itu TL I
+
+DS. MAAS 所示，在广播信道中节点A，日、C、口和下共享同一信道。荐A 与C、 BD
+同时通信有未如控机，则可能加信号折而通信拓败。用于决定广可仿浊资源分本的协议砚于数
+指链路必的介质访问社册 (Medium Access Controls MAC) +
+
+‘arse REL US ABS LAR, REMUS LORI
+AUR, HP, RRA ML eS, UR Pats RH
+
+@ © ©
+
+Face |)
+
+o 6
+
+ais 广播交通从方|
+35.1 信道划分介质访问控制
+ELM ps A LL ALTAR, AAW BE RATE,
+OnE ARORA FORALL A — LA
+CARERS SOPH, SPEEA. E316 所示。 SR AREA ME
+Me SR AMEN, SONATA AA EM RICO.
+
+“irs
+
+6 由上要示间图
+
+信和划分的实遇是通过分时、分频. 分各入式,将一个广播入首在名加上划分为着二可不干
+拒的了信道，从而实现多个点对点通信。信划分介质访亲控机主要包括以 下四各方式-
+
+1 时全全用 IDM)
+
+Egg total
+
+1409 Time Division Muliplexing, TDM) 将信间的传答时间昌分为等长的时间片，构
+成一个TDM A. SEALE > TOM EPO, LER ED
+为 TDM ALEBD » BEAIMLA EMANATING VER, JOR 3.07 Hea. EER. TOMA,
+是一生定长度的时间间隔，与数据路导的“帧” 覆人不同-
+
+pool和
+
+TD
+国3.7 ets
+
+AEOLIAN: MRNA, MU RS
+用信号，直于 TDM BIER, SORRENTO HR.
+===== wd_ch3_86_100-091.png =====
+oe mite                            Ey
+
+死法术其他用户和辐，国此信道利用率较你。负计时分复用《Statiste TDM. STDND LAD
+时分复用，是对 TDM 的改进。STDM 不固定分配时障，而是控震动态分配， 仅当用户有数据要
+发于时，才为其分配STDM 央中的时辽，从而显著把高线路利用率。鲍如，候设线中数据未率为
+nobis, 3 个用户的平均素均为 000bs。采用 TDM 时，每个用户加定分配 2000s O18
+击在 STDM 下,各用户可动者共享全部各宣，当其他用户天吉据发迁时，某一用户可利用接近线
+路和速率《此处为 nobis) MABE RAG, AE SA ENB ES PD
+
+2. ALR CFDM)
+
+EEE» seme cor
+
+所分复用《Fieqteney Division Matiplesing, FDMD 45,4180 Ie FA. 18
+APMC F EL, ALPS IA, 8 所示。所有用户在同一时间占
+De eee a Oe re eae
+FERMPINTIL-EDR. SSCA U2 RL RCE
+
+mas
+
+Na see
+
+SUPINE MAeMSRMOR,. RAN MSH
+
+3. tea CWDND
+
+RS LAL (Wavelength Divison Mulipleng, WDM) BVESOSUEA. exe—AEET a
+HERRIOT, aR ITACERL, BAUER Ba
+ee ee
+
+4. 89.08 (CDM)
+
+EET» wo mAiCs conn)
+
+"99-58 (Code Division Multiplexing, CDM) 是一各采用不同近码来区分各路|
+AUER. 与FDM 和 TDM El. COM 本共享信过的频素，又共享时间
+
+实际上，更入才的名订是友分多赴 《Code Division Multipls Access，CDMA) MELA
+得个比特时间进一步划分为m OBE. IAB A Chip) «mH 64 或 128， 为
+了简化说明，下二中设本3。得个站点指所一个唯一的相信三片序列。发送 1时，站点改过共
+De eee eae
+
+SAREE A IAMS Se Sh. POEL LATTE
+
+和间理解六是, A Hiab RACE a ea, ABC AERA SEL — Ne
+AIR AAPA GER. PUNY SRDS
+
+‘FES AES] CDMA HE.
+
+令向最 5 表示 A WAEOVIN HAM, 7-2 BIBOION! FOL. BL A 站的玛片序列入指深为
+OOO, A 站发迁IO1I01 表示放适比特1，发送11100100 表示发送比特 0。为便于计算，
+特玛上中的0 写为-1，1 写为+1，因此人站的到上序列是 (1-1-1411 1414) 。
+
+不同站点的玛片序列相下正交，即向旺$ 和了的规格化内积为 De
+
+esi OL
+
+===== wd_ch3_86_100-092.png =====
+20                             2007 itu TL I
+
+sr
+
+AoD\HEAPRRREURILANINR EA BIBE 1
+ss-1¥so-!Se-1 Senor
+{cob RIO eR HLL
+
+SRT CLAS
+SARA CREME LH, LET AR -1 -1-1+I+I-1+L+D 。
+省四站向C站发送类0时，训发送了向最 (1+1 -1-1-I-14D 。
+两个向量在公共信道上鼻加，实际上是线性相可，和到
+So 202-203
+cba st
+到这C站后， 进行数所分。着要提取来自A 站的数据，则 C 站需知尖让的加上向最S，
+FEMS 5 也的规格化内积。根据和加原理，黄他外点的信号者在内积结果中被过油皖，内
+积的相关天者是0，而保轩 A 站发送的信号，得到
+S48 +T)=1
+因此，A SRO RAG 1. BR, APRA B AKOORLAE
+1487)
+it, Mw abRRARRE AC ONIN, FEO.
+SRNL ABLLERTEI CRO RE, EASE T ROAR. PERL RAREST
+“PP ELA RENIN SOS
+FOR ASHE CARRIED, BARN C SHIRT. A. B84 CHAZ — ARIE
+遂路可燃比为广播仿间-在频分揽用方式下,公共道中村划分为两个车道，分别人和站到站
+昌站到站的车通行，丙类车可以同时邓行，但都只使用了一半的和路，因此姑分复用《流分复
+用志美似》共训时间而不共享间。在时分复用方式下，先让 A 站到 C 站的车走一请，再让
+外到 站的车走一丰，两类车交间使用送路，因此时分复用共享空间，但不共享时间。玛分复用
+与另外两种信直划分方式家为不同，在这各方式下，贡可与绿避放在同一辆车上运进，到达C 站
+后，由站负责把车上的黄豆和续豆分开，因此码分复用共享空间。又共享时间。
+现分复用技术只有频漠利几率高、抗于找能力强、保击性好、语音质量寻等优点，还可以减
+少投资及降儿到行成本，广证应用于无线通信系统，特别是移动胃信系统
+
+3.5.2 随机访问介质访问控制
+
+waysgtsyEsieas CoM
+
+‘ERASED DLP. CRABS CAAA IT, A AO TP
+自身意思隐机发送信息，并可占用信道的全部各党。在东线形网络中，当两个或多个用户同时发
+天信息时，就会产生溃夫《也称吕准) ，导至所有尘突用户的发送均以夫几告终。为解决此类神
+突，每个用户尖按析定规则反复重传天，直至让无冲突地成荔传铜。随机访问全贰访亲近和
+的核了思想是，通过争才划得信才使用权，玫者方可发送娄据,
+
+===== wd_ch3_86_100-093.png =====
+oe mite                            at
+
+1, ERAMARORS UM. BA ZIMMNOI EE ASL MOND, BEA APA AA
+nS RINRUALGAFAAERUOLM. ETE NRO CASTRO. RUSE
+SREB a A
+
+1, ALOUA 3
+
+ALONA 协设分为纯ALOHA #ALUBYER ALOHA 协设西种
+
+#8 ALOHA 协议
+
+PL ALOHA (iLOARAIAB, GARE HAPEHH DEEN RRMA, MTSE,
+ANIMES RAS. AEB MAAR, AVHRR IRE TPR. AER AS
+吉稀等待一让随机时间后重伤，直至发二功-
+
+图3.9 展示了纯ALOHA 协议的工作原理- (RAFAT OCIA, 由长不用比特数表示,，而
+PRM ROR. BML 歼 表示过一时间,。，
+
+Perey           si
+
+=    =   pana
+Places ee
+
+wena age
+oe se
+
+por                 7
+
+wy
+wii
+
+图59 FL ALOMA 协议的工作要理
+
+在图3.19 的示例中， 站 1 发送村 时，其他站点均发送数据，因此由 成功传输。 但中后
+站2 和站 N-1 RAIL? BLS 在时间上邦分重委，发生冲突。发生冲突的各站人须重传，但
+不稻这妈重传理则会再次冲突》，而是等竺一由央机时间后再尝试，荐划传仍冲突，则下复此
+SDE, ACEI, MPIC PMs A HRI, LS SOG RR
+
+WW EAPRMCRALES, AUN POEHLER HRA, UL TOY ALOHA HL,
+
+(2) Be ALOHA 4H
+
+SF ALOHA 协议将时间划分为等长的时只 《Silet) ，关要求所有站点同上时钟。站点只能
+在每个时区的起反对刘发送帧，且一由的发送时间归须小于蕊等于一个时只长度。这各的下少
+了发送的了坦性，从而降攻了冲突梳率，提高了信道用事，
+
+图3.20 展示了两个外点的时你 ALOHA 协议工作原理。 和个由到达后,通过需在级存中等和
+不是一个时耽时间，才能在下一个时障开始时发送。若在一个时阶内有两个或更多由和发，则
+‘EAE FARING. MIRAE ASE ALOHA 协议美似，
+
+eee
+
+y, bel          t                               7
+pe
+
+一> |
+
+3.20 Pirie Lona 地的工作原理
+
+===== wd_ch3_86_100-094.png =====
+要                             2007 itm TL I
+
+2. coun nx
+ > xs comsanae ax
+
+ALON HRM, Zt EARN, SAGE
+3, MAGARIN, HOTA. RAL 5857 Cai See Mall Aces
+SMA) LFA FC BAL, ALON Dea 3 TAROT.
+
+ORI AEM AISI CSM LANCE
+
+Cy 村CSMA ti
+
+eH COMA HAE, SHAUN. RI, A, Ua
+ee a 表示人空间时， 器
+Ss, -坚持”信人持续
+
+Ta CSNA tat
+
+8H CSMA EER, Ms KIERHNY. AID, ARM, MTR
+38, Sid, MRA, ERE AMMAR, NORE T Zh.
+(Gina iBT, RMR TRIN ARRON
+
+CSNA tie
+
+Se eee
+981A, IRR, LM p RISK, ORE Ip RAAT — RAT.
+
+‘RASTA, MCT 2 NH RH MC EA ARIE
+SLE TEASE CSA 区过长。因此,天时村CSMA LS MSH SH COMA H
+wear
+
+SSRI COMA REAR 3 1,
+
+kur Senmaun comin
+cam      8           ra
+[nea —[asan. ammrommenne [wees carn
+
+ZRHALONA TGA CSM IRE, EAE LE. cSMAC ca
+HO Em SRLAEHM) HLM CSMAICA (RAR ERNIE) it. A
+SMA GLOVE A TAP HRAAL, PARMAR TS
+GNACD SGP RASRELAN, mittee ERR, Rie
+BNE, HRW TAREE, MONACA DIEM RARER APE RERA
+feleaiee, RIERA Ea ARENA. FLAN HL 3.62 节和 363
+seria.
+
+283. feuminA: Smereitinae
+
+相生机抽中。和站下对人而过一个人中的站，以亲王
+区个和。业汪人的分本。 HARMEN Res EH.
+
+人了道中，一个人给《Tien) TASTER IRE SZ KIER. IR
+SRO LATERAL. CHOSE, ARH APIA
+8, ELM MHAERR EON, GARGON. LARAMIE REM, OE
+ARORA RARER 《因为人人只有一个) 让宝应族人，
+
+===== wd_ch3_86_100-095.png =====
+oe mite                            ed
+
+De ee ee
+TERE 902 5 SPEAR He REO EEL Fe
+1) Sand ARBs SAR CEOIIR HEA,
+2) OWMEIRSTHIMARSURIREONS A. TAREE SAR — Phas, Tea
+mR ERREMERS, ALTEAE OAR IARC, HAIER
+3) SURMRAAEEA IE, NMEA WIERIRR, AWE ARE HEE. HELA
+本地址相同，则复和该数据由用于本地处理，但仿继转发、
+©) 数提相沿环路检引伟给，直至返回源站。源识别出这是自己发出的由后，便不再转发，
+并通过检验到加的相传猴过程中是否出错，若出钾，则安排重人
+5) 源站完成数据发送后，重新生成一个令牌，并传通给下下点，克出信道控权.
+AO DHL RIS AORN ARR CEA EPIRA RAEI. ,着
+RIBAVIRIN A. EMAC AN EL, ALAS HAN
+FOP, EGR AANCA— PNR ARIE, IMA LIT
+GEIR, LUGAR, SCIEN Ce
+
+354 ATSB
+
+soot
+
+01, ETA MMM CD.
+ASDA. OO. Nes, AER RE AAET A
+BMAP Pm RIPABE, AEH AAR
+CAEL RALLIES
+D. AQISASI-y AURAL BUM NS A RE
+
+02, PM AAM (MAC) FAMERARL C).
+提供可亲的加所人         BAROLO OB RAE A AOI AL
+C RRREER AERA MRO D. ALA NULERL
+
+©. AHR CLAEMOLS URL T FL, SAF LEIS, RAE
+
+BLO).
+A 码分复用 8 MPEM  CMFEN oD eee
+6 TOM 所用导术人所的性计是(1 。 Ok, AEE LEME OMELD,
+
+A MMOPEATROHTMBLE BHP EDE ME SOOT,
+CDAD TRIM TAPE De RRA TE MES HIER
+05. AREA, FDM iE TDM 能更好地利用信道的从能力，但网在计算机网给要多地估
+用 TDM i FOM, RAOLE Cd.
+AL POM AR       TDM 可用于字体办而FDM AF
+C. FDMI 技术不上的           ED，TDM 售更才分好利用带宽
+6在下列复用技术中。 () 具有动分本时俐的动能
+人网志时分复用“日、续计时分复用。C，刀分复用。。 DL
+07, BFR, KERAH HL () -
+A. TDM     B. ALOHA CCSMA    D. csMwcp
+08, BA ALOHA HOP, —AabAL ERIE CD,
+A EEE A        B. LAFF NaHS
+===== wd_ch3_86_100-096.png =====
+从
+
+a
+
+i
+
+人
+
+1s
+
+16
+
+站
+
+站
+
+py              2007 itm TL I
+CC Tame            D.Sc RIS 机
+9下列用种 CSMA 协议中。 ( ) ANCES S MOET RR
+
+AL I-RHECSMA DB. AEEIECSMA C. p-SSHECSMA  D，以上都不是
+在CSMA UIEH LY, SHER HC) 直到介质空间
+ee se ee
+
+C ERNE DL ARO
+
+在 CSMA ESIHILE, SRA IOSIS ABER MM, eC),
+
+AL UE ptt         Be BLA
+
+CB Nap At         D. sui patie ak
+AAU CSMAICD HLH ISHII, SARIEMIE LEGA ().
+ARRE BRE    CC seme    D. Re
+
+下列关于信儿环网络的这中，钳误的是 (
+
+AL SAREE PSE A
+
+同一时刻，环上只有一人节点的所在做内
+
+CRLF TAA EMRE
+
+D. KAMAE ASI — FRAO T ILI
+
+FARES UMAR E. BEML).
+
+1 ARAMA
+
+Th ERAT HEAL AS
+
+UL Rar Raa it, EAL ACA
+
+IV, PARMA SM ARO HOT, PER CH RL ose
+
+AT和加 B.      cm和 DY
+ACHR, SRE IMA, HEC)
+
+A RA IRA IESE     ers
+
+CPR REAM. SERHLIP RUC HLAER BETA
+AOUMI, HAS AI GERAIS, EHC).
+
+A RRR, AERA NE
+
+DRE, EE Pe
+
+CREEL, HEH Ak
+
+D. REAR, EAT NE
+
+ESMIRRURE, SOAS AO ARE, ASB ALR SL E PARES
+降和发运加撕针的时间等于( ] .
+
+AL SATSBA MSE A mL
+
+BRASH a FoR EHH HHL
+
+CFA SSAA HS Foe) —
+
+D. MASA NAR AMS HF
+
+SAP MELA A AIBA a. be de RAAT, Ba, bc Rit
+才括时，设的凤上序列为【1 -|. | -1) ，则日和的码上序列可以为( )
+
+AL GLAAD fe hth.         D&C LLD
+GLEE) #0.               DOLD.
+
+AEA. B.C. DLE COMA SOFIE. AB C6 DALERIE, A B.C HH
+
+===== wd_ch3_86_100-097.png =====
+oe mite                            85
+
+APBVRPALE CALL AAU) «(It AH) fe G41 44141) 。 a DAMM ae
+HOARE ALD MAL B. CRAMMER CD.
+A101    B00.    C. 1.0.0    D010
+
+20. L201 RIED THREAT, THLE)
+A CDMA. BL CSMA,    c TDMA    D. FMA
+
+21. [2014 AACN 3 A. B. CALE CDMA KEHOE, AL BL CHI SLIM, 1,
+
+LD (“LL =H, LL “D.C AE. EIEL AF ALRL, 0,2,0,0,-2,0,-2,0,2,
+0,2), MICHEL A RHEE (
+A. 00     B. 101     co     pom
+
+355 答案与解析
+
+hati
+
+oa
+
+stm AL RON A ACSA HR RC AP RR
+(ANG, MARR, ETL BIA MMAR, MORSE HA
+AMLIR. io ARAEULDPL STAT A BURNEY Jon ERBBHIL.
+
+8
+
+介质访问控制 EMAC) F282 THAEIL AT AGATE ABT A SUEY MOTTA. REEL
+ERAT AO 5 SN ONE IRIE
+
+0.8
+
+‘eRe AAD Ps ALON A
+EPHRATA MRR 的子信道，每个子信进人欠一种信号，这中是分复用。
+
+oD
+
+BORNE TOM. (时分复用) ONRAE AUREL. TOM ERR Pe ATT.
+AR CEAIONMNEL IPA EB A UR A,
+REFS. WT SL TOM. ATR LN RSet D SAHRA CAP He — BHI
+APACHE BOI, @ IAA CHIRK EE ARTA MRI APH
+FO CRATE GERM TOM 。，
+
+05. 8
+
+TDM 与PDM Alte. A-FURIL IB. ILIA. REIL, LULA D
+AREER, TELA FDM 和 TDM 的工作原理，FDM 适合人条机权信号，TDM 适
+全导纵娄
+
+0%. B
+
+时分复用 CTDMD 分为同步时分复用和异步时分揽用《也称坟计时分复用) 。同步时分复用
+是一和具上时分复用技术，。它预先分本时间片《时隐) ，而异步时分复用则是一种动丰时分复用
+技术，它动态地分本时间片《时隧)
+
+ona
+
+‘TDM BF APS ISHINNG i, ASHI, APRA. HG ALOMA BHR
+协议和 CSMAICD 功放于动态分配信间的方法，才采用检测冲突的策略来诬对沂突，因此者
+YMA. 注意，随机访问介质访问控制和轮询访问介质访问控制。才属于动态分配信道的
+Pe, SURG MLA HA A ELMER, ERG A IST IR
+
+===== wd_ch3_86_100-098.png =====
+oy                             2007 itm TL I
+
+wc
+
+‘E88 ALOHA Heike, AD BUR Ae EOF oT eN I, PRS a RF
+
+个时间梢开始，也不震要先改送RTS 村
+
+wc
+
+-可持 CSMA 协议是 IMMER CSMA IDULRTYERE CSMA HDIRIEATH. p~EHY CSMA BIR
+eM SIGE. DUR p REBAR, LMR 1p HEIGHT, HARB I-HEHE CSMA
+hE THRASH RAE IM PLAY RGR AEM RALSEAE A” LH IIL
+-PNERY CSMA BR REWLA RHE e.
+
+wc
+
+TEAR COMA Hits HEATERS MRL ai, RAR AMACUNR EAN HAG AL
+Pune. Ze, URN.
+
+1B
+
+解析同上-
+
+ne
+
+CSMALCD PRRIESP BINRGMLIRIR, AERP. MORUNLEN, RIN. HEAR
+AI ACHR SARE, EHR RIN, RA, MARAE
+
+BA
+
+ARSE KEISER, MORRIS Ah, SHES T NBN ECT HE
+ORME, ULRICH, Ae A 错误。令得环网络是一各戏工通信方式,同一时记只能有
+ee ee re en ees
+ESI. SRIRAM. AC EWR, Ce SI, MA
+
+AOE NOT RIBS SLAY HALL. (ESR ATARI ST. OD EM.
+
+uc
+
+ART eM omc AP EAU, A ABT Me
+内《入中持有时辣》 RAVER LL, TEACALOMTEAT 28. CARRENTALS, AE
+孝据要发关的节丰收到令牌后将立和传闻下去而不能持有。 OL ALLS SSR REA
+
+1A
+
+ee ee
+CASAL, MIGRAINE, JERLIMMER, ARR TARO
+
+16
+
+‘te-SOSTESS, P55 USE MRR, REEL, REALE
+PARI OARRAEAS Bo, LPIA, AES LITER. AONE
+
+cay
+
+SAORI 0 RARDIN BUEN, ES PBN ASHODMEPUEAM ERE, LA TA
+ANCHO LAN TEAY ORPDF IRR, CRON, GLEBE BA ODORIEALRROONTSL B, AN
+4-2 FFE AMEE ATTRA ADR, ICE OARS ONL
+mez.
+
+站
+
+MRNA, a. bc
+
+等于0，分别计算各和项与 (1
+
+OP PU ETE, PZ AER
+1 LTE, SARC ALE TER
+
+===== wd_ch3_86_100-099.png =====
+oe mite                            7
+
+ocala 838 AN SURAT ABN BE. FS A 站的规格化内积为
+格化内各为-1，C 站的规格化内各为1，故A 35, BS. CHB RIEMHR AHIR 1,0, 1.
+
+20.8
+
+AHA, CHD MALGIRIAHR. (RUA MNO. Meee RAT
+Re COMA 协设的全称是转波监听多路访问协议，其原理是站点在发送孝据前先下听信送，发现
+(GRIME, RADAR AR RITE.
+
+ae
+
+将入到的序列每4个数分成一组，即[2.0.2.0
+从站发送的数据, 国此将这三组数与A TS AI,
+2,0)¢C1, 1,1, 4=1e (0,-2,0,-2)+, 1,1, Wale (0.2,
+收到的 A SRN HARE 10
+
+昌站的入
+
+,2.0.2) 因为是日示的是
+MALICE, SHE BEC, 0,
+De 11 Wal. BC ae
+
+3.6 局域网
+
+3.6.1 ”局域网的基本概念和体系结构
+
+{BR Local Area Networks LAND 是指在一个小的地理苑园 (如一所学校内，将各种
+HEL, SHS RICE ARPA, NESE HEAR IEA. Re
+SEMIS GALORE SEBLIRER. IHEN aN F
+
+1 ER INA MAA A
+
+2) SADA EIR AA LSA GRACED
+
+3) 具有铁低的传和时延和较低的到于
+
+4 各站点地位平等，不存在主从关系，
+
+3 ARNE.
+
+局姑网的特性主要由三个要表凌定， 拓扑结构、传给介项和介下访问控制方式，其中介质访
+癌控制方式最为关键，它上接决定所并网的技术峙性。 第见的局城网括外结榴主要有四美 DHL
+HRN: DEEN: @ 总线形结构，@ REMAKE SOLE MAN. KAMER
+eR. IMMA ALICE G EAM Se, SEPARA SEE ANE ORIE. RAMU
+RAUL RUN CSMAICD Hi. SARDARIRASUEHL. JOH, CSMAICD HAT
+ROAM PLATE, TOA APRIE RMRE.
+
+Fe REIN SA OREN
+
+LA CHLNLRAREIR™) , NG HOEMRIEER, Sa NALSE
+
+© 4836 Token Ring, IEEE 802 5) , EAE IVSERREASH, POBEWGAH IAEA ty
+
+© SH 98HFARO (EDD, IEEESIZS)  EAHGINASRIERIN, SBIR AURLA
+
+IEEE 902 标准定广的局城网参考模型人对应于 OSL A MUNN LIRR NA, SEA
+REE NI TR. AMER! (LLC) 子层和人所访问扩制 (MAC) FIR. 4)
+接入传纺介质有关的内容都放在 MAC FI. EL ERIE AERA RHE. BEA
+‘AHS; ALOLAUASEVO, LESHVENENNHM, SEAM, LLC PREVENT ARAL, LAUR
+POEM ERE HRNR Se IFO SEIRIR A. MRNA FEE AI
+
+HFA EER AREER, EILERIRAARNIEH CA. UEP, IEEE 802
+
+===== wd_ch3_86_100-100.png =====
+上                             2007 itm TL I
+
+委员会定叉的 LLC 子导在实际应用中作用已显革习化 国此现代许多网卡仅实现 MAC HR.
+PSCOH LUC Sid. IEEE BO 协议层与OSI参考模开的对比关系如图 321 FR
+
+oT
+Re
+
+mt       erie,
+ee
+
+3 Ae CT
+wm       oa
+
+321 WEEN Hie Om sx HeRHHEAR
+
+3.6.2 以太网与TEEE 802.3
+
+DLA TRAE ARR.
+
+SLATREYIH—“PRCA DIN VL. th DEC. Intl FO Xerox 联合所出。随后，它补修订
+WHIRL DIX Ethernet V2，成为世界上省个局翅罗产品的规范。在此基础上，EEE 802 委
+员会的IEEE 8023 工作握抽定了第一个TEEE 以太网标准一一IEEE 8023.
+
+严背来说，以太网指符合 DIX Hbemet V2 标准的局二同。但由于 DIX Elhemet V2 与EE
+0 3 标准基异极小，国此也党将 IEEE 8023 BTR.
+
+ch
+
+纪太网采用再天措施简化通信人 采用无连接的工人方式，是不对发送的数据由编号，
+也不要求接收方运加确认。因此，以太同提供的是不可区的尽最大努力交付服务，芋纠正由商
+BURR Cl TCP) fess © BATRA EES ORE ATA, AE HON EYER
+9B, AIH OFAN Re a
+
+1 LRM ea
+
+Lr He LA AUR UR. ARREARS HE 3.2.
+
+222 SHRM NEREAINR
+
+CE         Taare          Tete          ‘aie         ro
+ere | Ame CR [Heme CHRD | NMR [ TH sem
+mn]         rT           0           mm
+BARE         im            =            Te          ec
+Teper         7             rn              =
+
+在二过竹中。 -Dr AAAGH LOM “Baw” AP RDILAM: TIRE. “Bae 6H)
+oS OP PALABRA UIE ODM AS, “TT ARIA “PP AB
+
+ASTALS SELAH NTH CHAMBER 《Adagser) 3A. MBAR
+NIC) 。 NAR ILIA a. EMAAR IN AM

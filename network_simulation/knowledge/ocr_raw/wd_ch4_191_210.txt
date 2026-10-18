@@ -1,0 +1,1086 @@
+===== wd_ch4_191_210-191.png =====
+ot 网 的 ek         179
+
+CPL sree 2. ERD 分配给局城网上)
+
+ETZT | Jana              arse              =
+
+2
+
+局大网1 LEARY 2 的地址可以了人 202 118.1004, PAA RE 来说，通入局
+姑风|和局并网2的转发路径帮是从10 ARITA, UREA,
+由 到且域网上和局并网 的路由如下
+
+Tena ae | Fa   rs   =
+te
+
+1) DICE 5 or ML 2~N es CUA 1,123 155~111. 123182542
+主机 2 REGEN DHCP Disover HCY IP SHILEE IP WALT P 地址分别是D00
+和255255255255.
+
+主机2 发出的第一个以太了网由的目的 MAC SLE mtacerarar, MACK 2 RAE tere
+的分组的以大网由的目的 MAC 地址是 DO.alalalalal
+
+主机 能访问 WWW 服务器。得不能访问aternet- 因为主机 ! ER NEESER
+‘A ur 地址被错误地配置为 T1.123152 (正确 臣地址是 HH112315.1)，所以主机
+ATUL FAN WWW 服务器，但当主机 1 访朋 ime 时，主机 1 发出的
+十分组们路由到对并的对认网关《111.1231522，从而无法到过目的主机
+
+1s. WED
+
+1) 广播址是网络地址中主机号全1 的地址 ERLE OMAR ACS HAD
+技术部才被分配了 192.168.1004 iN IDSA, 瑟地址的订 24 位为网络号. 于是在后
+Bob ISCO FL, ABARAT | 位作为部门子网的网络号。根据已分本的 下地直销
+售部子网的网络号为0, 技术部子网的网络号为 1，册技术部的子网地址为 192 168.1.128;
+销售部的子网地址为192.168 10，广播地址为 192.168 1.127
+
+每台主李公分本一个地址，计算上前还可以分本的主机数，用技术部可以分配的主机数
+庆去已分配的主机数，技术部总共可以分配的计算机主机数为了-2= 126 (大去全0 和全
+1 的主机号)。已经分配了 208-1294 1=80 台，此外还有1 IP HE 192.168.1288)
+分配给了路册吕的这口，因此还可以分本 126-和1=45 (2
+
+判听分上的大小，震要考上各个网段的 MTU ELIE OM BE
+ef. MLE. EHORAEF IMS, MTU =8008, IP 分组首部 20B，最大 HE
+
+2
+
+2
+
+2
+
+lB 0 WH 00-20) )+8=716. AHH I HOM 1S00—209776]=2. 第1个
+分片的含量为0 第 2 个分片的你量为T768 =97.
+
+16. OWED
+
+1) HE 和5 与Web 服务器处于不同的局网，路由器 R2、R3 具有 NAT 功能。当R2 从
+
+WAN 口履和来自 1 3 PRR ITT URRY. 根据 NAT 表发送给 Web 服务器的对
+PL. 汶全外部主机能正带访问 Web 服务器，应在R 的NAT 表中增加一项。外网的
+
+===== wd_ch4_191_210-192.png =====
+180           2007 itm LI
+
+‘ENDER 99h US, AA UP SAERERT y Web L246) 1 SME, HTP
+HL EME 5 0. ISLS ROAST SAGAR 80. SURE RD 中
+EN Web 服务器的 NAT 表项, IGE RB 中配置 H2 AG 的NAT 20, IBLE 1
+和 3 是主动访问 Web MLAB, ACHLOIRERLAF We 服务如的 NAT WRGE, KES IPL
+到这 RO 时，就不知道应当把目的 四地址转的上专用网中的哪个本地下地址而 R3 会
+自动记录2 和 83 HL AUR LEP SRR. FER
+表态配置，只能通过自动动态配置实现。R2 的 NAT 表配置如下，
+ory                oo                 cry                oo
+
+因为自用了 NAT 服务，H2 R380 P NEI HORENAIKIL HO MOSTAR, ORS
+HERD 的外网龟地址，温四地址姑 92.16812，目的下地址是 203 1022。R3 转发后，
+‘Wp 997 MUSE ey ws ASH WHO FY SKE OSA, IE WE AL 203.1026,
+目的下地址是203.1022。R2转发后,将了的目的于地址改为 Web 服务器的内网地址，
+MALI MR, AP HAE 205 102.6, FAY TP SBALE 192,168.12.
+1. Gwe
+1) 设备 |造择 100Base-T 以太殉交按机，设备 2 选择 ase T MAR, SAORI
+ARRAN, ORIENT HMR, BEM RARA OAR IEEE RIT HER.
+i 2016 FE HE 36 ROILEHIPR, SL ASCT IARC. AIRTEL
+AAAs D REGUL DALIMAHML Ae AALS = 数据人条过夫*争用
+Sone. Bes AOR, ALOACEAE HER ROR. MIEN
+的时间为 64B-I00Mhs=512hs，根据公式(可知，读时间为争用有时间 《往返时延) 的|
+‘MA AR BUAG A AE FA a NSN A, READ Hu 产生的转发时下 单程
+总时于为236hs，Hub PLAAEREAEW 13lbs，所传播时外为236~151= 105bs，从|
+而82 与H3 之则理沦上可以相现的最大虑离为200pyss1 03ls=2I0m。
+Mi DHCP 发现搬广 (DISCOVER HH). UNE ED ART ALNCSUN A M 的以大网
+因为 MU 发送的 DHCD 发现失文是广播的形式，所以了一个广播内的所有设备和兴品
+帮可以收到入太网由.因为是广括术所以有的 MAC 地址是全 1，S 间 DHCP 服务器
+{PPLE M MULLAH EM MAC 地址是 FE-FFFFFFFFEF.
+在5收到的由中,地址 1, HE 2 RGME 329158 00-1     LEI. 00     1-1
+和001-II-H-1h-DI。恋由来自 AP，地址| 是接收方 H5 的 MAC 地址，地址 是 AP
+的MAC 地址，地址了是发送方 H4 MAC SBE
+1, OWE]
+1D RIB R24 EAR fe as TRI一卫星一TR2 路径决定。杜机元为 0000km。电
+WBLIE 1 SocoCokms, ARAN AE = 36000300000 = 120ms， 总单作对延 2x120ns 一
+2340ms，卫星链吉宣带为200khs。姑咯各层协设首郁和以太网时五，上传 0008 六的
+总时间 ~ fe@U SE + 传播时延。传给时外为4000xSby200kh) ~ 1G0ms，传插时下为
+40ms，因此最少需 16Dms + 240ms = 400ms。文件上传过程如下图所示.,
+
+2
+
+2
+
+3
+
+===== wd_ch4_191_210-193.png =====
+ot 网 的 ek
+
+eR oma
+
+2) WRB, KONE IRGERL. 采用 GBN PRN, AUER. GRR A
+25 SSRN AR HRN ARBOR ACK, — NSE WL EAE
+(1500-864(200K5)~ Gms: JAE RARE LER BIEEEY ACK. EG 2
+合理和传播时延，著 2v24Dmns。 AERO ET RE
+
+ ames,      A
+
+ate
+
+IBN E.R MULE MA WAR. AEM 160ms。从发出第一个机起， 最和
+85 ms-+2-240ms VELEN PASI. ALA, 信道利用可为[fx6OmsM6oms +
+240mmg)>0.8. WA W272. 向上取昌得 ,至少为8。 对于 GBN Hi ACHAEA Ly
+RE AS RENT + REA, WSS, ANEMIA 位,
+
+3) GIRO}, EBL 的 下地址为 1010 10 3306，属于管理区子风，夏管理区的子网地
+址为101010006，直机号范转 963。黄中 62 个可分配，满中60 HIER.
+HUD >on 个可分本地址，直同样了天一个26子网。 在 1010 100028 主网朗中， 紧
+接管理区之后的P6 所是10.0.10 64D6，主机号花轩64一127，符合要未-
+e380 120 个可分配堆址，故雷一个25 子网(包售128 个下地址，可分配 126 个) «
+RIGID 128~255，对应邓网 10 10 10.1288, ALORIL HFA.
+
+43 IPv6
+
+43.1 TIPV6的特点
+目前广泛使用的 es 是在2 世纪 年代设计的。卫联网经过几二年的飞过发展，到 2
+年2月，IPv4 WHE LIOIEIR, JOA “IP SGIEREIS™ MBS, MCT WES
+1) ARP CIDR: 全地址分本更全
+2) PRA MAALARAR (NAT) ;节省全球叭一的公交 四地址。
+5) 1pv6。 采用更大地址空间的新版本了 刻议-
+HOPED ESL ALERT whoa 使用合，只有第三各方法能愉根本上解站地直杠尽问题
+ penta coz
+1 fH AF
+1) 更大的地直空间，这是最重要的。IPwv6 将人外长度愉 TPv4 的 33 (UREA 128 位，地直
+空间是1Pw4 的 258P8= 2m俏。从发运来看，这些地址是绝对名用的-
+2) ARM bak ACA. Fv ROARK, LMT La HC.
+
+===== wd_ch4_191_210-194.png =====
+182           2007 itm LI
+
+3) KGW HAR, v6 ET HEMT RA. ALUN Pd 更多的功能,还
+esr, EAN AN
+4) 政和的过项。IPAG FOEKCMEIRATN, JONATA TARR RGA.
+Tis REE LET — eva. Sa ERE ALTONA.
+5) AShIOGRIEAR AR. UNG 许不断扩充功能，而 JPv4 ANNES
+6) 支持色拉印用《自动配置JPv6 ME). MLTR ALM DHCP. MET A.
+7) RARER, IPG EAP AOL MOR RE CAP BY EI.
+8) TPv6 RAT LAIN. SURRIRMREG SI. RFCS RARE IT
+9) TPv6 WARK MAH 308。而 TPv4 的首部长度是可杰的【从所是4B ALI).
+10) RAT SAR. GREE AUER wD 的扩展首部
+UR te 与 TPv4 TYR. UEFA TUABALREMTBH IL Ct TCP, UDP. ICMP. IGMP 和
+DNS 等) 7b LAIR. SLOMAN T ASILONIREL. MEAL EE,
+
+43.2 1Pv6 数据报的基本首部
+
+Tre SARILAATSTITR, BASEL CAO RA). AUR RE
+RES MARAT MATES RICHER EMM, SA. 12 BF
+[ma一
+
+oa
+
+ogg 一
+
+rx]. | at
+a || ma
+
+Waa RAE NTE RA UNG RAO — ER
+
+与Tv4 相比，IPv6 ERR IRAES  F
+
+。 AGT RAKIM ACHR AOD,
+
+© NG TRARNTR. KoHMEn REM ANE TERI.
+
+8 RAT RHR. SUM HAAR TR
+
+RUT RI, ERIE, Mim ame.
+
+。 把TTL FRE PR MMRLNN ER, (ENR, CARRERE Le
+
+8 AGATE, CUNT.
+
+ee ee eee
+
+8 RATTAN, Sunt TALIA,
+
+RATRUAST IPv4 首部中多项邢余功能，合TPv6 AFRO 8 个，但由于地
+址长度从 32 位扩展到 128 位，其基本肯帮长度反而地至 408-
+
+TPv6 RRA IEAC YADA 4.13 Ba
+
+cana    as    us
+(came Cres     gee
+va | eR HER [Free | we
+cata                 ET
+TCD
+
+Os vo RRNA TOR
+===== wd_ch4_191_210-195.png =====
+ot 网 的 ek         183
+
+Gam» ms usensznex ooz
+
+下面简要介绍 Pv ACE HO ARI
+
+1 版本- 64, LP URAC AEF vs, ERIE.
+
+2) MEE. 618, PRA ie MARINA ARR
+
+3) 流标号。占20 位, Tp6 HS TO AL ALAR TLR ASE A
+RARE) CO —APURUR AL SO SUSUR) «SE LON RT AGLI
+me RAE. CAT PaO AR AA
+
+4) 有总并长度。 65 16 位，表示 JPv6 数据报中基本首帮之后的字节数，包括所有扩展首
+部和上尼数据。最大值为68535 CRUE.
+
+5) FAM. 58, HIRST vd 的押议字由着无扩展首部。则村
+副，者看在扩展首部，则标识紧随其后的第一个扩展首部的灿型.
+
+DACA 8 EMUSE-F MP 的 TTL PE ALA A RA
+大为 255) «UAHA HEINE 1 RE OZ RE
+
+1) ARMOUR. 28 9B RRA AR RE RCA v6 地址。
+
+43.3 TPv6地址
+
+16 BG 9 AMIE TTL F = ARIE
+
+1) ele BOER ALA MS. MER SEO.
+
+2) $48. AU CARE, MERON MAK ERE,
+
+3) 61. JEU 新地的一各地址类型，其特点可概括为 “一直多用、就近交付” = AEN
+
+ALR, UR ABRIL SR EA
+
+TPv4 SWILIGR RMT PBNIORAE. Pv 也沿用此方式，其 128 (LIME ATTA.
+因此，IPw6 ANTS Hak eke HMRI LIN wi, TOE 16 位 《4 HRN»
+AZ i0/1079-49R4, Olln. 4DFS:AA12.0216 FEBC BASF 039A:BE9A2170.
+
+WT SRM, ATS I.
+
+AROS. SALTER AEM EOL AR, CREST NCE. wi. TE
+‘ul 4B 0000 0000 C000 BASK-038A, 000.2176 AGG) BFS OOOBASF39A:A2176.
+
+Dees ene ee ee
+io" CALMS SUEUR — Uk, REAM nT BA RE LLANE BD ，
+(it, XR UC HRS 9) ABE BASE 394:4-2176.
+
+REBAR
+
+Ivo 地址的分类名表4.3 Fin.
+EAs im 好的分类
+ET          ET         TI
+ET         ala           Ti
+ET          ET          Tae
+Sait                       TI                am
+Ta       Tier        TEs
+AR 43 Ahn IRE RAE.
+
+1 ARMA SARA MAE. (RADE MARR I6 地址的主机作为源地址-
+2 环四地址，作用与 Iva 的环加地址相同。但 TPv6 中仅十文这一个环加地址-
+===== wd_ch4_191_210-196.png =====
+184           2007 itm LI
+
+3) 多播地址，作用与Jpv4 多播类伺。这类地二 TPvG MME 1286,
+
+4) 二地外下间接地站，仅用于本地谤路内的通信，不能被中由中转发,
+
+5) 全球单所地址使用得最多的地址。IPv6 单措地址的划分方法非常灵活，如图414 Ba
+可以把整个128 位都作为一个节点的地址。也可用 位作为了网间绥，利下的(128-吕
+位作为本口标识特《相当于 Pd 的主机叶)。还可以划分为三级，用 ”位作为全于路由
+过大前鲁，用位作为子网前组，而和下的 128 -相位则作为接口标识
+
+ET
+[aa Te Ta ]
+
+A the 全于站地的几御划分太法
+
+43.4 从IPv4向JPw6 过湾
+              峭演和的办法，并确保新部叶的TPv6 系统内备向
+力。能名接收转发 Pv4 数据报，并为共过择路由。
+EEE > me aso 202)
+目前主要采用以下两种过第策略，
+DARA, 是指在一台主机上同时安装 1Pv4 和 HPv6 两个协议楼，分别配置一个 lPv4
+地址和一个 IPv6 Heh, GREW urs 网络通信，也能与 pv6 AB. ALN
+术主机通过用层的拭名系统 (DNS) 乾知目的主机枯用的地址类型，若 DNS 下回
+的是 TPv4 地址。则使用 Irv: 车返回的是 IPv6 地址。风使用 IP.
+2) MEAL, 2A PVG 数据报需要进入1Pv4 网络时，将其整个封装为 TPv4 RAL
+的数据部分，使原TPv6 数据报如同在 HPs 网络的院道中传输，当该 IPv HRA
+开 vs 网络后，再特其数据邦分交由主机的 IPO 协议处理，
+
+435 ASME
+
+sou
+OL FORRESTAL IMG MEERA (),
+
+oe er    Cc
+02, 5 ied fb. IPG).
+
+A RM 3p At          Bho T HARE
+
+CAE QoS ft         D，直有提供检验和字段
+
+的下列关于JPn6地址 1A22 120D 0100 00007242 100 000.0000 HR EH. HAA).
+|A. 1A22:1200;72A2:000000000000B. 1A22:120D:72A200:00
+©. 1A22:1200:7242:00C0       D. 1A2:12000-72A2:0,
+04, P16 地址的简化写法为8.DIOLIDSCDEF 89A，划其完可地址应该是【 )-
+和80000000DO00O00000DD-1230CDEFS9A0
+Bon08 OO000000.000000D0123.CDEFR9AO
+CC ao00000000000000. DoO.1230CDEFS9A0
+===== wd_ch4_191_210-197.png =====
+ot 网 的 ek         185
+
+'_co08:0000 0000 0000 nD0:0128:CDEF-O8PA
+05, 下列关于 TPv6 HAEY. LAE (
+
+A. ING 的再部长度是不可变的
+
+BTPw6 Ash Oh Bak fee
+
+CIN AMT 16D AE, ATR RHA TOMR,
+
+Di UNG ART HERES RARE NE
+6, Bw HASH) VG RIMM AKA AERA EBC AE
+
+BOO.
+A eH            wee
+cam               D. Rib Rae IENLUH IRE
+
+07, (023 RAKED FRE IPvd 和1Pv6 HME, LHR (
+1 TNO nak Pv MRE 96 18
+Te v6 RAH AEH RANTS,
+1 IP 向 JPv6 ERA AM ACE CHOI
+IV, Hpv6 首部的Hop Lint AL G4 IPV4 首部的 TTL FA
+六人 RRL CaM DRM
+
+436 答案与解析
+
+sent
+>
+
+1 的地址用 16B C128 LED 表示，比1Pv4 长得多，地址空间是 I 215
+
+@.d
+
+6 采用 128 位地址。lPv6 RST MANERA. (LIU 8 AER WHY QoS (指在
+ART ARATE. NLT ALR. RSL. HAE.
+air mM eae LOTR HAT, ECLA RON CAE, LR EAU ANAT
+自己的检至，为了效率，IPv6 HEATER TER,
+
+wc
+
+SUSE, ES" GERARD BNP HEMI —ek. AUER, A
+HEMRNNEAI OR, SIEM Ho 代表其中的一处-
+
+wD
+
+SLE ikatictk te pve 地址的规则。[D SEERICMN 0, MITRE,
+SLT ARIK. AVEC A O am. HAIRY 0 TSOTR. RRAEMEEA LO
+过夺录的部分展开，得到&00000000 .0000 DO.123 CDEF 89A; HE NECARRIR 4 Het FORL EL
+iE 4 位则才示开头的1 ARAB, 214 FF 408.0000 000:0000-0000:0123:CDEF-ORPA.
+
+5. D
+
+16 HEAR ALIRALA. SER OCR. Wve HT HEAR AR PNR
+THUAN HLA. ITO, RARAAREILE APRA AA. NM A I
+SEAR SUNLN. ASR RH EAN OT LATTA.
+
+6
+
+TPv6 ASCHER NERA. i, SR MRD RAE ACTH
+
+===== wd_ch4_191_210-198.png =====
+188           2007 itm LI
+
+SEMEL. APRA, RIS RA AIC ICMP 报文-
+oD
+1Pv4 bid 32 位，地址空间为8 IPA6 HE 128 (AE 2, IP 地址空间是
+Tea Sie ent 2 8. UE CARR. IP 首部长度是 48 的信数，长认可变，lPw6 基本首部长
+并是 40B,不可变,匀法下错误-pw 向JPv6 LTA I LS TPv4 和1Pv6)
+和限近技术 PNG 数据报对装 IPv4 的数所部分)，说法 ML 正确。lPv6 首部的 Hop Lins 字恨和
+va 首部的 TTL ORCA FRM A LCE PRS PALM ERE. LLY 正确-
+
+44 路由算法与路由协议
+
+44.1 路由算法
+
+RRA LOE RM HF ARE HE PCL IR
+tee eh SCHAAR, ORR — ANGE PB RARE 通和，
+HL” SERA MARMARA. SITUS HRIBBR HE, ALATA Re
+
+1 Boab sab ei
+
+Ae AL A, WOR AL IO MR, ARMAS
+DSCOREV AE. HAF HEIR.
+
+ee ee ee
+
+2) sbAamhaa sk, ALIBI SRASONAE/E OER ADEA) eh ASTUN FMC
+
+Seu EULISUM MN, FER. CURIE RASKIN RIC, SMF ROA
+小型网络。动查中由算法能较好地才应网络状者的变化，但实现复杂、开销也大，适用于较复杂
+的大型网络。常用的动态路由算法可分为两类， 距离向量算法和链巍软态算法-
+
+2. mek
+
+BEA (Distnce-Veto DV) Hib EF Bellman ord Me, EAB RIG HH RITE
+OMB HRN: SO BALMNMER. OAR AAT ARNE. tS
+节点以自身为天点，独立运行 Bellmnanr Fond 算法通过千代交换信息，最终可收各到全网一到的
+SRG EM. FL Beliman Ford HOB.
+
+FR AVRIL A y REIT,
+
+4G)= minjets, 9) +di)}. vi WTA
+
+SRO. of, ev x BISCO w BEBO. C3 TAF Ey RNIN. By
+最和路和用即为所有fx + A). MBL 4.15 所示。所有最短路和算法孝依闪于|
+‘aR: “PLZ RAAT, ARO ERT SON IES”
+
+41S BelinanFod ana
+===== wd_ch4_191_210-199.png =====
+ot 网 的 ek         187
+
+ERA FORM, AL IPL AVA
+1) 从到每个直接相连久居"的镑路费用 ct,»
+2) 节点的更离向最，印 x 到由络中其他节点的并用。这是一组距离，因此称为到高向人
+3) 从每个人居接枚到的不元向量副本，罗的各邻居到所有其他节点的费用
+和法运行时，每个节点定期间记有邻居发送自己的更高向最。当节点x 从各居，按收到新的
+二站疝量后，会更新本地保存的* 的更认向量副本，并利用 上述公式重新计算自身的呈高向量-
+着计算结果导致自身的更离向量发生变化，则立即向所有久居发送更新后的中离向最-
+下面届图4 16 MARAE = OHNE YL. LONER AM
+
+Peer’
+By, sea
+Daan
+
+a ,上 而 :二二
+
+vomits            [ET         Er
+a6 FER inse SRE
+
+EY)» Ratxa om)
+ea tea ea eA ANH ESEAPME, AZ  RAE
+A A LH ER A I
+
+WHERE, FRANKEN AIR MOEN. RARER ES
+(Rea. IS, HA x SERLALAAY ds) Ody minty) + dn). c.2) +d) = mink +
+0,74 1} =2s dee)~min tts, 9) abe tx 2) +d) ~min(2 + 1,740} 3, HLL, x B= OOM
+Ft 7a 7 35 = 54 ARCO 7 变成了3。如图4.16tb)示。由于距离向量发生变化
+工和 =要再次疝邻居发半更新报文，而未变化的 NEAR. A. TELAT
+BF, ROVER MNS, AWARE TLR, MB 4. LNT.
+
+SE, RRA SA AMURIELE, MMS ORC TEA
+
+Re SLE UAE RIP, ERLE EE
+
+3. em
+
+SABA (Link Ste, LS) 指的是本路由器与哪毕久大相款，以及对应外的代缠，钴下
+De eee a ce
+
+。 conRA rar AR OE AAR
+
++ UOTE, MUR TTA.
+
+SE, GP ALAN HONG IN, EIR RETRACT, JROTC ihre 最短路
+FEMI, SLE AISOATAT COMIN, MCMAHAN ALTO TS ASEH
+才杭图，并在生路拓态发生变化时，立即重新运行 Diksu HAULERS
+
+‘LAST EEO DBA AE HN EAS AM AR
+PUAN BER, IT HOPI ALHRE SHHLCFLREe D 二个节点获得完开外
+
+===== wd_ch4_191_210-200.png =====
+188           2007 itm LI
+
+SS, AMINO, SOL ENTREE, @ MEMRAM LOC A EA,
+
+SERGE. AIL MA ARIE, UAE A ICAL.
+ee ee eee er
+
+完整的下元向量 oS ALMARIELE) » IRIE: @ 在链路罗才算法中，每个节点通
+
+过洪开方式向全网广播自身直这链路的杖者，但全条报文公包含所信息，总体扩展性更好。
+‘NR RE RAS HEIL OSPF AU
+
+4.4.2 分层次的路由选择协议
+
+IRWIN ASTRA, EHR LLANE KLE
+SUAS ICS OUMNH, ALAR T APRA PR,
+
+aly MARTE 2 MAL A 8 A. Autonomous System. AS). APE BE
+Em SREY, SLI AR — BAR. TIP ATE REI
+部使用柯种中由选择协议 CJ RIP SR OSPR) «
+
+基于此，百磋网的路由渤择协议划分为两大类
+
+1, 夫间站关地设 (Interior Galeway Protocol, IGP)
+
+内部网闫协议用于自治系统内部的路由寺择，与共他自治系统所采用的钞议无关。目前这类
+Posi RORI TPIS, 2 RIP 和 OSPF
+
+2, SEM KAR (Extra Gateway Proteol, EGP)
+
+SREB LHR ERLE PRI GRA ORS He RAROTESLENTINHY IGP), MH
+RAHI ea EM. BC hn — AA AERIS ARB. IE
+‘iRHONSL ARSE HAiK. “SiN OUTTA AF ANI HPL BGP.
+
+FER SR ASI, ERP MBOEG I AAR A,
+
+图417 AR ae Lt A TUL Ae LOU CA
+RIP sROSPE), OER RAEI Hho Me] CUR RU 和R2》，这些路由
+RRC A RA CHRIS, StF AEH Ss BGP).
+
+eres                          ‘an
+ny MOAR gp
+
+anos     na
+Guee?   " ey
+
+maT 两个自光和本的示间|
+443 路由信息协议
+By 1.04834 (Rowing lnfoemaion Protocol, RIP) 是内印隔闭议 (IGP) 中地里得到广泛
+应用的协议之一，RIP HAS. AFRO A RE
+1 RIP eae
+1D RIP FMEA (Hop Coun, HER > AA RAL A AA IE
+[BUICPEERRER SEG 1s BEEN, 1
+2) RIP U9 “AF" (GOR EERE ALL HONE. ROR
+
+ee
+===== wd_ch4_191_210-201.png =====
+ot 网 的 ek         189
+
+E> aan HZ co
+3) RIP 规定一条路径最多包含 15 HBR, UR 16 表示目的网络不可达，由此可
+BL, RIP QUEM EMER,
+4) SNE RIS = PICO. <EANARM NS ER ds “FRAME XI
+LUE * ROE F— RS a SUR WEI a
+5) Fh REA RAR — PERM. EU A HHSC
+2. RIP HAR
+RIP 要求每个路由器持续与共他路由器之换信息。其工作特点主要人现在以下个方面
+1) 和诊技信息，仅和直接相信的路由器交扫信息
+2) 文摘什么信息交换的是本路由浇当前的完整中由表，即全部路由信息。
+3) 何时交换信息，扩加定的时间间到《中认为30 种) EARTH, RRB Ae
+的路电表。当网络拓扑改生变化时，路由器也及时和相生路由吕通洁最新路由信息-
+a ee ee eee
+Ae. EINE AF MEAT AR. AENEAN, BAG UD
+SUPA RARE SMER RD ERA AUN Sa) FROME, BIE EIR,
+Er er emir om)
+RIP VAM, EARN] UDP (KAR OT 520). REAM, RIP IRENE
+ALOE, (cAI BRA. DIE RRA RAUL ATARI.
+3. RIP GRRL
+PA IEE UP HC, ATUL
+1) EGHAM SAY RIP 报文，首先修改其中所有项目，将所有“下-号"
+PRRANIU X, SASF “SEM ARCH 1
+2) 对修故后的每个项目，技如下规则外再，
+1 (坟原路由大中没有目的网络 NM)
+则将该项目加入路由表 【表示发现亲网络)
+LSE正(荐可路由家中已有目的网络 N，且原下一中址是 10
+用新收到的项目昔执原表硕《要以最新的消息为准).
+LSE下(着训路由表中已有目的网络 wy，但原下一了地址不是0
+着新收到的项目中的本离d 小于当前记录的下离 NORRIE CRATES).
+ELSE ff AWB.
+5) Batot 180 秒 CRIP 默认超时时间) ARLTLALAT USHA AONE IRAE NL, Ne SEA
+i, DA PRB TRI 16 CARTE «
+© 修理完毕，返回，
+EEE» erm 020)
+‘FM AES] 中路南天的更新过程。已知中由器R6 AURA TEA ABR. AN
+未为 Ro 的路由表。现在收到相各路由器 R4 ARGUE, LT
+
+Risa) R6的了由         Ris) Re eR
+Tama [ss | Fane     ain [Ss] Pane
+=     =        eT
+
+===== wd_ch4_191_210-202.png =====
+190           2007 itm LI
+
+sh 的路由家进行更新。先把 a RMR Ae (He ay] 中各项的中施加1，并把
+PRUE Ra, AE Ala). APRA LA RAE R6 ANN. RO 可通过
+R4 到让这些网络，但距商此 R4 MiBIRAEIASRONEE IL, HOUR'S Ro IRR AeIRILC,
+
+Risa) ec RANE      RAS) SAFE RE RREOR
+fame [= a | Ream      es 于
+
+第一和的 Netl EAM ayH LA. 这志明，RG 紫衣没有到过 New AR, ENOL
+RABI Netl。 因此，要把这条 Nett SMG ROAR ME Re 的中由衣中
+
+第二和的 Neo 在表446)中已有，且下一碍路由器也是 RA. 这表明。 R6 到达 Ne 的于路
+击饭类是通过只4，但不离发生了赤化【通常由网络拓扑变化引起)。因此，现更新目的网络 Ne
+NRA CECI GAR. TRIER).
+
+第三和的 Neo HEH AMayICL A OCR—SRAG ATH. HN EEARIE RL, SR ROA,
+D2, AVPIEASHE 4, BA, Re 通过R4 到过 Neo (OILERS ATIENG, RL
+新 Nea 的路由表项 《新路由的中离更大时，不更新)，
+
+更新后的 R6 的中由衣如表 4所示-
+
+4. RIP 的人大上
+
+RE ne se cmo
+
+Ra的全上
+
+1 SSI, TERA ai BNI
+
+2) HH EALERTS EA AEH YB
+
+Re 1S AE te HBeB
+
+ip ge
+
+1 RIP RMU INES, ICAR ACARD 15. GER 16 表示不可达)。
+
+2) Shin BLOIR ALTERNA, BERRA, TERRA.
+
+3) SALI. Rh IR a IN A HEN AN BRI.
+
+er rae
+
+i RIP HF AR, A” RE RI 18 ES
+时用 RIP UA AL. ER 到网络 WASHES A. AL RL ASCRIBE
+Sede AFAR W AONE IEELS RU PIVCN, 4, 直接>，R2 中为<N_S.RI>，
+
+oem             commune
+An RIP SAREE
+EPH 4 ay, EO. RU ER “BLA CNOA” (下由4 变为 1)于是将到
+的下更关为 1，关通知 R2 《即便 R1 SCN 发来的更新报净，也不会修改自身到 N 的路
+由)。R2 收到后，将到 的距离刘新为 2，并通知 1，R1 枚到后，不家外才自己的路由，算法
+EATHARAS. OTL, RO 到和的更离碱少的好省息邓过RIP ALL Wa,
+
+===== wd_ch4_191_210-203.png =====
+ot 网 的 ek
+
+E> np -ae oo cn)
+在图418b中，亲时封，RL 检测到“N 不可达” 《距离由4 变为 16)。于是和到 N EL
+村为 46，得可能等到下一次周期性更新《加认 305) 才会通知 R2。而在此期间，R2 可能已和
+PACMAG T RL. RAL, 5.RI>。R1 收到后。误认为可通过Ra BAN. PAL
+RIERA, 6,R2>。 随后1 通知 R2，R2 又提此将路由人四更新为<X 了.RI>，误认为
+YAGER 到达 Nowe SEEK, SPR AOSTA 16, AION N 是不可达的。可
+RIP 对链路斤障或下将增加这类“十消息”的传播大党经慢。基天中数上限 (15) ORE,
+See ea ee
+
+444 “开放最短路径优先协议
+A A AT ARR AR” ，但这并不意味着其他路由协议不采用最短路生原则。实
+际上，自党系统上必用的所有路由协议二在寻找一条二短路征，只是最短的度量标准不同。
+1, RAUBER (OSPF) AAA,
+ > cGPr eran: m8)
+(OSPF 协设是分式链中居态第法的典型代表，它采用了 Dita 提出的最和路答算法。与
+RIP HIE. OSPF 具有以下四个主要特点:
+1D OSPF A A PA Ne A A EAL AAT AE
+Ps IRE SAN SRSA BARRE OSE CECE IL
+Se eee ee ee
+‘ROP U/L aR
+2) OSPF A805 6 8 ba 2 JUL RZ RERRARA CALAN «ake
+MBSA. RIP ARRAS IO AAA CE ARENIEAE)«
+3) OSPF CLERKS RARELY 4 RINE, SLAM, Nera RIP ER
+Fe” 的问题.而 RIP 不论罗络拓外是吾变化，孝震定期交扫路由信息-
+CIEE» Orr WRN F RA COT)
+和 0SP 总网络导协议，不使用 UDP 或 TCP，而总直接持靶在下数据报中(IP首部的协议
+FUN 89). TE RUP RAGIN, BH UDP fe GET S20) «
+
+“用 UDP ak” SLRSEDELALNIE UDP MACON; “直接人用 ARI”
+
+REE LRIH PRMRORHAS. RIPE
+
+阶上过区别外，OSPF IESLASU FURS:
+1) OSPF 支持对全条路由设置不同的代价，可导对不同业务类型计算关界化路径。
+2) 存在多条到同一目的网络且代价相同的路径时，可家现负分担【芭称几榴六) ，
+53) OSPF 分组具备出臣能，确保公在可信路由吉之间交换甸路杖者信息
+4) OSPF 支持可杰放网拓码和天分类六站。
+5) SE RRAIBMLADE ARIE 32 (FEE, HEGRE, ROAR
+Heh NE a AL A A A
+《LSDB) «FUR. ANH RIIET LSDB，和用 Diksea STREETS THA CREE,
+SEAR CUED. SNSARRARS AEG, Ra SIAR
+
+===== wd_ch4_191_210-204.png =====
+492                            2007 itm LI
+
+LE Dikera BARMERA LUE, MUROAY RRA ALAA, HILAR Fak
+AT TOME, TRALAT MB ELH,
+
+AAEIINMIGES, OSPE 将一个折洁系统划分为基干开小的区域 (Area) 。划分区域的好|
+处是。 将洪渤法交换和路杖信息的范围限抽在各区域由，而伏整人 AS，从而显著碱少网络通
+信开销。每个区城由一个或多个区城边界克直器人责为过出污区域的分组提供路由。AS 内必须
+有一个区域配置成主二区域，它包含 AS 内的所有区域边界路由器 《可能还包含部分全边界路由
+
+AEFI, SPRL HORN, SCREEN EE
+
+一本地区二
+
+IE EPO UMA AE HAL. CIN 419 中，R3、R4 和 RT HCL
+ee ee ee eed
+SAFER 4a ROD. ETSI AS 外的其他 AS IRA.
+
+B19 OSPF ice
+
+2. OSPR HRA OM
+OSPF 定义了以下五种分组类型
+1) FMR 《Hello) 分组，用业现久居并内持人接关系，确认链路双册连通性。
+2) ARSE (Dathase Description, DD), FIR IEK CARER ARS BIBI (LSDB)
+i A NR
+3) SERA CLinkStte Requests LSR) Hl, FURR EMER RS HOE
+ta
+4) RS RAF CLink-Stte Update, LSU) SHER. AIRS He eR BEER
+(LSA) ，它是 0SPF 最核心的各分。路南器使用这种分组将其链路检才通知给久居-
+5) BEABIRAMUA (Linic state Acknowiedgment，LSAck分担，对链中更新分组的确认
+这五各分组共同支撑了 OSPF 的邻居发现、数据库同步、拭站更新、可靠确认的全过和
+3 ，OSPF 的基本工作生理
+eg
+(OSPF Hie. ALAR. SE 10s RES, a HR I I
+Jet. TREE 40s 内未收到名居的问外分担，则所定该各居已不可达，并立即凶发
+ARSE CLSDB) 的更新，阴后重新运行 Djlsts 算法以生丰杂的路由表-
+通常，网络中传过的大多数 OSPF HLA ORAL.
+2) BBR SAUER IE
+FERALE SM, (LMT SEIO JMNM AE lng
+
+===== wd_ch4_191_210-205.png =====
+ot 网 的 ek         193
+
+‘Ras RUREMITFER). MEH eR eH LSD, 若采用全网广播所有引出可的完整甸中状态信息，
+则会攻来下大的通信开销。为此，OSPF采用了一各高效且可基的同上机制.
+
+首先，相人路由器通过吉据库指术分组效各自 LSDB 中链路状赤通告 LSA)的捕归信息*
+i A CHL, REAR AS ADR WR RY SA 庄细内容
+eG REBAR WES LALA LSA AUCH IAEA ARSON 1.
+AMOROUS. HAL — RP, MEGANE SEAL LSB MITEL
+
+3) BURRS A RONG
+
+eae LS, — CL RRA er, Cl aR A
+$9). ORSON RRO LSA, JEM SAPRORAS WL RANE NCR
+ese. INC TRMY, KERAERTTI CLM LSDB, AREF Disa MERGE.
+
+WER GH TMA
+
+每条LSA 的最大生存时间为 60 SFE, 9B LSA EARS. AVE LSA OBE
+‘RIENCE 30 9H 硼新沪 LSA，从而确保LSDB 与实际网络拓扑纤保持一到
+
+由于得人路由器的链路状态信息色拉这其与直和人民的连外关系及路代价,与全网规横无
+直接关联。国此，当网络规六很大时。OSPF EG BOR TIE FOR HATHA RIP.
+
+445 边界网关协议
+
+1 BOP 的要二特点
+
+People corn
+
+SUR M EAL (Border Gateway Protocols BGP) LARUE ARAM hr RZ) ENB EA
+(thie, APSARA. BGP FAFA AS 2M. 而RIP 和 OSPF 攻只能在一个AS
+PLL: JAR BGP，则全侯界数以万计的 AS 部将是一个个外此孤立的“玫务”
+
+内邦回关协议主要是设法本分组在一个AS 内尽可能有效志从源站传上到目的站在一个AS
+RATS Ae RI TR. A BGP 使用的环境却不同，主要原因如下
+
+1 百联网的规模太大，合得 AS 之间的路由寺择韭带国允，每个主二网路由器表中的项目数
+
+ERMA. AF AS ZRH, UREN IR.
+
+2) AS ZIMMER ATH EN. RARER AOR.
+
+(EEEEG > oo RaTEi cov, 207
+
+因此，BGP RAR IIR RACHA OE ECAC MEK ORIEL). SEI
+寻找一条最侍路由。BGP HI THB ee HN AWDAL, SHUR CRI IRR
+OIL GN OSPR 者有很大的区别。BGP ARAL. AF TCR AHR.
+
+2. Bar ae
+
+GP 下由的一般格式如下:
+
+[BGP Bil = <0, BGP Ut = <1 AS-PATH, NEXT-HOP>
+
+DOP 属性有多种类型。当一个路由村通过 BOGF 会话向对等方通告一条 BGF 路由时，最重要
+的机个必狂是 AS-ATH (自治系统史径》 和 NEXTHOP CFB.
+
+ASPATH IGT BGP 路由所生过的自治系统毕列。在 BGP 中，择个站治系统直一个全
+局只一的自治系统号 (ASN) 标识。BGP 路由每经过一个 AS，吉和其 ASN 加入 AS-PATH。 可
+见，BGP 路由明确指出了所经过的 AS路径。但不指明具体经这哪些中由器
+
+NEXTHOP 表示接收流 BGP路出的路由器去入目的网络时应全用的下一了地址,具体而训8
+===== wd_ch4_191_210-206.png =====
+194           2007 itm LI
+
+从本 AS 出时，需将分组发给 NEXTEHOP. 3D uP AS I
+本 AS 直连的接口了地址，即 ASATH 中第一个 AS 《邻居 AS) MBUHATIE.
+
+Er ocr sme como
+
+在一个AS AGB SAB Rh PE A AR 8 2
+PLUG AS 内部的 BGP HE ZIM, GLAM 9 179 AYE AA TCP BAR CES IE TSE
+#93840) SOIR BGP 路由信息。每和通过 TCP HERA BGP HENNE EN BGP A.
+该 TCP HEE BOP 会放。其中，路二两个 AS 的 BGP 会话称为外部 BOP (eBGP，exiemnal)
+会话，而位于同一 AS 内的 BGP ZEA FAK BOP (刘GP，inernal)会话。可见，BOP 不公用
+FAS 之间的路由交换，还运行于AS 内部，以确保外部中由信息在必个AS 中正确传播-
+
+iB QTL, BGP ERE AS (HAH MT RRA OAL BGP 会请，但不
+要求物理右连(如图4.20 中 R2 与R4、R2 与Rs之间的 BGP Bi.
+
+下面通过一个简单的仙子来说明
+
+在图42 中，位于AS2 的R4 收到一条 BOGP路由 “X_AS-PATH -ASI NEXTHOP = RI”
+表示 “从员! 出发。经过 AS1，可到达网络X” AD “RI一X” 。R4 为了构造自己的路由表，震
+要解村该路南的NEXTHOP。由于 R1 Ee ASL, ASO 的内部中由器无法直接将分旨发往Rl，因
+SERS 作弄二过 AS? 中的某个边界路由器来揪这 NEXFHOP。 具体地，R4 知道RI 是共sBGP 对
+等方 wo OVE, LAME RI MONE TENNEY R2，形成的路径为“R2一RI一X”，由于 R2
+在AS3 1h, ASD 内的所有聊由器能将分组转发到有2，再经这RI。最括到达X.-
+
+一 wma
+
+‘aan
+
+420 BGR
+
+接着,及4 和用内部网半协议 AGP) « ARAL] R2 UROLEB RECA FB RS.
+FA A 在上册表中添加表项<X.R3>。此后，R4 收到目的网络为X OS IEE RA
+了3一取一RI一转发.类似地，R3 WEI oP RAL, RON EEL
+BGP 路由通告后，都竺要执行 NEXTHHOP 解析和 IGP BERR, LHR EAS AHR.
+
+3. BGP Reka
+
+aE)» ocr nasa om
+
+WIR AS 到另一个AS 中的网络X 只有一条 BOP 路由，刚无须进行 BOP 路由选择，该
+路由印为只一路径- 然而，如果存在两条或更多的 BGP 路由可供迁抒，则应根据以下原则，并按
+ime ICSE. at SIE BGP 中
+
+CD BRIER EL OE
+
+在 BGP 路由的属性中，有一个称为地优好 {LOCAL-PREF nibs, SECs] em AE
+政这或经济上的策略业设置。以图 421 为例，从 ASL 到 AS4 共有丙条 BGP 路出，管理员设置
+LOCAL-PREF 值后，根据该原则，所有发往 As+ 的流量痢和择从R1 ASIF. Ml, COMERS
+ALAR, BGP 也无法自动将部分洲量切换到较空闪的你链路
+
+===== wd_ch4_191_210-207.png =====
+ot 网 的 ek         195
+
+TOCALRRET= iy wmanAnuaAsneana
+
+maar RRMA,
+省在JU a sve WAF BIRO RID
+@) a AS sec (ASRATILRKE) #358
+机到达有的AS 的条 BCGP Aes AMEN LAB, WL BGP 让择 AS RR
+RL A.2 abl 从AS1 到AS5 共有两条 BGP i, LUGE, ARSEDLIBRE 1 + AS tf BGP
+Gil. DAS-DASS-ASS. Mi, AIF AS4 是个人大的 AS，分组在AS4 SEI
+的天，可能要更长时间-可见，AS BRERA IRA.
+
+ee
+
+Perret
+22 muKHsit as msi 28H BoP 路由
+
+GO) RAALEROME EE
+
+‘RCA UEHARA RANE WLR A23 WPL. KASH 到 ASS SEAT BGP
+南。彼设这两条中由的林地编好都相同，所经过的 AS 个数也相同。 此时。AS1 PAGE OHS
+RFA SARA LOIRE PUGS) ，全分组经过最少的转改次数离开本AS。这
+PROUT ARERR CRIP 或 OSPF)，对于不同的路由器，得出的笃结采是不同的。 对于
+RR1，要快分组尽快离开 AS1，应选择 Ra (FSR, BLUESY BGP 路出2，最络的村发路入
+Hs RI~RI~BGD 路由 2. WORE. PT RO. ARIPO ASL, RUIRAE R3 作为其下一中
+LBL BO Eb, ee AE REY RO—RI—BOP 路由 1.
+
+Meo AsLommRILOEN
+seth eh
+
+在 BGP 报坟的首部有一个称为 BGP KBAR AR. PELLET BGP 路由器的只一标站
+符。当以上三往法攻无法找出最好的 BGP RABY. WSR BGP BRAN HB.
+
+===== wd_ch4_191_210-208.png =====
+196           2007 itm LI
+
+4. BGP mae,
+
+当 BGP 刚启动时，BGP 会话的两山和要交换完整的 BGP HRs es HAT. (HERR RE,
+NEM sp. LESTER FMP ERA AEE.
+
+EIEEY > ocr 和RH有 co)
+
+BOP HE RT DL ROUAPHR
+
+D Open (打开) IR. FPR BGP IBAA, MM SINE.
+
+2) Update (更新) JRL. FACE APs, LZ a
+
+53) Keepalive (生活) AUR, AEASWITEIESS 9 5 OEE,
+
+44) Notation (通知) ARR. 用来送检测到的闪错-
+
+两个路由器在建立TCP 连接后，必须首先交换 Open EL. LALA Ree
+‘RBH. CLI Open COVEN ALE BGP HEART, ZL Keepalive MX. BGP Ai
+1577 IN RHEIN Keepalve HEX (BULAN OB. LARIAT.
+Update AEE BGP HA. A PRGE ZH MM. WRC — ANE
+Rio Le a, LAURER. PESTA SIAN ae
+
+为本对等方是天失效，每个 BGP MAB RAR RRR EN. HIER. BGP
+报文，计时器就重为 0 并开始计时，荐在约定的保持时间内永收到任何 BGP 报广，则认为对
+等方忆失效，BGP 连接将关闭，保持时间于认为 1808，而 Kepalve HSCHHARIEPIRE IE 13.
+
+RIP, OSPR 45 BGP MLL 4.6 Ha
+
+Kis SHmawAOHR
+
+ne         a
+
+a       cory                      coy
+
+ia       mans                     Tie oa
+
+ECT     ISTETTI                 CISTI
+Tapniaansune. |Taaawanminaen| ae [eA
+
+zane lenanmae       anes          ET
+
+4.4.6 “本节习题精选
+
+corte
+OL FARTHAMAAM DARGA LED AGEL, LAL),
+A动丰下由渤反雪要维押条外网络的托打结构信息，而赫坟下内直拉3
+soshsn 8
+BAS RETA HE Modem HED, HRS RIES
+委于工去再到相关的路由信息
+CC动态路由造反简单且开销小，雪路由渤择复厅且开请大
+D，动态下由沁反使用夏由表，雪下出选择不全用路由表
+02 FAR ERASER MRET, HRA),
+AL tomb infr ob abt sbi
+PSMA MSRM aha eA
+CC ”动态下由也条自和应算法，会权括网络的撕站安化和计量赤化改变下由沁策
+
+Pe
+
+===== wd_ch4_191_210-209.png =====
+ot 网 的 ek         197
+
+Di, ababin ke SO RI MIB AS
+03, FH PRBR SIME, ALLO ).
+A CRAULEREE RAE AMSG BAIS abdod tHE A Hay
+CC。采用江汉技术更新路变化信息 DL LAT NRARIN EE
+4在外路红态算法中，每个路由到都得到网络的完整拓扑结构后，使用 ( ) Sat
+它到下他路由加的路芭基度，
+AL rin 最小生成本算法       日，DIRksm I Fok
+(© Kruskal Ae 8 sk      D. dethies
+05. FARTS RM aM. RL,
+A RISA Ha SHER HR
+BAAR (Rsoik otk MeO HAC TLIRSH HIRE, iE Aoak Sor
+cared
+© APRS, THERM MERE
+DNTANAS, THEESRO DERG RER
+06 AFR T AEA MMAR, HARA C),
+A SEARS TRL, PADMA TRALEE LEM GREG AL
+FRA, AN
+B, AMA EIRATRie LIME LEELA, BLA OSPR HL RE
+C. OSPF ARAL A AS LAE, HM
+D. AM /Madieh she sou KIEANMASGH, Ina XE RN tH,
+07, Si FAMB, manbieDiLeh ARO CD.
+
+AL URIIB IR AAD     日，达宕到丢目的地的最人政权
+c Rapa          Do ALF aware
+
+os, SAREE CD.
+A RP      2. BGP      CosPF     D. ARP
+ARDY, RAMEN 16, RELL).
+AL RNs RL          BAER
+CRA AUR      D，到过该网络要经过15 HR
+
+ARID, MILO Xfrh  K 是两个相钙的下由器，X 向 K 说“我到目的网络
+Y WGHE 9 NM ，到履到此信息的区此知道“车竺到网结 的下一个政和加渤为X，则
+我到网络Y 的下为( )”。《{候让 AE 15)
+
+人       BNI      ea        Dott
+
+TL RFR RIP MEY, AHR).
+
+A, RIP AR FIERA) bak ee
+
+B. RIPRA ASIA BIE ATA AS tisha RA
+C. RIPLA ARAB BAIA AS HIB BH AIBA
+DRIP Ke ab 8 eke AAS,
+
+12 ALRIP , Soba ARH Hat cA Anse RAeTE et, ALLA Rae NC)
+A ARMA CARR
+B. RANE BREA LHRH Cehab
+向所有相生下由器发这铺认信息后更新自己的下由表
+===== wd_ch4_191_210-210.png =====
+2007 itm LI
+
+13
+
+4
+
+1s,
+
+16
+
+1
+
+下
+
+站
+
+不要新自己的下由
+
+SIRE iL ARS — NE RAEI ARIA, aR LIC.
+
+人下由能把分组发适到预定的目标
+
+路由器处理分组的过度下够
+
+CIGAR Am eA
+
+D. RESATMROA— MEM
+
+下列关于 RIP OSPF 协议的权迁中，氏的是 (人
+
+AL RIP OSPR Hi HSE
+
+上在过行政由信息交接和时，RIP Hab Be WAN eh BALALIE , OSPF He
+议中的下由加向本自治系统中的所有下由加发天信息
+
+在过行政由信息这对，RIP 中的路由器发的信息是可下由表，OSPF 协议中的
+BOB RANE LR EUR Ar
+
+D. RIP W380 B soit M0 64h Hy, OSPE HEREC — AB BAe 8 fe
+ak de
+
+OSPR 协议使用 ) 分组未保持与其名居的连接
+
+A. Helo               B, Keepative
+
+CSF Cau He)       D. LSU (438:k5.884)
+
+FEE OSPF LHL. HORM C ).
+
+[AL OSPR 协议根据链路半坟法计基最住路和
+
+1B. OSPR 二议是用于自治系纹之闻的外部加关协计
+
+CC，OSPF SCRE MLIS MiB ALD Saks EE
+
+D. OSPF AMCRIEM Fuses.
+
+AOSPPUEY, IPTRORERA HL (>,
+
+Ab)        减少江汉法交扩的和信和
+
+Abeta Rigi        二如网二的安全性
+
+FART OSPF MICH MEM MHEG, SRA),
+
+AL OSPF HCH — A HENTAI IK MRSA RR
+
+petearerreterries
+
+CC在自治入中有二关中由器: RAMEE, 2TROR. RR MRE OA
+Rs
+
+D. SPRUE TRAE RA ROS
+
+BGP LR TRILL C
+
+A SARAMBMETH RA BSL NMI TR
+
+CHARM HR RAMEE D. SRL /AM AONE Fob
+
+RIP. OSPF 协议、BGP Hab inskabltAL PALE ( ).
+
+A BAGH, BRA, EOE
+
+B. ERAT, BOE, HRS OL
+
+C REAEAR. RAE. ERA
+
+D. BRMEK. OER. BEM EOL
+
+ARICA RRA, FHC) 协议属于 TCPHP ARAB AL
+
+1. OSPF    MRP     lm, BGP    WV. IeMP

@@ -3,3 +3,9 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.egg-info/
+
+# C/C++ Build Artifacts
+build/
+*.o
+*.a
+*.d

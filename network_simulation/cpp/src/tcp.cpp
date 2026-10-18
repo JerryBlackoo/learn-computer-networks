@@ -99,11 +99,12 @@ void TcpPcb::emit_seg(uint8_t flags, const Buffer& payload) {
   seg.ack = rcv_nxt;
   seg.flags = flags;
   seg.payload = payload;
-  emit(seg);
 
   if (flags & TcpSegment::SYN) ++snd_nxt;
   if (!payload.empty()) snd_nxt += static_cast<uint32_t>(payload.size());
   if (flags & TcpSegment::FIN) ++snd_nxt;
+
+  emit(seg);
 }
 
 void TcpPcb::listen(uint16_t port) {
