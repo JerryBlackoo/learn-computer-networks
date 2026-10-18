@@ -1,4 +1,4 @@
-# 计算机网络学习路径（wangluo-xuejing）
+# 计算机网络学习路径
 
 中文、原创作业 API 的本科计算机网络学习路径，与同家族的 OS / 算法仓库同级：**13 个模块 + starter/solution + `make verify`**。传输层在内存信道上提供双向 ACK、滑动窗口与重传的教学仿真（见 `docs/TEACHING_GAPS.md` 诚实边界）。**模块 13** 对齐知识覆盖计划第 11 节「真实协议诊断」，仅补证据链与报告结构，见 `docs/ZHENSHI_XIEYI_ZHENDUAN.md`。
 
@@ -22,7 +22,7 @@ make verify
 | [docs/RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md) | 引用与安全政策 |
 | [sources/catalog.toml](sources/catalog.toml) | **唯一**官方外链目录 |
 
-## 八个目录怎么用
+## 九个目录怎么用
 
 路径均相对于仓库根目录。学习主线是先读 `docs/`，按顺序完成 `modules/01-cengdie` 至 `modules/13-zhenduan`，再结合真实网络实验与 `evidence/` 做诊断；其余目录在需要时查阅。
 
@@ -34,6 +34,7 @@ make verify
 | [real_network_practice/](real_network_practice/) | 学完套接字和 TLS 的基本概念后，按 [wire_probe 的说明](real_network_practice/wire_probe/README.md)连接自己控制的 HTTP/HTTPS 服务，观察 DNS、TCP、TLS 与首字节耗时。它使用系统真实网络，不调用教学仿真信道。 |
 | [evidence/](evidence/) | 做模块 13 和毕业验收时，先读 [GRADUATION.md](GRADUATION.md) 与 `evidence/final-report.md`、`evidence/failures.md`；按 `commands.md` 和 `scripts/` 在可控环境复现，把真实抓包保存到 `raw/`，核对 `results.json` 中的 G0–G7 状态。仿真数据不能代替抓包证据。 |
 | [sources/](sources/) | 学到 IP、TCP、DNS、TLS 等协议而需要查 RFC 或工具文档时，到 [catalog.toml](sources/catalog.toml) 找官方入口；无需提前通读。 |
+| [books/](books/) | 在本机存放个人有权使用的 PDF 作为补充阅读；文件被 `.gitignore` 排除，不随 Git 提交或推送。见 [本地资料说明](books/README.md)。 |
 | [tests/](tests/) | 根目录的全局测试支撑：`solution_loader.py` 负责加载模块参考实现，`test_evidence_tags.py` 检查元数据标签。各模块自己的用例在 `modules/NN-*/tests/`，从仓库根目录执行 `make verify` 会运行两者。 |
 | [tools/](tools/) | 平时在根目录运行 `make verify`，它会调用 `verify_repo.py` 检查目录、文档与元数据；整理毕业材料时可另运行 `python3 tools/verify_graduation_evidence.py` 检查证据包结构。结构检查通过不等于毕业状态为 PASS。 |
 

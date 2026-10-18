@@ -1,6 +1,6 @@
 # 真实协议诊断路线（知识覆盖计划第 11 节）
 
-本文件是 **Computer-Networks-Learning-Path** 对「网络协议与真实网络诊断」的升级说明，与仓库内模块 01–12 的**教学仿真**并列，不替代 `docs/TEACHING_GAPS.md` 中的诚实边界。
+本文件是 **learn-computer-network** 对「网络协议与真实网络诊断」的升级说明，与仓库内模块 01–12 的**教学仿真**并列，不替代 `docs/TEACHING_GAPS.md` 中的诚实边界。
 
 ## 目标与预算
 
