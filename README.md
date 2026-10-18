@@ -34,7 +34,7 @@ make verify
 | [real_network_practice/](real_network_practice/) | 学完套接字和 TLS 的基本概念后，按 [wire_probe 的说明](real_network_practice/wire_probe/README.md)连接自己控制的 HTTP/HTTPS 服务，观察 DNS、TCP、TLS 与首字节耗时。它使用系统真实网络，不调用教学仿真信道。 |
 | [evidence/](evidence/) | 做模块 13 和毕业验收时，先读 [GRADUATION.md](GRADUATION.md) 与 `evidence/final-report.md`、`evidence/failures.md`；按 `commands.md` 和 `scripts/` 在可控环境复现，把真实抓包保存到 `raw/`，核对 `results.json` 中的 G0–G7 状态。仿真数据不能代替抓包证据。 |
 | [sources/](sources/) | 学到 IP、TCP、DNS、TLS 等协议而需要查 RFC 或工具文档时，到 [catalog.toml](sources/catalog.toml) 找官方入口；无需提前通读。 |
-| [books/](books/) | 在本机存放个人有权使用的 PDF 作为补充阅读；文件被 `.gitignore` 排除，不随 Git 提交或推送。见 [本地资料说明](books/README.md)。 |
+| [books/](books/) | 存放参考教材与试卷资料 PDF，通过 Git LFS 进行大文件管理。见 [资料说明](books/README.md)。 |
 | [tests/](tests/) | 根目录的全局测试支撑：`solution_loader.py` 负责加载模块参考实现，`test_evidence_tags.py` 检查元数据标签。各模块自己的用例在 `modules/NN-*/tests/`，从仓库根目录执行 `make verify` 会运行两者。 |
 | [tools/](tools/) | 平时在根目录运行 `make verify`，它会调用 `verify_repo.py` 检查目录、文档与元数据；整理毕业材料时可另运行 `python3 tools/verify_graduation_evidence.py` 检查证据包结构。结构检查通过不等于毕业状态为 PASS。 |
 

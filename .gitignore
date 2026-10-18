@@ -3,6 +3,3 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.egg-info/
-
-# Keep third-party study PDFs on this computer, not in Git history.
-books/*.pdf
