@@ -1,4 +1,0 @@
-id = "01-cengdie"
-title = "分层与端到端论证"
-evidence = ["host-verified"]
-verify_tests = ["modules/01-cengdie/tests/test_cengdie.py"]
