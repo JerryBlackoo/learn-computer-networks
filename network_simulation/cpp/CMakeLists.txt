@@ -27,6 +27,7 @@ add_library(netsim
   src/tcp.cpp
   src/dns.cpp
   src/http.cpp
+  src/email.cpp
   src/host.cpp
 )
 target_include_directories(netsim PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

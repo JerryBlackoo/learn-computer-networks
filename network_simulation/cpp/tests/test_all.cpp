@@ -7,6 +7,7 @@
 #include "netsim/csma_ca.hpp"
 #include "netsim/token_ring.hpp"
 #include "netsim/dns.hpp"
+#include "netsim/email.hpp"
 #include "netsim/ethernet.hpp"
 #include "netsim/http.hpp"
 #include "netsim/ipv4.hpp"
@@ -329,6 +330,53 @@ void test_token_ring() {
   CHECK(ring.get_received(2).empty());
 }
 
+void test_smtp_and_pop3() {
+  // 1. SMTP Test
+  SmtpServer smtp;
+  CHECK(smtp.get_greeting().find("220") != std::string::npos);
+  CHECK(smtp.process_line("HELO client.local\r\n").find("250") != std::string::npos);
+  CHECK(smtp.process_line("MAIL FROM:<alice@lab.local>\r\n").find("250") != std::string::npos);
+  CHECK(smtp.process_line("RCPT TO:<bob@lab.local>\r\n").find("250") != std::string::npos);
+  CHECK(smtp.process_line("DATA\r\n").find("354") != std::string::npos);
+  smtp.process_line("Subject: Hello Bob");
+  smtp.process_line("This is a simulated email.");
+  CHECK(smtp.process_line(".\r\n").find("250") != std::string::npos);
+  CHECK(smtp.process_line("QUIT\r\n").find("221") != std::string::npos);
+
+  CHECK(smtp.mail_count() == 1);
+  const auto& spool = smtp.get_mail_spool();
+  CHECK(spool[0].from == "<alice@lab.local>");
+  CHECK(spool[0].to == "<bob@lab.local>");
+
+  // 2. POP3 Test
+  Pop3Server pop3("bob", "secret123");
+  CHECK(pop3.get_greeting().find("+OK") != std::string::npos);
+
+  // Deliver email to bob's mailbox
+  pop3.add_email(spool[0]);
+  CHECK(pop3.remaining_mail_count() == 1);
+
+  // Auth
+  CHECK(pop3.process_line("USER bob\r\n").find("+OK") != std::string::npos);
+  CHECK(pop3.process_line("PASS wrong\r\n").find("-ERR") != std::string::npos);
+  CHECK(pop3.process_line("PASS secret123\r\n").find("+OK") != std::string::npos);
+
+  // STAT & LIST
+  CHECK(pop3.process_line("STAT\r\n").find("+OK 1 ") != std::string::npos);
+  CHECK(pop3.process_line("LIST\r\n").find("1 ") != std::string::npos);
+
+  // RETR
+  auto retr_resp = pop3.process_line("RETR 1\r\n");
+  CHECK(retr_resp.find("+OK") != std::string::npos);
+  CHECK(retr_resp.find("Hello Bob") != std::string::npos);
+
+  // DELE & QUIT (Transaction -> Update)
+  CHECK(pop3.process_line("DELE 1\r\n").find("+OK") != std::string::npos);
+  CHECK(pop3.process_line("STAT\r\n").find("+OK 0 ") != std::string::npos);
+  CHECK(pop3.process_line("QUIT\r\n").find("+OK") != std::string::npos);
+  CHECK(pop3.remaining_mail_count() == 0);
+}
+
 int main() {
   test_capacity();
   test_phy();
@@ -336,6 +384,7 @@ int main() {
   test_csma_cd();
   test_csma_ca();
   test_token_ring();
+  test_smtp_and_pop3();
   test_checksum_ip_udp();
   test_arp_poisoning_model();
   test_lpm();
