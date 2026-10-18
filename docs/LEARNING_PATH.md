@@ -41,6 +41,15 @@ modules/
   13-zhenduan/         # 真实协议诊断（计划第 11 节）
 ```
 
+## 模块 03 的两道综合题
+
+学完模块 01 的分层概念后，在模块 03 依次完成：
+
+1. [IP 数据报逐跳转发](../modules/03-ip-zhuanfa/exercises/01-ip-datagram-forwarding.md)：计算 `/17` 网络号，查学校/公司/ISP 的转发表，填写五种通信场景的出接口、下一跳与 MAC。
+2. [ARP 地址解析](../modules/03-ip-zhuanfa/exercises/02-arp-resolution.md)：对比远端发送、回程缓存命中及同子网直达，填写请求/应答字段并计算帧长度。
+
+先看题设独立推导，再对照解析和闭卷自检。第一题中的代码块可在仓库根目录直接运行，用已有 `MoNiZhuanfa` 验证查表结果；ARP、TTL 和真实以太网发送仍属纸面分析范围。随后进入模块 04，学习路由表如何形成。
+
 ## 大作业（模块 12）目标
 
 在 `ShuangxiangLianlu` 与模块 02 可靠层之上实现 `XinyunTongdao`，承载极简「类 HTTP」请求 `GET /xinxi` 返回 JSON 状态；须在 `make verify` 中端到端通过（含适度丢包场景）。

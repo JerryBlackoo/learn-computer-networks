@@ -6,6 +6,7 @@
 
 - **没有**与真实以太网 NIC 交互的驱动实验；链路层为内存信道 `KexinLianlu` / `ShuangxiangLianlu` 或合成故障参数。
 - **没有** ARP 报文级别的 on-wire 实现；L3 转发使用仿真转发表 `MoNiZhuanfa`（若需 ARP 直觉，仅在内存表中仿真邻居解析，不经真实接口）。
+- 模块 03 的[逐跳转发题](../modules/03-ip-zhuanfa/exercises/01-ip-datagram-forwarding.md)与[ARP 题](../modules/03-ip-zhuanfa/exercises/02-arp-resolution.md)补齐了纸面推导：主机判网、下一跳、ARP 字段与缓存、交换机/集线器差异及帧长度。它们没有新增 ARP、TTL 或以太网帧处理代码，也不改变上述真实链路实现缺口。
 - 模块 02 在单向 `HuachuangTongdao` 之外提供 **`HuachuangKexinTongdao`**：双向 ACK 信道上的滑动窗口、超时重传、重复 ACK 快重传标志——仍为**教学仿真**，非内核 TCP 或 RFC 9293 全状态机。
 - 模块 05 `ChuanShuJiaoxue` 与 `BaoJiKexinYanlian` 将窗口直觉与 02 的包级仿真联动，**不**声称与 `tcpdump` 逐字段一致。
 

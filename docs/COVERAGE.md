@@ -8,7 +8,7 @@
 |------|------|----------|----------|
 | 01 | 分层与端到端论证 | 封装/解封装教学 API | host-verified |
 | 02 | 成帧与可靠交付 | 单向 `HuachuangTongdao` + 双向 ACK `HuachuangKexinTongdao`（窗口/重传/乱序） | host-verified |
-| 03 | IP 寻址与转发（仿真） | LPM `MoNiZhuanfa`（默认路由、/32） | host-verified |
+| 03 | IP 寻址与转发；逐跳封装与 ARP 综合题 | LPM `MoNiZhuanfa`（默认路由、/32）；另有两篇手工推导习题 | LPM 为 host-verified；纸面题无 ARP on-wire 验证 |
 | 04 | 路由（DV / LS 迷你仿真） | `JuliShiliang` / `LianluZhuangtai` + `juli_shouling` | host-verified |
 | 05 | 传输教学模型 | `YongjinMoxing` + `ChuanShuJiaoxue` + 包级 `BaoJiKexinYanlian` | host-verified |
 | 06 | DNS / HTTP 应用路径 | 本机 stub `BenDiYuming` / `JianYiHttp` | host-verified |
@@ -44,6 +44,6 @@
 ## 与「完整协议课实验」的差距
 
 - 传输层为**教学级**模型：可靠发送在内存信道上仿真 ACK/RTO/快重传，非 Linux TCP 比特级一致。
-- 链路层为 `KexinLianlu` / `ShuangxiangLianlu` 内存模型，**无** ARP on-wire、**无** 真实 NIC。
+- 链路层为 `KexinLianlu` / `ShuangxiangLianlu` 内存模型；模块 03 已有 ARP 请求/应答、缓存、广播域与帧长的纸面题，仍**无** ARP on-wire、**无** 真实 NIC。
 - 路由仿真为**小拓扑**教科书算法，非 FRR/BIRD 级实现。
 - TLS 验证握手阶段划分与自签 fixture 加载，非生产 PKI 运营。
