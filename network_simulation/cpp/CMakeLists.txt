@@ -22,6 +22,7 @@ add_library(netsim
   src/arp.cpp
   src/icmp.cpp
   src/dhcp.cpp
+  src/mobile_ip.cpp
   src/route.cpp
   src/routing_algo.cpp
   src/ipv4.cpp

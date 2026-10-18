@@ -14,6 +14,7 @@
 #include "netsim/http.hpp"
 #include "netsim/ipv4.hpp"
 #include "netsim/mac_switch.hpp"
+#include "netsim/mobile_ip.hpp"
 #include "netsim/phy.hpp"
 #include "netsim/route.hpp"
 #include "netsim/routing_algo.hpp"
@@ -463,6 +464,66 @@ void test_dhcp_handshake() {
   CHECK(server.active_lease_count() == 1);
 }
 
+void test_mobile_ip() {
+  // Setup:
+  // Permanent Home Address (HoA): 192.168.1.50
+  // Home Agent (HA): 192.168.1.1
+  // Foreign Agent (FA / CoA): 203.0.113.10
+  // Correspondent Node (CN): 10.0.0.1
+  Ipv4Address hoa = Ipv4Address::from_string("192.168.1.50");
+  Ipv4Address ha_ip = Ipv4Address::from_string("192.168.1.1");
+  Ipv4Address coa = Ipv4Address::from_string("203.0.113.10");
+  Ipv4Address cn_ip = Ipv4Address::from_string("10.0.0.1");
+
+  HomeAgent ha(ha_ip);
+  ForeignAgent fa(coa);
+  MobileNode mn(hoa, ha_ip);
+
+  // 1. Initial State: MN is at home network
+  CHECK(!mn.is_roaming());
+  CHECK(!ha.is_registered(hoa));
+
+  // 2. Roaming: MN moves to foreign network and registers CoA with HA
+  mn.roam_to(coa);
+  CHECK(mn.is_roaming());
+  ha.register_binding(hoa, coa, 3600);
+  CHECK(ha.is_registered(hoa));
+  CHECK(ha.lookup_care_of_address(hoa) == coa);
+
+  // 3. Downlink: CN sends datagram to MN's permanent Home Address (HoA)
+  Ipv4Packet cn_to_mn;
+  cn_to_mn.src = cn_ip;
+  cn_to_mn.dst = hoa;
+  cn_to_mn.protocol = IPPROTO_TCP;
+  cn_to_mn.payload = {'H', 'E', 'L', 'L', 'O', '_', 'M', 'N'};
+  cn_to_mn.total_length = static_cast<uint16_t>(20 + cn_to_mn.payload.size());
+
+  // HA intercepts packet destined to HoA and encapsulates in IP-in-IP tunnel to CoA
+  Ipv4Packet tunnel_pkt = ha.tunnel_packet(cn_to_mn, coa);
+  CHECK(tunnel_pkt.protocol == IPPROTO_IPIP);
+  CHECK(tunnel_pkt.src == ha_ip);
+  CHECK(tunnel_pkt.dst == coa);
+
+  // FA receives tunnel packet, decapsulates, and retrieves original datagram
+  auto inner_opt = fa.decapsulate_tunnel(tunnel_pkt);
+  CHECK(inner_opt.has_value());
+  CHECK(inner_opt->src == cn_ip);
+  CHECK(inner_opt->dst == hoa);
+  CHECK(inner_opt->payload == cn_to_mn.payload);
+
+  // 4. Uplink (Direct Triangle Routing): MN replies directly to CN with its HoA
+  Ipv4Packet mn_to_cn = mn.create_outbound_packet(cn_ip, IPPROTO_TCP, {'A', 'C', 'K'});
+  CHECK(mn_to_cn.src == hoa); // Source remains HoA to keep TCP session alive!
+  CHECK(mn_to_cn.dst == cn_ip);
+  CHECK(mn_to_cn.payload == Buffer({'A', 'C', 'K'}));
+
+  // 5. MN returns home: deregister
+  mn.return_home();
+  CHECK(!mn.is_roaming());
+  ha.deregister_binding(hoa);
+  CHECK(!ha.is_registered(hoa));
+}
+
 int main() {
   test_capacity();
   test_phy();
@@ -473,6 +534,7 @@ int main() {
   test_smtp_and_pop3();
   test_icmp();
   test_dhcp_handshake();
+  test_mobile_ip();
   test_checksum_ip_udp();
   test_arp_poisoning_model();
   test_lpm();
