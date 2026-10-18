@@ -36,8 +36,13 @@ ssl = "https://docs.python.org/3/library/ssl.html"
 note = "本科「计算机网络」常见主题与端到端论证、分层、可靠传输、路由、应用协议等概念对齐；本仓实验 API 与实现均为原创。"
 
 [reference_courses]
-# 真实协议诊断（计划第 11 节）主题参考，非作业镜像
+# 真实协议诊断（计划第 11 节）与经典课程主题参考，非作业镜像
 cs144 = "https://cs144.github.io/"
+mit_6_5820 = "http://web.mit.edu/6.829/www/currentsemester/"
+mit_6_02_ocw = "https://ocw.mit.edu/courses/6-02-digital-communication-systems-fall-2012/"
+berkeley_cs168 = "https://cs168.io/"
+berkeley_cs168_textbook = "https://textbook.cs168.io/"
+cmu_15_441 = "https://cs.cmu.edu/~prs/15-441-S19/index.html"
 
 [tools]
 wireshark_user_guide = "https://www.wireshark.org/docs/wsug_html_chunked/"
